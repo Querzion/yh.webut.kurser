@@ -62,7 +62,8 @@ h3 {
     border: 3px solid purple;
 }
 
+/* vs, svh, lvh, dvh */
 .hero {
     background-color: #ffe4a3;
-    height: 100vh;
+    height: 100svh;
 }
