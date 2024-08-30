@@ -17,12 +17,16 @@
     /* Hover färg bytes tid */
     transition: all o.2s;
 }
-
+.btn-block{
+    display: block;
+    width: 100%;
+}
 .btn-primary {
     background-color: #ffe4a3;
     color: #404040;
 }
-.btn-primary:hover {
+.btn-primary:hover,
+.btn-primary:focus-visible {
     background-color: hsl(42, 100%, 35%);
 }
 .btn-secondary {
@@ -34,7 +38,7 @@
     color: #ffe4a3;
 }
 .btn-outline:hover,
-.btn-outline:focus {
+.btn-outline:focus-visible {
     background-color: #599874;
     
 }
