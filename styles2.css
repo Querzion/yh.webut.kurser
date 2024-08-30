@@ -72,6 +72,13 @@ body {
 .span {
     background-color: green;
     color: #fff;
+    padding: 1rem;
     margin: 1rem;
-    padding: 1rem;    
+    margin-left: 3rem;
+    /* Top Margin fungerar inte så som Left Margin fungerar för att det är ett inline element */
+    margin-top: 3rem;
+    /* Så för att fixa det så kan man ändra inline elementets typ */
+    display: inline-block;
+
+        
 }
