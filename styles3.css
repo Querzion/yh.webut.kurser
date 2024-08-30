@@ -14,6 +14,8 @@
     font-weight: 600;
     cursor: pointer;
     background-color: transparent;
+    /* Hover färg bytes tid */
+    transition: all o.2s;
 }
 
 .btn-primary {
@@ -31,7 +33,11 @@
     border: 1px solid #599874;
     color: #ffe4a3;
 }
-
+.btn-outline:hover,
+.btn-outline:focus {
+    background-color: #599874;
+    
+}
 /*
 .btn2 {
     padding: 1rem 2rem;
