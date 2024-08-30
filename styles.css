@@ -1,14 +1,20 @@
+body {
+    /* Marginal kring sektioner och segment */
+    margin: 0;
+}
+
 .post {
     color:chocolate
 }
 h1 {
-    color: teal
+    color: #008080
 }
 h2 {
-    color: #FF0000
+    color: #ff0000
 }
+/* ID används sällan, mest till footer */
 #small {
-    color: gray
+    color: rgb(128, 128, 128)
 }
 h3 {
     color: #ffe4a3
@@ -16,4 +22,47 @@ h3 {
 
 .navbar {
     background-color: darkslateblue;
+}
+/* absolute (Fast Font-Storlek) */
+.px {
+    font-size: 32px;
+}
+
+.box {
+    font-size: 20px;
+}
+
+/* relative (Relativ Font-Storlek som skalar med användarens webläsar font storlek) */
+/* em kan vara bra för knappar. */
+.em {
+    font-size: 2em;
+}
+/* 1 rem = 16px, 2 rem = 32px etc. */
+.rem {
+    font-size: 2rem;
+}
+
+/* Fast storlek */
+.wrapper {
+    width: 500px;
+    height: 200px;
+    border: 3px solid purple;
+}
+.width {
+    border: 2px solid darkgreen;
+    height: 50px;
+
+    width: 50%;
+}
+
+/* Dynamisk storlek */
+.wrapper2 {
+    width: 60vw;
+    height: 50vh;
+    border: 3px solid purple;
+}
+
+.hero {
+    background-color: #ffe4a3;
+    height: 100vh;
 }
