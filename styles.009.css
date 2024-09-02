@@ -13,7 +13,29 @@ body {
 .wrapper {
     padding-inline: 3rem;
     margin: 0 auto;
-    max-width: 900px;
+    /* max-width: 900px; */
+    max-width: 1500px;
+
+
+    display: grid;
+    gap: 2rem;
+}
+
+@media (min-width: 900px) {
+    .wrapper {
+        /* 1fr = 1 fraction */
+        grid-template-columns: 1fr 400px;
+    }
+}
+
+main {
+    container-type: inline-size;
+    /* Här namnges containern, för specificeringar till container inställningar. */
+    container-name: main;
+
+    .card {
+        margin-top: 2rem;
+    }
 }
 
 h1 {
@@ -42,7 +64,7 @@ h2 {
 
 .img-container {
     width: 100%;
-    aspect-ratio: 2/3;
+    aspect-ratio: 2 / 3;
 
     /* Nu fungerar inte det här . . .  */
     border-radius: .5rem;
@@ -56,10 +78,26 @@ h2 {
 
     }
 }
+
+/* Här specificeras main containern. */
+@container main (width > 600px) {
+    .card {
+        background-color: chocolate;
+
+        .img-container {
+            width: 70cqw;
+        }
+    }
+}
+
 /* Här säger jag till att när bredden överstiger 600 pixlar så används de här inställningarna. */
 @container (width > 600px) {
     .card {
-        /* Här ändrar jag utförandet så att bilden inte längre endast tar upp en plats utan två. */
+        /* Här ändras utförandet så att bilden inte längre endast tar upp en plats utan två. */
         grid-template-columns: 1fr 1fr;
+    }
+    h2 {
+        /* Här ändras posistionen för texten. */
+        grid-column: 1 / -1;
     }
 }
