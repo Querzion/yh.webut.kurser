@@ -10,9 +10,9 @@
 }
 
 /* Detta är en sorts psuedoklass, som när den är aktiv ändrar på textfärgen vid hover. */
-.long:hover {
+/* .long:hover {
     color: red;
-}
+} */
 
 .long::first-letter {
 
