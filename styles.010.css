@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Detta är en sorts psuedoklass, som när den är aktiv ändrar på textfärgen vid hover. */
+.long:hover {
+    color: red;
+}
+
+.long::first-letter {
+
+}
