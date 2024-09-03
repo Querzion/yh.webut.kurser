@@ -15,5 +15,13 @@
 } */
 
 .long::first-letter {
-
+    font-weight: 900;
+    initial-letter: 3;
+}
+.long::first-line {
+    color: rebeccapurple;
+}
+.long::selection {
+    background-color: rebeccapurple;
+    color: #fff;
 }
