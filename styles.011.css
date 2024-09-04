@@ -1,6 +1,9 @@
 :root {
-    --clr-primary: rebeccapurple;
+    /* Globala Variabler */
+    --clr-primary: #599874;
+    --clr-accent: #d45f4f;
     --spacing: 2rem;
+    --br: .5rem;
 }
 
 * {
@@ -27,12 +30,13 @@ h1 {
     background-color: var(--clr-primary);
     color: #fff;
     padding: 2rem;
+    border-radius: var(--br);
 }
 .btn {
     margin-top: 2rem;
 
     padding: .5rem 2rem;
-    border-radius: .5rem;
+    border-radius: var(--br);
     border: 0;
     cursor: pointer;
     font-size: 1rem;
@@ -50,5 +54,48 @@ h1 {
     display: flex;
     gap: var(--spacing);
     margin-top: var(--spacing);
-    
+
+}
+.card {
+    /* Lokal Variabel */
+    --_card-color: var(--clr-primary);
+
+    width: 100%;
+    border: 1px solid #333;
+    border-radius: var(--br);
+    overflow: hidden;
+
+    header {
+        /* background-color: var(--clr-primary); */
+        background-color: var(--_card-color);
+        color: #fff;
+        text-align: center;
+        padding: .5rem;
+    }
+    ul {
+        /* List-style tar bort prickarna i det här fallet. */
+        List-style: none;
+        padding: var(--spacing);
+    }
+    .btn {
+        width: 100%;
+        border-radius: 0;
+    }
+    .btn-primary {
+        background-color: var(--_card-color);
+    }
+}
+
+.card.important {
+    /* Alternativ 1 */
+    /* header {
+        background-color: var(--clr-accent);
+    }
+    .btn-primary {
+        background-color: var(--clr-accent);
+    } */
+    /* Alternativ 2 - samma resultat */
+    /* --clr-primary: var(--clr-accent); */
+    /* Alternativ 3 */
+    --_card-color: var(--clr-accent);
 }
