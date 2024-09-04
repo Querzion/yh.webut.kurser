@@ -48,6 +48,7 @@ h1 {
 
 .cards {
     display: flex;
-    row-gap: var(--spacing)
+    gap: var(--spacing);
     margin-top: var(--spacing);
+    
 }
