@@ -7,7 +7,178 @@
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: black;
-    color: rgb(116, 158, 120);
+    
+    color: #86cc7c;
+    font-weight: 600;
+    font-size: 1.1rem;
+    
+    h1 {
+        font-size: 5rem;
+    }
+    
+    h2 {
+        font-size: 2rem;
+        color: #ff9725;
+    }
 }
 
-.headline 
+/* Utility class */
+.mb-05 {
+    margin-bottom: .5rem;
+}
+.mb-1 {
+    margin-bottom: 1rem;
+}
+.mb-2 {
+    margin-bottom: 2rem;
+}
+.flex-center {
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+}
+
+.wrapper {
+    /* Flyttar in innehållet från ytterkanten med 16 pixlar. */
+    padding-inline: 1rem;
+    width: 100%;
+    /* Detta låser innehållet till mitten, så när man gör webläsaren bredare, så fortsätter det placera sig i mitten. */
+    margin: 0 auto;
+}
+.headline {
+    text-align: center;
+    /* font-size: 3rem; */
+    /* Detta används some 'Primär' färg. */
+    color: #ff9725;
+}
+
+.btn {
+    border: none;
+    border-radius: .3em;
+    height: 3rem;
+    width: auto;
+    font-size: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: #86cc7c;
+    margin-right: 5px;
+    margin-bottom: 1rem;
+
+    &:hover {
+        background-color: #ff9725;
+    }
+}
+
+.form-label {
+    /*  När man lägger upp ett block, så hamnar de objekt som är i samma divider, på varsin rad.
+        Tar man bort den så hamnar de på samma rad. */
+    display: block;
+    margin-bottom: .2rem;
+}
+.form-input {
+    /* Skrivfältet tar upp full bredd. */
+    width: 100%;
+    /* I ett mobilläge kan en fontstorlek som är mindre än 16px ibland börja zooma in på texten.  */
+    font-size: 2rem;
+    /* Padding, som utökar fältet om man ökar eller minskar font-storleken. */
+    padding: .3rem;
+    /* Om bakgrundsfärgen gör så att man kan urskilja inputfältet, så kan man ta bort bordern. */
+    /* border: 0; */
+    /* Eller så kan man göra en färgad border. ;P */
+    border: .3rem solid;
+    border-color: #86cc7c;
+    /* Rundade kanter. */
+    border-radius: .5rem;
+
+    /* Nestad egenskap, samma som att skriva ".form-input:focus {}" */
+    &:focus {
+        /* Här ändrar man outlinen, som visas när skrivfältet är aktivt. */
+        outline: 1px solid #ff9725;
+        /* Då jag redan har en stark kontrast och bred border, så kan jag ta bort outline helt. */
+        /* outline: none; */
+        /* Ändrar färgen på bordern när den är fokuserad. */
+        border-color: #ff9725;
+        /* Här är en fade out box skugga. */
+        /* box-shadow: 0 0 5px #ff9725; */
+    }
+}
+
+/* Röd text runt det som inte är rätt. */
+/* .form-input:invalid {
+    border: .3rem solid firebrick;
+} */
+/* Röd border runt det man inte fyllt i rätt. */
+/* .form-input:required::after {
+    border: .3rem solid firebrick;
+} */
+
+/* Text som syns om man inte fyllt i rutan rätt. */
+.invalid-feedback {
+    color: yellow;
+    font-size: .9rem;
+    display: none;
+}
+.invalid {
+    .form-input {
+        border: .3rem solid firebrick;
+    }
+    .invalid-feedback {
+        display: block;
+    }
+}
+
+/* Ska sitta ihop! textarea med form-input, annars blir det form-input i textarea. */
+textarea.form-input {
+    height: 200px;
+    resize: vertical;
+}
+
+/* man kan använda attribut som endast gäller en typ av variabel. */
+input[type="checkbox"],
+input[type="radio"] {
+    /* Dessa fungerar inte alls för den här typen utav input (by default) */
+    /* color: #ff9725; */
+    /* background-color: #ff9725; */
+    /* padding: 1rem; */
+    /* border: 1rem solid #ff9725; */
+
+    /* Detta fungera dock. ;D */
+    height: 30px;
+    width: 30px;
+    accent-color: #ff9725;
+}
+input[type="range"] {
+    width: 100%;
+    accent-color: #ff9725;   
+}
+progress {
+    padding: 1rem;
+    width: 100%;
+    accent-color: #ff9725;   
+}
+
+.form-color {
+    width: 100%;
+    height: 3.75rem;
+    background-color: #86cc7c;
+    border-radius: .5em;
+}
+.form-file {
+    /* Fungerar inte */
+    /* width: 100%; */
+    /* padding: 1rem; */
+    /* height: 75px; */
+
+    /* Fungerar typ */
+    background-color: #86cc7c;
+    color: black;
+    font-size: 2rem;
+}
+
+@media (width > 768px) {
+    .wrapper {
+        max-width: 720px;
+        padding: 0;
+    }
+    
+}

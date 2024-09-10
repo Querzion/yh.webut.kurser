@@ -23,29 +23,118 @@
                 Det gör man genom att ge det ett "name" värde. -->
             <!-- <input type="text" name="firstName"> -->
 
-            <h2>Lätta att Styla</h2>
+            <h2 class="mb-1">Lätta att Styla</h2>
                 <!-- Label fungerar ihop med screenreaders, så de är väldigt mehändiga att para ihop med en input. -->
                 <!-- För att kunna koppla ihop dem, så behöver inputen samma id, som labelns for identitet. -->
                 <!-- När detta är gjort kan man trycka på labeln i webläsaren för att aktivera rätt skrivfält. -->
-                <div>
-                    <label for="fname">First Name:</label>
-                    <input type="text" name="firstName" id="fname">
+                <div class="mb-1 invalid">
+                    <label class="form-label" for="fname">First Name: *</label>
+                    <input class="form-input" type="text" name="firstName" id="fname" required minlength="2">
+                    <p class="invalid-feedback">You need to enter your first name.</p> 
+                </div> <!-- Man kan addera ett special kriterie, vilket begränsar input fältet till att det måste innehålla det man valt som ex. pattern="Slisk" -->
+                
+                <div class="mb-1">
+                    <label class="form-label" for="email">E-mail: *</label>
+                    <input class="form-input" type="email" name="email" id="email" required placeholder="Please enter your E-mail address.">
                 </div>
-            
+
+                <!-- Den här lösenordsformen är helt okrypterad, då forms get används. --> 
+                <div class="mb-1">
+                    <label class="form-label" for="password">Password: *</label>
+                    <input class="form-input" type="password" name="password" id="password" required minlength="4"> 
+                </div> <!-- Webläsare > F12 > Console > "document.querySelector('#password').value" skriv lösenordet och det dyker upp i konsollen. -->
+
+                <!-- Meddelande ruta som man kan förändra storleken på. -->
+                <div class="mb-1">
+                    <label class="form-label" for="message">Message >></label>
+                    <textarea class="form-input" name="message" id="message"></textarea>
+                </div>
+
             <!-- Olika typer utav knappar. -->
-            <button>Submit</button>
+            <button class="btn" disabled>Submit (Disabled)</button>
+            
             <!-- Den ovan är synonym med nedanstående version. -->
-            <input type="submit">
+            <input type="submit" class="btn">
+            
             <!-- När man skapar en knapp i ett formulär, så blir den automagiskt en submit knapp.
                 för att det ska bli ett annorlunda resultat, så behöver man göra såhär. -->
-            <button type="button">En annan knapp</button>
+               <button type="button" class="btn">En annan knapp</button>
             <!-- Nu är "En annan knapp" en helt vanlig html knapp. -->
+            
+            <h2 class="mb-1">Svårare att Styla</h2>
+            
+            <!-- Checkbox (input:chec... för att skapa en input av typen checkbox snabbt. precis som .mb-1 enter för att skapa en div med classen mb-1.) -->
+            <div class="mb-1 flex-center">
+                <input type="checkbox" name="newsletter" id="newsletter">
+                <label for="newsletter">Subscribe to our Newsletter.</label>
+            </div>
 
-            <h2>Svåra att Styla</h2>
+            <!-- Radio buttons -->
+            <div class="mb-1">
+                <div class="flex-center mb-05">
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="male">Male</label>
+                </div>
+                <div class="flex-center mb-05">
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label for="female">Female</label>
+                </div>
+                <div class="flex-center mb-05">
+                    <input type="radio" name="gender" id="other" value="other">
+                    <label for="other">Other</label>
+                </div>
+            </div>
 
-            <h2>Omöjliga att Styla</h2>
+            <!-- Range Slider -->
+             <div class="mb-1">
+                <input type="range" name="range" id="range" min="0" max="100" value="5">
+             </div>
 
+            <!-- Progress Bar -->
+            <div class="mb-1">
+                <!-- Basically 'untouched', inget värde får den att uppfattas som att den står och väntar. -->
+                <progress type="progress"></progress>
+                <!-- Ett värde är satt till progress baren. -->
+                <progress type="progress" value="32" max="100"></progress>
+                <!-- progress.progress -->
+                <progress class="progress" value="0"></progress>
+            </div>
 
+            <!-- h2.mb-1 -->
+            <h2 class="mb-1">Går inte att styla den Interna biten.</h2>
+
+            <!-- COLOuR PALETTE -->
+            <!-- .mb-1 -->
+            <div class="mb-1">
+                <!-- label.form-label -->
+                <label for="color" class="form-label">Choose a color:</label>
+                <!-- input.color = class input:color = type -->
+                <input class="form-color" type="color" name="color" id="color">
+            </div>
+
+            <!-- DATE & TIME (LOCAL) -->
+            <div class="mb-1">
+                <label for="date" class="form-label">Choose a date:</label>
+                <!-- Inte rekommenderat att använda datetime, utan använd date eller datetime-local. -->
+                <input class="form-input" type="datetime-local" name="date" id="date">
+            </div>
+            <!-- SELECT (DROP-DOWN LIST) / OPTION BASED FUNCTION -->
+            <div class="mb-1">
+                <label for="role" class="form-label">Choose a role:</label>
+                <select class="form-input" name="role" id="role">
+                    <option value="" disabled selected></option>
+                    <option value="admin">ADMIN</option>
+                    <option value="user">USER</option>
+                    <option value="guest">GUEST</option>
+
+                </select>
+            </div>
+
+            <!-- FIL-UPPLADDNING -->
+             <div class="mb-1">
+                <label for="file" class="form-label">Upload a file:</label>
+                <input type="file" name="file" id="file" class="form-file">
+             </div>
         </form>
 
 
