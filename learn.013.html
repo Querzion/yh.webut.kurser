@@ -12,17 +12,40 @@
         <h1 class="headline">Forms</h1>
 
         <!-- Method > Post > Krypterat -->
+        <!-- <form action="" method="post"></form> -->
+        
         <!-- Method > Get > Okrypterat -->
         <!-- <form action="learn.013.submitted.html" method="get"> -->
-        <form>
-            <input type="text" name="firstName">
+        
+        
+        <form method="get">
+            <!-- Om information ska kunna skickas så behöver input fältet spceficeras.
+                Det gör man genom att ge det ett "name" värde. -->
+            <!-- <input type="text" name="firstName"> -->
 
+            <h2>Lätta att Styla</h2>
+                <!-- Label fungerar ihop med screenreaders, så de är väldigt mehändiga att para ihop med en input. -->
+                <!-- För att kunna koppla ihop dem, så behöver inputen samma id, som labelns for identitet. -->
+                <!-- När detta är gjort kan man trycka på labeln i webläsaren för att aktivera rätt skrivfält. -->
+                <div>
+                    <label for="fname">First Name:</label>
+                    <input type="text" name="firstName" id="fname">
+                </div>
+            
             <!-- Olika typer utav knappar. -->
             <button>Submit</button>
-            
+            <!-- Den ovan är synonym med nedanstående version. -->
             <input type="submit">
-
+            <!-- När man skapar en knapp i ett formulär, så blir den automagiskt en submit knapp.
+                för att det ska bli ett annorlunda resultat, så behöver man göra såhär. -->
             <button type="button">En annan knapp</button>
+            <!-- Nu är "En annan knapp" en helt vanlig html knapp. -->
+
+            <h2>Svåra att Styla</h2>
+
+            <h2>Omöjliga att Styla</h2>
+
+
         </form>
 
 
