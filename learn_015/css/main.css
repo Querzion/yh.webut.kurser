@@ -70,6 +70,9 @@ background-color: var(--clr-secondary);
 
 .form {
     
+    container-type: inline-size;
+    container-name: form;
+
     .btn {
         width: 100%;
         height: 2.5rem;
@@ -165,7 +168,7 @@ background-color: var(--clr-secondary);
 }
 
 
-@media (width > 600px) {
+@container form (width > 600px) {
     .row {
         /* grid-template-columns: 1fr 1fr; */
         flex-direction: row;
