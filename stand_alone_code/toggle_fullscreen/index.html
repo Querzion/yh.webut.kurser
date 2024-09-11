@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toggle Full Screen Example</title>
+</head>
+<body>
+
+<h1>Click to Toggle Full-Screen Mode</h1>
+<button id="fullscreen-btn">Toggle Full Screen</button>
+
+<script>
+  function toggleFullScreen() {
+    const elem = document.documentElement;
+
+    if (!document.fullscreenElement) {
+      // Enter full-screen
+      if (elem.requestFullscreen) {
+        elem.requestFullscreen();
+      } else if (elem.mozRequestFullScreen) { // Firefox
+        elem.mozRequestFullScreen();
+      } else if (elem.webkitRequestFullscreen) { // Chrome, Safari, Opera
+        elem.webkitRequestFullscreen();
+      } else if (elem.msRequestFullscreen) { // IE/Edge
+        elem.msRequestFullscreen();
+      }
+    } else {
+      // Exit full-screen
+      if (document.exitFullscreen) {
+        document.exitFullscreen();
+      } else if (document.mozCancelFullScreen) { // Firefox
+        document.mozCancelFullScreen();
+      } else if (document.webkitExitFullscreen) { // Chrome, Safari, Opera
+        document.webkitExitFullscreen();
+      } else if (document.msExitFullscreen) { // IE/Edge
+        document.msExitFullscreen();
+      }
+    }
+  }
+
+  // Trigger full screen toggle when the button is clicked
+  document.getElementById('fullscreen-btn').addEventListener('click', toggleFullScreen);
+</script>
+
+</body>
+</html>
