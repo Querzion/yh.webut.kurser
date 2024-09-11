@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Psuedo element */
+
+/* Detta är en sorts psuedoklass, som när den är aktiv ändrar på textfärgen vid hover. */
+/* .long:hover {
+    color: red;
+} */
+
+.long::first-letter {
+    font-weight: 900;
+    initial-letter: 3;
+}
+.long::first-line {
+    color: rebeccapurple;
+}
+.long::selection {
+    background-color: rebeccapurple;
+    color: #fff;
+}
+
+.content{
+    width: 50px;
+}
+.content::before {
+    content: 'före ';
+    color: red;
+}
+.content::after {
+    content: ' ';
+    display: block;
+    color: red;
+    width: 100%;
+    height: 20px;
+    background-color: red;
+}
+
+/* Även om det här går att göra, så är det inte säkert att screen readers fungerar som de ska. */
+
+p[data-text] {
+    margin: 2rem;
+
+    position: relative;
+}
+p[data-text]::after {
+    content: attr(data-text);
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    /* opacity: 0; */
+    transform: scale(0);
+    transform-origin: bottom;
+    transition: transform 200ms ease;
+}
+p[data-text]:hover::after {
+    /* opacity: 1; */
+    transform: scale(1);
+}

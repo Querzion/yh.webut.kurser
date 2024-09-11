@@ -1,0 +1,148 @@
+:root {
+    --clr-primary: #599874;
+    /* --clr-primary-muted: hsl(32, 62%, 86%); */
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    height: 100svh;
+    display: grid;
+    place-items: center;
+}
+
+/* CHECKBOX CONFIGURATIONS */
+.check {
+    margin-bottom: 1rem;
+
+    display: flex;
+    align-items: center;
+    gap: .5em;
+
+    cursor:pointer;
+
+    &:hover input::before {
+        background-color: #f5e2e2;
+
+    }
+
+    input {
+        /* accent-color: rebeccapurple; */
+        appearance: none;
+        -webkit-appearance: none;
+
+        /* Fokus på span. Vid användning utav plus + istället för tilde ~ så är det Fokus på span, 
+        men allt emellan stoppar, så det är nästan mer som fokus till span.*/
+        &:focus-visible ~ span {
+            outline: 3px solid var(--clr-primary);
+        }
+    }
+
+    /* Skapa en Checkbox funktion efter att man dolt rutan. */
+    input::before {
+        content:'';
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        width: 20px;
+        aspect-ratio: 1/1;
+        border: 1px solid #333;
+        border-radius: .3rem;
+        cursor: pointer;
+    }
+
+    input[type="checkbox"]:checked::before {
+        /* content: 'OK'; */
+        content: '\002714'; /* Checkmark */
+        background-color: #ff9725;
+        /* color: #fff; */
+    }
+}
+/* I check finns det en input och när den är i focus-visible så vill jag använda den till span */
+/* .check input:focus-visible ~ span {
+
+} */ /* Är likadant som att skapa en nästad version ovan, men här hanteras specifikt span. */
+
+/* TOGGLE CONFIGURATIONS */
+.toggle {
+    --_w: 100px;
+    --_h: 40px;
+    --_ball-size-ratio: 1.02;
+
+
+    width: var(--_w);
+    height: var(--_h);
+    /* För att få tidigare inställningar att fungera så måste formatet ändras. */
+    display: inline-block;
+    /* Elementet behöver förändras och förflyttas, så då sätter man. */
+    position: relative;
+    margin: 3px;
+
+    input[type="checkbox"] {
+        /* appearance: none; */
+        /* Fungerar på samma sätt som appearance: none; */
+        width: 0;
+        height: 0;
+        opacity: 0;
+    }
+
+    input[type="checkbox"]:focus-visible + .slider {
+        outline: 3px solid var(--clr-primary);
+        outline-offset: 3px;
+    }
+
+    .slider {
+        position: absolute;
+        /* Detaljerad positionering. */
+        /* top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0; */
+        /* 'Allt i ett' positionering. */
+        inset: 0;
+        background-color: #f1eeea;
+        border-radius: 100vw;
+        /* Skugga inåt i boxen. */
+        box-shadow: inset 0 0 4px #0000006e ;
+        cursor: pointer;
+
+        &::before {
+            content: '';
+            position: absolute;
+            /* För att öka storleken genom Height så behövs det mellan kommentar och height. */
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+            height: calc(100% * var(--_ball-size-ratio));
+            aspect-ratio: 1;
+            border-radius: 50%;
+            background-color: #fff;
+            box-shadow: 0 0 5px #000000a8;
+
+            /* Övergångs hastigheten sätts. */
+            transition: all 400ms;
+        }
+    }
+
+    /* Cirkel förändringar. */
+    input[type="checkbox"]:checked ~ .slider::before {
+        /* För att flytta cirkeln från vänster till höger. */
+        /* left: 100%; */ /* Här hamnar den en hel cirkel längd utanför pillboxen. */
+        left: calc(100% - var(--_h)); /* minus pixelhöjden på cirkeln */
+        background-color: var(--clr-primary);
+    }
+    /* Pillbox förändringar. */
+    input[type="checkbox"]:checked ~ .slider {
+        background-color: #ccc;
+        /* Istället för att skapa ett helt nytt färgval */
+        /* background-color: var(--clr-primary-muted); */
+        /* Så kan man använda färgerna man redan har. */
+        background-color: hsl(from var(--clr-primary) h calc(s / 2) calc(l + 35));
+    }
+}
+

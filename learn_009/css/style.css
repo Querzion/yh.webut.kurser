@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #333;
+    color: antiquewhite;
+}
+
+.wrapper {
+    padding-inline: 3rem;
+    margin: 0 auto;
+    /* max-width: 900px; */
+    max-width: 1500px;
+
+
+    display: grid;
+    gap: 2rem;
+}
+
+@media (min-width: 900px) {
+    .wrapper {
+        /* 1fr = 1 fraction */
+        grid-template-columns: 1fr 400px;
+    }
+}
+
+main {
+    container-type: inline-size;
+    /* Här namnges containern, för specificeringar till container inställningar. */
+    container-name: main;
+
+    .card {
+        margin-top: 2rem;
+    }
+}
+
+h1 {
+    margin-block: 2rem;
+}
+
+.cards {
+    display: grid;
+    gap: 2rem;
+
+    /* Här säger jag till att det här är en container, för att kunna utveckla den ytterligare senare. */
+    container-type: inline-size;
+}
+
+.card {
+    background-color: #222;
+    padding: 1rem;
+    border-radius: .5rem;
+    display: grid;
+    gap: 1rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.img-container {
+    width: 100%;
+    aspect-ratio: 2 / 3;
+
+    /* Nu fungerar inte det här . . .  */
+    border-radius: .5rem;
+    /* utan att även lägga till detta. Annars måste border-radius adderas i själva bild inställningarna. */
+    overflow: hidden;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
+    }
+}
+
+/* Här specificeras main containern. */
+@container main (width > 600px) {
+    .card {
+        background-color: chocolate;
+
+        .img-container {
+            width: 70cqw;
+        }
+    }
+}
+
+/* Här säger jag till att när bredden överstiger 600 pixlar så används de här inställningarna. */
+@container (width > 600px) {
+    .card {
+        /* Här ändras utförandet så att bilden inte längre endast tar upp en plats utan två. */
+        grid-template-columns: 1fr 1fr;
+    }
+    h2 {
+        /* Här ändras posistionen för texten. */
+        grid-column: 1 / -1;
+    }
+}

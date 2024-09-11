@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Utility classes */
+.btn {
+    margin-top: 2rem;
+    /*padding: 16px 32px;*/
+    padding: 1em 2.5em;
+    border-radius: .3em;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: transparent;
+    /* Hover färg bytes tid */
+    transition: all o.2s;
+}
+.btn-block{
+    display: block;
+    width: 100%;
+}
+.btn-primary {
+    background-color: #ffe4a3;
+    color: #404040;
+}
+.btn-primary:hover,
+.btn-primary:focus-visible {
+    background-color: hsl(42, 100%, 35%);
+}
+.btn-secondary {
+    background-color: darkslateblue;
+    color: #fff;
+}
+.btn-outline {
+    border: 1px solid #599874;
+    color: #ffe4a3;
+}
+.btn-outline:hover,
+.btn-outline:focus-visible {
+    background-color: #599874;
+    
+}
+/*
+.btn2 {
+    padding: 1rem 2rem;
+}
+.large {
+    font-size: 2rem;
+}
+*/
+
+/* Showcase Section */
+#showcase {
+    height: 70svh;
+    background-color: #404040;
+    color: #fff;
+
+    padding: 3rem;
+
+    .headline {
+        font-size: 4rem;
+    }
+    .subheading {
+        font-size: 2rem;
+        color: hsl(248, 39%, 80%);
+    }
+    
+}
+
+#showcase .btn {
+    margin-top: 2rem;
+}

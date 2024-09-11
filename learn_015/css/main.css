@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/* Viktigt att veta är att jag inte följt videon fullt ut utan adderat object för att kunna ändra på utseendet baset på grid eller flex */
+
+:root {
+    /* Borde använda universella namn. */
+    --clr-primary-1: #ffe4a3;
+    --clr-primary-2: hsl(146, 26%, 47%);
+    /* --clr-primary-2-light: hsl(146, 26%, 50%);
+    --clr-primary-2-dark: hsl(146, 26%, 35%); */
+    --clr-secondary: #fff;
+    --clr-secondary-text: #fff;
+    --clr-primary-shadow: #00000094;
+    --clr-secondary-shadow: #00000021;
+    --clr-border-gray: #aeaeae;
+    --clr-text-color: #404040;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--clr-primary-1);
+    font-family: "Lato", sans-serif;
+}
+
+/* ----------------------------------------------------------------- UTILITY CLASSES */
+/* UTILITY CLASSES */
+
+.wrapper {
+    padding-inline: 1rem;
+    margin: 0 auto;
+}
+
+.center-screen {
+    display: grid;
+    place-items: center;
+    height: 100svh; /* Small View Height */
+}
+
+.card {
+background-color: var(--clr-secondary);
+    padding: 1rem;
+    border-radius: .5em;
+    /* horisontellt +-0 värde | vertikalt +-0 värde | tonings 0+ avstånd  | avstånd innan toning påbörjas 0+ | färg */
+    box-shadow: 5px 5px 7px 2px var(--clr-primary-shadow), 3px 3px 20px var(--clr-secondary-shadow);
+
+    width: 100%;
+    max-width: 900px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-color {
+    color: var(--clr-text-color);
+}
+
+.mb-1 {
+    margin-bottom: 1rem;
+}
+
+
+/* ----------------------------------------------------------------- FORM */
+/* FORM */
+
+.form {
+    
+    .btn {
+        width: 100%;
+        height: 2.5rem;
+    }
+}
+
+.form-label {
+    /* Egen rad */
+    display: block;
+    margin-bottom: .3rem;
+}
+
+.form-input {
+    width: 100%;
+    font-size: 1rem;
+    padding: .6em;
+    border-radius: .5em;
+    border: 1px solid var(--clr-border-gray);
+    
+    &:focus {
+        outline: none;
+        box-shadow: 0 0 5px var(--clr-primary-shadow);
+    }
+}
+
+.row {
+    /* display: grid; */
+    display: flex;
+    flex-direction: column;
+    
+    /* WILDCARD inställning! Den uttrycker att ALLA element inom row ska ha dessa inställningar. */
+    & > * {
+        width: 100%;
+    }
+}
+
+.form-check {
+
+    display: flex;
+    align-items: center;
+    gap: .5em;
+    
+    input[type="checkbox"] {
+        accent-color: var(--clr-primary-2);
+        width: 1rem;
+        height: 1rem;
+    }
+}
+
+.split {
+    display: grid;
+    grid-template-columns: 1fr 400px;
+}
+
+.side-form {
+    background-color: var(--clr-secondary);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column; /* Här ändras innehållet till vertikalt */
+    /* align-items: center; */ /* Hanterar endast horisontella objekt */
+    /* Då använder man istället detta. */
+    justify-content: center; 
+}
+
+/* ----------------------------------------------------------------- BUTTONS */
+/* BUTTONS */
+
+.btn {
+    /* Höjd, Bredd | em är font-size baserad medan rem är fast storlek. */
+    padding: .6em 2.5em;
+    font-size: 1rem;
+    border-radius: .5em;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+
+    transition: background-color 200ms ease;
+}
+.btn-primary {
+    background-color: var(--clr-primary-2);
+    color: var(--clr-secondary-text);
+
+    &:hover,
+    &:focus-visible {
+        /* background-color: var(--clr-primary-2-light); */
+        background-color: hsl(from var(--clr-primary-2) h s calc(l + 10));
+    }
+
+    &:active {
+        /* background-color: var(--clr-primary-2-dark); */
+        background-color: hsl(from var(--clr-primary-2) h s calc(l - 5));
+    }
+}
+
+
+@media (width > 600px) {
+    .row {
+        /* grid-template-columns: 1fr 1fr; */
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .form .btn {
+        width: auto;
+        height: auto;
+    }
+    
+}

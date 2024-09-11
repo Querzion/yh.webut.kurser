@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/* Viktigt att veta är att jag inte följt videon fullt ut utan adderat object för att kunna ändra på utseendet baset på grid eller flex */
+
+:root {
+    /* Borde använda universella namn. */
+    --clr-primary: #ffe4a3;
+    --clr-secondary: #fff;
+    --clr-primary-shadow: #00000094;
+    --clr-secondary-shadow: #00000021;
+    --clr-border-gray: #aeaeae;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--clr-primary);
+    font-family: "Lato", sans-serif;
+}
+
+/* ----------------------------------------------------------------- UTILITY CLASSES */
+/* UTILITY CLASSES */
+
+.wrapper {
+    padding-inline: 1rem;
+    margin: 0 auto;
+}
+.center-screen {
+    display: grid;
+    place-items: center;
+    height: 100svh; /* Small View Height */
+}
+.card {
+background-color: var(--clr-secondary);
+    padding: 1rem;
+    border-radius: .5em;
+    /* horisontellt +-0 värde | vertikalt +-0 värde | tonings 0+ avstånd  | avstånd innan toning påbörjas 0+ | färg */
+    box-shadow: 5px 5px 7px 2px var(--clr-primary-shadow), 3px 3px 20px var(--clr-secondary-shadow);
+
+    width: 100%;
+    max-width: 900px;
+}
+.text-center {
+    text-align: center;
+}
+.mb-1 {
+    margin-bottom: 1rem;
+}
+
+/* ----------------------------------------------------------------- FORM */
+/* FORM */
+
+.form-label {
+/* Egen rad */
+display: block;
+margin-bottom: .3rem;
+}
+.form-input {
+width: 100%;
+font-size: 1rem;
+padding: .6em;
+border-radius: .5em;
+border: 1px solid var(--clr-border-gray);
+
+    &:focus {
+        outline: none;
+        box-shadow: 0 0 5px var(--clr-primary-shadow);
+    }
+}
+
+/* Två objekt per rad */
+.row-grid {
+    display: grid;
+    gap: 1rem;
+
+    /* WILDCARD inställning! Den uttrycker att ALLA element inom row ska ha dessa inställningar. */
+    & > * {
+        width: 100%;
+    }
+}
+
+.row-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    /* WILDCARD inställning! Den uttrycker att ALLA element inom row ska ha dessa inställningar. */
+    & > * {
+        width: 100%;
+    }
+}
+
+#grid-block { display: none; }
+#flex-block { display: block; }
+
+@media (width > 600px) {
+    #grid-block { display: block; }
+    #flex-block { display: none; }
+    .row-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
+@media (width > 800px) {
+    #grid-block { display: none; }
+    #flex-block { display: block; }
+    
+    .row-flex {
+        flex-direction: row;
+    }
+    
+}
