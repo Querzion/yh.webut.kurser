@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn 017 - SEO Guide 2024</title> <!-- Social Engineering -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Den här configurationen uttrycker att innehållet inte ska indexieras i några register som görs utav botar. -->
+    <!-- <meta name="robots" content="noindex"> --> <!-- När detta är aktivt så går det inte söka efter sidan. -->
+    <!-- <meta name="googlebot" content="noindex"> --> <!-- Detta uttrycker att inte google ska indexiera, därför går det inte heller söka på sidan genom googles sökmotor. -->
+    <!-- Meta taggar som dessa anses inte vara bra nog för sökmotor funktionalitet och resultat längre -->
+    <!-- <meta name="keywords" content="SEO, 2024"> -->
+    <meta name="description" content="Den här guiden går igenom grunderna i hur vi ska 
+    strukturera vår HTML för bästa möjliga SEO 2024. (Förhåll dig till under 160 tecken.)">
+
+    <!-- Skapa en titel icon | link:favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+
+    <!-- Navigering på hemsidan -->
+    <nav>
+        <ul>
+            <!-- Meny länkarna ska vara beskrivande.  -->
+            <li><a href="about.html">About us</a></li>
+            <!-- Så man bör inte göra såhär. -->
+            <li><a href="blog/843209845.html">Blog 334</a></li>
+            <!-- Utan filen, samt länknamnet bör överensstämma med varandra -->
+            <!-- Det ska vara beskrivande URL:er så att man lätt kan uppfatta innehållet från länk-adressen -->
+            <li><a href="blog/vegansk-mat-seitan-kebab.html">Vegansk mat - Seitan kebab</a></li>
+        </ul>
+
+    </nav>
+
+    <!-- Huvudsakligt hemside innehållet bör vara placerat i main containern. -->
+    <main>
+
+        <!-- Det är bra om man återanvänder sina 'keywords', men på ett mer naturligt sätt så det inte blir 
+         'keyword stuffing', som det allvarligt ses ned på. Botar tenderar att köra överflödigt med falsk SEO
+          för att sidorna ska dyka upp oftare i sökresultat. -->
+
+        <header>
+            <!-- Förslagsvis har man endast en H1, precis som en bok bara har ett omslag -->
+            <h1>BARA HAR EN H1 (Den bästa SEO guiden 2024)</h1>
+            
+                <!-- <h2>underrubrik</h2>
+                    <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis dicta consequatur fuga eum aliquam debitis ipsam nesciunt reiciendis quaerat iste. Iusto assumenda animi, nisi mollitia eum repudiandae id repellendus rerum.</h3>           
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                        <div class="quote-card">
+                            <h4>insert/quote headline</h4>
+                                <h5>"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio, ea?"</h5>
+                                    <h6>by: Lorem, ipsum.</h6>
+                        </div>
+                    <h3>Lorem ipsum dolor sit amet.</h3>           
+                <h2>underrubrik</h2>
+                    <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem.</h3>           
+                    <h3>Lorem ipsum dolor sit amet consectetur.</h3>           
+                    <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque, laudantium vero.</h3>           
+                    <h3>Lorem ipsum dolor sit.</h3>           
+                    
+                <h2>underrubrik</h2>
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis illum inventore, cupiditate minima quaerat, pariatur illo saepe, ducimus vel quia magni enim totam quae. At adipisci mollitia nam doloremque quae.</h3>
+                        <div class="quote-card">
+                            <h4>Lorem ipsum dolor sit.</h4>
+                                <h5>"Lorem ipsum dolor sit amet consectetur adipisicing."</h5>
+                                    <h6>by: Lorem, ipsum.</h6>
+                        </div>
+                <h2>underrubrik</h2>
+                    <h3></h3>           
+                    <h3></h3>
+
+            <h1>Såhär ska man inte göra!</h1>
+            <h6>Inte heller hoppa till en helt annan 'storlek' heller. Man går stegvis nedåt i containrar.</h6> -->
+        
+                <img src="images/enbildsomintefinns.jpg" alt="SEO 2024">
+
+        </header>
+
+        <section>
+            <!-- aria-label är ett värde för funktionshindrade och screenreaders överlag. -->
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit earum possimus aliquid, aspernatur hic, labore quas eveniet accusamus totam quos ab! Voluptates unde modi quam itaque expedita quia eveniet veniam.</p>
+            <a href="blog/vegansk-mat-seitan-kebab.html" aria-label="Läs mer om hur du kan förstöra din seitan kebab i en airfryier">Läs mer.</a>
+
+        </section>
+
+    </main>
+
+    <!-- Kontakt information, copyrights etc. footern är inte ett direkt krav men rekommenderas starkt. -->
+     <!-- Använd ALLTID alt="" taggen på bilder. -->
+    <footer>
+        <a href="https://facebook.com" aria-label="min facebook fan page">
+            <img src="images/social-media/facebook-logo.webp" alt="facebook icon">
+        </a>
+        <!-- target="_blank" = öppna i ny tab. nofollow = att inte sökmotorer och annat följer med länken för att följa händelseförloppet. Anti-cookie mer eller mindre. -->
+        <a href="https://google.com" target="_blank" nofollow>en skum sida</a>
+        <!-- google och andra sökmotorer tenderar att basera delar utav sina sökresultat på hur långa besöken varit, så target blank kan vara väldigt bra att använda till externa länkar. -->
+    </footer>
+    
+</body>
+</html>

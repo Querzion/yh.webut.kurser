@@ -1,0 +1,57 @@
+:root {
+    --clr-1: #404040
+    --clr-2: #599874
+    --clr-3: #ffe4a3
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: #ffe4a3; */
+    background-color: #404040;
+}
+
+a {
+    color: #599874;
+}
+
+nav {
+    color: azure;
+}
+
+h1 {
+    color: rgb(240, 95, 95);    
+}
+h2 {
+    color: pink;
+}
+h3 {
+    color: yellow;
+}
+h4 {
+    color: green;
+}
+h5 {
+    color: aqua;
+}
+h6 {
+    color: violet;
+}
+
+.quote-card {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin: 1rem;
+    border: 2px solid #599874;
+    border-radius: .2rem;
+    box-shadow: 0 0 .2rem #000;
+    
+    
+    background-color: #a7a3a31f;
+}
