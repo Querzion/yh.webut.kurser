@@ -61,10 +61,10 @@
 
     /* BACKGROUND VARIABLES */
     /* Something similar was found in a bootstrap css file. */
-    --linear-gradient: linear-gradient(0deg, 
-    rgba(99,102,241,0.09677419354838712) 0%,
-    rgba(218,70,239,0.06912442396313367) 42%,
-    rgba(241,244,253,0) 83%
+    --linear-gradient: linear-gradient(170deg, 
+    rgba(99,102,241,0.1) 0%, 
+    rgba(218,70,239,0.05) 42%, 
+    rgba(241,244,253,0.07) 83%
     );
 }
 
