@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- <a href="https://youtu.be/2N8SLmecfrw">Skolmaterial - HTML & CSS - Bootstrap</a> -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- När man länkar CSS filer så är det viktigt att man lägger in det man anser ha högst prioritet sist! -->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Learn 19 - CSS Ramverk - Bootstrap</title>
+    <!-- Man kan lägga javascript länken i toppen, men då MÅSTE defer skrivas in,
+    för att body sektionen ska få läsas in först innan scripten används. -->
+    <!-- <script src="./js/bootstrap.js" defer></script> -->
+</head>
+<body>
+    <header class="bg-primary">
+        <!-- <a href="https://getbootstrap.com/docs/5.3/utilities/text/#text-alignment">Text Alignment</a> -->
+        <h1 class="text-center text-white pb-2">Hello Bootstrap!</h1>
+    </header>
+    <section class="container">
+        <p class="text-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, nulla similique? Delectus expedita possimus cum magni quibusdam architecto ratione debitis porro exercitationem, earum distinctio laborum consectetur voluptates maiores ea praesentium.</p>
+    </section>
+
+    <!-- Bootstrap Flex --> <!-- <a href="https://getbootstrap.com/docs/5.3/utilities/flex/#enable-flex-behaviors">Flex</a> -->
+    <section class="bg-secondary py-4">
+            <!-- Mobile First (flex-column) Tablet+ (flex-row... Sök i bootstrap.css filen!) -->
+        <div class="container d-flex gap-3 flex-column flex-lg-row"> 
+            
+            <div class="card overflow-hidden">
+                <h2 class="bg-primary text-white p-4 text-center">Card header</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, dolores?</p>
+                <button class="btn btn-primary">Click me</button>
+            </div>
+            
+            <div class="card overflow-hidden">
+                <h2 class="bg-primary text-white p-4 text-center">Card header</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, dolores?</p>
+                <button class="btn btn-primary">Click me</button>
+            </div>
+            
+            <div class="card overflow-hidden">
+                <h2 class="bg-primary text-white p-4 text-center">Card header</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, dolores?</p>
+                <button class="btn btn-primary">Click me</button>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Bootstrap Grid (Flex baserad) -->
+    <section class="container mt-5"> 
+        
+            <div class="row">
+                <!-- col-1-12 är antalet columner som existerar, så 6 = 50% utav raden 12 är hela. -->
+                 <!-- Mobile First, börjar med hela raden, margin-bottom: .3rem; sen medium devices md-6 -->
+                <div class="col-12 mb-3 col-md-6 col-xl-4">
+                    <div class="card p-3 overflow-hidden border-dark-subtle">
+                        <h2 class="bg-primary text-white p-4 text-center border-dark">Card header</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, dolores?</p>
+                        <button class="btn btn-primary">Click me</button>
+                    </div>
+                </div>
+                <div class="col-12 mb-3 col-md-6 col-xl-4">
+                    <div class="card p-3 overflow-hidden border-dark-subtle">
+                        <h2 class="bg-primary text-white p-4 text-center border-dark">Card header</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, dolores?</p>
+                        <button class="btn btn-primary">Click me</button>
+                    </div>
+                </div>
+                <div class="col-12 mb-3 mt-md-2 col-xl-4 mt-xl-0">
+                    <div class="card overflow-hidden border-dark-subtle">
+                        <h2 class="bg-primary text-white p-4 text-center border-dark">Card header</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, dolores?</p>
+                        <button class="btn btn-primary">Click me</button>
+                    </div>
+                </div>
+
+            </div>
+        
+    </section>
+
+
+
+    <!-- Man lägger script taggen sist och det rekommenderas starkt, 
+    att man länkar en fil hellre än att man lägger in kod i taggen. -->
+    <script src="./js/bootstrap.js"></script>
+</body>
+</html>

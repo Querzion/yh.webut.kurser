@@ -1,0 +1,12 @@
+:root {
+    --test: #277eb1;
+    --bs-primary-rgb: 39, 126, 177;
+}
+
+.btn-primary {
+    --bs-btn-bg: #277eb1;
+    --bs-btn-hover-bg: #277eb17c;
+    border: none;
+    --bs-btn-hover-color: --bs-secondry;
+    font-weight: 500;
+}
