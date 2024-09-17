@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/learn_018-tillgänglighet/css/main.css">
+
+    <title>Learn 18 - Tillgänglighet</title>
+</head>
+<body>
+    <div class="q-wrap settings">
+        <div class="container">
+            <div class="accessability">
+                <a href="https://youtu.be/sS_SkKW53kA?si=YiVhibfvc4aOG_BC">Youtube Video - Studiematerial</a>
+                <h1>Tillgänglighet</h1>
+                <ul>
+                    <li>
+                        <h2>World Wide Web Consortium (W3C)</h2>
+                        <p>World Wide Web Consortium är en sida som rör tillgänglighets krav inom olika områden vid skapande utav hemsidor.</p>
+                        <a href="https://www.w3.org/WAI/WCAG22/quickref/">Tillgänglighets(gällande funktionsnedsättningar) krav</a>
+                    </li>
+                    <li>
+                        <p>ctrl+shift+p i webläsare. Sökord: Accesability</p>
+                    </li>
+                </ul>
+
+                <a href="https://www.toptal.com/designers/htmlarrows/">HTML/CSS IKONER</a>
+
+                <h2>Lärarens lektion!</h2>
+            </div>
+        </div>
+    </div>
+<hr>
+    <!-- ANVÄND PUNKT EFTER alt="htuenthunt." SÅ ATT SCREEN-READERS VET VART DE SKA AVSLUTA. -->
+    <!-- DEL 1 - TÄNK PÅ ATT VISA INDIKATIONER PÅ MER ÄN ETT SÄTT. -->
+    <!-- <section class="teachers-settings">
+        <div class="card">
+            <div class="avatar-image">
+                <img src="/learn_018-tillgänglighet/images/avatar-luffy.jpg" alt="Luffy profile picture."> 
+            </div>
+            <p class="name">Luffy</p>
+            <div>
+                <div class="indicator">&#10003;</div>
+                <p>online</p>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <div class="avatar-image">
+                <img src="/learn_018-tillgänglighet/images/avatar-zoro.jpg" alt="Zoro profile picture."> 
+            </div>
+            <p class="name">Zoro</p>
+            <div>
+                <div class="indicator offline">&#9760;</div>
+                <p>offline</p>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- DEL 2 - Struktur -->
+    <nav>
+        <a href="#">home</a>
+    </nav>
+    <main>
+        <section class="hero">
+            <img src="./images/bg-sand-dune.png" class="bg-image" alt="Background image, minimalistic sand dune.">
+            <h1>Accessability is IMPORTANT!</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos possimus minima dolores cumque eos provident incidunt voluptate ex quasi nisi. In distinctio laboriosam quod! Quo.</p>
+            <!-- Det är viktigt att man tänker på andra när man skapar en hemsida, som att kunna styra besöket med tangentbordet. 
+                 här läggs rollen till för att specificera objektet som en knapp, och sen får den ett tab index, så att när man trycker på tab, så väljs den-->
+            <!-- <div role="button" tabindex="0" class="btn btn-primary">Read more</div> -->
+             <!-- Dock är det att föredra att använda en färdig funktion -->
+            <!-- <button class="btn btn-primary">Read more</button> -->
+             <!-- Förtydliga gärna vad segment ska göra. -->
+            <!-- aria-controls i här associeras till ett ID som heter meny, aria-expanded true är öppen, false är stängd. -->
+            <button class="btn btn-primary" aria-controls="menu" aria-expanded="false">More about Accessibility</button>
+            <!-- aria-live annonserar via screen-readern att knapptryckning skett, assertive avbryter uppläsningen, medan polite väntar, annars kan man ha det avstängt. -->
+            <!-- <div id="menu" aria-live="polite"></div> -->
+        </section>
+        <section>
+            <h2>Images</h2>
+            <div>
+                <img src="/learn_018-tillgänglighet/images/wanted.poster.luffy.png" alt="Luffy Wanted Poster.">
+                <p>Wanted <br/>
+                Dead or Alive<br/>
+                Monkey D. Luffy<br/>
+                3 billion berry<br/>
+                Marine</p>
+            </div>
+        </section>
+        <section>
+        </section>
+        <section>
+            <!-- På detta vis kan en screenreader läsa upp vad fältet avser, eller begär för information. -->
+            <form>
+                <label for="firstName">First Name</label>
+                <!-- Placeholder är en exempeltext som syns i fältet endast när det inte är i bruk, det kan vara vad som helst. -->
+                <input type="text" id="firstName" placeholder="First Name">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <a href="https://querzion.com" target="_blank" aria-label="Go to Querzion's homepage.">Go to "The Q Hub"</a>
+    </footer>
+
+
+</body>
+</html>
