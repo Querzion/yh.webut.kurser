@@ -3,12 +3,106 @@
 <head>
     <!-- <a href="https://youtu.be/ydun3hAPYPE">Läromedel</a> -->
     <!-- <a href="https://tailwindcss.com/">TailwindCSS</a> -->
+    <!-- <a href="https://tailwindui.com/">TailwindUI</a> -->
+    <!-- <a href="https://tailwindui.com/templates">Templates</a> -->
+    <!-- <a href="https://tailwindcss.com/docs/customizing-colors">Colour Palettes</a> -->
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Tailwind CSS script -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Ändra på färger genom scripts -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors:{
+                        primary: '#ffe4a3'
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Custom css settings. -->
+    <style type="text/tailwindcss">
+        .btn {
+            @apply px-8 py-2 rounded-xl;
+        }
+        .btn-primary {
+            @apply bg-primary text-[#404040] hover:bg-amber-300 transition-colors;
+        }
+      </style>
+
     <link rel="stylesheet" href="./css/main.css">
+
     <title>Learn 20 - CSS Ramverk- TailwindCSS</title>
+    
 </head>
 <body>
+
+    <!-- <header class="bg-primary py-12"> -->
+    <!-- <header class="bg-[#599874] py-[100px]"> -->
+    <header class="bg-primary py-10">
+        <h1 class="text-center text-[3rem] font-bold text-[#404040]">Hello Tailwind!</h1>
+    </header>
     
+    <section class="container mx-auto">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis, maiores veritatis enim, qui non inventore magni exercitationem culpa, vitae mollitia unde officia natus in doloribus est! Voluptatibus nobis et beatae eveniet assumenda praesentium quod autem tempore rem sapiente at excepturi ea sunt, commodi impedit. Aut, dolorum voluptatibus nam quia sequi alias adipisci necessitatibus deserunt cum cumque eveniet temporibus, quasi ratione pariatur illum doloremque esse quas sed nisi tenetur porro eius dolor molestiae placeat. Repellat eum minima ex maiores tempore, dolores vero voluptas autem, reiciendis non est ullam, magni laudantium accusamus tenetur modi aliquam. Sed doloremque amet harum asperiores aliquid exercitationem.</p>
+    </section>
+
+    <!-- Flex med Tailwind CSS -->
+    <section class="container mx-auto mt-20 p-3">
+        
+        <div class="flex gap-6 flex-col lg:flex-row">
+            <div class="border-[5px] border-primary rounded-xl overflow-hidden">
+                <h2 class="bg-primary text-[#404040] text-3xl font-semibold text-center py-3">Card Header</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, quas.</p>
+                <button class="btn btn-primary w-full hover:bg-purple-500">Click me</button>
+            </div>
+
+            <div class="border-[5px] border-primary rounded-xl overflow-hidden">
+                <h2 class="bg-primary text-[#404040] text-3xl font-semibold text-center py-3">Card Header</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, quas.</p>
+                <button class="btn btn-primary w-full hover:bg-[#404040]">Click me</button>
+            </div>
+
+            <div class="border-[5px] border-primary rounded-xl overflow-hidden">
+                <h2 class="bg-primary text-[#404040] text-3xl font-semibold text-center py-3">Card Header</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, quas.</p>
+                <button class="btn btn-primary w-full">Click me</button>
+            </div>
+        </div>
+        
+    </section>
+    
+    <!-- Grid med Tailwind CSS -->
+    <section class="container mx-auto mt-20 p-3">
+
+        <div class="grid gap-3 md:grid-cols-2 xl:grid-cols-3">
+
+            <div class="border-[5px] border-primary rounded-xl overflow-hidden">
+                <h2 class="bg-primary text-[#404040] text-3xl font-semibold text-center py-3">Card Header</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, quas.</p>
+                <button class="btn btn-primary w-full">Click me</button>
+            </div>
+
+            <div class="border-[5px] border-primary rounded-xl overflow-hidden">
+                <h2 class="bg-primary text-[#404040] text-3xl font-semibold text-center py-3">Card Header</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, quas.</p>
+                <button class="btn btn-primary w-full">Click me</button>
+            </div>
+            
+            <div class="border-[5px] border-primary rounded-xl overflow-hidden md:col-span-2 xl:col-span-1">
+                <h2 class="bg-primary text-[#404040] text-3xl font-semibold text-center py-3">Card Header</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, quas.</p>
+                <button class="btn btn-primary w-full">Click me</button>
+            </div>
+        </div>
+
+    </section>
+
+
 </body>
 </html>
