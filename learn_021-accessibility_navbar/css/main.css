@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --clr-bg: #fff;
+    --clr-shadow: #0000004b;
+    --clr-primary: #4F5955;
+    --clr-secondary: #f3b557;
+    --clr-accent: #d17e1c;
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+body {
+    font-family: "Poppins", system-ui;
+    overflow-x: hidden;
+}
+
+
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding-inline: 1rem;
+    
+    @media (width > 768px) {
+        max-width: 720px;
+        
+        
+        @media (width > 992px) {
+            max-width: 960px;
+            
+            
+            @media (width > 1200px) {
+                max-width: 1140px;
+                
+                
+                @media (width > 1400px) {
+                    max-width: 1320px;
+                    
+                }   
+            }   
+        }   
+    }
+}
+
+.brand {
+    display: flex;
+    gap: .5rem;
+}
+
+.main-navigation {
+    position: sticky;
+    top: 0;
+    background-color: var(--clr-bg);
+    box-shadow: 0 1px 8px var(--clr-shadow);
+    padding-block: .5rem;
+    z-index: 1000;    
+}
+
+.main-navigation .container,
+.main-menu {
+    display: flex;
+    align-items: center;
+}
+
+.skip-link {
+    display: inline-block;
+    padding: 1rem;
+    background-color: var(--clr-bg);
+    border-radius: 0 1rem 1rem 0;
+    border: 1px solid var(--clr-primary);
+
+    position: absolute;
+    top: 10rem;
+    left: -100vw;
+    transition: 300ms;
+
+    &:focus {
+        left: 0;
+    }
+}
+
+
+.main-menu {
+    width: 100%;
+    
+    gap: 2rem;
+    margin-left: 2rem;
+
+    @media (min-width: 992px) {
+        gap: 4rem;
+        margin-left: 9rem;
+    }
+
+}
+
+.menu-btn {
+    font-size: 1.5rem;
+    background-color: transparent;
+    border: 0;
+    color: var(--clr-primary);
+    position: absolute;
+    right: 1rem;
+    z-index: 9999;
+    cursor: pointer;
+
+    display: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    display: inline-block;
+    color: var(--clr-primary);
+    font-weight: 700;
+
+}
+
+.nav-link[aria-current="page"] {
+    color: var(--clr-accent);
+}
+
+.nav-link:hover, 
+.nav-link:focus-visible {
+    outline: none;
+    color: var(--clr-secondary);
+    text-decoration: underline;
+}
+
+.search-link {
+    margin-left: auto;
+}
+
+@media (max-width: 768px) {
+    .menu-btn {
+        display: block;
+    }
+    .main-menu {
+        background-color: var(--clr-bg);
+        box-shadow: 0 5px 5px var(--clr-shadow);
+        position: absolute;
+        top: 100%;
+        right: 0;
+        z-index: 1001;
+
+        flex-direction: column;
+        width: 80vw;
+        gap: 0;
+
+        /* transform: translateX(50%);
+        transition: transform 300ms ease-in-out;
+        display: none; */
+    }
+
+    .nav-link {
+        padding: 2rem;
+    }
+
+    .search-link {
+        margin: 0;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    /* När aria-expanded blir true, så kan man använda + om det är i direkt kontakt,
+    men om något är emellan, så använder man tilde ~ */
+    .menu-btn[aria-expanded="true"] ~ .main-menu {
+        /* display: flex;
+        transform: translateX(0); */
+
+        animation: openMenu 300ms forwards;
+    }
+    .menu-btn[aria-expanded="false"] ~ .main-menu {
+        /* display: flex;
+        transform: translateX(0); */
+
+        animation: closeMenu 300ms forwards;
+    }
+}
+
+@keyframes openMenu {
+    0%      { transform: translateX(100%); }
+    100%    { transform: translateX(0); }
+}
+@keyframes closeMenu {
+    0%      { transform: translateX(0); }
+    100%    { transform: translateX(100%); }
+}
