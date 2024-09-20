@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+    <!-- <a href="https://youtu.be/oYnsB1OKKu4">Läromedel</a> -->
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Learning how to implement dark-mode and how that works.">
@@ -10,9 +13,41 @@
     <title>Learn 22 - Dark Mode</title>
 </head>
 <body>
-    
+
+    <!-- Det kan vara bra att när man använder aria utav den här typen att man ger detsamma id,
+        till det man tänkt sig att ha i container varianten man lagt arian på. -->
+    <nav aria-labelledby="heading">
+        <h1 id="heading">Darkmode</h1>
+
+        <label class="toggle" for="darkmode-switch" aria-label="darkmode switch">
+            <!-- Screenreaders Only -->
+            <!-- <span class="sr-only">Darkmode Toggle.</span> -->
+            <input type="checkbox" id="darkmode-switch">
+            <span class="slider"></span>
+        </label>
+
+
+
+    </nav>
+
+    <main>
+        
+        <section class="hero">
+            <h2>Please buy stuff now</h2>
+            <p>Click the button to get started</p>
+            <button class="btn btn-primary">Click here</button>    
+        </section>
+
+        <section class="newsletter">
+            <form>
+                <input type="text" class="form-input">
+                <button class="btn btn-primary">Subscribe</button>
+            </form>
+        </section>
+        
+    </main>
 
     <script src="./js/darkmode.js"></script>
-    <script src="./js/main.js"></script>
+    <!-- <script src="./js/main.js"></script> -->
 </body>
 </html>
