@@ -1,0 +1,136 @@
+@import url('/css/_variables.css');
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: var(--color-youtube);
+    text-decoration: none;
+
+    &:hover {
+        color: var(--color-twitter);
+        text-decoration: dotted;
+    }
+}
+
+ul {
+    list-style: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow-x: hidden; /* THINK ABOUT THAT THIS WILL HIDE OBJECTS THAT MOVE OUTSIDE OF THE CONTAINER WIDTH! */
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding-inline: 1rem;
+    
+    @media (width > 768px) {
+        max-width: 720px;
+        
+        
+        @media (width > 992px) {
+            max-width: 960px;
+            
+            
+            @media (width > 1200px) {
+                max-width: 1140px;
+                
+                
+                @media (width > 1400px) {
+                    max-width: 1320px;
+                    
+                    @media (width > 1560px) {
+                        max-width: 1480px;
+                        
+                    }   
+                }   
+            }   
+        }   
+    }
+}
+
+:root {
+    /* Color variables */
+    --pri: hsla(var(--pri_1), var(--pri_2), var(--pri_3), var(--pri_4));
+    --sec: hsla(var(--sec_1), var(--sec_2), var(--sec_3), var(--sec_4));
+    --acc: hsla(var(--acc_1), var(--acc_2), var(--acc_3), var(--acc_4));
+  }
+  
+  .menu {
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    background-color: #f0f0f0;
+    transition: transform 1s ease;
+    transform: translateX(295px); /* Hidden by default */
+  }
+  
+  .menu.left {
+    right: auto;
+    left: 0;
+    transform: translateX(-295px);
+  }
+  
+  .menu.right {
+    left: auto;
+    right: 0;
+  }
+  
+  .menu.top {
+    width: 100%;
+    height: 300px;
+    top: 0;
+    transform: translateY(-295px);
+  }
+  
+  .menu.bottom {
+    width: 100%;
+    height: 300px;
+    bottom: 0;
+    transform: translateY(295px);
+  }
+  
+  .menu-content {
+    padding: 20px;
+  }
+  
+  .color-box {
+    margin-bottom: 20px;
+  }
+  
+  .slider {
+    width: 100%;
+  }
+  
+  .menu:hover {
+    transform: translateX(0); /* Slide open */
+  }
+  
+  /* Close the menu when hover ends unless clicked */
+  .menu.slide-open {
+    transform: translateX(0);
+  }
+  
+  .menu-content h3 {
+    margin-top: 0;
+  }
+  
+  
