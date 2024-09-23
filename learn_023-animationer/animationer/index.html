@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- <a href="https://youtu.be/OalYbNfLpXg">studiematerial</a> -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn 23 - Animations</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+
+    <!-- <div class="container"> -->
+        <!-- Del 1 -->
+        <!-- <div class="ball animate slide-to-right"></div> -->
+        <!-- <div class="ball animate rainbow"></div> -->
+        <!-- <div class="ball rainbow"></div> -->
+        <!-- <button class="btn">Click me</button> -->
+
+        <!-- Del 2 -->
+         <!-- <div class="loader"></div>
+    </div> -->
+
+    <header class="hero">
+        <h1>Scrollbased Animations</h1>
+    </header>
+    <section class="section-1">
+        <div class="container flex">
+            <div class="info-test slide-in-right">
+                <h2>Animated text</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, officia.</p>
+            </div>
+            <div class="img-container slide-in-left">
+                <img src="./images/flowers.avif" alt="">
+            </div>
+        </div>
+    </section>
+    <div class="spacer"></div>
+
+
+    <!-- Del 1 -->
+    <!-- javascript kopplat till knappen. som vid klick går in i en funktion, 
+     som väljer klassen .ball och lägger på och av klassen animate. -->
+    <!-- <script>
+        document.querySelector('.btn').addEventListener('click', () => {
+            document.querySelector('.ball').classList.toggle('animate')
+        })
+    </script> -->
+
+    <!-- Del 3 -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+
+    <script>
+        gsap.to('.slide-in-left', {
+            scrollTrigger: '.section-1', // start animation when ".box" enters the viewport
+            x: 0,
+            opacity: 1
+        })
+        gsap.to('.slide-in-right', {
+            scrollTrigger: '.section-1', // start animation when ".box" enters the viewport
+            x: 0,
+            opacity: 1
+        })
+    </script>
+
+</body>
+</html>

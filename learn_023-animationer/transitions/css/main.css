@@ -1,0 +1,80 @@
+:root {
+    --clr-primary: #404040;
+    --clr-secondary: #fff;
+    --clr-accent: #ffe4a3;
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: var(--clr-primary);
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.box {
+    background-color: var(--clr-secondary);
+    width: 200px;
+    height: 150px;
+
+    margin-bottom: 3rem;
+
+    /* transition-property: width;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s; */
+
+    /* Bredd */ /* Kommentera 'height' i .box:hover. */
+    transition: width 3s ease-in-out .5s;
+    
+    /* Bredd, tid för full transition, val av transition, när den ska börja, Höjd, 1s utförandetid. */
+    transition: width 3s ease-in-out .5s, height 1s;
+    transition: width 1s ease-in-out .5s, height 1s;
+    transition: width 1s ease-in-out 1s, height 1s;
+    transition: width 1s ease-in-out 1s, height 1s, background-color 2s;
+    transition: width 1s ease-in-out .5s, height 1s, background-color 2s;
+
+}
+
+.box:hover {
+    width: 550px;
+    height: 300px;
+    background-color: var(--clr-accent);
+}
+
+.btn {
+    padding: .8em 3em;
+    border: 0;
+    background-color: transparent;
+    border-radius: .5em;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1rem;
+
+    transition: background-color 300ms ease-out;
+    transition: all 300ms ease-out;
+    transition: all 3s ease-out;
+    transition: all 1s ease-out;
+    transition: all 2s ease-out;
+}
+
+.btn-primary {
+    background-color: chocolate;
+    color: black;
+}
+.btn-primary:hover {
+    transition: all 200ms ease-out;
+    background-color: var(--clr-primary);
+    color: var(--clr-accent);
+    transform: translateY(-20%);
+    scale: 1.5;
+}
