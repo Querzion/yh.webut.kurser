@@ -1,0 +1,66 @@
+:root {
+    /* Grayscale */
+    --clr-gray-100: #f3f6ff; /* Light BG */
+    --clr-gray-100-hsl: 224, 100%, 97%;
+    --clr-gray-200: #EFF2FC; /* Secondary */
+    --clr-gray-300: #E2E5F1; /* Divider, Border */
+    --clr-gray-400: #D4D7E5; /* Forms Border */
+    --clr-gray-500: #B4B7C9; /* Input Placeholder */
+    --clr-gray-600: #9397AD; /* Muted Text */
+    --clr-gray-700: #565973; /* Body Text */
+    --clr-gray-800: #33354D; /* Navigation */
+    --clr-gray-900: #0B0F19; /* Header, Dark */
+
+    /* Brand */
+    --clr-primary: #6366F1; /* Brand, Primary */
+    --clr-secondary: #585C7B; /* Some Text */
+    --clr-gradiant-1: #6366F1; /* 0% */
+    --clr-gradiant-2: #8B5CF6; /* 50% */
+    --clr-gradiant-3: #D946EF; /* 100% */
+    --clr-almostblack-blue: #131022; /* Brand Fill */
+    /* System & Buttons */
+    --clr-red: #EF4444; /* Error */
+    --clr-green: #22C55E; /* Success */
+    --clr-yellow: #FFBA08; /* Warning */
+    --clr-blue: #4C82F7; /* Info */
+    --clr-black: #000; /* Black Button */
+    --clr-white: #fff;
+    /* Text Dark-Mode Transparency */
+    --clr-tex-wh-o100: rgba(255, 255, 255, 1); /* S, M, L */
+    --clr-tex-wh-o70: rgba(255, 255, 255, 0.7);
+    --clr-tex-wh-o5: rgba(255, 255, 255, 0.05);
+    /* Text Light-Mode */
+    --clr-tex-gr-bl: rgb(88, 92, 123);
+    --clr-tex-bl-bl: rgb(19, 16, 34);
+
+    --clr-brand-btn: #6366F1; /* Brand, Primary */
+    /* Logos */
+    --clr-twitter: #1CA1F2; /* Twitter Blue */
+    --clr-youtube: #FF0000; /* Youtube Red */
+
+    --container-padding: 1rem;
+    --transition-time: all 0.2s;
+
+    --linear-gradient-sc-sec: linear-gradient(355deg, 
+    rgba(99,102,241,0.1) 0%, 
+    rgba(218,70,239,0.05) 42%, 
+    rgba(241,244,253,0.07) 83%
+    );
+    --linear-gradient-c-sec: linear-gradient(355deg, 
+    rgba(99,102,241,0.1) 10%, 
+    rgba(218,70,239,0.05) 50%, 
+    rgba(241,244,253,0.07) 100%
+    );
+
+
+
+    /* NAVIGATION BAR COLOURS */
+    --navbar-bg-light: rgba(255, 255, 255, 0); /* Semi-transparent white for light mode */
+    --navbar-bg-dark: rgba(0, 0, 0, 0); /* Semi-transparent black for dark mode */
+    --navbar-bg-light-scrolled: rgba(255, 255, 255, 1); /* Solid white for scrolled light mode */
+    --navbar-bg-dark-scrolled: rgba(0, 0, 0, 1); /* Solid black for scrolled dark mode */
+    --navbar-clr-light: var(--clr-gray-900); /* Text clr for light mode */
+    --navbar-clr-dark: var(--clr-white); /* Text clr for dark mode */
+    --transition-duration: 0.3s; /* Smooth transition duration */
+
+}
