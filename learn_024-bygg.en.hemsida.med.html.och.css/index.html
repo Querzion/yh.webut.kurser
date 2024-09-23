@@ -13,7 +13,7 @@
     <!-- BOOTSTRAP      >>  --> <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
     <!-- TAILWITND      >>  --> <!-- <script src="https://cdn.tailwindcss.com"></script> -->
     <!-- MAIN CSS FILE  >>  --> <link rel="stylesheet" href="./css/main.css">
-    <!-- FAVICON        >>  --> <link rel="shortcut icon" href="./images/silicon-favicon.ico" type="image/x-icon">
+    <!-- FAVICON        >>  --> <link rel="shortcut icon" href="./images/favicon_silicon.ico" type="image/x-icon">
 
     <title>  Learn 24 - Bygg en hemsida med HTML & CSS  </title>
 
@@ -21,25 +21,44 @@
 <body>
     <div class="epic_helper">
 
-        <header>
+        <nav class="main-nav" aria-label="main navigation">
+            <a href="#main" class="skip-link">Skip to main content.</a>
 
-            <nav>
+            <div class="container">
+                <a href="/" class="fix-logotype">
+                    <img src="./images/logo_silicon.svg" alt="Silicon logo">
+                    <img src="./images/logo-text_light-theme.svg" alt="type">
+                </a>
 
-            </nav>
 
-        </header>
+                <div class="darkmode-toggle">
+                    <p>Dark Mode</p>
+                    <label class="toggle">
+                        <input type="checkbox" id="darkmode-switch">
+                        <span class="slider"></span>
+                    </label>
+                </div>
 
-        <main>
+                <button class="menu-btn" aria-controls="main-menu" aria-expanded="false" aria-label="toggle navigation.">
+                    <img src="./images/icons/burger_light-theme.svg" alt="">
+                </button>
 
-            <section>
+                <ul id="main-menu">
+                    <li>
+                        <a href="#" class="nav-link">Features</a>
+                    </li>
+                    <li>
+                        <a href="#" class="btn btn-primary">
+                            <img src="./images/icons/user_light-theme.svg" alt="">
+                            <span>Sign in / up</span>
+                        </a>
+                    </li>
+                </ul>
 
-            </section>
+            </div>
+        </nav>
 
-        </main>
-
-        <footer>
-
-        </footer>
+        <main id="main"></main>
 
     </div>
 

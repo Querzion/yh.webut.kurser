@@ -18,6 +18,14 @@
     --clr-gradiant-2: #8B5CF6; /* 50% */
     --clr-gradiant-3: #D946EF; /* 100% */
     --clr-almostblack-blue: #131022; /* Brand Fill */
+
+    --clr-bg: #fff;
+    --clr-bg-100: var(--clr-gray-100);
+    --clr-text-body: var(--clr-gray-700);
+    --clr-text-heading: var(--clr-gray-900);
+    --clr-text-navigation: var(--clr-gray-800);
+
+
     /* System & Buttons */
     --clr-red: #EF4444; /* Error */
     --clr-green: #22C55E; /* Success */
@@ -40,6 +48,8 @@
 
     --container-padding: 1rem;
     --transition-time: all 0.2s;
+    --br-m: 0.375em;
+    --br-l: 0.5em;
 
     --linear-gradient-sc-sec: linear-gradient(355deg, 
     rgba(99,102,241,0.1) 0%, 
