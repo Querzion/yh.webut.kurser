@@ -1,4 +1,14 @@
-/* UTILITY CLASSES */
+/* 
+███    █▄      ███      ▄█   ▄█        ▄█      ███      ▄█     ▄████████    ▄████████ 
+███    ███ ▀█████████▄ ███  ███       ███  ▀█████████▄ ███    ███    ███   ███    ███ 
+███    ███    ▀███▀▀██ ███▌ ███       ███▌    ▀███▀▀██ ███▌   ███    █▀    ███    █▀  
+███    ███     ███   ▀ ███▌ ███       ███▌     ███   ▀ ███▌  ▄███▄▄▄       ███        
+███    ███     ███     ███▌ ███       ███▌     ███     ███▌ ▀▀███▀▀▀     ▀███████████ 
+███    ███     ███     ███  ███       ███      ███     ███    ███    █▄           ███ 
+███    ███     ███     ███  ███▌    ▄ ███      ███     ███    ███    ███    ▄█    ███ 
+████████▀     ▄████▀   █▀   █████▄▄██ █▀      ▄████▀   █▀     ██████████  ▄████████▀  
+                            ▀                                                        
+*/
 
 .container {
     width: 100%;
@@ -30,6 +40,7 @@
         }
     }
 }
+
 /* This adds to the direct child, and it's siblings, but not their children. */
 .space-y-2 > * + * {
     margin-top: 2rem;
@@ -40,10 +51,12 @@
 .space-y-4 > * + * {
     margin-top: 4rem;
 }
+
 .fix-logotype {
     display: flex;
     gap: 1rem;
 }
+
 /* Screenreader utility, to hide it from the visual design */
 .sr-only {
     position: absolute;
@@ -56,10 +69,106 @@
     white-space: nowrap;
     border-width: 0;
 }
+
 .d4 {
     font-size: 3.5rem;
 }
+
 /* 18px font-size on text-lg (large) */
 .text-lg {
     font-size: 1.125rem;
+}
+
+.btn {
+    font-size: .9rem;
+    padding: .6em 1.5em;
+    display: flex;
+    gap: .5rem;
+    text-wrap: nowrap;
+    border-radius: var(--br-m);
+    border: 0;
+    background-color: transparent;
+    text-decoration: none;
+    cursor: pointer;
+
+    img {
+        height: 1.3rem;
+    }
+}
+
+.btn-primary {
+    background-color: var(--clr-primary);
+    color: var(--clr-white);
+
+    transition: background-color 150ms;
+
+    &:hover,
+    &:focus-visible {
+        background-color: hsl(from var(--clr-primary) h s calc(l - 10));
+    }
+}
+
+.menu-btn {
+
+    align-items: center;
+    border: 0;
+    background-color: transparent;
+}
+
+/* Extra that I added */
+.flex-c {
+    display: flex;
+    flex-direction: column;
+}
+.flex-r {
+    display: flex;
+    flex-direction: row;
+}
+.grid-100 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.grid-50-50 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.grid-33-33-33 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.grid-40-60 {
+    display: grid;
+    grid-template-columns: 40% 1fr;
+}
+.g-area_r1-c1 {
+    grid-area: 1 / 1;
+}
+.g-area_r1-c2 {
+    grid-area: 1 / 2;
+}
+.g-area_r1-c3 {
+    grid-area: 1 / 3;
+}
+.g-area_r2-c1 {
+    grid-area: 2 / 1;
+}
+.g-area_r2-c2 {
+    grid-area: 2 / 2;
+}
+.g-area_r2-c3 {
+    grid-area: 2 / 3;
+}
+.g-area_r3-c1 {
+    grid-area: 3 / 1;
+}
+.g-area_r3-c2 {
+    grid-area: 3 / 2;
+}
+.g-area_r3-c3 {
+    grid-area: 3 / 3;
+}
+.center {
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
 }

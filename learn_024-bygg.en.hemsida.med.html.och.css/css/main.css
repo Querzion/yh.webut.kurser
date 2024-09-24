@@ -1,4 +1,27 @@
 /* 
+▄█    ▄▄▄▄███▄▄▄▄      ▄███████▄  ▄██████▄     ▄████████     ███        ▄████████ 
+███  ▄██▀▀▀███▀▀▀██▄   ███    ███ ███    ███   ███    ███ ▀█████████▄   ███    ███ 
+███▌ ███   ███   ███   ███    ███ ███    ███   ███    ███    ▀███▀▀██   ███    █▀  
+███▌ ███   ███   ███   ███    ███ ███    ███  ▄███▄▄▄▄██▀     ███   ▀   ███        
+███▌ ███   ███   ███ ▀█████████▀  ███    ███ ▀▀███▀▀▀▀▀       ███     ▀███████████ 
+███  ███   ███   ███   ███        ███    ███ ▀███████████     ███              ███ 
+███  ███   ███   ███   ███        ███    ███   ███    ███     ███        ▄█    ███ 
+█▀    ▀█   ███   █▀   ▄████▀       ▀██████▀    ███    ███    ▄████▀    ▄████████▀  
+                                               ███    ███                          
+*/
+
+/* FONT - MANROPE | GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+/* CSS Imports */
+/* 
+@import url('/css/_utilities.css');
+@import url('/css/_variables.css');
+@import url('/css/_navbar.css'); 
+*/
+
+
+/* 
 ▄█    █▄     ▄████████    ▄████████  ▄█     ▄████████ ▀█████████▄   ▄█          ▄████████    ▄████████ 
 ███    ███   ███    ███   ███    ███ ███    ███    ███   ███    ███ ███         ███    ███   ███    ███ 
 ███    ███   ███    ███   ███    ███ ███▌   ███    ███   ███    ███ ███         ███    █▀    ███    █▀  
@@ -60,6 +83,7 @@
 
     --container-padding: 1rem;
     --transition-time: all 0.2s;
+    --transition-general: 300ms;
     --br-m: 0.375em;
     --br-l: 0.5em;
 
@@ -87,30 +111,6 @@
 
 
 /* 
-▄█    ▄▄▄▄███▄▄▄▄      ▄███████▄  ▄██████▄     ▄████████     ███        ▄████████ 
-███  ▄██▀▀▀███▀▀▀██▄   ███    ███ ███    ███   ███    ███ ▀█████████▄   ███    ███ 
-███▌ ███   ███   ███   ███    ███ ███    ███   ███    ███    ▀███▀▀██   ███    █▀  
-███▌ ███   ███   ███   ███    ███ ███    ███  ▄███▄▄▄▄██▀     ███   ▀   ███        
-███▌ ███   ███   ███ ▀█████████▀  ███    ███ ▀▀███▀▀▀▀▀       ███     ▀███████████ 
-███  ███   ███   ███   ███        ███    ███ ▀███████████     ███              ███ 
-███  ███   ███   ███   ███        ███    ███   ███    ███     ███        ▄█    ███ 
-█▀    ▀█   ███   █▀   ▄████▀       ▀██████▀    ███    ███    ▄████▀    ▄████████▀  
-                                               ███    ███                          
-*/
-
-/* FONT - MANROPE | GOOGLE FONTS */
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
-
-/* CSS Imports */
-/* 
-@import url('/css/_utilities.css');
-@import url('/css/_variables.css');
-@import url('/css/_navbar.css'); 
-*/
-
-
-
-/* 
 ▀█████████▄     ▄████████    ▄████████    ▄████████         ▄████████    ▄████████    ▄████████    ▄████████     ███     
   ███    ███   ███    ███   ███    ███   ███    ███        ███    ███   ███    ███   ███    ███   ███    ███ ▀█████████▄ 
   ███    ███   ███    ███   ███    █▀    ███    █▀         ███    ███   ███    █▀    ███    █▀    ███    █▀     ▀███▀▀██ 
@@ -127,6 +127,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /* font-size is 16px as a default*/
 body {
     font-family: "Manrope", sans-serif;
@@ -134,15 +135,18 @@ body {
     background-color: var(--clr-bg);
     color: var(--clr-text-body);
 }
+
 /* It's easier to manipulate image this way. */
 img {
     display: block;
     width: 100%;
 }
+
 /* This is a font-family etc. inherit */
 input, button, textarea, select {
     font: inherit;
 }
+
 /* Balances the headline text if their multi rows */
 h1, h2, h3, h4, h5, h6 {
     text-wrap: balance;
@@ -150,6 +154,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 800;
     line-height: 1.3;
 }
+
 /* Ordered/Unorderd list, excludes the list dots or numbers. */
 ol, ul {
     list-style: none;
@@ -209,6 +214,7 @@ ol, ul {
         }
     }
 }
+
 /* This adds to the direct child, and it's siblings, but not their children. */
 .space-y-2 > * + * {
     margin-top: 2rem;
@@ -219,10 +225,7 @@ ol, ul {
 .space-y-4 > * + * {
     margin-top: 4rem;
 }
-.fix-logotype {
-    display: flex;
-    gap: 1rem;
-}
+
 /* Screenreader utility, to hide it from the visual design */
 .sr-only {
     position: absolute;
@@ -235,14 +238,92 @@ ol, ul {
     white-space: nowrap;
     border-width: 0;
 }
+
 .d4 {
     font-size: 3.5rem;
 }
+
 /* 18px font-size on text-lg (large) */
 .text-lg {
     font-size: 1.125rem;
 }
 
+.btn {
+    font-size: .9rem;
+    padding: .6em 1.5em;
+    display: flex;
+    gap: .5rem;
+    text-wrap: nowrap;
+    border-radius: var(--br-m);
+    border: 0;
+    background-color: transparent;
+    text-decoration: none;
+    cursor: pointer;
+
+    img {
+        height: 1.3rem;
+    }
+}
+
+.btn-primary {
+    background-color: var(--clr-primary);
+    color: var(--clr-white);
+
+    transition: background-color 150ms;
+
+    &:hover,
+    &:focus-visible {
+        background-color: hsl(from var(--clr-primary) h s calc(l - 10));
+    }
+}
+
+.toggle {
+    --_w: 46px;
+    --_h: 24px;
+    --_tran: 325ms;
+
+    position: relative;
+    flex-shrink: 0;
+    width: var(--_w);
+    height: var(--_h);
+    display: inline-block;
+    cursor: pointer;
+
+    input[type="checkbox"] {
+        width: 0;
+        height: 0;
+        opacity: 0;
+    }
+
+    .slider {
+        position: absolute;
+        inset: 0;
+        background-color: var(--clr-gray-600);
+        border-radius: 100vw;
+    
+        transition: all var(--_tran);
+    }
+
+    .slider::after {
+        position: absolute;
+        top: 2px;
+        left: 2px;
+        content: '';
+        height: calc(100% - 4px);
+        aspect-ratio: 1;
+        border-radius: 50%;
+        background-color: var(--clr-white);
+
+        transition: all var(--_tran);
+    }
+
+    input[type="checkbox"]:checked ~ .slider::after {
+        left: calc(100% - var(--_h) + 2px);   
+    }
+    input[type="checkbox"]:checked ~ .slider {
+        background-color: var(--clr-primary);  
+    }
+}
 
 
 /* 
@@ -257,11 +338,177 @@ ol, ul {
                                                               ███    ███
 */
 
+.main-nav {
+    padding-block: 1rem;
+    position: relative;
+
+    .fix-logotype {
+        display: flex;
+        gap: .5rem;
+    }
+
+    .skip-link {
+        display: inline-block;
+        padding: 1rem;
+        background-color: var(--clr-bg);
+        border: 1px solid var(--clr-primary);
+        border-radius: 0 1rem 1rem 0;
+        position: absolute;
+        left: -100svh;
+        top: 10rem;
+
+        transition: var(--transition-general);
+
+        &:focus {
+            left: 0;
+        }
+    }
+
+    .container {
+        position: relative;
+    }
+
+    .container, .main-menu {
+        display: flex;
+        align-items: center;
+    }
+
+    .darkmode-toggle {
+        position: absolute;
+        right: 12rem;
+        
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        
+
+        p {
+            color: var(--clr-text-navigation);
+            font-weight: 600;
+        }
+    }
+
+    .menu-btn {
+        display: none;
+        background-color: transparent;
+        border: 0;
+        /* width: 50px;
+        aspect-ratio: 1; */
+        padding: .5rem;
+        padding-right: 0;
+        cursor: pointer;
+        position: absolute;
+        right: 1rem;
+        z-index: 9999;
+    }
+    
+    .main-menu {
+        width: 100%;
+        justify-content: space-between;
+        margin-left: 3rem;
+    }
+
+    .nav-link {
+        color: var(--clr-text-navigation);
+        text-decoration: none;
+        font-weight: 600;
 
 
+        &:hover, 
+        &:focus-visible {
+            color: var(--clr-primary);
+        }
+    }
 
 
+    @media (width <= 992px) {
+        
+        .menu-btn {
+            display: block;
+        }
+        .container {
+            position: static;
+        }
+        .darkmode-toggle {
+            right: 8rem;
+        }
+        .main-menu {
+            position: absolute;
+            top: 100%;
+            right: 0;
+            flex-direction: column-reverse;
+            gap: 1rem;
+            padding-block: 2rem;
+            background-color: var(--clr-bg);
 
+            box-shadow: 0 5px 5px #00000038;
+        }
+        .nav-link {
+            display: inline-block;
+            padding: 1rem;
+        }
+        .hide {
+            display: none;
+        }
+
+        .menu-btn[aria-expanded="true"] ~ .main-menu {
+            animation: openMenu 250ms forwards;
+        }
+        .menu-btn[aria-expanded="false"] ~ .main-menu {
+            animation: closeMenu 250ms forwards;
+        }
+
+    }
+
+    @media (width < 540px) {
+        .darkmode-toggle {
+            right: 4.5rem;
+        }
+        .darkmode-toggle p {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0,0,0,0);
+            white-space: nowrap;
+            border-width: 0;
+        }
+    }
+}
+
+/* 
+   ▄████████ ███▄▄▄▄    ▄█    ▄▄▄▄███▄▄▄▄      ▄████████     ███      ▄█   ▄██████▄  ███▄▄▄▄      ▄████████ 
+  ███    ███ ███▀▀▀██▄ ███  ▄██▀▀▀███▀▀▀██▄   ███    ███ ▀█████████▄ ███  ███    ███ ███▀▀▀██▄   ███    ███ 
+  ███    ███ ███   ███ ███▌ ███   ███   ███   ███    ███    ▀███▀▀██ ███▌ ███    ███ ███   ███   ███    █▀  
+  ███    ███ ███   ███ ███▌ ███   ███   ███   ███    ███     ███   ▀ ███▌ ███    ███ ███   ███   ███        
+▀███████████ ███   ███ ███▌ ███   ███   ███ ▀███████████     ███     ███▌ ███    ███ ███   ███ ▀███████████ 
+  ███    ███ ███   ███ ███  ███   ███   ███   ███    ███     ███     ███  ███    ███ ███   ███          ███ 
+  ███    ███ ███   ███ ███  ███   ███   ███   ███    ███     ███     ███  ███    ███ ███   ███    ▄█    ███ 
+  ███    █▀   ▀█   █▀  █▀    ▀█   ███   █▀    ███    █▀     ▄████▀   █▀    ▀██████▀   ▀█   █▀   ▄████████▀  
+*/
+
+@keyframes openMenu {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes closeMenu {
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+}
 
 
 
