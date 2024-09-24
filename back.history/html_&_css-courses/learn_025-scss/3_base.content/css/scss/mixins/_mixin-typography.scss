@@ -8,9 +8,16 @@
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-style: normal;
+    text-decoration: none !important;
 }
 
+@mixin button {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
 
+/* Vid en font variant, kan man använde det här alternativet. */
 /* @mixin heading {
     @include text;
     font-weight: 700;
