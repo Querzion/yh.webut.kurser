@@ -57,6 +57,7 @@
 
     --clr-bg: #fff;
     --clr-bg-100: var(--clr-gray-100);
+    --clr-bg-icons: #F3F6FF;
     --clr-text-body: var(--clr-gray-700);
     --clr-text-heading: var(--clr-gray-900);
     --clr-text-navigation: var(--clr-gray-800);
@@ -218,6 +219,12 @@ ol, ul {
 }
 
 /* This adds to the direct child, and it's siblings, but not their children. */
+.space-y-o5 > * + * {
+    margin-top: .5rem;
+}
+.space-y-1 > * + * {
+    margin-top: 1rem;
+}
 .space-y-2 > * + * {
     margin-top: 2rem;
 }
@@ -241,8 +248,22 @@ ol, ul {
     border-width: 0;
 }
 
+.h1 {
+    font-size: 2.5rem;
+    color: var(--clr-text-heading);
+    font-weight: 800;
+}
+
+.h5 {
+    font-size: 1.25rem;
+    color: var(--clr-text-heading);
+    font-weight: 800;
+}
+
 .d4 {
     font-size: 3.5rem;
+    color: var(--clr-text-heading);
+    font-weight: 800;
 }
 
 /* 18px font-size on text-lg (large) */
@@ -728,7 +749,64 @@ ol, ul {
                                                                 ███    ███                           
 */
 
+.features {
+    text-align: center;
+    padding-block: var(--section-spacing);
 
+    .iphone {
+        display: none;
+    }
+
+    .features-grid {
+        display: grid;
+        gap: 2rem;
+        margin-top: 4rem;
+    }
+
+    .feature-card {
+        display: flex;
+        text-align: start;
+        gap: 1rem;
+        align-items: flex-start;
+    }
+
+    .icon-container {
+        background-color: var(--clr-bg-icons);
+        padding: 1rem;
+        border-radius: var(--br-l);
+        flex-shrink: 0;
+    }
+
+    @media (width > 768px) {
+        .features-grid {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem 3rem;
+        }
+    }
+    
+    @media (width > 1200px) {
+        text-align: start;
+        
+        .container {
+            display: flex;
+            gap: 4rem;
+        }
+
+        .iphone {
+            display: block;
+        }
+
+        .text {
+            flex: 1;
+        }
+    }
+
+    @media (width > 1200px) { 
+        .container {
+            gap: 10rem;
+        }
+    }
+}
 
 
 
