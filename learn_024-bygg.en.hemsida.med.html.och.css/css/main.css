@@ -436,6 +436,7 @@ ol, ul {
         width: 100%;
         justify-content: space-between;
         margin-left: 3rem;
+        z-index: 1000;
     }
 
     .nav-link {
@@ -657,20 +658,12 @@ ol, ul {
     
     @media (width > 1400px) {
         padding-top: 15rem;
-        
+
         .more {
             margin-top: 15rem;
         }
     }
 }
-
-
-
-
-
-
-
-
 
 
 /* 
