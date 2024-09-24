@@ -61,6 +61,7 @@
     --clr-text-body: var(--clr-gray-700);
     --clr-text-heading: var(--clr-gray-900);
     --clr-text-navigation: var(--clr-gray-800);
+    --clr-market-btn: var(--clr-gray-900);
 
     /* System & Buttons */
     --clr-red: #EF4444; /* Error */
@@ -125,10 +126,33 @@
                                                            ███    ███                                                    
  */
 
+ .dark {
+    --clr-bg: var(--clr-gray-900);
+    --clr-bg-100: rgba(255, 255, 255, 0.04);
+    --clr-text-body: rgba(255, 255, 255, 0.7);
+    --clr-text-heading: #ffffff;
+    --clr-text-navigation: #ffffff;
+    --clr-bg-icons: rgba(99, 101, 241, 0.08);
+    --clr-white-to-gray: rgba(255, 255, 255, 0.05);
+    --clr-market-btn: var(--clr-gray-100);
+
+    color-scheme: dark;
+
+    .show-light { display: none; }
+    .show-dark { display: block; }
+}
+
+.show-light { display: block; }
+.show-dark { display: none; }
+
 *, *::before, *::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html{
+    color-scheme: light;
 }
 
 /* font-size is 16px as a default*/
@@ -599,7 +623,7 @@ ol, ul {
     }
     
     .store-btn {
-        background-color: var(--clr-gray-900);
+        background-color: var(--clr-market-btn);
         width: 100%;
         padding: .5em 1em;
         border-radius: var(--br-l);
@@ -677,6 +701,10 @@ ol, ul {
         .content {
             margin-top: 3rem;
         }
+        
+        .store-btn {
+            padding: .5em 1.5em;
+        }
 
         .more {
             margin-top: 13rem;
@@ -685,6 +713,10 @@ ol, ul {
     
     @media (width > 1400px) {
         padding-top: 15rem;
+
+        .store-btn {
+            padding: .7em 1.5em;
+        }
 
         .more {
             margin-top: 15rem;

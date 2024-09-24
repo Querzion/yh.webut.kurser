@@ -17,8 +17,6 @@ if(hasDarkmode == null) {
   disableDarkMode()
 }
 
-
-
 darkmodeSwitch.addEventListener('change', () => {
   if(darkmodeSwitch.checked) {
     enableDarkMode()
