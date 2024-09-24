@@ -254,6 +254,12 @@ ol, ul {
     font-weight: 800;
 }
 
+.h4 {
+    font-size: 1.5rem;
+    color: var(--clr-text-heading);
+    font-weight: 800;
+}
+
 .h5 {
     font-size: 1.25rem;
     color: var(--clr-text-heading);
@@ -809,14 +815,6 @@ ol, ul {
 }
 
 
-
-
-
-
-
-
-
-
 /* 
  ▄████████    ▄████████    ▄████████  ▄██████▄  ███    █▄     ▄████████    ▄████████  ▄█       
 ███    ███   ███    ███   ███    ███ ███    ███ ███    ███   ███    ███   ███    ███ ███       
@@ -829,16 +827,29 @@ ol, ul {
                           ███    ███                                                 ▀         
 */
 
+.carousel-section {
+    padding-block: var(--section-spacing);
+    background-color: var(--clr-bg-100);
+    text-align: center;
 
+    .carousel {
+        display: flex;
+        justify-content: space-evenly;
+    }
 
+    /* xch is an amount and characters in width. */
+    .text {
+        max-width: 70ch;
+        margin-inline: auto;
+    }
 
-
-
-
-
-
-
-
+    @media (width < 768px ) {
+        .carousel-item:first-of-type,
+        .carousel-item:last-of-type {
+            display: none;
+        }
+    }
+}
 
 
 /* 
