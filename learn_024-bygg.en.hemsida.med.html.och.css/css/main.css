@@ -678,17 +678,42 @@ ol, ul {
                ███    ███                                              
 */
 
+.logos {
+    display: none;
+    padding-block: var(--section-spacing);
+    
+    .container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1rem;
+    }
+    
+    .logo-card {
+        width: 100%;
+        border: 1px solid var(--clr-gray-300);
+        padding: 2rem;
+        border-radius: var(--br-l);
+        display: grid;
+        place-items: center;
+    }
 
+    @media (width > 768px) {
+        display: block;
 
-
-
-
-
-
-
-
-
-
+        .logo-card:nth-last-of-type(-n+2) {
+            display: none;
+        }
+    }
+    
+    @media (width > 1200px) {
+        .container {
+            grid-template-columns: repeat(6, 1fr);
+        }
+        .logo-card:nth-last-of-type(-n+2) {
+            display: block;
+        }
+    }
+}
 
 
 /* 
