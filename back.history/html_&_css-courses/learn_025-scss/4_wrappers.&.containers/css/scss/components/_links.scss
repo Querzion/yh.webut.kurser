@@ -1,0 +1,4 @@
+a {
+    @include btn;
+    @include button-colors(var(--color-primary), var(--color-secondary), var(--color-accent), var(--color-primary))
+}

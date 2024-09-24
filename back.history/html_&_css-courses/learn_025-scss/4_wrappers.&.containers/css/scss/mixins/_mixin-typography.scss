@@ -17,8 +17,7 @@
     font-style: normal;
 }
 
-/* Vid en font variant, kan man använde det här alternativet. */
-/* @mixin heading {
+@mixin alternative-way-to-create-a-mixin {
     @include text;
-    font-weight: 700;
-} */
+    font-weight: 200;
+}

@@ -1,6 +1,24 @@
-.container {
-  width: 100%;
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.wrapper {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
 }
+@media (min-width: 1400px) {
+  .wrapper {
+    grid-template-rows: auto auto 1fr auto;
+  }
+}
+
+.container, .container-fluid {
+  position: relative;
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media (min-width: 768px) {
   .container {
     max-width: 720px;
@@ -8,7 +26,7 @@
 }
 @media (min-width: 1400px) {
   .container {
-    max-width: 1320px;
+    max-width: 1200px;
   }
 }
 @media (min-width: 1920px) {
@@ -17,38 +35,12 @@
   }
 }
 
-.projects-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-}
-@media (min-width: 768px) {
-  .projects-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media (min-width: 1400px) {
-  .projects-grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-@media (min-width: 1920px) {
-  .projects-grid {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
-
-@media (min-width: 1920px) {
-  .projects-grid {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
-
+/* För Unicode tecken. */
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
   }
 }
-
 *, *::before, *::after {
   box-sizing: border-box;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /* För att ta bort highlights på objekt i touchlägen. */
@@ -69,4 +61,4 @@ body {
   font-style: normal;
   font-size: 16px;
   color: #535656;
-}
+}/*# sourceMappingURL=main.css.map */
