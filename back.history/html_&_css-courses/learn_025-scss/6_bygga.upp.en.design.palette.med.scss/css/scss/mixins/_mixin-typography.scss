@@ -1,0 +1,17 @@
+@mixin text {
+    font-family: "Poppins", FontAwesome, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@mixin heading {
+    font-family: "Poppins", FontAwesome, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none !important;
+}
+
+@mixin alternative-way-to-create-a-mixin-only-useful-if-it-is-the-same-font-family-everywhere {
+    @include text;
+    font-weight: 200;
+}

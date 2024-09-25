@@ -1,0 +1,26 @@
+a {
+    display: inline-block;
+    @include text;
+    font-size: 1em;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+
+    &[target="_blank"] {
+
+        &::after {
+            content: '\f08e';
+            font-family: "Font Awesome 6 Pro";
+            display: inline-block;
+            vertical-align: middle;
+            font-size: 0.8em;
+            
+            margin-left: 0.4em;
+            margin-top: -0.9em;
+        }
+    }
+    /* @include btn;
+    @include button-colors(var(--color-primary), var(--color-secondary), var(--color-accent), var(--color-primary)) */
+}

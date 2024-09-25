@@ -1,0 +1,364 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.wrapper {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+@media (min-width: 1400px) {
+  .wrapper {
+    grid-template-rows: auto auto 1fr auto;
+  }
+}
+
+.container, .container-fluid {
+  position: relative;
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+@media (min-width: 1920px) {
+  .container {
+    max-width: 1920px;
+  }
+}
+
+a {
+  display: inline-block;
+  font-family: "Poppins", FontAwesome, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1em;
+  text-decoration: none;
+  /* @include btn;
+  @include button-colors(var(--color-primary), var(--color-secondary), var(--color-accent), var(--color-primary)) */
+}
+a:hover {
+  text-decoration: underline;
+}
+a[target=_blank]::after {
+  content: "\f08e";
+  font-family: "Font Awesome 6 Pro";
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 0.8em;
+  margin-left: 0.4em;
+  margin-top: -0.9em;
+}
+
+.btn-dark, .btn-primary, .btn-secondary, .btn-accent, .btn-gray, .btn-light {
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 3px;
+  border: 1px solid;
+  padding: 15px 40px;
+  font-size: 16px;
+  transition: 0.25s;
+  text-decoration: none !important;
+  background-color: transparent;
+  font-family: "Poppins", FontAwesome, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.btn-dark:hover, .btn-primary:hover, .btn-secondary:hover, .btn-accent:hover, .btn-gray:hover, .btn-light:hover {
+  transition: 0.25s;
+  text-decoration: none;
+}
+
+.btn-menu {
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 1px solid;
+  transition: 0.25s;
+  text-decoration: none !important;
+  outline: none !important;
+  background-color: transparent;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  height: 55px;
+  width: 55px;
+  font-size: 1.6rem;
+}
+.btn-menu:hover {
+  transition: 0.25s;
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+  padding-top: 0rem;
+  padding-bottom: 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Poppins", FontAwesome, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-decoration: none !important;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 22px;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+h6 {
+  font-size: 14px;
+}
+
+/* För Unicode tecken. */
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: smooth;
+  }
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /* För att ta bort highlights på objekt i touchlägen. */
+}
+
+html, body, section, div, header, footer, main, aside, nav, blockquote, p, span {
+  margin: 0;
+  padding: 0;
+}
+
+img, svg {
+  vertical-align: middle;
+}
+
+body {
+  font-family: "Poppins", FontAwesome, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  color: #535656;
+}
+
+:root {
+  --color-default: #535656;
+  --color-dark: #171717;
+  --color-primary: #4F5955;
+  --color-primary-light: #6d7573;
+  --color-primary-dark: #2f3331;
+  --color-secondary: #D9C3A9;
+  --color-accent: #F3EDDC;
+  --color-gray: #F7F7F7;
+  --color-light: #FFFFFF;
+  --color-border-dark: #333333;
+  --color-border-dark-transparent: rgba(51, 51, 51, 0.10);
+  --color-border-primary: #424946;
+  --color-border-secondary: #c0ac94;
+  --color-border-accent: #d5d1c2;
+  --color-border-gray: #e3e3e3;
+  --color-border-light: #eeeeee;
+  --color-border-light-transparent: rgba(255, 255, 255, 0.95);
+}
+
+:root.dark-theme {
+  --color-dark: #e0e0e0;
+  --color-primary: #a3b3af;
+  --color-primary-light: #c1ccc9;
+  --color-primary-dark: #6f7976;
+  --color-secondary: #3c2f26;
+  --color-accent: #1a1a1a;
+  --color-gray: #2b2b2b;
+  --color-light: #171717;
+  --color-border-dark: #cccccc;
+  --color-border-dark-transparent: rgba(204, 204, 240, 0.10);
+  --color-border-primary: #b6bcb9;
+  --color-border-secondary: #42392e;
+  --color-border-accent: #2a2925;
+  --color-border-gray: #474747;
+  --color-border-light: #2c2c2c;
+  --color-border-light-transparent: rgba(23, 23, 23, 0.95);
+}
+
+body {
+  color: var(--color-default);
+}
+
+span {
+  color: var(--color-secondary);
+}
+
+a {
+  color: var(--color-secondary);
+}
+a:hover {
+  color: var(--color-primary);
+}
+
+.btn-dark {
+  background-color: var(--color-dark);
+  color: var(--color-light);
+  outline: none !important;
+  border-color: var(--color-dark);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.btn-dark:hover {
+  background-color: var(--color-accent);
+  color: var(--color-primary);
+  border-color: var(--color-accent);
+}
+.btn-dark:hover, .btn-dark:focus, .btn-dark:active {
+  outline: none !important;
+}
+
+.btn-primary {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  outline: none !important;
+  border-color: var(--color-primary);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.btn-primary:hover {
+  background-color: var(--color-accent);
+  color: var(--color-primary);
+  border-color: var(--color-accent);
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  outline: none !important;
+}
+
+.btn-secondary {
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+  outline: none !important;
+  border-color: var(--color-secondary);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.btn-secondary:hover {
+  background-color: var(--color-accent);
+  color: var(--color-primary);
+  border-color: var(--color-accent);
+}
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
+  outline: none !important;
+}
+
+.btn-accent {
+  background-color: var(--color-accent);
+  color: var(--color-primary);
+  outline: none !important;
+  border-color: var(--color-accent);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.btn-accent:hover {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  border-color: var(--color-primary);
+}
+.btn-accent:hover, .btn-accent:focus, .btn-accent:active {
+  outline: none !important;
+}
+
+.btn-gray {
+  background-color: var(--color-gray);
+  color: var(--color-primary);
+  outline: none !important;
+  border-color: var(--color-gray);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.btn-gray:hover {
+  background-color: var(--color-accent);
+  color: var(--color-primary);
+  border-color: var(--color-accent);
+}
+.btn-gray:hover, .btn-gray:focus, .btn-gray:active {
+  outline: none !important;
+}
+
+.btn-light {
+  background-color: var(--color-light);
+  color: var(--color-primary);
+  outline: none !important;
+  border-color: var(--color-primary);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.btn-light:hover {
+  background-color: var(--color-accent);
+  color: var(--color-primary);
+  border-color: var(--color-accent);
+}
+.btn-light:hover, .btn-light:focus, .btn-light:active {
+  outline: none !important;
+}
+
+.btn-menu {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  outline: none !important;
+  border-color: var(--color-primary);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.btn-menu:hover {
+  background-color: var(--color-accent);
+  color: var(--color-primary);
+  border-color: var(--color-accent);
+}
+.btn-menu:hover, .btn-menu:focus, .btn-menu:active {
+  outline: none !important;
+}
+
+h1 {
+  color: var(--color-primary);
+}
+
+h2 {
+  color: var(--color-primary);
+}
+
+h3 {
+  color: var(--color-secondary);
+}
+
+h4 {
+  color: var(--color-primary);
+}
+
+h5 {
+  color: var(--color-primary);
+}
+
+h6 {
+  color: var(--color-secondary);
+}/*# sourceMappingURL=main.css.map */
