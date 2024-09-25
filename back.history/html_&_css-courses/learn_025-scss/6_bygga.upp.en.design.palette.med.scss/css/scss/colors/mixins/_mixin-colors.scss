@@ -16,3 +16,104 @@
         outline: none !important;
     }
 }
+
+@mixin theme-buttons($bg-color, $btn-dark-colors, $btn-primary-colors, $btn-secondary-colors, $btn-accent-colors, $btn-gray-colors, $btn-light-colors) {
+    .bg-#{$bg-color} {
+        .btn-dark {
+            @include button-colors($btn-dark-colors...);
+        }
+        .btn-primary {
+            @include button-colors($btn-primary-colors, $btn-primary-colors, $btn-primary-colors, $btn-primary-colors, $btn-primary-colors, $btn-primary-colors);
+        }
+        .btn-secondary {
+            @include button-colors($btn-secondary-colors, $btn-secondary-colors, $btn-secondary-colors, $btn-secondary-colors, $btn-secondary-colors, $btn-secondary-colors);
+        }
+        .btn-accent {
+            @include button-colors($btn-accent-colors, $btn-accent-colors, $btn-accent-colors, $btn-accent-colors, $btn-accent-colors, $btn-accent-colors);
+        }
+        .btn-gray {
+            @include button-colors($btn-gray-colors, $btn-gray-colors, $btn-gray-colors, $btn-gray-colors, $btn-gray-colors, $btn-gray-colors);
+        }
+        .btn-light {
+            @include button-colors($btn-light-colors, $btn-light-colors, $btn-light-colors, $btn-light-colors, $btn-light-colors, $btn-light-colors);
+        }
+    }
+}
+
+/* @mixin theme-buttons(
+  $bg-color,
+  $btn-dark-colors, 
+  $btn-primary-colors, 
+  $btn-secondary-colors, 
+  $btn-accent-colors, 
+  $btn-gray-colors, 
+  $btn-light-colors
+) {
+  .bg-#{$bg-color} {
+    .btn-dark {
+      @include button-colors(
+        nth($btn-dark-colors, 1), // background color
+        nth($btn-dark-colors, 2), // text color
+        nth($btn-dark-colors, 3), // hover background color
+        nth($btn-dark-colors, 4), // hover text color
+        nth($btn-dark-colors, 5), // border color
+        nth($btn-dark-colors, 6)  // hover border color
+      );
+    }
+
+    .btn-primary {
+      @include button-colors(
+        nth($btn-primary-colors, 1), // background color
+        nth($btn-primary-colors, 2), // text color
+        nth($btn-primary-colors, 3), // hover background color
+        nth($btn-primary-colors, 4), // hover text color
+        nth($btn-primary-colors, 5), // border color
+        nth($btn-primary-colors, 6)  // hover border color
+      );
+    }
+
+    .btn-secondary {
+      @include button-colors(
+        nth($btn-secondary-colors, 1), // background color
+        nth($btn-secondary-colors, 2), // text color
+        nth($btn-secondary-colors, 3), // hover background color
+        nth($btn-secondary-colors, 4), // hover text color
+        nth($btn-secondary-colors, 5), // border color
+        nth($btn-secondary-colors, 6)  // hover border color
+      );
+    }
+
+    .btn-accent {
+      @include button-colors(
+        nth($btn-accent-colors, 1), // background color
+        nth($btn-accent-colors, 2), // text color
+        nth($btn-accent-colors, 3), // hover background color
+        nth($btn-accent-colors, 4), // hover text color
+        nth($btn-accent-colors, 5), // border color
+        nth($btn-accent-colors, 6)  // hover border color
+      );
+    }
+
+    .btn-gray {
+      @include button-colors(
+        nth($btn-gray-colors, 1), // background color
+        nth($btn-gray-colors, 2), // text color
+        nth($btn-gray-colors, 3), // hover background color
+        nth($btn-gray-colors, 4), // hover text color
+        nth($btn-gray-colors, 5), // border color
+        nth($btn-gray-colors, 6)  // hover border color
+      );
+    }
+
+    .btn-light {
+      @include button-colors(
+        nth($btn-light-colors, 1), // background color
+        nth($btn-light-colors, 2), // text color
+        nth($btn-light-colors, 3), // hover background color
+        nth($btn-light-colors, 4), // hover text color
+        nth($btn-light-colors, 5), // border color
+        nth($btn-light-colors, 6)  // hover border color
+      );
+    }
+  }
+} */

@@ -20,3 +20,13 @@
 .btn-menu {
     @include button-colors(--color-primary, --color-secondary, --color-accent, --color-primary);
 }
+
+@include theme-buttons (
+    'dark',
+    (--color-dark, --color-light, --color-accent, --color-primary, --color-light),
+    (--color-primary, --color-secondary, --color-accent, --color-primary, --color-primary),
+    (--color-secondary, --color-primary, --color-accent, --color-primary, --color-secondary),
+    (--color-accent, --color-primary, --color-primary, --color-secondary, --color-light),
+    (--color-gray, --color-primary, --color-accent, --color-primary, --color-light),
+    (--color-light, --color-primary, --color-accent, --color-primary, --color-light)
+);
