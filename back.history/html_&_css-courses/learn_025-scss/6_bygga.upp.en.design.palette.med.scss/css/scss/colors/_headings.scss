@@ -6,7 +6,6 @@
     --color-primary,
     --color-secondary
 );
-
 @include heading-colors (
     'dark',
     --color-primary,
@@ -16,7 +15,6 @@
     --color-primary,
     --color-secondary
 );
-
 @include heading-colors (
     'primary',
     --color-light,
@@ -26,7 +24,6 @@
     --color-light,
     --color-secondary
 );
-
 @include heading-colors (
     'secondary',
     --color-primary,
@@ -36,7 +33,6 @@
     --color-primary,
     --color-accent
 );
-
 @include heading-colors (
     'accent',
     --color-primary,
@@ -46,7 +42,6 @@
     --color-primary,
     --color-secondary
 );
-
 @include heading-colors (
     'gray',
     --color-primary,
@@ -56,7 +51,6 @@
     --color-primary,
     --color-secondary
 );
-
 @include heading-colors (
     'light',
     --color-primary,

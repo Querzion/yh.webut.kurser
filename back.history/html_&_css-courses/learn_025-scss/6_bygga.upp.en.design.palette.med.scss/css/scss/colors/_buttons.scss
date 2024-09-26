@@ -16,7 +16,6 @@
 .btn-light {
     @include button-colors(--color-light, --color-primary, --color-accent, --color-primary, --color-primary);
 }
-
 .btn-menu {
     @include button-colors(--color-primary, --color-secondary, --color-accent, --color-primary);
 }
@@ -31,7 +30,6 @@
     (--color-light, --color-primary, --color-accent, --color-primary, --color-light),
     (--color-primary, --color-secondary, --color-accent, --color-primary, --color-primary)
 );
-
 @include theme-buttons (
     'primary',
     (--color-dark, --color-light, --color-accent, --color-primary, --color-border-dark),
@@ -42,7 +40,6 @@
     (--color-light, --color-primary, --color-accent, --color-primary, --color-light),
     (--color-primary, --color-secondary, --color-accent, --color-primary, --color-accent)
 );
-
 @include theme-buttons (
     'secondary',
     (--color-dark, --color-light, --color-accent, --color-primary, --color-border-dark),
@@ -53,7 +50,6 @@
     (--color-light, --color-primary, --color-accent, --color-primary, --color-light),
     (--color-primary, --color-secondary, --color-accent, --color-primary, --color-primary)
 );
-
 @include theme-buttons (
     'accent',
     (--color-dark, --color-light, --color-accent, --color-primary, --color-border-dark, --color-border-dark),
@@ -64,7 +60,6 @@
     (--color-light, --color-primary, --color-accent, --color-primary, --color-light, --color-primary),
     (--color-primary, --color-secondary, --color-accent, --color-primary, --color-primary, --color-primary)
 );
-
 @include theme-buttons (
     'gray',
     (--color-dark, --color-light, --color-accent, --color-primary, --color-border-dark),
@@ -75,7 +70,6 @@
     (--color-light, --color-primary, --color-accent, --color-primary, --color-border-light),
     (--color-primary, --color-secondary, --color-accent, --color-primary, --color-primary)
 );
-
 @include theme-buttons (
     'light',
     (--color-dark, --color-light, --color-accent, --color-primary, --color-border-dark),
@@ -83,6 +77,6 @@
     (--color-secondary, --color-primary, --color-accent, --color-primary, --color-secondary),
     (--color-accent, --color-primary, --color-primary, --color-secondary, --color-accent),
     (--color-gray, --color-primary, --color-accent, --color-primary, --color-border-gray),
-    (--color-light, --color-primary, --color-accent, --color-primary, --color-border-light)
+    (--color-light, --color-primary, --color-accent, --color-primary, --color-border-light),
     (--color-primary, --color-secondary, --color-accent, --color-primary, --color-primary)
 );
