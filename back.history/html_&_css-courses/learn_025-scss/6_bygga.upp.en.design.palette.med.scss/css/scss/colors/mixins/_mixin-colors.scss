@@ -66,7 +66,7 @@
 
 @mixin theme-headings ($bg-color, $h1-color, $h2-color, $h3-color, $h4-color, $h5-color, $h6-color) {
     .bg-#{$bg-color} {
-        @include heading-colors($h1-color, $h2-color, $h3-color, $h4-color, $h5-color, $h6-color)
+        @include heading-colors($h1-color, $h2-color, $h3-color, $h4-color, $h5-color, $h6-color);
     }
 }
 
