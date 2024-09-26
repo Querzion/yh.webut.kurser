@@ -2,10 +2,10 @@ a {
     display: inline-block;
     @include text;
     font-size: 1em;
-    text-decoration: none;
+    text-decoration: underline;
 
     &:hover {
-        text-decoration: underline;
+        text-decoration: none;
     }
 
     &[target="_blank"] {
