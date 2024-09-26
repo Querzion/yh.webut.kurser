@@ -340,196 +340,584 @@ a:hover {
 }
 
 .bg-dark .btn-dark {
-  background-color: var(--color-dark, --color-light, --color-accent, --color-primary, --color-border-dark);
-  color: var(--color-light, --color-primary, --color-accent, --color-primary, --color-light);
+  background-color: var(--color-dark);
+  color: var(--color-light);
   outline: none !important;
-  border-color: var(--color-dark, --color-light, --color-accent, --color-primary, --color-border-dark);
+  border-color: var(--color-border-dark);
   -webkit-tap-highlight-color: transparent;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 .bg-dark .btn-dark:hover {
-  background-color: var(--color-accent, --color-primary, --color-primary, --color-secondary, --color-light);
-  color: var(--color-primary, --color-secondary, --color-accent, --color-primary, --color-primary);
-  border-color: var(--color-accent, --color-primary, --color-primary, --color-secondary, --color-light);
+  background-color: var(--color-accent);
+  color: var(--color-primary);
+  border-color: var(--color-accent);
 }
 .bg-dark .btn-dark:hover, .bg-dark .btn-dark:focus, .bg-dark .btn-dark:active {
   outline: none !important;
 }
 .bg-dark .btn-primary {
-  background-color: var(--color-primary, --color-secondary, --color-accent, --color-primary, --color-primary);
-  color: var(--color-secondary, --color-primary, --color-accent, --color-primary, --color-secondary);
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
   outline: none !important;
-  border-color: var(--color-primary, --color-secondary, --color-accent, --color-primary, --color-primary);
+  border-color: var(--color-primary);
   -webkit-tap-highlight-color: transparent;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 .bg-dark .btn-primary:hover {
-  background-color: var(--color-accent, --color-primary, --color-primary, --color-secondary, --color-light);
-  color: var(--color-primary, --color-secondary, --color-accent, --color-primary, --color-primary);
-  border-color: var(--color-accent, --color-primary, --color-primary, --color-secondary, --color-light);
+  background-color: var(--color-accent);
+  color: var(--color-primary);
+  border-color: var(--color-accent);
 }
 .bg-dark .btn-primary:hover, .bg-dark .btn-primary:focus, .bg-dark .btn-primary:active {
   outline: none !important;
 }
 .bg-dark .btn-secondary {
-  background-color: var(--color-secondary, --color-primary, --color-accent, --color-primary, --color-secondary);
-  color: var(--color-primary, --color-secondary, --color-accent, --color-primary, --color-primary);
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
   outline: none !important;
-  border-color: var(--color-secondary, --color-primary, --color-accent, --color-primary, --color-secondary);
+  border-color: var(--color-secondary);
   -webkit-tap-highlight-color: transparent;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 .bg-dark .btn-secondary:hover {
-  background-color: var(--color-accent, --color-primary, --color-primary, --color-secondary, --color-light);
-  color: var(--color-primary, --color-secondary, --color-accent, --color-primary, --color-primary);
-  border-color: var(--color-accent, --color-primary, --color-primary, --color-secondary, --color-light);
+  background-color: var(--color-accent);
+  color: var(--color-primary);
+  border-color: var(--color-accent);
 }
 .bg-dark .btn-secondary:hover, .bg-dark .btn-secondary:focus, .bg-dark .btn-secondary:active {
   outline: none !important;
 }
 .bg-dark .btn-accent {
-  background-color: var(--color-accent, --color-primary, --color-primary, --color-secondary, --color-light);
-  color: var(--color-primary, --color-secondary, --color-accent, --color-primary, --color-primary);
+  background-color: var(--color-accent);
+  color: var(--color-primary);
   outline: none !important;
-  border-color: var(--color-light, --color-primary, --color-accent, --color-primary, --color-light);
+  border-color: var(--color-light);
   -webkit-tap-highlight-color: transparent;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 .bg-dark .btn-accent:hover {
-  background-color: var(--color-primary, --color-secondary, --color-accent, --color-primary, --color-primary);
-  color: var(--color-secondary, --color-primary, --color-accent, --color-primary, --color-secondary);
-  border-color: var(--color-primary, --color-secondary, --color-accent, --color-primary, --color-primary);
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  border-color: var(--color-primary);
 }
 .bg-dark .btn-accent:hover, .bg-dark .btn-accent:focus, .bg-dark .btn-accent:active {
   outline: none !important;
 }
 .bg-dark .btn-gray {
-  background-color: var(--color-gray, --color-primary, --color-accent, --color-primary, --color-light);
-  color: var(--color-primary, --color-secondary, --color-accent, --color-primary, --color-primary);
+  background-color: var(--color-gray);
+  color: var(--color-primary);
   outline: none !important;
-  border-color: var(--color-light, --color-primary, --color-accent, --color-primary, --color-light);
+  border-color: var(--color-light);
   -webkit-tap-highlight-color: transparent;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 .bg-dark .btn-gray:hover {
-  background-color: var(--color-accent, --color-primary, --color-primary, --color-secondary, --color-light);
-  color: var(--color-primary, --color-secondary, --color-accent, --color-primary, --color-primary);
-  border-color: var(--color-accent, --color-primary, --color-primary, --color-secondary, --color-light);
+  background-color: var(--color-accent);
+  color: var(--color-primary);
+  border-color: var(--color-accent);
 }
 .bg-dark .btn-gray:hover, .bg-dark .btn-gray:focus, .bg-dark .btn-gray:active {
   outline: none !important;
 }
 .bg-dark .btn-light {
-  background-color: var(--color-light, --color-primary, --color-accent, --color-primary, --color-light);
-  color: var(--color-primary, --color-secondary, --color-accent, --color-primary, --color-primary);
+  background-color: var(--color-light);
+  color: var(--color-primary);
   outline: none !important;
-  border-color: var(--color-light, --color-primary, --color-accent, --color-primary, --color-light);
+  border-color: var(--color-light);
   -webkit-tap-highlight-color: transparent;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 .bg-dark .btn-light:hover {
-  background-color: var(--color-accent, --color-primary, --color-primary, --color-secondary, --color-light);
-  color: var(--color-primary, --color-secondary, --color-accent, --color-primary, --color-primary);
-  border-color: var(--color-accent, --color-primary, --color-primary, --color-secondary, --color-light);
+  background-color: var(--color-accent);
+  color: var(--color-primary);
+  border-color: var(--color-accent);
 }
 .bg-dark .btn-light:hover, .bg-dark .btn-light:focus, .bg-dark .btn-light:active {
   outline: none !important;
 }
 
 .bg-primary .btn-dark {
-  background-color: var(--color-dark, --color-light, --color-accent, --color-primary, --color-border-dark);
-  color: var(--color-light, --color-primary, --color-accent, --color-primary, --color-light);
+  background-color: var(--color-dark);
+  color: var(--color-light);
   outline: none !important;
-  border-color: var(--color-dark, --color-light, --color-accent, --color-primary, --color-border-dark);
+  border-color: var(--color-border-dark);
   -webkit-tap-highlight-color: transparent;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 .bg-primary .btn-dark:hover {
-  background-color: var(--color-accent, --color-primary, --color-primary, --color-secondary, --color-light);
-  color: var(--color-primary, --color-secondary, --color-accent, --color-primary, --color-primary);
-  border-color: var(--color-accent, --color-primary, --color-primary, --color-secondary, --color-light);
+  background-color: var(--color-accent);
+  color: var(--color-primary);
+  border-color: var(--color-accent);
 }
 .bg-primary .btn-dark:hover, .bg-primary .btn-dark:focus, .bg-primary .btn-dark:active {
   outline: none !important;
 }
 .bg-primary .btn-primary {
-  background-color: var(--color-primary, --color-secondary, --color-accent, --color-primary, --color-primary);
-  color: var(--color-secondary, --color-primary, --color-accent, --color-primary, --color-secondary);
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
   outline: none !important;
-  border-color: var(--color-primary, --color-secondary, --color-accent, --color-primary, --color-primary);
+  border-color: var(--color-secondary);
   -webkit-tap-highlight-color: transparent;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 .bg-primary .btn-primary:hover {
-  background-color: var(--color-accent, --color-primary, --color-primary, --color-secondary, --color-light);
-  color: var(--color-primary, --color-secondary, --color-accent, --color-primary, --color-primary);
-  border-color: var(--color-accent, --color-primary, --color-primary, --color-secondary, --color-light);
+  background-color: var(--color-accent);
+  color: var(--color-primary);
+  border-color: var(--color-accent);
 }
 .bg-primary .btn-primary:hover, .bg-primary .btn-primary:focus, .bg-primary .btn-primary:active {
   outline: none !important;
 }
 .bg-primary .btn-secondary {
-  background-color: var(--color-secondary, --color-primary, --color-accent, --color-primary, --color-secondary);
-  color: var(--color-primary, --color-secondary, --color-accent, --color-primary, --color-primary);
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
   outline: none !important;
-  border-color: var(--color-secondary, --color-primary, --color-accent, --color-primary, --color-secondary);
+  border-color: var(--color-secondary);
   -webkit-tap-highlight-color: transparent;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 .bg-primary .btn-secondary:hover {
-  background-color: var(--color-accent, --color-primary, --color-primary, --color-secondary, --color-light);
-  color: var(--color-primary, --color-secondary, --color-accent, --color-primary, --color-primary);
-  border-color: var(--color-accent, --color-primary, --color-primary, --color-secondary, --color-light);
+  background-color: var(--color-accent);
+  color: var(--color-primary);
+  border-color: var(--color-accent);
 }
 .bg-primary .btn-secondary:hover, .bg-primary .btn-secondary:focus, .bg-primary .btn-secondary:active {
   outline: none !important;
 }
 .bg-primary .btn-accent {
-  background-color: var(--color-accent, --color-primary, --color-primary, --color-secondary, --color-light);
-  color: var(--color-primary, --color-secondary, --color-accent, --color-primary, --color-primary);
+  background-color: var(--color-accent);
+  color: var(--color-primary);
   outline: none !important;
-  border-color: var(--color-light, --color-primary, --color-accent, --color-primary, --color-light);
+  border-color: var(--color-accent);
   -webkit-tap-highlight-color: transparent;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 .bg-primary .btn-accent:hover {
-  background-color: var(--color-primary, --color-secondary, --color-accent, --color-primary, --color-primary);
-  color: var(--color-secondary, --color-primary, --color-accent, --color-primary, --color-secondary);
-  border-color: var(--color-primary, --color-secondary, --color-accent, --color-primary, --color-primary);
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  border-color: var(--color-secondary);
 }
 .bg-primary .btn-accent:hover, .bg-primary .btn-accent:focus, .bg-primary .btn-accent:active {
   outline: none !important;
 }
 .bg-primary .btn-gray {
-  background-color: var(--color-gray, --color-primary, --color-accent, --color-primary, --color-light);
-  color: var(--color-primary, --color-secondary, --color-accent, --color-primary, --color-primary);
+  background-color: var(--color-gray);
+  color: var(--color-primary);
   outline: none !important;
-  border-color: var(--color-light, --color-primary, --color-accent, --color-primary, --color-light);
+  border-color: var(--color-light);
   -webkit-tap-highlight-color: transparent;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 .bg-primary .btn-gray:hover {
-  background-color: var(--color-accent, --color-primary, --color-primary, --color-secondary, --color-light);
-  color: var(--color-primary, --color-secondary, --color-accent, --color-primary, --color-primary);
-  border-color: var(--color-accent, --color-primary, --color-primary, --color-secondary, --color-light);
+  background-color: var(--color-accent);
+  color: var(--color-primary);
+  border-color: var(--color-accent);
 }
 .bg-primary .btn-gray:hover, .bg-primary .btn-gray:focus, .bg-primary .btn-gray:active {
   outline: none !important;
 }
 .bg-primary .btn-light {
-  background-color: var(--color-light, --color-primary, --color-accent, --color-primary, --color-light);
-  color: var(--color-primary, --color-secondary, --color-accent, --color-primary, --color-primary);
+  background-color: var(--color-light);
+  color: var(--color-primary);
   outline: none !important;
-  border-color: var(--color-light, --color-primary, --color-accent, --color-primary, --color-light);
+  border-color: var(--color-light);
   -webkit-tap-highlight-color: transparent;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 .bg-primary .btn-light:hover {
-  background-color: var(--color-accent, --color-primary, --color-primary, --color-secondary, --color-light);
-  color: var(--color-primary, --color-secondary, --color-accent, --color-primary, --color-primary);
-  border-color: var(--color-accent, --color-primary, --color-primary, --color-secondary, --color-light);
+  background-color: var(--color-accent);
+  color: var(--color-primary);
+  border-color: var(--color-accent);
 }
 .bg-primary .btn-light:hover, .bg-primary .btn-light:focus, .bg-primary .btn-light:active {
+  outline: none !important;
+}
+
+.bg-secondary .btn-dark {
+  background-color: var(--color-dark);
+  color: var(--color-light);
+  outline: none !important;
+  border-color: var(--color-border-dark);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.bg-secondary .btn-dark:hover {
+  background-color: var(--color-accent);
+  color: var(--color-primary);
+  border-color: var(--color-accent);
+}
+.bg-secondary .btn-dark:hover, .bg-secondary .btn-dark:focus, .bg-secondary .btn-dark:active {
+  outline: none !important;
+}
+.bg-secondary .btn-primary {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  outline: none !important;
+  border-color: var(--color-secondary);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.bg-secondary .btn-primary:hover {
+  background-color: var(--color-accent);
+  color: var(--color-primary);
+  border-color: var(--color-accent);
+}
+.bg-secondary .btn-primary:hover, .bg-secondary .btn-primary:focus, .bg-secondary .btn-primary:active {
+  outline: none !important;
+}
+.bg-secondary .btn-secondary {
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+  outline: none !important;
+  border-color: var(--color-primary);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.bg-secondary .btn-secondary:hover {
+  background-color: var(--color-accent);
+  color: var(--color-primary);
+  border-color: var(--color-accent);
+}
+.bg-secondary .btn-secondary:hover, .bg-secondary .btn-secondary:focus, .bg-secondary .btn-secondary:active {
+  outline: none !important;
+}
+.bg-secondary .btn-accent {
+  background-color: var(--color-accent);
+  color: var(--color-primary);
+  outline: none !important;
+  border-color: var(--color-accent);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.bg-secondary .btn-accent:hover {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  border-color: var(--color-secondary);
+}
+.bg-secondary .btn-accent:hover, .bg-secondary .btn-accent:focus, .bg-secondary .btn-accent:active {
+  outline: none !important;
+}
+.bg-secondary .btn-gray {
+  background-color: var(--color-gray);
+  color: var(--color-primary);
+  outline: none !important;
+  border-color: var(--color-light);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.bg-secondary .btn-gray:hover {
+  background-color: var(--color-accent);
+  color: var(--color-primary);
+  border-color: var(--color-accent);
+}
+.bg-secondary .btn-gray:hover, .bg-secondary .btn-gray:focus, .bg-secondary .btn-gray:active {
+  outline: none !important;
+}
+.bg-secondary .btn-light {
+  background-color: var(--color-light);
+  color: var(--color-primary);
+  outline: none !important;
+  border-color: var(--color-light);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.bg-secondary .btn-light:hover {
+  background-color: var(--color-accent);
+  color: var(--color-primary);
+  border-color: var(--color-accent);
+}
+.bg-secondary .btn-light:hover, .bg-secondary .btn-light:focus, .bg-secondary .btn-light:active {
+  outline: none !important;
+}
+
+.bg-accent .btn-dark {
+  background-color: var(--color-dark);
+  color: var(--color-light);
+  outline: none !important;
+  border-color: var(--color-border-dark);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.bg-accent .btn-dark:hover {
+  background-color: var(--color-accent);
+  color: var(--color-primary);
+  border-color: var(--color-border-dark);
+}
+.bg-accent .btn-dark:hover, .bg-accent .btn-dark:focus, .bg-accent .btn-dark:active {
+  outline: none !important;
+}
+.bg-accent .btn-primary {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  outline: none !important;
+  border-color: var(--color-primary);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.bg-accent .btn-primary:hover {
+  background-color: var(--color-accent);
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+.bg-accent .btn-primary:hover, .bg-accent .btn-primary:focus, .bg-accent .btn-primary:active {
+  outline: none !important;
+}
+.bg-accent .btn-secondary {
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+  outline: none !important;
+  border-color: var(--color-secondary);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.bg-accent .btn-secondary:hover {
+  background-color: var(--color-accent);
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+.bg-accent .btn-secondary:hover, .bg-accent .btn-secondary:focus, .bg-accent .btn-secondary:active {
+  outline: none !important;
+}
+.bg-accent .btn-accent {
+  background-color: var(--color-accent);
+  color: var(--color-primary);
+  outline: none !important;
+  border-color: var(--color-primary);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.bg-accent .btn-accent:hover {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  border-color: var(--color-secondary);
+}
+.bg-accent .btn-accent:hover, .bg-accent .btn-accent:focus, .bg-accent .btn-accent:active {
+  outline: none !important;
+}
+.bg-accent .btn-gray {
+  background-color: var(--color-gray);
+  color: var(--color-primary);
+  outline: none !important;
+  border-color: var(--color-gray);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.bg-accent .btn-gray:hover {
+  background-color: var(--color-accent);
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+.bg-accent .btn-gray:hover, .bg-accent .btn-gray:focus, .bg-accent .btn-gray:active {
+  outline: none !important;
+}
+.bg-accent .btn-light {
+  background-color: var(--color-light);
+  color: var(--color-primary);
+  outline: none !important;
+  border-color: var(--color-light);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.bg-accent .btn-light:hover {
+  background-color: var(--color-accent);
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+.bg-accent .btn-light:hover, .bg-accent .btn-light:focus, .bg-accent .btn-light:active {
+  outline: none !important;
+}
+
+.bg-gray .btn-dark {
+  background-color: var(--color-dark);
+  color: var(--color-light);
+  outline: none !important;
+  border-color: var(--color-border-dark);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.bg-gray .btn-dark:hover {
+  background-color: var(--color-accent);
+  color: var(--color-primary);
+  border-color: var(--color-accent);
+}
+.bg-gray .btn-dark:hover, .bg-gray .btn-dark:focus, .bg-gray .btn-dark:active {
+  outline: none !important;
+}
+.bg-gray .btn-primary {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  outline: none !important;
+  border-color: var(--color-primary);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.bg-gray .btn-primary:hover {
+  background-color: var(--color-accent);
+  color: var(--color-primary);
+  border-color: var(--color-accent);
+}
+.bg-gray .btn-primary:hover, .bg-gray .btn-primary:focus, .bg-gray .btn-primary:active {
+  outline: none !important;
+}
+.bg-gray .btn-secondary {
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+  outline: none !important;
+  border-color: var(--color-secondary);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.bg-gray .btn-secondary:hover {
+  background-color: var(--color-accent);
+  color: var(--color-primary);
+  border-color: var(--color-accent);
+}
+.bg-gray .btn-secondary:hover, .bg-gray .btn-secondary:focus, .bg-gray .btn-secondary:active {
+  outline: none !important;
+}
+.bg-gray .btn-accent {
+  background-color: var(--color-accent);
+  color: var(--color-primary);
+  outline: none !important;
+  border-color: var(--color-accent);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.bg-gray .btn-accent:hover {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  border-color: var(--color-primary);
+}
+.bg-gray .btn-accent:hover, .bg-gray .btn-accent:focus, .bg-gray .btn-accent:active {
+  outline: none !important;
+}
+.bg-gray .btn-gray {
+  background-color: var(--color-gray);
+  color: var(--color-primary);
+  outline: none !important;
+  border-color: var(--color-border-gray);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.bg-gray .btn-gray:hover {
+  background-color: var(--color-accent);
+  color: var(--color-primary);
+  border-color: var(--color-accent);
+}
+.bg-gray .btn-gray:hover, .bg-gray .btn-gray:focus, .bg-gray .btn-gray:active {
+  outline: none !important;
+}
+.bg-gray .btn-light {
+  background-color: var(--color-light);
+  color: var(--color-primary);
+  outline: none !important;
+  border-color: var(--color-border-light);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.bg-gray .btn-light:hover {
+  background-color: var(--color-accent);
+  color: var(--color-primary);
+  border-color: var(--color-accent);
+}
+.bg-gray .btn-light:hover, .bg-gray .btn-light:focus, .bg-gray .btn-light:active {
+  outline: none !important;
+}
+
+.bg-light .btn-dark {
+  background-color: var(--color-dark);
+  color: var(--color-light);
+  outline: none !important;
+  border-color: var(--color-border-dark);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.bg-light .btn-dark:hover {
+  background-color: var(--color-accent);
+  color: var(--color-primary);
+  border-color: var(--color-accent);
+}
+.bg-light .btn-dark:hover, .bg-light .btn-dark:focus, .bg-light .btn-dark:active {
+  outline: none !important;
+}
+.bg-light .btn-primary {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  outline: none !important;
+  border-color: var(--color-primary);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.bg-light .btn-primary:hover {
+  background-color: var(--color-accent);
+  color: var(--color-primary);
+  border-color: var(--color-accent);
+}
+.bg-light .btn-primary:hover, .bg-light .btn-primary:focus, .bg-light .btn-primary:active {
+  outline: none !important;
+}
+.bg-light .btn-secondary {
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+  outline: none !important;
+  border-color: var(--color-secondary);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.bg-light .btn-secondary:hover {
+  background-color: var(--color-accent);
+  color: var(--color-primary);
+  border-color: var(--color-accent);
+}
+.bg-light .btn-secondary:hover, .bg-light .btn-secondary:focus, .bg-light .btn-secondary:active {
+  outline: none !important;
+}
+.bg-light .btn-accent {
+  background-color: var(--color-accent);
+  color: var(--color-primary);
+  outline: none !important;
+  border-color: var(--color-accent);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.bg-light .btn-accent:hover {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  border-color: var(--color-primary);
+}
+.bg-light .btn-accent:hover, .bg-light .btn-accent:focus, .bg-light .btn-accent:active {
+  outline: none !important;
+}
+.bg-light .btn-gray {
+  background-color: var(--color-gray);
+  color: var(--color-primary);
+  outline: none !important;
+  border-color: var(--color-border-gray);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.bg-light .btn-gray:hover {
+  background-color: var(--color-accent);
+  color: var(--color-primary);
+  border-color: var(--color-accent);
+}
+.bg-light .btn-gray:hover, .bg-light .btn-gray:focus, .bg-light .btn-gray:active {
+  outline: none !important;
+}
+.bg-light .btn-light {
+  background-color: var(--color-light);
+  color: var(--color-primary);
+  outline: none !important;
+  border-color: var(--color-border-light);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.bg-light .btn-light:hover {
+  background-color: var(--color-accent);
+  color: var(--color-primary);
+  border-color: var(--color-accent);
+}
+.bg-light .btn-light:hover, .bg-light .btn-light:focus, .bg-light .btn-light:active {
   outline: none !important;
 }
 
