@@ -1,18 +1,68 @@
-h1 { 
-    color: var(--color-primary); 
-}
-h2 { 
-    color: var(--color-primary); 
-}
-h3 { 
-    color: var(--color-secondary);
-}
-h4 { 
-    color: var(--color-primary);
-}
-h5 { 
-    color: var(--color-primary);
-}
-h6 {
-    color: var(--color-secondary);
-}
+@include heading-colors (
+    --color-primary,
+    --color-primary,
+    --color-secondary,
+    --color-primary,
+    --color-primary,
+    --color-secondary
+);
+
+@include heading-colors (
+    'dark',
+    --color-primary,
+    --color-primary,
+    --color-secondary,
+    --color-primary,
+    --color-primary,
+    --color-secondary
+);
+
+@include heading-colors (
+    'primary',
+    --color-light,
+    --color-light,
+    --color-secondary,
+    --color-light,
+    --color-light,
+    --color-secondary
+);
+
+@include heading-colors (
+    'secondary',
+    --color-primary,
+    --color-primary,
+    --color-accent,
+    --color-primary,
+    --color-primary,
+    --color-accent
+);
+
+@include heading-colors (
+    'accent',
+    --color-primary,
+    --color-primary,
+    --color-secondary,
+    --color-primary,
+    --color-primary,
+    --color-secondary
+);
+
+@include heading-colors (
+    'gray',
+    --color-primary,
+    --color-primary,
+    --color-secondary,
+    --color-primary,
+    --color-primary,
+    --color-secondary
+);
+
+@include heading-colors (
+    'light',
+    --color-primary,
+    --color-primary,
+    --color-secondary,
+    --color-primary,
+    --color-primary,
+    --color-secondary
+);

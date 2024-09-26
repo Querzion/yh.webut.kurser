@@ -1,7 +1,34 @@
-a {
-    color: var(--color-secondary);
-
-    &:hover {
-        color: var(--color-primary);
-    }
-}
+@include theme-links (
+    --color-secondary,
+    --color-primary
+);
+@include theme-links (
+    'dark',
+    --color-light,
+    --color-accent
+);
+@include theme-links (
+    'primary',
+    --color-light,
+    --color-accent
+);
+@include theme-links (
+    'secondary',
+    --color-light,
+    --color-light
+);
+@include theme-links (
+    'accent',
+    --color-secondary,
+    --color-primary
+);
+@include theme-links (
+    'gray',
+    --color-secondary,
+    --color-primary
+);
+@include theme-links (
+    'light',
+    --color-secondary,
+    --color-primary
+);
