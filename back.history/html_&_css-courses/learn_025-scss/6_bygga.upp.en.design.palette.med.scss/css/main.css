@@ -41,12 +41,10 @@ a {
   font-weight: 400;
   font-style: normal;
   font-size: 1em;
-  text-decoration: none;
-  /* @include btn;
-  @include button-colors(var(--color-primary), var(--color-secondary), var(--color-accent), var(--color-primary)) */
+  text-decoration: underline;
 }
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 a[target=_blank]::after {
   content: "\f08e";
@@ -211,13 +209,41 @@ body {
 
 span {
   color: var(--color-secondary);
+  font-weight: 600;
 }
 
-a {
+.bg-secondary span {
   color: var(--color-secondary);
 }
-a:hover {
+
+.bg-dark {
+  background-color: var(--color-dark);
+  color: var(--color-default);
+}
+
+.bg-primary {
+  background-color: var(--color-primary);
+  color: var(--color-light);
+}
+
+.bg-secondary {
+  background-color: var(--color-secondary);
   color: var(--color-primary);
+}
+
+.bg-accent {
+  background-color: var(--color-accent);
+  color: var(--color-primary);
+}
+
+.bg-gray {
+  background-color: var(--color-gray);
+  color: var(--color-default);
+}
+
+.bg-light {
+  background-color: var(--color-light);
+  color: var(--color-default);
 }
 
 .btn-dark {
@@ -1017,56 +1043,202 @@ a:hover {
   outline: none !important;
 }
 
-h1 {
-  color: var(--color-primary);
-}
-
-h2 {
-  color: var(--color-primary);
-}
-
-h3 {
+.bg- a {
   color: var(--color-secondary);
 }
-
-h4 {
+.bg- a:hover, .bg- a:focus, .bg- a:active {
   color: var(--color-primary);
 }
 
-h5 {
-  color: var(--color-primary);
+.bg-dark a {
+  color: var(--color-light);
+}
+.bg-dark a:hover, .bg-dark a:focus, .bg-dark a:active {
+  color: var(--color-accent);
 }
 
-h6 {
-  color: var(--color-secondary);
+.bg-primary a {
+  color: var(--color-light);
+}
+.bg-primary a:hover, .bg-primary a:focus, .bg-primary a:active {
+  color: var(--color-accent);
 }
 
-.bg-dark {
-  background-color: var(--color-dark);
-  color: var(--color-default);
+.bg-secondary a {
+  color: var(--color-light);
 }
-
-.bg-primary {
-  background-color: var(--color-primary);
+.bg-secondary a:hover, .bg-secondary a:focus, .bg-secondary a:active {
   color: var(--color-light);
 }
 
-.bg-secondary {
-  background-color: var(--color-secondary);
+.bg-accent a {
+  color: var(--color-secondary);
+}
+.bg-accent a:hover, .bg-accent a:focus, .bg-accent a:active {
   color: var(--color-primary);
 }
 
-.bg-accent {
-  background-color: var(--color-accent);
+.bg-gray a {
+  color: var(--color-secondary);
+}
+.bg-gray a:hover, .bg-gray a:focus, .bg-gray a:active {
   color: var(--color-primary);
 }
 
-.bg-gray {
-  background-color: var(--color-gray);
-  color: var(--color-default);
+.bg-light a {
+  color: var(--color-secondary);
+}
+.bg-light a:hover, .bg-light a:focus, .bg-light a:active {
+  color: var(--color-primary);
 }
 
-.bg-light {
-  background-color: var(--color-light);
-  color: var(--color-default);
+/* h1 {
+    color: var(--color-primary);
+}
+h2 {
+    color: var(--color-primary);
+}
+h3 {
+    color: var(--color-secondary);
+}
+h4 {
+    color: var(--color-primary);
+}
+h5 {
+    color: var(--color-primary);
+}
+h6 {
+    color: var(--color-secondary);
+} */
+.bg- h1 {
+  color: var(--color-primary);
+}
+.bg- h2 {
+  color: var(--color-primary);
+}
+.bg- h3 {
+  color: var(--color-secondary);
+}
+.bg- h4 {
+  color: var(--color-primary);
+}
+.bg- h5 {
+  color: var(--color-primary);
+}
+.bg- h6 {
+  color: var(--color-secondary);
+}
+
+.bg-dark h1 {
+  color: var(--color-primary);
+}
+.bg-dark h2 {
+  color: var(--color-primary);
+}
+.bg-dark h3 {
+  color: var(--color-secondary);
+}
+.bg-dark h4 {
+  color: var(--color-primary);
+}
+.bg-dark h5 {
+  color: var(--color-primary);
+}
+.bg-dark h6 {
+  color: var(--color-secondary);
+}
+
+.bg-primary h1 {
+  color: var(--color-light);
+}
+.bg-primary h2 {
+  color: var(--color-light);
+}
+.bg-primary h3 {
+  color: var(--color-secondary);
+}
+.bg-primary h4 {
+  color: var(--color-light);
+}
+.bg-primary h5 {
+  color: var(--color-light);
+}
+.bg-primary h6 {
+  color: var(--color-secondary);
+}
+
+.bg-secondary h1 {
+  color: var(--color-primary);
+}
+.bg-secondary h2 {
+  color: var(--color-primary);
+}
+.bg-secondary h3 {
+  color: var(--color-accent);
+}
+.bg-secondary h4 {
+  color: var(--color-primary);
+}
+.bg-secondary h5 {
+  color: var(--color-primary);
+}
+.bg-secondary h6 {
+  color: var(--color-accent);
+}
+
+.bg-accent h1 {
+  color: var(--color-primary);
+}
+.bg-accent h2 {
+  color: var(--color-primary);
+}
+.bg-accent h3 {
+  color: var(--color-secondary);
+}
+.bg-accent h4 {
+  color: var(--color-primary);
+}
+.bg-accent h5 {
+  color: var(--color-primary);
+}
+.bg-accent h6 {
+  color: var(--color-secondary);
+}
+
+.bg-gray h1 {
+  color: var(--color-primary);
+}
+.bg-gray h2 {
+  color: var(--color-primary);
+}
+.bg-gray h3 {
+  color: var(--color-secondary);
+}
+.bg-gray h4 {
+  color: var(--color-primary);
+}
+.bg-gray h5 {
+  color: var(--color-primary);
+}
+.bg-gray h6 {
+  color: var(--color-secondary);
+}
+
+.bg-light h1 {
+  color: var(--color-primary);
+}
+.bg-light h2 {
+  color: var(--color-primary);
+}
+.bg-light h3 {
+  color: var(--color-secondary);
+}
+.bg-light h4 {
+  color: var(--color-primary);
+}
+.bg-light h5 {
+  color: var(--color-primary);
+}
+.bg-light h6 {
+  color: var(--color-secondary);
 }/*# sourceMappingURL=main.css.map */
