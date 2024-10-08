@@ -1,0 +1,29 @@
+.square {
+    margin-top: 3rem;
+    
+    width: 20rem;
+    height: 20rem;
+
+    background-color: slateblue;
+    border-radius: .5rem;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.ball {
+    width: 100px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: #404040;
+    border: 2px solid #fff;
+}
+
+.bg-green {
+    background-color: #599874;
+}
+.bg-red {
+    background-color: red;
+}
+.bg-white {
+    background-color: white;
+}
