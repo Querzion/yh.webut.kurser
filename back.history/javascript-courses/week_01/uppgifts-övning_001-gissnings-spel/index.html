@@ -19,7 +19,7 @@
             <div class="content">
             
                 <h1>Guess the number!</h1>
-                <h2>( A number between 1-100. )</h2>
+                <h2>( A number between 0-100 )</h2>
             
                 <form id="guess-form" class="guess-form">
                     <input type="text" id="guess-input" class="guess-input" placeholder="Write your guess here...">
@@ -30,10 +30,13 @@
                     
                 </div>
             
-                <div id="answer-box" class="answer-box hidden">
-                    <h3>Answer:</h3>
-                    <div id="answer-field" class="answer-field">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicingpisicingpisicing pisicing elit.</p>
+                <div id="hint-box" class="hint-box hidden">
+                    <h3>Hint:</h3>
+                    <div id="hint-field" class="hint-field">
+                        <!-- <p id="hint" class="message">THE COLOR CHANGES DEPENDING ON THE STATUS.</p> -->
+                        <p id="low" class="message hidden">SORRY! THE GUESS IS TOO LOW. TRY AGAIN.</p>
+                        <p id="high" class="message hidden">SORRY! THE GUESS IS TOO HIGH. TRY AGAIN.</p>
+                        <p id="correct" class="message hidden">CONGRATULATIONS! YOU GUESSED THE RIGHT NUMBER!</p>
                     </div>
                 </div>
             

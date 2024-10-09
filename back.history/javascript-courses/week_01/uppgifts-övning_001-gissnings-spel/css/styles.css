@@ -20,13 +20,13 @@ h1 {
 h2, h3 {
     padding: .5rem;
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 800;
     text-transform: uppercase;
 }
 
 p {
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .container {
@@ -39,7 +39,7 @@ p {
     border: 3px solid #404040;
     background-color: #ffe4a3;
     padding: 1rem;
-    min-width: 350px;
+    min-width: 365px;
 }
 
 .right {
@@ -110,19 +110,19 @@ p {
     width: 100%;
     /* padding-top: .5rem; */
 
-    max-height: 50px;
+    max-height: 179px;
     overflow: hidden;
 }
 
-.guess {
+.message {
     margin-bottom: 1rem;
     background-color: #5998747a;
-    padding: .7rem;
+    padding: .5rem;
     border-radius: .5em;
     border: 2px dotted #599874;
 }
 
-.answer-box {
+.hint-box {
     justify-self: left;
     border: 3px dotted #404040;
     width: 100%;
@@ -130,11 +130,6 @@ p {
     margin-top: .8rem;
 
     padding: 0.7rem;
-}
-
-
-.answer-field {
-
 }
 
 .hidden {

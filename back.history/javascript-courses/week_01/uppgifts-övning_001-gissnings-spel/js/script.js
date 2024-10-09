@@ -1,91 +1,94 @@
+// #############################################################################
+// RANDOM NUMBER GENERATOR (FRÅN | DATATYPER OCH VARIABLER) (ÄNDRAT CHATGPT)
+// #############################################################################
+
+let randomNr = Math.random() * 100;
+randomNr = Math.round(randomNr);
+
+console.log("Hello there, dear cheater. . . ")
+console.log("This is the random number: " + randomNr);
+console.log("Press F12 & then F5. Try again!")
+
+// #############################################################################
+
 const guessBox = document.querySelector("#guess-box");
 const guessForm = document.querySelector('#guess-form');
 const guessDiv = document.querySelector('#guess-field');
-const answerBox = document.querySelector("#answer-box");
-const answerDiv = document.querySelector("#answer-field");
 const guessInput = document.querySelector('#guess-input');
+const answerBox = document.querySelector("#hint-box");
+const answerDiv = document.querySelector("#hint-field");
+const hint = document.querySelector("#hint");
+const hintLow = document.querySelector("#low");
+const hintHigh = document.querySelector("#high");
+const hintCorrect = document.querySelector("#correct");
 
+// #############################################################################
 // COMMENT THE GUESS (FRÅN | DOM - SKAPA ELEMENT MED JAVASCRIPT)
 // #############################################################################
 
+
 guessForm.addEventListener('submit', e => {
     e.preventDefault();
-
-    if(guessInput.value === "") return   // if the input is empty, stop it's output
-
-    const newGuess = createCommentElement(guessInput.value);
     
+    if(guessInput.value === "") return
+    
+    const newGuess = createMessageElement(guessInput.value);
     guessDiv.insertAdjacentElement("afterbegin", newGuess);
     
     guessInput.value = ""
 })
 
-function createCommentElement(value) {
-    
-    const guesses = document.createElement('div');
-    guesses.classList.add("guess");
-    
-    const guessText = document.createElement("p");
-    guessText.textContent = value;
-    
-    guesses.appendChild(guessText);
-    
-    return guesses;
-}
-// #############################################################################
 
-// RANDOM NUMBER GENERATOR (FRÅN | DATATYPER OCH VARIABLER)
-// #############################################################################
-let randomNr = Math.random() * 100;
-randomNr = Math.round(randomNr);
-
-const guessNumber = randomNr;
-console.log(randomNr);
-console.log(guessNumber);
-
-
-guessForm.addEventListener('submit', e => {
-    e.preventDefault();
+function createMessageElement(value) {
     
-    if(guessInput === "") {
+    const message = document.createElement('div');
+    message.classList.add("message");
+    
+    const messageText = document.createElement("p");
+    
+    if(value >= 0 && value < 101) {
         
-        return
+        if (value == randomNr) {
+            messageText.textContent = `YOUR NUMBER IS: ${value}.`;
+            
+            guessBox.classList.add("right");
+            answerBox.classList.add("hidden");
+            hintCorrect.classList.remove("hidden");
+        } else if (value > randomNr) {
+            messageText.textContent = `YOUR NUMBER IS: ${value}.`;
+            
+            guessBox.classList.add("wrong");
+            answerBox.classList.remove("hidden");
+            hintHigh.classList.remove("hidden");
+            
+        } else {
+            messageText.textContent = `YOUR NUMBER IS: ${value}.`;
+            
+            guessBox.classList.add("wrong");
+            answerBox.classList.remove("hidden");
+            hintLow.classList.remove("hidden");
+        }
+        
+        console.log(value);
         
     } else {
         
-        do {
-
-        } while(guessInput != guessNumber);
-
+        messageText.textContent = `Your number has to be within the range of 0-100.`;
     }
     
-   /*  if(guessInput.value === guessNumber) {
-        
-        guessBox.classList.remove("wrong");
-        guessBox.classList.add("right");
-        
-        answerBox.classList.remove("hidden");
-    } else if(guessInput.value !== guessNumber) {
-        
-        guessBox.classList.remove("right");
-        guessBox.classList.add("wrong");
-        
-        answerBox.classList.remove("hidden");
-    } else if (guessInput.value === "") {
-        console.log("ueue");
-    } return */
-    
-    
-})
+    message.appendChild(messageText);
+
+    return message;
+}
+
+const userInput = guessInput.value; 
 
 // Remove the border color at
 guessInput.addEventListener("click", e => {
+    
     guessBox.classList.remove("right");
     guessBox.classList.remove("wrong");
-    answerBox.classList.add("hidden");
+    hintCorrect.classList.add("hidden");
+    hintHigh.classList.add("hidden");
+    hintLow.classList.add("hidden");
 })
-
-// #############################################################################
-
-// 
-// #############################################################################
