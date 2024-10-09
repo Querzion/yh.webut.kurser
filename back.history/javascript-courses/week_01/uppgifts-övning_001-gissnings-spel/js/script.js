@@ -57,7 +57,7 @@ function createMessageElement(value) {
             
             Correct.classList.remove("hidden");
 
-            messageText.textContent = `GUESS: ${i} | YOUR NUMBER IS: ${value}. >> :D`;
+            messageText.textContent = `GUESS: ${i} | YOUR NUMBER IS: ${value}.`;
             guessInput.value = "PRESS F5 TO PLAY AGAIN!"
             
             i++;
