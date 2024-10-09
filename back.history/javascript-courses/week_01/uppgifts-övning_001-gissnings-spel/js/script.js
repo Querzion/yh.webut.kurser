@@ -17,10 +17,10 @@ const guessDiv = document.querySelector('#guess-field');
 const guessInput = document.querySelector('#guess-input');
 const answerBox = document.querySelector("#hint-box");
 const answerDiv = document.querySelector("#hint-field");
-const hint = document.querySelector("#hint");
-const hintLow = document.querySelector("#low");
-const hintHigh = document.querySelector("#high");
-const hintCorrect = document.querySelector("#correct");
+
+const Low = document.querySelector("#low");
+const High = document.querySelector("#high");
+const Correct = document.querySelector("#correct");
 
 // #############################################################################
 // COMMENT THE GUESS (FRÅN | DOM - SKAPA ELEMENT MED JAVASCRIPT)
@@ -38,6 +38,7 @@ guessForm.addEventListener('submit', e => {
     guessInput.value = ""
 })
 
+let i = 1;
 
 function createMessageElement(value) {
     
@@ -46,34 +47,50 @@ function createMessageElement(value) {
     
     const messageText = document.createElement("p");
     
+
     if(value >= 0 && value < 101) {
         
         if (value == randomNr) {
-            messageText.textContent = `YOUR NUMBER IS: ${value}.`;
-            
+
             guessBox.classList.add("right");
-            answerBox.classList.add("hidden");
-            hintCorrect.classList.remove("hidden");
+            answerBox.classList.remove("hidden");
+            
+            Correct.classList.remove("hidden");
+
+            messageText.textContent = `GUESS: ${i} | YOUR NUMBER IS: ${value}. >> :D`;
+            guessInput.value = "PRESS F5 TO PLAY AGAIN!"
+            
+            i++;
+
         } else if (value > randomNr) {
-            messageText.textContent = `YOUR NUMBER IS: ${value}.`;
             
             guessBox.classList.add("wrong");
             answerBox.classList.remove("hidden");
-            hintHigh.classList.remove("hidden");
+           
+            High.classList.remove("hidden");
             
+            messageText.textContent = `GUESS: ${i} | YOUR NUMBER IS: ${value}. >> D`;
+            
+            i++;
+
         } else {
-            messageText.textContent = `YOUR NUMBER IS: ${value}.`;
             
             guessBox.classList.add("wrong");
             answerBox.classList.remove("hidden");
-            hintLow.classList.remove("hidden");
+
+            Low.classList.remove("hidden");
+            
+            messageText.textContent = `GUESS: ${i} | YOUR NUMBER IS: ${value}. >> U`;
+            
+            i++;
+        
         }
         
-        console.log(value);
+        console.log("Your guess: ", value);
         
     } else {
         
-        messageText.textContent = `Your number has to be within the range of 0-100.`;
+        messageText.textContent = `YOUR GUESS HAS TO BE A NUMBER, AND WITHIN THE RANGE OF 0-100. GOOD LUCK!`;
     }
     
     message.appendChild(messageText);
@@ -83,12 +100,15 @@ function createMessageElement(value) {
 
 const userInput = guessInput.value; 
 
-// Remove the border color at
+// RESET
 guessInput.addEventListener("click", e => {
     
     guessBox.classList.remove("right");
     guessBox.classList.remove("wrong");
-    hintCorrect.classList.add("hidden");
-    hintHigh.classList.add("hidden");
-    hintLow.classList.add("hidden");
+
+    answerBox.classList.add("hidden");
+
+    Correct.classList.add("hidden");
+    High.classList.add("hidden");
+    Low.classList.add("hidden");
 })
