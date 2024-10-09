@@ -1,5 +1,5 @@
 // #############################################################################
-// RANDOM NUMBER GENERATOR (FRÅN | DATATYPER OCH VARIABLER) (ÄNDRAT CHATGPT)
+// RANDOM NUMBER GENERATOR (FRÅN | DATATYPER OCH VARIABLER)
 // #############################################################################
 
 let randomNr = Math.random() * 100;
