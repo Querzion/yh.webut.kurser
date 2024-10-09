@@ -42,7 +42,7 @@ let i = 1;
 
 function createMessageElement(value) {
     
-    const message = document.createElement('div');
+    const message = document.createElement('li');
     message.classList.add("message");
     
     const messageText = document.createElement("p");
