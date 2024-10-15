@@ -1,0 +1,85 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #c3c3c3;
+}
+
+/* Denna utility class ger alla direkta 'children' men inte 'parent' syntaxen inställningarna */
+.space-y-1 > * + * {
+    margin-top: 1rem;
+}
+
+.btn {
+    padding: .4em 2em;
+    font-size: 1rem;
+
+    background-color: #599874;
+    color: #fff;
+
+    border: 1px transparent;
+    /* border: 0; */
+    border-radius: .5rem;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 600;
+
+    &:hover,
+    &:focus-visible {
+        background-color: hsla(146, 26%, 47%, 0.87);
+    }
+}
+
+
+.container {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.reg-form {
+    background-color: #fbfbfb;
+    padding: 1rem;
+    border-radius: .5rem;
+    min-width: 500px;
+}
+
+/* .input-group {
+
+} */
+
+.form-label {
+    display: block;
+    margin-bottom: .3rem;
+}
+
+.form-input {
+    font: inherit;
+    font-size: 1rem;
+    width: 100%;
+    padding: .4em;
+    border-radius: .5em;
+    border: 1px solid #c3c3c3;
+}
+
+.invalid-input {
+    color: firebrick;
+    font-size: .9rem;
+    display: none;
+}
+
+.error {
+
+    .form-input {
+        border: 2px dotted;
+        border-color: firebrick;
+    }
+    
+    .invalid-input {
+        display: block;
+    }
+}

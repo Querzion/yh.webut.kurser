@@ -10,15 +10,50 @@
     <!-- <link rel="stylesheet" href="https://kit.fontawesome.com/a576612222.css" crossorigin="anonymous"> -->
     <!-- <link rel="stylesheet" href="./css/theme.css"> -->
     <!-- <link rel="stylesheet" href="./css/main.css"> -->
-    <!-- <link rel="stylesheet" href="./css/styles.css"> -->
+    <link rel="stylesheet" href="./css/styles.css">
 
-    <title>Javascript - Validera Formulär - Del 1</title>
+    <title>Javascript - Validera Formulär - Del 2</title>
     <script defer></script> <!-- If javascript is placed in the top, then defer it for a later read. -->
 </head>
 <body>
     
     <a href="https://youtu.be/7jM6JRrmFpc" target="_blank">Introduktions Video</a>
     
+    <div class="container">
+
+        <form id="regForm" class="reg-form space-y-1">
+
+            <div class="input-group">
+                <label for="firstName" class="form-label">First Name *</label>
+                <input type="text" id="firstName" class="form-input">
+                <p class="invalid-input">First Name is required.</p>
+            </div>
+            
+            <div class="input-group">
+                <label for="middleName" class="form-label">Middle Name:</label>
+                <input type="text" id="middleName" class="form-input">
+                <p class="invalid-input">Middle Name is required.</p>
+            </div>
+            
+            <div class="input-group">
+                <label for="lastName" class="form-label">Last Name:</label>
+                <input type="text" id="lastName" class="form-input">
+                <p class="invalid-input">Last Name is required.</p>
+            </div>
+            
+            <div class="input-group">
+                <label for="address" class="form-label">Address:</label>
+                <input type="text" id="address" class="form-input">
+                <p class="invalid-input">Address is required.</p>
+            </div>
+
+            <!-- <input type="submit" value="Register"> -->
+            <button id="submit-btn" type="submit" class="btn">Register</button>
+
+        </form>
+
+    </div>
+
     
     <script> 
     </script>
