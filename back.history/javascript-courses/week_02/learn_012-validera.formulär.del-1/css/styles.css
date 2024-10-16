@@ -48,9 +48,6 @@ body {
     min-width: 500px;
 }
 
-/* .input-group {
-
-} */
 
 .form-label {
     display: block;
@@ -64,6 +61,11 @@ body {
     padding: .4em;
     border-radius: .5em;
     border: 1px solid #c3c3c3;
+}
+
+/* REQUIRED ASTERISK */
+.input-group:has(input:required) label::after {
+    content: ' *'
 }
 
 .invalid-input {

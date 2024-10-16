@@ -6,22 +6,25 @@
     <meta name="description" content="Javascript Course in Webdevelopment.">
     
     <link rel="shortcut icon" href="./images/q-icon.ico" type="image/x-icon">
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- <link rel="stylesheet" href="https://kit.fontawesome.com/a576612222.css" crossorigin="anonymous"> -->
     <!-- <link rel="stylesheet" href="./css/theme.css"> -->
     <!-- <link rel="stylesheet" href="./css/main.css"> -->
     <link rel="stylesheet" href="./css/styles.css">
 
-    <title>Javascript - Validera Formulär - Del 1</title>
+    <title>Javascript - Validera Formulär - Del 2</title>
     <script defer></script> <!-- If javascript is placed in the top, then defer it for a later read. -->
 </head>
 <body>
     
     <a href="https://youtu.be/7jM6JRrmFpc" target="_blank">Introduktions Video</a>
+    <a href="https://regexr.com/" target="_blank">Regular Expressions</a>
     
     <div class="container">
 
-        <form id="regForm" class="reg-form space-y-1">
+        <!-- Del 1 - Registrerings formulär -->
+
+        <!-- <form id="regForm" class="reg-form space-y-1">
 
             <div class="input-group">
                 <label for="firstName" class="form-label">First Name *</label>
@@ -47,14 +50,61 @@
                 <p class="invalid-input">Address is required.</p>
             </div>
 
-            <!-- <input type="submit" value="Register"> -->
             <button id="submit-btn" type="submit" class="btn">Register</button>
+
+        </form> -->
+
+        <!-- Del 2 - Registrerings formulär-->
+
+        <form id="regForm" class="reg-form space-y-1" novalidate>
+
+            <div class="input-group">
+                <label for="firstName" class="form-label"><i class="fa-solid fa-id-card"></i> First Name</label>
+                <input type="text" id="firstName" class="form-input" placeholder="Enter your first name here. . ." required>
+                <p class="invalid-input">Error msg.</p>
+            </div>
+            
+            <div class="input-group">
+                <label for="lastName" class="form-label"><i class="fa-regular fa-id-card"></i> Last Name</label>
+                <input type="text" id="lastName" class="form-input" placeholder="Enter your last name here. . ." required>
+                <p class="invalid-input">Error msg.</p>
+            </div>
+            
+            <div class="input-group">
+                <label for="email" class="form-label"><i class="fa-solid fa-envelope"></i> E-mail</label>
+                <input type="email" id="email" class="form-input" placeholder="Enter your email address here. . ." required>
+                <p class="invalid-input">Error msg.</p>
+            </div>
+            
+            <div class="input-group">
+                <label for="password" class="form-label"><i class="fa-solid fa-key"></i> Password</label>
+                <input type="password" id="password" class="form-input" placeholder="Create a new password here. . ." required>
+                <small class="tip">Must be atleast 8 characters, with 1 lower & 1 uppercase letter, 1 number and 1 special character. ex. Crap2'24</small>
+                <p class="invalid-input">Error msg.</p>
+            </div>
+            
+            <div class="input-group">
+                <label for="repeat-password" class="form-label"><i class="fa-solid fa-repeat"></i> Repeat Password</label>
+                <input type="password" id="repeat-password" class="form-input" placeholder="Repeat the new password here. . ." required>
+                <p class="invalid-input">Error msg.</p>
+            </div>
+            
+            <div class="input-group">
+                <input type="checkbox" id="terms" class="form-check" required>
+                <label for="terms" class="">I accept the <a class="user-agreement" href="#" target="_blank">user terms</a></label>
+                <p class="invalid-input">Error msg.</p>
+            </div>
+
+            <button id="submit-btn" type="submit" class="btn">
+                <span id="buttonText">Register</span>
+                <span id="buttonIcon" class="fas fa-times"></span>
+            </button>
+            
 
         </form>
 
     </div>
 
-    
     <script> 
     </script>
 
