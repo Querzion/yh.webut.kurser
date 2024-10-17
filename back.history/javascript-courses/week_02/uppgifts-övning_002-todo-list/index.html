@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Javascript Course in Webdevelopment.">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="shortcut icon" href="./images/q-icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/styles.css">
+    
+    <title>Javascript - Övning 2 - TODO lista</title>
+</head>
+<body>
+
+    <section id="start-version" class="container">
+        <h2>Work from a video with some changes, but not done.</h2>
+
+        <div id="todo-box" class="todo-box">
+
+            <div class="content">
+
+            
+                <form id="todo-form" class="todo-form">
+                    <input type="text" id="todo-input" class="todo-input" placeholder="WRITE NEW TODO HERE">
+                    <button class="btn">Create TO:DO</button>
+                </form>
+
+                <ul id="todos-field" class="todos-field">
+                    
+                </ul>
+
+                <button id="save-todo-list-btn" class="btn save-todo-list-btn hidden">Save TO:DO List</button>
+            
+            </div>
+        
+        </div>
+
+    </section>
+
+    <!-- CHATGPT VERSION -->
+    <section id="chatgpt-version" class="container">
+        <h2>Untouched ChatGPT todo-list version</h2>
+        <div class="content">
+            <form id="add-todo-form">
+                <input type="text" id="todo-input-chatgpt" placeholder="Lägg till en todo">
+                <button type="submit">Lägg till</button>
+            </form>
+            
+            <ul id="todo-list"></ul>
+        </div>
+    </section>
+
+    <section id="end-version" class="container">
+        <h2>End version?</h2>
+        
+        <div id="t2do-box" class="t2do-box">
+            
+            <div class="content">
+                
+            
+                <form id="t2do-form" class="t2do-form">
+                    <input type="text" id="t2do-input" class="t2do-input" placeholder="WRITE NEW TODO HERE">
+                    <button class="btn">Create TO:DO</button>
+                </form>
+
+                <ul id="t2dos-field" class="t2dos-field">
+                    
+                    <li class="t2do">
+                        <div class="t2do-left">
+                            <input id="t2do-checkmark" class="t2do-checkmark hidden" type="checkbox">
+                            <label for="t2do-checkmark">
+                                <p class="t2do-text">Text From input</p>
+                            </label>
+                        </div>
+                        <div class="t2do-right">
+                            <button id="t2do-btn" class="t2do-btn"><i class="fa-solid fa-trash"></i></button>
+                        </div>
+                    </li>
+                    <li class="t2do">
+                        <div class="t2do-left">
+                            <input id="t2do-checkmark" class="t2do-checkmark hidden" type="checkbox">
+                            <label for="t2do-checkmark">
+                                <p class="t2do-text">Vi gör en till fast i denna är det fett mycket mer text, mycket mer text. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus at repellendus suscipit mollitia recusandae ducimus praesentium, vel reprehenderit fugit sapiente facere accusantium commodi quas voluptatum soluta tenetur magnam accusamus, voluptatibus quaerat deleniti doloremque quidem, maxime fugiat. Deleniti, consequatur, autem optio nemo, repellendus quaerat assumenda dolorum eos nesciunt ipsum ratione similique!</p>
+                            </label>
+                        </div>
+                        <div class="t2do-right">
+                            <button id="t2do-btn" class="t2do-btn"><i class="fa-solid fa-trash"></i></button>
+                        </div>
+                    </li>
+
+                </ul>
+
+                <button id="save-t2do-list-btn" class="btn save-t2do-list-btn hidden">Save TO:DO List</button>
+            
+            </div>
+        
+        </div>
+
+    </section>
+    
+    <script src="./js/start-version.js"></script>
+    <script src="./js/chatgpt-version.js"></script>
+    <script src="./js/end-version.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

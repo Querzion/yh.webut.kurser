@@ -41,6 +41,9 @@ guessForm.addEventListener('submit', e => {
 let i = 1;
 
 function createMessageElement(value) {
+
+    guessBox.classList.remove("right");
+    guessBox.classList.remove("wrong");
     
     const message = document.createElement('li');
     message.classList.add("message");
@@ -49,6 +52,7 @@ function createMessageElement(value) {
     
 
     if(value >= 0 && value < 101) {
+        guessBox.classList.remove()
         
         if (value == randomNr) {
 
