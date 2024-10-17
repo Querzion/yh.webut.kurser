@@ -168,13 +168,18 @@ p {
     align-items: center;
     padding: 0;
     min-width: 300px;
-
+    
     button {
-        display: none;
+        display: none;  
 
+        /* @media (width > 768px) {
+            display: none;  
+        } */
+        
     }
-
+    
     &:hover {
+        transition: all 1000ms ease-in-out;
 
         button {
             display: block;
@@ -188,11 +193,19 @@ p {
 
 .t2do-left {
     padding: 1rem;
+    /* padding-bottom: 2rem; */
+    
     display: flex;
     
     p {
         cursor: pointer;
     }
+
+    @media (width > 768px) {
+        padding-bottom: 1rem;
+        
+    }
+
 }
 
 .t2do-right {
@@ -200,7 +213,6 @@ p {
     margin: 0;
     width: 100%;
     height: 100%;
-
 
     @media (width > 768px) {
         border-radius:  0 .3em .3em 0;
@@ -230,4 +242,9 @@ p {
 .save-todo-list-btn, .save-t2do-list-btn {
     border-radius: .5em;
     width: 100%;
+}
+
+.t2do-checked {
+    text-decoration: line-through;
+    color: #404040a6;
 }
