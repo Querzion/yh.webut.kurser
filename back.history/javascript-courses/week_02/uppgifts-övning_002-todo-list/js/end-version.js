@@ -29,11 +29,30 @@ t2doForm.addEventListener('submit', e => {
 function createT2doElement(value) {
     const t2do = document.createElement('li');
     t2do.classList.add("t2do");
+    
+    const t2doLeft = document.createElement('div');
+    t2doLeft.classList.add("t2do-left");
 
+    const t2doCheck = document.createElement('input:checkbox');
+    t2doCheck.classList.add("t2do-checkmark hidden");
+
+    const t2doLabel = document.createElement('label');
+    t2doLabel.setAttribute.add("t2do-checkmark");
+    
     const t2doText = document.createElement("p");
     t2doText.textContent = ` ${value}`;
 
-    t2do.appendChild(t2doText);
+    const t2doRight = document.createElement('div');
+    t2doRight.classList.add("t2do-right");
+
+    const t2doDelete = document.createElement("button");
+    t2doDelete.classList.add("t2do-btn")
+
+
+    t2doLeft.appendChild(t2doCheck, t2doLabel, t2doLabel.appendChild(t2doText));
+    t2doRight.appendChild(t2doDelete)
+    t2do.appendChild(t2doLeft, t2doRight);
+
     return t2do;
 }
 
