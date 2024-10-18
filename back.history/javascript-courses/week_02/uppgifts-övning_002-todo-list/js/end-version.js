@@ -28,6 +28,7 @@ t2doForm.addEventListener('submit', e => {
     t2doUl.insertAdjacentElement("afterbegin", newT2do);
     t2doInput.value = "";
 
+    // un
     saveT2doList.classList.remove("hidden");
 });
 
@@ -40,7 +41,7 @@ function createT2doElement(value) {
     let t2doArrayId = t2doArray.indexOf(value)
     
     
-    // Errol Test
+    // Array Errol Test
     console.log(t2doArrayId);
 
 
@@ -70,10 +71,6 @@ function createT2doElement(value) {
         t2doText.textContent = "No items in the list.";
     }
 
-    t2do.addEventListener('click', e => {
-        t2doText.classList.toggle("t2do-checked");
-    })
-
     // putting the left side together
     t2doLabel.appendChild(t2doText);
     t2doLeft.appendChild(t2doCheck);
@@ -98,6 +95,36 @@ function createT2doElement(value) {
     // putting together the main post layout.
     t2do.appendChild(t2doLeft);
     t2do.appendChild(t2doRight);
+    
+
+
+    // TOGGLE TODO DONE
+    t2do.addEventListener('click', e => {
+        t2doText.classList.toggle("t2do-checked");
+    })
+
+
+
+    // DELETE TODO (ChatGPT)
+    t2doDelete.addEventListener('click', e => {
+        e.stopPropagation(); // Prevents the toggle event when clicking delete button
+        
+        // Remove the element from the DOM
+        t2do.remove();
+        
+        // Remove the item from the array
+        t2doArray.splice(t2doArrayId, 1);
+
+        // Log the array to verify the deletion
+        console.log("Updated To-do Array: ", t2doArray);
+        
+        // Optionally hide the save button if the list is empty
+        if (t2doArray.length === 0) {
+            saveT2doList.classList.add("hidden");
+        }
+    });
+
+
 
     return t2do;
 }
