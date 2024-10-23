@@ -17,21 +17,44 @@ const saveT2doList = document.querySelector("#save-t2do-list-btn");
 // create an array storage
 const t2doArray = [];
 
+const t2doArrayTeacher = [];
+
 t2doForm.addEventListener('submit', e => {
     e.preventDefault();
 
     if (t2doInput.value === "") return; // if the input is empty, stop its output
 
+    /* const teacherTodo = {
+        id: crypto.randomUUID(),
+        title: t2doInput.value,
+        completed: false
+    } */
+
+    
+
     const newT2do = createT2doElement(t2doInput.value);
 
     // t2doUl.insertAdjacentElement("beforeend", newT2do);
     t2doUl.insertAdjacentElement("afterbegin", newT2do);
+    
+    // localStorage.setItem("t2doArray", JSON.stringify(t2doArray));
+
     t2doInput.value = "";
+    t2doInput.focus();
 
     // un
     saveT2doList.classList.remove("hidden");
 });
 
+/* const listTodos = () => {
+    listTodos.innerHTML="";
+
+    listTodos.foreach(teacherTodo => {
+        const todoElement = createT2doElement(todo)
+        todosList.appendChild(todoElement);
+    }) 
+}
+ */
 // Export the createCommentElement function
 function createT2doElement(value) {
 
@@ -101,6 +124,7 @@ function createT2doElement(value) {
     // TOGGLE TODO DONE
     t2do.addEventListener('click', e => {
         t2doText.classList.toggle("t2do-checked");
+        // localStorage.setItem("t2doArray", JSON.stringify(t2doArray));
     })
 
 
@@ -115,6 +139,8 @@ function createT2doElement(value) {
         // Remove the item from the array
         t2doArray.splice(t2doArrayId, 1);
 
+        // localStorage.setItem("t2doArray", JSON.stringify(t2doArray));
+
         // Log the array to verify the deletion
         console.log("Updated To-do Array: ", t2doArray);
         
@@ -124,10 +150,23 @@ function createT2doElement(value) {
         }
     });
 
+    saveT2doList.addEventListener('click', e => {
+        e.preventDefault();
 
+        // localStorage.setItem("t2doArray", JSON.stringify(t2doArray));
+    })
 
     return t2do;
 }
+
+// const storedT2dos = JSON.parse(localStorage.getItem("t2do"));
+// if (storedT2dos !== null) {
+//     storedT2dos.foreach(t2do => {
+//         todos.push(t2do);
+//     })
+//     listTodos()
+//  }
+
 
 function deleteTodoReminder() {
 

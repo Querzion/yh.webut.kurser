@@ -138,6 +138,10 @@ p {
     font-weight: 600;
     text-align: center;
     
+    &:active {
+        border: 1px dotted #404040;
+    }
+
     /* &:focus-visible {
         border: 1px dotted #404040;
     } */
@@ -228,12 +232,13 @@ p {
     padding: .5rem;
     font-size: 1.2rem;
     height: max-content;
-    /* border: 1px transparent; */
+    border: 1px transparent;
     text-transform: uppercase;
     font-weight: 600;
     cursor: pointer;
     height: 100%;
     width: 100%;
+    border-radius:  0 .3em .3em 0;
     
     &:hover {
         background-color: #ff725a;
