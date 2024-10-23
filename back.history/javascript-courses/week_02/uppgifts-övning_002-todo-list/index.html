@@ -67,7 +67,49 @@
 
                 <ul id="t2dos-field" class="t2dos-field">
                     
-                    <!-- <li class="t2do">
+                    <li class="t2do">
+                        <div class="t2do-left">
+                            <input id="t2do-checkmark-test5" class="t2do-checkmark hidden" type="checkbox">
+                            <label for="t2do-checkmark-test5">
+                                <p class="t2do-text t2do-checked">memo:
+                                    Extra:
+för dig som vill ha mer utmaning.
+
+
+
+Gör så att det är möjligt att ta bort en todo från listan och så att alla todos sparas även om man laddar om sidan.
+
+Gör detta genom att spara in dom i localstorage.
+
+
+
+Du bör då göra följande:
+
+
+Lägg till en knapp med en eventListener på varje todo för att kunna ta bort den.
+Skapa en array där du lägger till varje todo som ett objekt.
+Skapa en funktion som loopar igenom din lista för att lägga till dina todos i DOM:en för att försäkra dig om att listan alltid överensstämmer med det som syns.
+Varje gång du lägger till, klarmarkerar eller tar bort en todo så bör du uppdatera det som sparats i localstorage.
+När sidan laddas - hämta eventuell data från localstorage, lägg till dom i din array och skriv ut på sidan.
+
+
+Här behöver vi då tänka på vilken struktur vi ska ha på våra objekt i arrayen. En vanlig struktur på ett todo objekt kan vara:
+
+id - för att hitta den specifika todon i listan.
+title - Vilken text ska stå i todon?
+completed - är todon klar eller inte?
+
+
+Tips! När vi ska spara någonting i localstorage så måste det vara text. Detta betyder att vi behöver konvertera våra javaScript objekt till JSON.
+                                </p>
+                            </label>
+                        </div>
+                        <div class="t2do-right">
+                            <button id="t2do-btn" class="t2do-btn"><i class="fa-solid fa-trash"></i></button>
+                        </div>
+                    </li>
+                    
+                    <li class="t2do">
                         <div class="t2do-left">
                             <input id="t2do-checkmark-test5" class="t2do-checkmark hidden" type="checkbox">
                             <label for="t2do-checkmark-test5">
@@ -125,7 +167,7 @@
                         <div class="t2do-right">
                             <button id="t2do-btn" class="t2do-btn"><i class="fa-solid fa-trash"></i></button>
                         </div>
-                    </li> -->
+                    </li>
 
                 </ul>
 
