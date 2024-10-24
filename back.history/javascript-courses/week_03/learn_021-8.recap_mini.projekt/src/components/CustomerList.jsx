@@ -1,15 +1,9 @@
 import React from 'react'
 import CustomerListItem from './CustomerListItem'
-import { v4 as uuidv4 } from 'uuid';
 
-const CustomerList = () => {
+const CustomerList = ({ mainSourceCustomers, mainSourceDeleteCustomer }) => {
 
-    const [Customers, setCustomers] = React.useState([
-        {
-            id: uuidv4(),
-            name: "Hans Mattin-Lassei"
-        }
-    ])
+    
 
 
   return (
@@ -23,7 +17,14 @@ const CustomerList = () => {
             </div>
         </div>
         <ul className="space-y-4">
-            <CustomerListItem />
+            {
+                mainSourceCustomers.length > 0 && mainSourceCustomers.map(customer => (
+                    <CustomerListItem key={customer.id} subSourceCustomer={customer} subSourceDeleteCustomer={mainSourceDeleteCustomer} />
+                ))
+            }
+            {
+                mainSourceCustomers.length <= 0 && <p className="font-semibold text-lg">No customers to show.</p>
+            }
         </ul>
     </div>
   )
