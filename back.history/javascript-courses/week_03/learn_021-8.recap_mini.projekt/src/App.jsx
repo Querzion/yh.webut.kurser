@@ -1,15 +1,15 @@
 import React from 'react'
 import Header from './components/Header'
-import AddContactForm from './components/AddContactForm'
-import ContactsList from './components/ContactsList'
+import AddCustomerForm from './components/AddCustomerForm'
+import CustomerList from './components/CustomerList'
 
 function App() {
   return (
     <>
-      <Header title="Contacts" />
+      <Header title="Customers" />
       <main className="container mx-auto pt-8 space-y-8">
-        <AddContactForm />
-        <ContactsList />
+        <AddCustomerForm />
+        <CustomerList />
       </main>
     </>
   )
