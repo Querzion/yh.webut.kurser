@@ -41,7 +41,7 @@ function App() {
         {/* För att kunna använda add customer, så behöver det förflyttas ner till sub-sourcen AddCustomerForm */}
         <AddCustomerForm mainSourceAddCustomer={addCustomer} />
         {/* För att kunna använda customer arrayen, så måste de föras ner till nästa sub-source(child) CustomerList */}
-        <CustomerList mainSourceCustomers={customers} mainSourceDeleteCustomer={deleteCustomer} />
+        <CustomerList mainSourceCustomers={customers} feedToSubSourceDeleteCustomer={deleteCustomer} />
       </main>
     </>
   )

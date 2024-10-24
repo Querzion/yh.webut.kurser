@@ -1,11 +1,7 @@
 import React from 'react'
 import CustomerListItem from './CustomerListItem'
 
-const CustomerList = ({ mainSourceCustomers, mainSourceDeleteCustomer }) => {
-
-    
-
-
+const CustomerList = ({ mainSourceCustomers, feedToSubSourceDeleteCustomer }) => {
   return (
     <div>
         <div className="flex justify-between items-center mb-6">
@@ -19,7 +15,7 @@ const CustomerList = ({ mainSourceCustomers, mainSourceDeleteCustomer }) => {
         <ul className="space-y-4">
             {
                 mainSourceCustomers.length > 0 && mainSourceCustomers.map(customer => (
-                    <CustomerListItem key={customer.id} subSourceCustomer={customer} subSourceDeleteCustomer={mainSourceDeleteCustomer} />
+                    <CustomerListItem key={customer.id} subSourceCustomer={customer} fedFromMainSourceDeleteCustomer={feedToSubSourceDeleteCustomer} />
                 ))
             }
             {
