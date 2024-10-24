@@ -1,9 +1,7 @@
 import React from 'react'
 
 const CustomerListItem = ({ subSourceCustomer, fedFromMainSourceDeleteCustomer }) => {
-
-  
-
+  // Detta är vad som skapas varje gång något blir submittat.
   return (
     <li className="flex justify-between items-center">
         <div className="flex items-center gap-10">

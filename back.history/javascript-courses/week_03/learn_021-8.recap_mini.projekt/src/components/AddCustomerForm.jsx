@@ -6,7 +6,8 @@ const AddCustomerForm = ({ mainSourceAddCustomer }) => {
   // Här skapas ett nytt array
   const [customerName, setCustomerName] = React.useState('')
 
-  // Här skapas en metod som 
+  // Här skapas en backen metod som hanterar submit knappen och tar innehållet från inputen
+  // som är 'customerName' och för det genom mainSourceAddCustomer funktionen.
   const handleSubmit = (e) => {
     e.preventDefault()
 
@@ -16,7 +17,7 @@ const AddCustomerForm = ({ mainSourceAddCustomer }) => {
     setCustomerName('')
   }
 
-
+  // Detta är frontend utseendet, den visuella delen som man interagerar med.
   return (
     <form className="flex" onSubmit={handleSubmit}>
         <input value={customerName} onChange={(e) => setCustomerName(e.target.value)} type="text" className="border border-sky-800 flex-1 px-2 py-1 rounded-l-lg" />
