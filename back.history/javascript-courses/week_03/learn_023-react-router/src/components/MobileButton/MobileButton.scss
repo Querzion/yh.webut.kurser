@@ -1,0 +1,20 @@
+.btn {
+    background-color: transparent;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #599874;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+    left: 2.5rem;
+    top: .9rem;
+}
