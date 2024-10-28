@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "title": "Risk Management",
+        "imageUrl": "./public/s-1.webp",
+        "imageArt": "service 1",
+        "text": "Explore our Financial planning Hendrerit libero, sit amet henderit elit turppis nec velit. Prasent tincidunt nisi at",
+    },
+    {
+        "id": 2,
+        "title": "Risk Management",
+        "imageUrl": "./public/s-2.webp",
+        "imageArt": "service 2",
+        "text": "Explore our Financial planning Hendrerit libero, sit amet henderit elit turppis nec velit. Prasent tincidunt nisi at",
+    },
+    {
+        "id": 3,
+        "title": "Risk Management",
+        "imageUrl": "./public/s-3.webp",
+        "imageArt": "service 3",
+        "text": "Explore our Financial planning Hendrerit libero, sit amet henderit elit turppis nec velit. Prasent tincidunt nisi at",
+    },
+    {
+        "id": 4,
+        "title": "Risk Management",
+        "imageUrl": "./public/s-4.webp",
+        "imageArt": "service 4",
+        "text": "Explore our Financial planning Hendrerit libero, sit amet henderit elit turppis nec velit. Prasent tincidunt nisi at",
+    },
+    {
+        "id": 5,
+        "title": "Risk Management",
+        "imageUrl": "./public/s-5.webp",
+        "imageArt": "service 5",
+        "text": "Explore our Financial planning Hendrerit libero, sit amet henderit elit turppis nec velit. Prasent tincidunt nisi at",
+    },
+    {
+        "id": 6,
+        "title": "Risk Management",
+        "imageUrl": "./public/s-6.webp",
+        "imageArt": "service 6",
+        "text": "Explore our Financial planning Hendrerit libero, sit amet henderit elit turppis nec velit. Prasent tincidunt nisi at",
+    }
+]
