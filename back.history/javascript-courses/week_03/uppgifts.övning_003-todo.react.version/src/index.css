@@ -1,68 +1,258 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #404040;
+}
+
+span {
+  font-weight: 800;
 }
 
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  font-size: 2rem;
+  font-weight: 800;
+  text-align: center;
+  line-height: .8;
+  text-transform: uppercase;
+  
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
+ul {
+  list-style-type: none; /* ChatGPT I forgot how to do this. "/ */
+}
+
+h2, h3 {
+  padding: .5rem;
+  font-size: 1rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: #fff;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.container {
+  width: 70%;
+  margin: 3rem auto;
+  height: 100%;
+}
+
+.btn {
+  font-size: 1rem;
+  padding: .8em 2em;
+  border: 0;
+  background-color: #599874;
+  color: white;
+  border-radius:  0 0 .5em .5em;
+  text-transform: uppercase;
+  font-weight: 600;
   cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+
+  &:hover {
+      background-color: #599874e7;
+  }
+
+  @media (width > 768px) {
+      border-radius: 0 .5em .5em 0;
+      padding: 1.2em 2em;
+  }
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+.success {
+  background-color: #599874;
+}
+
+.errol {
+  background-color: #ff725a;
+}
+
+.todo-box, .t2do-box {
+  border-radius: .5rem;
+  border: 3px solid #404040;
+  background-color: #ffe4a3;
+  padding: 1rem;
+  min-width: 415px;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  border: 3px solid #404040;
+  padding: 1rem 1.2rem;
+  align-items: center;
+  background-color: #ffe4a3;
+  border-radius: .6rem;
+
+  @media (width > 768px) {
+      padding-top: 1.1rem;
+      padding-bottom: 1rem;
   }
-  a:hover {
-    color: #747bff;
+}
+
+.todo-form, .t2do-form {
+  display: grid;
+  /* gap: 1rem; */
+  width: 100%;
+  padding-bottom: .5rem;
+  
+  @media (width > 768px) {
+      display: flex;
+      gap: 0;
   }
+}
+
+.todo-input, .t2do-input {
+  flex: 1;
+  padding: .8em;
+  font-size: 1rem;
+  border: 2px solid #599874;
+  border-radius: .5em .5em 0 0;
+  font-weight: 600;
+  text-align: center;
+  
+  &:active {
+      border: 1px dotted #404040;
+  }
+
+  /* &:focus-visible {
+      border: 1px dotted #404040;
+  } */
+  
+  @media (width > 768px) {
+      border-radius: .5em 0 0 .5em;
+  }
+}
+
+.todos-field, .t2dos-field {
+  width: 100%;
+  padding-top: .7rem;
+
+  /* max-height: 179px; */
+  /* overflow: hidden; */
+}
+
+.todo, .t2do {
+  margin-bottom: 1rem;
+  background-color: #5998747a;
+  padding: .8rem;
+  border-radius: .5em;
+  border: 2px dotted #599874;
+}
+.t2do {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  min-width: 300px;
+  
   button {
-    background-color: #f9f9f9;
+      display: none;  
+
+      /* @media (width > 768px) {
+          display: none;  
+      } */
+      
   }
+  
+  &:hover {
+      transition: all 1000ms ease-in-out;
+
+      button {
+          display: block;
+      }
+  }
+
+  @media (width > 768px) {
+      grid-template-columns: 90% 10%;
+  }
+}
+
+.t2do-left {
+  padding: 1rem;
+  /* padding-bottom: 2rem; */
+  
+  
+  display: flex;
+  cursor: pointer;
+  
+  /* p {
+  } */
+
+  @media (width > 768px) {
+      padding-bottom: 1rem;
+      
+  }
+
+}
+
+.t2do-right {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+
+  @media (width > 768px) {
+      border-radius:  0 .3em .3em 0;
+      
+  }
+}
+
+.t2do-btn {
+  background-color: #599874;
+  color: #fff;
+  padding: .5rem;
+  font-size: 1.2rem;
+  height: max-content;
+  border: 1px transparent;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+  border-radius:  0 .3em .3em 0;
+  
+  &:hover {
+      background-color: #ff725a;
+  }
+}
+
+
+.save-todo-list-btn, .save-t2do-list-btn {
+  border-radius: .5em;
+  width: 100%;
+}
+
+.t2do-checked {
+  text-decoration: line-through;
+  /* color: #404040a6; */
+  color: #a16e3e9a;
 }
