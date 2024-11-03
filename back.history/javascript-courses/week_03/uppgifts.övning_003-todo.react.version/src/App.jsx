@@ -1,19 +1,42 @@
-import React from 'react'
+import React, {useState} from 'react'
+import CreateT2doForm from './assets/components/CreateT2doForm'
+import T2doList from './assets/components/T2doList'
 
 function App() {
+
+    const [t2dos, setT2dos] = useState([])
+
+    const addT2do = (title) => {
+        const newItem = {
+        id: crypto.randomUUID(),
+        title,
+        completed: false
+        }
+
+        setT2dos(state => [...state, newItem])
+    }
+
+    const removeT2do = (id) => {
+        setT2dos(state => state.filter(t2do => t2do.id !== id))
+    }
+
+    const toggleComplete = (t2do) => {
+        t2do.completed = !t2do.completed
+        setT2dos(state => [...state])
+    }
+
+
   return (
     <section id="end-version" className="container">
         
         <div id="t2do-box" className="t2do-box">
             
             <div className="content">
-            
-                <form id="t2do-form" className="t2do-form">
-                    <input type="text" id="t2do-input" className="t2do-input" placeholder="WRITE NEW TODO HERE" />
-                    <button className="btn">Create TO:DO</button>
-                </form>
 
-                <ul id="t2dos-field" className="t2dos-field">
+                <CreateT2doForm newT2do={addT2do} />
+                <T2doList t2dos={t2dos} removeT2do={removeT2do} toggleComplete={toggleComplete} />
+
+                {/* <ul id="t2dos-field" className="t2dos-field">
                     
                     <li className="t2do">
                         <div className="t2do-left">
@@ -103,7 +126,7 @@ function App() {
                         </div>
                     </li>
 
-                </ul>
+                </ul> */}
 
                 <button id="save-t2do-list-btn" className="btn save-t2do-list-btn hidden">Save TO:DO List</button>
             
