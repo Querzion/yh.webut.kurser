@@ -1,13 +1,55 @@
 import React, {useState} from 'react'
-import axios from 'axios'
 // import fakeApi from "../api/ContactForm.json"
 
 const ContactForm = () => {
+    const [formData, setFormData] = useState({name: '', email: '', message: ''})
+    const [errols, setErrols] = useState({})
     const [Submitted, setSubmitted] = useState(false)
 
+    const handleChange = (e) => {
+        const {name, value} = e.target
+        setFormData({...formData, [name]: value})
+
+        if (value.trim() === "") {
+            setErrols(prevErrors => ({...prevErrors, [name]: `The ${name} field is required.`}))   
+        } else {
+            setErrols(prevErrors => ({...prevErrors, [name]: ""}))
+        }
+    }
 
     const handleOk = () => {
         setSubmitted(false)
+    }
+
+    const handleSubmit = async (e) => {
+        e.preventDefault()
+
+        const newErrols = {}
+        Object.keys(formData).forEach(field => {
+            if (formData[field].trim() === "") {
+                newErrols[field] = `The ${field} field is required.`
+            }
+        })
+
+        if (Object.keys(newErrols).length > 0) {
+            setErrols(newErrols)
+            return
+        }
+
+        const res = await fetch ('link-here', {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify(formData)
+        })
+
+        if (res.ok) {
+            setSubmitted(true)
+            setFormData({name: '', email: '', message: ''})
+        }
+
+        // alert("Form was submitted.")
     }
 
     if (Submitted) {
@@ -47,5 +89,7 @@ const ContactForm = () => {
         </form>
     )
 }
+
+
 
 export default ContactForm
