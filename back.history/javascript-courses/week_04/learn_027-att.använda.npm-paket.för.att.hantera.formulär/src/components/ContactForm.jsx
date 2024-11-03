@@ -4,11 +4,27 @@ import { useForm } from "react-hook-form"
 
 const ContactForm = () => {
     const [Submitted, setSubmitted] = useState(false)
-    const {register, handleSubmit, formState: {errols}, reset} = useForm()
+    const {register, handleSubmit, formState: {errors}, reset} = useForm()
 
 
     const handleOk = () => {
         setSubmitted(false)
+        reset()
+    }
+
+    const onSubmit = async (data) => {
+        // const res = await axios.post("insert link here", data, {
+        //     headers: {
+        //         "Content-Type": "application/json",
+        //     }
+        // })
+
+        const res = await axios.post("insert link here", data)
+
+        if (res.status === 200) {
+            setSubmitted(true)
+            reset()
+        }
     }
 
     if (Submitted) {
@@ -22,25 +38,25 @@ const ContactForm = () => {
     }
 
     return (
-        <form onSubmit={handleSubmit} noValidate>
+        <form onSubmit={handleSubmit(onSubmit)} noValidate>
             <div className="headline ta">
                 <h1>SEND US A MESSAGE</h1>
                 <p>Fill out this form to get in touch with us.</p>
             </div>
             <div className="body">
                 <div className="formGroup">
-                    <input required type="text" name="name" value={formData.name} onChange={handleChange} placeholder="Name" />
-                    <span></span>
+                    <input type="text" placeholder="Name" {...register('name', { required: 'The name is required.'})} />
+                    <span>{errors.name && errors.name.message}</span>
                 </div>
 
                 <div className="formGroup">
-                    <input required type="email" name="email" value={formData.email} onChange={handleChange} placeholder="Email" />
-                    <span></span>
+                    <input type="email" placeholder="Email" {...register('email', { required: 'The email is required.'})} />
+                    <span>{errors.email && errors.email.message}</span>
                 </div>
                 
                 <div className="formGroup">
-                    <textarea required name="message" value={formData.message} onChange={handleChange} placeholder="Message"></textarea>
-                    <span></span>
+                    <textarea placeholder="Message" {...register('message', { required: 'A message is required.'})}></textarea>
+                    <span>{errors.message && errors.message.message}</span>
                 </div>
 
                 <button type="submit">SUBMIT</button>

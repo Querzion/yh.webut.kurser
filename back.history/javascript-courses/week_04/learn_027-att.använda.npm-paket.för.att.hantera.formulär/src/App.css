@@ -30,6 +30,7 @@ button {
     padding: 1rem 3rem;
     border: 1px solid transparent;
     margin-top: 2rem;
+    font-weight: 600;
 }
 
 form {
