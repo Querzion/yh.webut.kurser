@@ -1,9 +1,10 @@
 import React, {useState} from 'react'
 import axios from 'axios'
-// import fakeApi from "../api/ContactForm.json"
+import { useForm } from "react-hook-form"
 
 const ContactForm = () => {
     const [Submitted, setSubmitted] = useState(false)
+    const {register, handleSubmit, formState: {errols}, reset} = useForm()
 
 
     const handleOk = () => {
@@ -29,17 +30,17 @@ const ContactForm = () => {
             <div className="body">
                 <div className="formGroup">
                     <input required type="text" name="name" value={formData.name} onChange={handleChange} placeholder="Name" />
-                    <span>{errols.name && errols.name}</span>
+                    <span></span>
                 </div>
 
                 <div className="formGroup">
                     <input required type="email" name="email" value={formData.email} onChange={handleChange} placeholder="Email" />
-                    <span>{errols.email && errols.email}</span>
+                    <span></span>
                 </div>
                 
                 <div className="formGroup">
                     <textarea required name="message" value={formData.message} onChange={handleChange} placeholder="Message"></textarea>
-                    <span>{errols.message && errols.message}</span>
+                    <span></span>
                 </div>
 
                 <button type="submit">SUBMIT</button>

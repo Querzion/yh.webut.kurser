@@ -1,5 +1,5 @@
 {
-  "name": "learn-026-enkel-formul-rhantering",
+  "name": "learn-027-att-anv-nda-npm-paket-f-r-att-hantera-formul-r",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "axios": "^1.7.7",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-hook-form": "^7.53.1"
