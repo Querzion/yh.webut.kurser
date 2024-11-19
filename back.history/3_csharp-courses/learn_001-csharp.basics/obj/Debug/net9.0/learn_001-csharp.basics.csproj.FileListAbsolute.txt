@@ -1,0 +1,15 @@
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\learn_001-csharp.basics\bin\Debug\net9.0\learn_001-csharp.basics.exe
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\learn_001-csharp.basics\bin\Debug\net9.0\learn_001-csharp.basics.deps.json
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\learn_001-csharp.basics\bin\Debug\net9.0\learn_001-csharp.basics.runtimeconfig.json
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\learn_001-csharp.basics\bin\Debug\net9.0\learn_001-csharp.basics.dll
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\learn_001-csharp.basics\bin\Debug\net9.0\learn_001-csharp.basics.pdb
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\learn_001-csharp.basics\obj\Debug\net9.0\learn_001-csharp.basics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\learn_001-csharp.basics\obj\Debug\net9.0\learn_001-csharp.basics.AssemblyInfoInputs.cache
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\learn_001-csharp.basics\obj\Debug\net9.0\learn_001-csharp.basics.AssemblyInfo.cs
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\learn_001-csharp.basics\obj\Debug\net9.0\learn_001-csharp.basics.csproj.CoreCompileInputs.cache
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\learn_001-csharp.basics\obj\Debug\net9.0\learn_001-csharp.basics.sourcelink.json
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\learn_001-csharp.basics\obj\Debug\net9.0\learn_001-csharp.basics.dll
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\learn_001-csharp.basics\obj\Debug\net9.0\refint\learn_001-csharp.basics.dll
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\learn_001-csharp.basics\obj\Debug\net9.0\learn_001-csharp.basics.pdb
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\learn_001-csharp.basics\obj\Debug\net9.0\learn_001-csharp.basics.genruntimeconfig.cache
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\learn_001-csharp.basics\obj\Debug\net9.0\ref\learn_001-csharp.basics.dll

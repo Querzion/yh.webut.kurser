@@ -1,6 +1,9 @@
 ﻿
 using System.Drawing;
 
+var videoURL = "https://youtu.be/FrEHPbo1bj0";
+Console.WriteLine($"This is the video url: {videoURL}");
+
 const string birthName = "Mats";
 Console.WriteLine("Constant Variable: " + birthName);
 
