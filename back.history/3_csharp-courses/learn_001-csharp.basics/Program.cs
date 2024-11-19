@@ -22,8 +22,6 @@ var pi = 3.14;
 double forcedDataType_PI = pi;
 Console.WriteLine(forcedDataType_PI);
 
-
-
 //dynamic (Variable without a specific value, most useful when working with JSON files and WebAPI's.)
 
 // Object is a base variable without any value, it's a data holder, 
@@ -48,7 +46,7 @@ var lastName = "Lindqvist";
 string greeting1 = "Hej " + firstName + " " + lastName + ". Välkommen hit!";
 string greeting2 = string.Format("Hej {0} {1}. Välkommen hit!", firstName, lastName);
 
-// In order to have a string that is easy to read, this is foremost the most effective version.
+// In order to have a string that is easy to read, use the placeholder, this is foremost the most effective version.
 string greeting3 = $"Hej {firstName} {lastName}. Välkommen hit!";
 
 Console.WriteLine(greeting1);
@@ -58,5 +56,9 @@ Console.WriteLine(greeting3);
 // When it comes to strings where you want to combine a variable, + is more usable in scenarios like this.
 string url = "https://domain.com/api/users/" + firstName.ToLower();
 Console.WriteLine(url);
+
+// This is the path to this application file.
+// C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\learn_001-csharp.basics\Program.cs
+string filePath = "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\learn_001-csharp.basics\\Program.cs";
 
 Console.ReadKey();
