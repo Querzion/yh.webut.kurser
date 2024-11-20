@@ -191,9 +191,6 @@ Console.WriteLine(DateTime.Now.ToString("yyyy-MM-dd"));
 Console.WriteLine(DateTime.Now.AddDays(2));
 
 // CONVERSION
-int int_number = 100;
-string string_number = "100";
-
 Console.Write("Write your age: ");
 // Exclamation point ! at the end states to the IDE that I know why this is being done, so that it stops harassing with 'errol-notations'.
 string string_age_input = Console.ReadLine()!;
