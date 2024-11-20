@@ -120,6 +120,7 @@ Console.WriteLine(email2);
 Console.WriteLine(email3);
 Console.WriteLine(email4);
 
+// NUMBERS
 // float = 6-9 precision a maximum of 7 total numbers in length. (Needs the f or F suffix to work properly.)
 float number0 = 0.1234567f;
 float number1 = 22.123456f;
@@ -158,5 +159,73 @@ decimal number12 = 12345678987654321.12345678987654321m;
 Console.WriteLine($"Decimal Number: {number10}");
 Console.WriteLine($"Decimal Number: {number11}");
 Console.WriteLine($"Decimal Number: {number12}");
+
+float floatAdd = 0.1f + 0.1f + 0.1f;
+Console.WriteLine(floatAdd);
+
+decimal decimalAdd = 0.1m + 0.1m + 0.1m;
+Console.WriteLine(decimalAdd);
+
+// DO NOT USE DOUBLE FOR CALCULATIONS IT'S BROKEN ;P
+double doubleAdd = 0.1 + 0.1 + 0.1;
+Console.WriteLine(doubleAdd);
+
+// BOOLEAN
+bool isEnabled = true;
+var canExecute = false;
+
+Console.WriteLine(isEnabled);
+Console.WriteLine(canExecute);
+
+// DATE
+// DateTime.Now / DateTime.Today / DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss") / DateTime.Now.AddDays(2)
+DateTime current = DateTime.Now;
+var currentDate2 = DateTime.Now;
+
+
+Console.WriteLine(current);
+Console.WriteLine(currentDate2);
+Console.WriteLine(DateTime.Today);
+Console.WriteLine(DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
+Console.WriteLine(DateTime.Now.ToString("yyyy-MM-dd"));
+Console.WriteLine(DateTime.Now.AddDays(2));
+
+// CONVERSION
+int int_number = 100;
+string string_number = "100";
+
+Console.Write("Write your age: ");
+// Exclamation point ! at the end states to the IDE that I know why this is being done, so that it stops harassing with 'errol-notations'.
+string string_age_input = Console.ReadLine()!;
+
+// If the letters aren't only numbers, then the program is going to crash, with a parse error.
+//int age = int.Parse(string_age);
+// So what we do then, is to put the conversion through a check first, and then if it's compatible, it will create an integer named age.
+bool couldParse = int.TryParse(string_age_input, out int age);
+
+// _ underline becomes discard, and is used if you end up with an extra value that you have no use for. 
+//bool couldParse = int.TryParse(string_age, out int _);
+
+if (couldParse == true)
+{
+    Console.WriteLine($"You are {age} years old.");
+
+} else {
+    
+    Console.WriteLine("It has to be numbers only.");
+}
+
+string string_age = age.ToString();
+
+Console.WriteLine(string_age);
+
+double double_num = 100.58;
+
+// re-casting of the double number into an integer
+int int_num = (int)double_num;
+
+Console.WriteLine(double_num);
+Console.WriteLine(int_num);
+
 
 Console.ReadKey();
