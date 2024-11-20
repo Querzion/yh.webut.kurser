@@ -13,3 +13,6 @@ C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\learn_001-csharp.basic
 C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\learn_001-csharp.basics\obj\Debug\net9.0\learn_001-csharp.basics.pdb
 C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\learn_001-csharp.basics\obj\Debug\net9.0\learn_001-csharp.basics.genruntimeconfig.cache
 C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\learn_001-csharp.basics\obj\Debug\net9.0\ref\learn_001-csharp.basics.dll
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\learn_001-csharp.basics\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\learn_001-csharp.basics\obj\Debug\net9.0\learn_001-csharp.basics.csproj.AssemblyReference.cache
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\learn_001-csharp.basics\obj\Debug\net9.0\learn_00.74A877BF.Up2Date
