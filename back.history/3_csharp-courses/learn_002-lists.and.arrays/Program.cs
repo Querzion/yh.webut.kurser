@@ -1,4 +1,7 @@
 ﻿
+var url = "https://youtu.be/RI4brtlo3zU";
+Console.WriteLine($"Video Link: {url}");
+
 /// <summary>ARRAYS - Adding values after stating how long/big they are</summary>
 // String array name create array with x amount of slots.
 string[] array = new string[3];
