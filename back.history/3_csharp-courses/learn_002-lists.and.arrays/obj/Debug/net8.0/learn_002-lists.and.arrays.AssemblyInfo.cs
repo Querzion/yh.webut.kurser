@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("learn_002-lists.and.arrays")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+280b008d6d80ac841d68970581793eb9ac31da4b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+70c25b4b6d76239c332ad30ae40cc1d06feff86f")]
 [assembly: System.Reflection.AssemblyProductAttribute("learn_002-lists.and.arrays")]
 [assembly: System.Reflection.AssemblyTitleAttribute("learn_002-lists.and.arrays")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
