@@ -3,6 +3,9 @@ using System;
 using System.ComponentModel;
 using System.Reflection.Metadata;
 
+var url = "https://youtu.be/j69ckmAYRFU";
+Console.WriteLine("Video Link " + url);
+
 /// <summary>Relation Operators</summary>
 /// 
 /// ==  (Equals)
