@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("learn_004-loops-for.foreach.while.etc.")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+70c25b4b6d76239c332ad30ae40cc1d06feff86f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+37bf5ffeca457ba46e61b07a87114f6dacad68e0")]
 [assembly: System.Reflection.AssemblyProductAttribute("learn_004-loops-for.foreach.while.etc.")]
 [assembly: System.Reflection.AssemblyTitleAttribute("learn_004-loops-for.foreach.while.etc.")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

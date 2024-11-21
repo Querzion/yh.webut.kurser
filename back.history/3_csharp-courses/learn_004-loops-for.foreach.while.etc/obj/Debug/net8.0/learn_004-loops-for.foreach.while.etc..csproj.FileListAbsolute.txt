@@ -1,0 +1,15 @@
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\learn_004-loops-for.foreach.while.etc\bin\Debug\net8.0\learn_004-loops-for.foreach.while.etc..exe
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\learn_004-loops-for.foreach.while.etc\bin\Debug\net8.0\learn_004-loops-for.foreach.while.etc..deps.json
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\learn_004-loops-for.foreach.while.etc\bin\Debug\net8.0\learn_004-loops-for.foreach.while.etc..runtimeconfig.json
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\learn_004-loops-for.foreach.while.etc\bin\Debug\net8.0\learn_004-loops-for.foreach.while.etc..dll
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\learn_004-loops-for.foreach.while.etc\bin\Debug\net8.0\learn_004-loops-for.foreach.while.etc..pdb
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\learn_004-loops-for.foreach.while.etc\obj\Debug\net8.0\learn_004-loops-for.foreach.while.etc..GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\learn_004-loops-for.foreach.while.etc\obj\Debug\net8.0\learn_004-loops-for.foreach.while.etc..AssemblyInfoInputs.cache
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\learn_004-loops-for.foreach.while.etc\obj\Debug\net8.0\learn_004-loops-for.foreach.while.etc..AssemblyInfo.cs
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\learn_004-loops-for.foreach.while.etc\obj\Debug\net8.0\learn_004-loops-for.foreach.while.etc..csproj.CoreCompileInputs.cache
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\learn_004-loops-for.foreach.while.etc\obj\Debug\net8.0\learn_004-loops-for.foreach.while.etc..sourcelink.json
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\learn_004-loops-for.foreach.while.etc\obj\Debug\net8.0\learn_004-loops-for.foreach.while.etc..dll
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\learn_004-loops-for.foreach.while.etc\obj\Debug\net8.0\refint\learn_004-loops-for.foreach.while.etc..dll
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\learn_004-loops-for.foreach.while.etc\obj\Debug\net8.0\learn_004-loops-for.foreach.while.etc..pdb
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\learn_004-loops-for.foreach.while.etc\obj\Debug\net8.0\learn_004-loops-for.foreach.while.etc..genruntimeconfig.cache
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\learn_004-loops-for.foreach.while.etc\obj\Debug\net8.0\ref\learn_004-loops-for.foreach.while.etc..dll

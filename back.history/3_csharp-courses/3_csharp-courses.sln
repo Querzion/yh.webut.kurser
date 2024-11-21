@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learn_003-if.else-switch.et
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "week_01", "week_01", "{BAFB008E-3D7E-41A6-8DF5-07F2E141D40B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learn_004-loops-for.foreach.while.etc.", "learn_004-loops-for.foreach.while.etc\learn_004-loops-for.foreach.while.etc..csproj", "{61801FCA-E4AA-45E1-BE73-446AA0D2850C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{152BB235-EDD0-4EA2-9773-03E3262AC25F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{152BB235-EDD0-4EA2-9773-03E3262AC25F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{152BB235-EDD0-4EA2-9773-03E3262AC25F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61801FCA-E4AA-45E1-BE73-446AA0D2850C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61801FCA-E4AA-45E1-BE73-446AA0D2850C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61801FCA-E4AA-45E1-BE73-446AA0D2850C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61801FCA-E4AA-45E1-BE73-446AA0D2850C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
