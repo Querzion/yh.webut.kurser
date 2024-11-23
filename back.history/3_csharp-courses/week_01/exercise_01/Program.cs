@@ -30,10 +30,12 @@ do
 } while (addToList != "Klar" && addToList != "klar");
 
 Console.WriteLine("Din shoppinglista:");
+int i = 1;
+
 foreach (var item in shoppingList)
 {
-    Console.WriteLine($"{shoppingList.Count}: {item}.");
-    
+    Console.WriteLine($"{i}: {item}.");
+    i++;
 }
 
 Console.WriteLine("Tryck valfri knapp för att avsluta.");
