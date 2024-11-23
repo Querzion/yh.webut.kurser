@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tips_trix", "tips_trix", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tt_01-practical.console.application", "week_01\tips_trix\tt_01-practical.console.application\tt_01-practical.console.application.csproj", "{0090D7FC-414F-4383-844E-35C91750C4EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exercise_01", "week_01\exercise_01\exercise_01.csproj", "{B13E4E1D-6132-41A3-B270-8DD7C4365EDB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{0090D7FC-414F-4383-844E-35C91750C4EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0090D7FC-414F-4383-844E-35C91750C4EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0090D7FC-414F-4383-844E-35C91750C4EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B13E4E1D-6132-41A3-B270-8DD7C4365EDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B13E4E1D-6132-41A3-B270-8DD7C4365EDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B13E4E1D-6132-41A3-B270-8DD7C4365EDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B13E4E1D-6132-41A3-B270-8DD7C4365EDB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -54,5 +60,6 @@ Global
 		{C0EAE80D-2B62-44CA-BA38-18AC66AAB60C} = {BAFB008E-3D7E-41A6-8DF5-07F2E141D40B}
 		{BF4C269A-77EE-4987-BC30-9B7D30AB0BF1} = {BAFB008E-3D7E-41A6-8DF5-07F2E141D40B}
 		{0090D7FC-414F-4383-844E-35C91750C4EE} = {BF4C269A-77EE-4987-BC30-9B7D30AB0BF1}
+		{B13E4E1D-6132-41A3-B270-8DD7C4365EDB} = {BAFB008E-3D7E-41A6-8DF5-07F2E141D40B}
 	EndGlobalSection
 EndGlobal
