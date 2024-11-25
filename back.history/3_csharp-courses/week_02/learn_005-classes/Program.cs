@@ -26,7 +26,7 @@
 ///     
 //      Works internally.
 
-using learn_005_classes;
+using learn_005_classes.Modules;
 
 User user = new User();
 
