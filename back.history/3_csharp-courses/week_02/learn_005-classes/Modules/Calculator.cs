@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace learn_005_classes.Modules
 {
-    internal class TokenGenerator
+    internal class Calculator
     {
-        private string _secureKey = "ZUECORAUHR)¤##_==";
+        private double _sum = 0;
+        public double Add(double value)
+        {
+            return _sum += value;
+        }
     }
 }
