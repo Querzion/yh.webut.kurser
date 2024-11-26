@@ -10,6 +10,8 @@ internal class User
     public string Password { get; set; } = null!;
 
 
+    public string FullName => $"{FirstName} {LastName}";
+
     /// = null!; or these. . . They basically do the same, but if the later path is taken, 
 
     //public User()
@@ -38,6 +40,7 @@ internal class User
     }
 }
 
+/// Hidden class
 internal class UserRegistrationForm
 {
     // Properties
@@ -68,5 +71,4 @@ internal class UserRegistrationForm
         ConfirmPassword = confirmPassword;
         Phone = phone;
     }
-
 }

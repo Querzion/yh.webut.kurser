@@ -3,3 +3,13 @@ C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_005-clas
 C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_005-classes.in.action\obj\Debug\net9.0\learn_005-classes.in.action.AssemblyInfo.cs
 C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_005-classes.in.action\obj\Debug\net9.0\learn_005-classes.in.action.csproj.CoreCompileInputs.cache
 C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_005-classes.in.action\obj\Debug\net9.0\learn_005-classes.in.action.sourcelink.json
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_005-classes.in.action\bin\Debug\net9.0\learn_005-classes.in.action.exe
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_005-classes.in.action\bin\Debug\net9.0\learn_005-classes.in.action.deps.json
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_005-classes.in.action\bin\Debug\net9.0\learn_005-classes.in.action.runtimeconfig.json
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_005-classes.in.action\bin\Debug\net9.0\learn_005-classes.in.action.dll
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_005-classes.in.action\bin\Debug\net9.0\learn_005-classes.in.action.pdb
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_005-classes.in.action\obj\Debug\net9.0\learn_005-classes.in.action.dll
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_005-classes.in.action\obj\Debug\net9.0\refint\learn_005-classes.in.action.dll
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_005-classes.in.action\obj\Debug\net9.0\learn_005-classes.in.action.pdb
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_005-classes.in.action\obj\Debug\net9.0\learn_005-classes.in.action.genruntimeconfig.cache
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_005-classes.in.action\obj\Debug\net9.0\ref\learn_005-classes.in.action.dll

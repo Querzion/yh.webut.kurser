@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("learn_005-classes.in.action")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7be2a5bc9981bdcf3d96793b9965d5c87c64b031")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+756e2d3339151159956606cad2594abeb1655bc8")]
 [assembly: System.Reflection.AssemblyProductAttribute("learn_005-classes.in.action")]
 [assembly: System.Reflection.AssemblyTitleAttribute("learn_005-classes.in.action")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

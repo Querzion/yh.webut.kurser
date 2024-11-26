@@ -28,7 +28,7 @@ User user_2 = new User(2, "Slisk", "Lindqvist", "slisk.lindqvist@querzion.com", 
 
 /// Or because you made an empty constructor first, then you can declare your inputs in a later stage.
 /// 
-// This is another way to make a list, quite clear. 
+/// This is another way to make a list, quite clear. 
 User user_1 = new User();
 
 user_1.Id = 1;
@@ -55,6 +55,8 @@ user.LastName = Console.ReadLine()!;
 //Console.Write("Enter your password: ");
 //user.Password = Console.ReadLine()!;
 
-Console.WriteLine($"Your name is {user.FirstName} {user.LastName}.");
+//Console.WriteLine($"Your name is {user.FirstName} {user.LastName}.");
+
+Console.WriteLine($"Your name is {user.FullName}.");
 
 Console.ReadKey();
