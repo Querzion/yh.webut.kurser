@@ -4,8 +4,10 @@ using learn_008_service_pattern.Models;
 
 namespace learn_008_service_pattern.Services;
 
-public class MenuDialogues : IMenuDialogues
+public class MenuService : IMenuDialogues
 {
+    private readonly UserService _userService = new UserService();
+
     //public void Show()
     //{
     //    while (true)
@@ -122,19 +124,41 @@ public class MenuDialogues : IMenuDialogues
         Console.Write("Enter new password: ");
         userRegistrationForm.Password = Console.ReadLine()!;
 
-        Console.ReadKey();
+        bool result = _userService.Create(userRegistrationForm);
+
+        if (result)
+            OutputDialogue("User was successfully created.");
+        else
+            OutputDialogue("User creation failed.");
     }
 
     public void ViewOption()
     {
-        Console.Clear();
-        Console.ReadKey();
-    }
+        var users = _userService.GetAll();
 
+        Console.Clear();
+
+        foreach ( var user in users)
+        {
+            Console.WriteLine($"{"Id:",-15}{user.Id}");
+            Console.WriteLine($"{"Name:",-15}{user.FirstName}{user.LastName}");
+            Console.WriteLine($"{"Email:",-15}{user.Email}");
+            Console.WriteLine("");
+        }
+
+        Console.ReadKey();
+    }  
 
     public void InvalidOption()
     {
         Console.WriteLine("You must enter a valid option.");
+        Console.ReadKey();
+    }
+
+    public void OutputDialogue(string message)
+    {
+        Console.Clear();
+        Console.WriteLine(message);
         Console.ReadKey();
     }
 }

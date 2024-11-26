@@ -5,6 +5,5 @@ using learn_008_service_pattern.Services;
 /// SERVICE PATTERN - Single Responsibility Principle.
 /// 
 
-IMenuDialogues dialogues = new MenuService();
-
-dialogues.Show();
+IMenuDialogues menuService = new MenuService();
+menuService.Show();

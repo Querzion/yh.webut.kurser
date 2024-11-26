@@ -1,4 +1,5 @@
-﻿using learn_008_service_pattern.Models;
+﻿using learn_008_service_pattern.Helpers;
+using learn_008_service_pattern.Models;
 
 namespace learn_008_service_pattern.Factories;
 
@@ -13,11 +14,24 @@ public class UserFactory
     {
         return new UserEntity()
         {
-            Id = Guid.NewGuid().ToString(),
+            // The unique id can be created here, or in 
+            //Id = UniqueIdentifierGenerator.GenerateUniqueId(),
             FirstName = form.FirstName,
             LastName = form.LastName,
             Email = form.Email,
-            Password = form.Password,
+            // Instead of creating this in UserService.
+            //Password = SecurePasswordGenerator.Generate(form.Password),
+        };
+    }
+
+    public static User Create(UserEntity entity)
+    {
+        return new User()
+        { 
+            Id = entity.Id,
+            FirstName = entity.FirstName,
+            LastName = entity.LastName,
+            Email = entity.Email,
         };
     }
 }
