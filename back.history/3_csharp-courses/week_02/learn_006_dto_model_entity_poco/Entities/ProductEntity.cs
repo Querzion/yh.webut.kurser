@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace learn_006_dto_model_entity_poco.Entities
 {
@@ -25,7 +21,8 @@ namespace learn_006_dto_model_entity_poco.Entities
         public decimal Price { get; set; }
 
         [Column(TypeName = "int")]
-        [ForeignKey(nameof(CategoryEntity))]
+        // This was never added, so It's a problem for another day.
+        //[ForeignKey(nameof(CategoryEntity))]
         public int CategoryId { get; set; }
 
     }

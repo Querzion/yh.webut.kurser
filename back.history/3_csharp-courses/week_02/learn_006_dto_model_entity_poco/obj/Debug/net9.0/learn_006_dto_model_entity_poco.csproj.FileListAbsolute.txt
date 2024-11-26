@@ -3,3 +3,13 @@ C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_006_dto_
 C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_006_dto_model_entity_poco\obj\Debug\net9.0\learn_006_dto_model_entity_poco.AssemblyInfo.cs
 C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_006_dto_model_entity_poco\obj\Debug\net9.0\learn_006_dto_model_entity_poco.csproj.CoreCompileInputs.cache
 C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_006_dto_model_entity_poco\obj\Debug\net9.0\learn_006_dto_model_entity_poco.sourcelink.json
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_006_dto_model_entity_poco\bin\Debug\net9.0\learn_006_dto_model_entity_poco.exe
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_006_dto_model_entity_poco\bin\Debug\net9.0\learn_006_dto_model_entity_poco.deps.json
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_006_dto_model_entity_poco\bin\Debug\net9.0\learn_006_dto_model_entity_poco.runtimeconfig.json
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_006_dto_model_entity_poco\bin\Debug\net9.0\learn_006_dto_model_entity_poco.dll
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_006_dto_model_entity_poco\bin\Debug\net9.0\learn_006_dto_model_entity_poco.pdb
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_006_dto_model_entity_poco\obj\Debug\net9.0\learn_006_dto_model_entity_poco.dll
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_006_dto_model_entity_poco\obj\Debug\net9.0\refint\learn_006_dto_model_entity_poco.dll
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_006_dto_model_entity_poco\obj\Debug\net9.0\learn_006_dto_model_entity_poco.pdb
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_006_dto_model_entity_poco\obj\Debug\net9.0\learn_006_dto_model_entity_poco.genruntimeconfig.cache
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_006_dto_model_entity_poco\obj\Debug\net9.0\ref\learn_006_dto_model_entity_poco.dll

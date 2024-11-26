@@ -1,7 +1,7 @@
 ﻿
 namespace learn_006_dto_model_entity_poco.Dtos;
 
-internal class ProductDto
+internal class Product
 {
     public string? ArticleNumber { get; set; }
     public string Title { get; set; } = null!;

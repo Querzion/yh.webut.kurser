@@ -3,7 +3,7 @@
 namespace learn_006_dto_model_entity_poco.Models;
 
 // A model usually has validation logic syntax.
-internal class ProductModel
+public class ProductModel
 {
     public string? ArticleNumber { get; set; }
 

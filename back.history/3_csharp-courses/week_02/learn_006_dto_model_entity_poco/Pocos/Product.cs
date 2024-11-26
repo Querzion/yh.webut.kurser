@@ -1,7 +1,7 @@
 ﻿
 namespace learn_006_dto_model_entity_poco.Pocos;
 
-internal class Product
+public class Product
 {
     public int Id { get; set; }
 
