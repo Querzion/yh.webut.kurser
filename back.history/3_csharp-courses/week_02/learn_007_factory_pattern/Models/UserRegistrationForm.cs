@@ -18,9 +18,12 @@ public class UserRegistrationForm
 
     [Required]
     [MinLength(8, ErrorMessage = "Password must be at least 8 characters long.")]
-    [RegularExpression(@"(?=.*[a-ö])(?=.*[A-Ö])(?=.*\d)(?=.*[@$!%*?&]).*[A-Öa-ö\d@$!%*?&]{8,}$", ErrorMessage = "Password must be at least 8 characters long, contain at least one lowercase letter, one uppercase letter, one number and or one symbol.")]
+    // Password RegularExpression de-limited by ChatGPT
+    [RegularExpression(@"(?=.*[a-ö])(?=.*[A-Ö])(?=.*\d)(?=.*[!@#$%^&*()\-_+=\[{\]};:'""|\\<,>.?/`~€£¥₹]).*[A-Öa-ö\d!@#$%^&*()\-_+=\[{\]};:'""|\\<,>.?/`~€£¥₹]{8,}$",
+    ErrorMessage = "Password must be at least 8 characters long, contain at least one lowercase letter, one uppercase letter, one number, and one special character.")]
     public string Password { get; set; } = null!;
-    
+
+
     [Required]
     [Compare(nameof(Password), ErrorMessage = "Passwords don't match")]
     public string ConfirmPassword { get; set; } = null!;

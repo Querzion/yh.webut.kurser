@@ -5,6 +5,7 @@ namespace learn_007_factory_pattern;
 
 public static class SecurePasswordGenerator
 {
+    // Encryption snippet from ChatGPT
     /// <summary>
     /// Generates a hashed password using a secure hashing algorithm (e.g., SHA256).
     /// </summary>
