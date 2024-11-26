@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\learn_006-dto.model.entity.poco\\learn_006-dto.model.entity.poco.csproj",
-      "projectName": "learn_006-dto.model.entity.poco",
-      "projectPath": "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\learn_006-dto.model.entity.poco\\learn_006-dto.model.entity.poco.csproj",
+      "projectUniqueName": "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\learn_006_dto_model_entity_poco\\learn_006_dto_model_entity_poco.csproj",
+      "projectName": "learn_006_dto_model_entity_poco",
+      "projectPath": "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\learn_006_dto_model_entity_poco\\learn_006_dto_model_entity_poco.csproj",
       "packagesPath": "C:\\Users\\iam\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\learn_006-dto.model.entity.poco\\obj\\",
+      "outputPath": "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\learn_006_dto_model_entity_poco\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

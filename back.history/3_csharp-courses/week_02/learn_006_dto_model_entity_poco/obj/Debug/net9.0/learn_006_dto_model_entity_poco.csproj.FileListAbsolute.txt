@@ -1,0 +1,5 @@
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_006_dto_model_entity_poco\obj\Debug\net9.0\learn_006_dto_model_entity_poco.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_006_dto_model_entity_poco\obj\Debug\net9.0\learn_006_dto_model_entity_poco.AssemblyInfoInputs.cache
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_006_dto_model_entity_poco\obj\Debug\net9.0\learn_006_dto_model_entity_poco.AssemblyInfo.cs
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_006_dto_model_entity_poco\obj\Debug\net9.0\learn_006_dto_model_entity_poco.csproj.CoreCompileInputs.cache
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_006_dto_model_entity_poco\obj\Debug\net9.0\learn_006_dto_model_entity_poco.sourcelink.json

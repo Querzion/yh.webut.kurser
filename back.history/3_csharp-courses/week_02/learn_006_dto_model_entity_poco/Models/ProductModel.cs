@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Models;
+namespace learn_006_dto_model_entity_poco.Models;
 
 // A model usually has validation logic syntax.
 internal class ProductModel
