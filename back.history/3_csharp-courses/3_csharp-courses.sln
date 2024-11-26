@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learn_005-classes", "week_0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learn_005-classes.in.action", "week_02\learn_005-classes.in.action\learn_005-classes.in.action.csproj", "{75C4EB9C-C037-4293-B62D-417DDAA87A26}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learn_006-dto.model.entity.poco", "week_02\learn_006-dto.model.entity.poco\learn_006-dto.model.entity.poco.csproj", "{15ACB923-4282-4CB9-9C28-1DA921609948}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{75C4EB9C-C037-4293-B62D-417DDAA87A26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75C4EB9C-C037-4293-B62D-417DDAA87A26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75C4EB9C-C037-4293-B62D-417DDAA87A26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15ACB923-4282-4CB9-9C28-1DA921609948}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15ACB923-4282-4CB9-9C28-1DA921609948}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15ACB923-4282-4CB9-9C28-1DA921609948}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15ACB923-4282-4CB9-9C28-1DA921609948}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
