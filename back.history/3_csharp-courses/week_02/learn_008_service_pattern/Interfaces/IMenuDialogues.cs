@@ -1,4 +1,4 @@
-﻿namespace learn_008_service_pattern.Services
+﻿namespace learn_008_service_pattern.Interfaces
 {
     public interface IMenuDialogues
     {

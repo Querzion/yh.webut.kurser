@@ -1,4 +1,8 @@
-﻿namespace learn_008_service_pattern.Services;
+﻿using learn_008_service_pattern.Factories;
+using learn_008_service_pattern.Interfaces;
+using learn_008_service_pattern.Models;
+
+namespace learn_008_service_pattern.Services;
 
 public class MenuDialogues : IMenuDialogues
 {
@@ -102,7 +106,22 @@ public class MenuDialogues : IMenuDialogues
 
     public void CreateOption()
     {
+        UserRegistrationForm userRegistrationForm = UserFactory.Create();
+        
         Console.Clear();
+
+        Console.Write("Enter your first name: ");
+        userRegistrationForm.FirstName = Console.ReadLine()!;
+
+        Console.Write("Enter your last name: ");
+        userRegistrationForm.LastName = Console.ReadLine()!;
+
+        Console.Write("Enter your email: ");
+        userRegistrationForm.Email = Console.ReadLine()!;
+
+        Console.Write("Enter new password: ");
+        userRegistrationForm.Password = Console.ReadLine()!;
+
         Console.ReadKey();
     }
 
