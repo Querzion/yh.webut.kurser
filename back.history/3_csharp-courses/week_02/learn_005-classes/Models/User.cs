@@ -5,7 +5,7 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace learn_005_classes.Modules
+namespace learn_005_classes.Models
 {
     internal class User
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace learn_005_classes.Modules
+namespace learn_005_classes.Models
 {
     internal class Calculator
     {

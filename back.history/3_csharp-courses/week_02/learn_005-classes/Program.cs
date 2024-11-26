@@ -29,7 +29,8 @@
 // When a private field/variable is created, use underscore as the opening character, 
 // to the variable name to signify that it's a variable that is private.
 
-using learn_005_classes.Modules;
+using learn_005_classes.Models;
+
 
 //User user = new User();
 

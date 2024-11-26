@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace learn_005_classes.Modules
+namespace learn_005_classes.Models
 {
     internal class UserService
     {
@@ -12,12 +12,12 @@ namespace learn_005_classes.Modules
         // It's not really that optimal to use it on lists and arrays.
         private readonly TokenGenerator _tokenGenerator;
 
-        
+
         private List<User> _users;
-        
+
         // Constructor
-        public UserService() 
-        { 
+        public UserService()
+        {
             _users = new List<User>();
 
             _tokenGenerator = new TokenGenerator();
