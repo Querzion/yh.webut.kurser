@@ -1,2 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+using learn_008_service_pattern.Services;
+
+/// SERVICE PATTERN - Single Responsibility Principle.
+/// 
+
+IMenuDialogues dialogues = new MenuDialogues();
+
+dialogues.Show();

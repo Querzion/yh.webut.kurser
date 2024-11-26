@@ -48,7 +48,8 @@ while (true)
 
 UserEntity userEntity = UserFactory.Create(userRegistrationForm);
 #region UserEntity Output Dialogue
-// -15 creates spaces
+
+// The number that is visible in this output ($"{"This",-8} That") is the amount of spaces there is between "This" and "That". 
 Console.WriteLine("");
 Console.WriteLine("UserEntity:");
 Console.WriteLine($"{"Id:",-15}{userEntity.Id}");
@@ -63,7 +64,8 @@ Console.ReadKey();
 
 User user = UserFactory.Create(userEntity);
 #region User Output Dialogue
-// -15 creates spaces
+
+// The number that is visible in this output ($"{"This",-8} That") is the amount of spaces there is between "This" and "That". 
 Console.WriteLine("");
 Console.WriteLine("User:");
 Console.WriteLine($"{"Id:",-15}{user.Id}");
