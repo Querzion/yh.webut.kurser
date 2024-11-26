@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("learn_006_dto_model_entity_poco")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+021d952cfc73b2c929ffb5d88f299c4e61789d8b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+933140f9ad896b01d5280cba87c11fb2510b436c")]
 [assembly: System.Reflection.AssemblyProductAttribute("learn_006_dto_model_entity_poco")]
 [assembly: System.Reflection.AssemblyTitleAttribute("learn_006_dto_model_entity_poco")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

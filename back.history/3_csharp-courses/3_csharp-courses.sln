@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learn_005-classes.in.action
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learn_006_dto_model_entity_poco", "week_02\learn_006_dto_model_entity_poco\learn_006_dto_model_entity_poco.csproj", "{C05EAA5A-5C2E-4785-8FC7-95F787F6FCE8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learn_007_factory_pattern", "week_02\learn_007_factory_pattern\learn_007_factory_pattern.csproj", "{DB0830FB-7ABC-4E1C-833F-CB2F430D89BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{C05EAA5A-5C2E-4785-8FC7-95F787F6FCE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C05EAA5A-5C2E-4785-8FC7-95F787F6FCE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C05EAA5A-5C2E-4785-8FC7-95F787F6FCE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB0830FB-7ABC-4E1C-833F-CB2F430D89BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB0830FB-7ABC-4E1C-833F-CB2F430D89BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB0830FB-7ABC-4E1C-833F-CB2F430D89BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB0830FB-7ABC-4E1C-833F-CB2F430D89BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -84,5 +90,6 @@ Global
 		{2650846E-90F5-4153-A9E3-CF97F95C63C3} = {FBDE831D-AC1F-46AD-A0C1-53AFD9BCDA94}
 		{75C4EB9C-C037-4293-B62D-417DDAA87A26} = {FBDE831D-AC1F-46AD-A0C1-53AFD9BCDA94}
 		{C05EAA5A-5C2E-4785-8FC7-95F787F6FCE8} = {FBDE831D-AC1F-46AD-A0C1-53AFD9BCDA94}
+		{DB0830FB-7ABC-4E1C-833F-CB2F430D89BC} = {FBDE831D-AC1F-46AD-A0C1-53AFD9BCDA94}
 	EndGlobalSection
 EndGlobal
