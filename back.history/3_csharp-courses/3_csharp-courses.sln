@@ -63,6 +63,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "week_02\database_va
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learn_010_database_variant", "week_02\learn_010_database_variant\learn_010_database_variant.csproj", "{82D27415-D947-4208-95BB-E8F71637D022}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learn_010_presentation", "week_02\learn_010_presentation\learn_010_presentation.csproj", "{F3821858-FA58-43B0-ABE1-40C9BFBB6B00}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +167,10 @@ Global
 		{82D27415-D947-4208-95BB-E8F71637D022}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82D27415-D947-4208-95BB-E8F71637D022}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82D27415-D947-4208-95BB-E8F71637D022}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3821858-FA58-43B0-ABE1-40C9BFBB6B00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3821858-FA58-43B0-ABE1-40C9BFBB6B00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3821858-FA58-43B0-ABE1-40C9BFBB6B00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3821858-FA58-43B0-ABE1-40C9BFBB6B00}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
