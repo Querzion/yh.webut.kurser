@@ -2,66 +2,84 @@
   "version": 3,
   "targets": {
     "net9.0": {
-      "Business2/1.0.0": {
+      "Business_/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
-          "Data": "1.0.0",
-          "Domain2": "1.0.0"
+          "Data_": "1.0.0",
+          "Domain_": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Business2.dll": {}
+          "bin/placeholder/Business_.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Business2.dll": {}
+          "bin/placeholder/Business_.dll": {}
         }
       },
-      "Data/1.0.0": {
+      "Data_/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
-          "Domain2": "1.0.0"
+          "Domain_": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Data.dll": {}
+          "bin/placeholder/Data_.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Data.dll": {}
+          "bin/placeholder/Data_.dll": {}
         }
       },
-      "Domain2/1.0.0": {
+      "Domain_/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Dtos_": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Domain_.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain_.dll": {}
+        }
+      },
+      "Dtos_/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "compile": {
-          "bin/placeholder/Domain2.dll": {}
+          "bin/placeholder/Dtos_.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Domain2.dll": {}
+          "bin/placeholder/Dtos_.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Business2/1.0.0": {
+    "Business_/1.0.0": {
       "type": "project",
-      "path": "../database_variant/Business2/Business2.csproj",
-      "msbuildProject": "../database_variant/Business2/Business2.csproj"
+      "path": "../presentation_classes/Business_/Business_.csproj",
+      "msbuildProject": "../presentation_classes/Business_/Business_.csproj"
     },
-    "Data/1.0.0": {
+    "Data_/1.0.0": {
       "type": "project",
-      "path": "../database_variant/Data/Data.csproj",
-      "msbuildProject": "../database_variant/Data/Data.csproj"
+      "path": "../presentation_classes/Data_/Data_.csproj",
+      "msbuildProject": "../presentation_classes/Data_/Data_.csproj"
     },
-    "Domain2/1.0.0": {
+    "Domain_/1.0.0": {
       "type": "project",
-      "path": "../database_variant/Domain2/Domain2.csproj",
-      "msbuildProject": "../database_variant/Domain2/Domain2.csproj"
+      "path": "../presentation_classes/Domain_/Domain_.csproj",
+      "msbuildProject": "../presentation_classes/Domain_/Domain_.csproj"
+    },
+    "Dtos_/1.0.0": {
+      "type": "project",
+      "path": "../presentation_classes/Dtos_/Dtos_.csproj",
+      "msbuildProject": "../presentation_classes/Dtos_/Dtos_.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "Business2 >= 1.0.0",
-      "Domain2 >= 1.0.0"
+      "Business_ >= 1.0.0",
+      "Domain_ >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -98,11 +116,11 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\database_variant\\Business2\\Business2.csproj": {
-              "projectPath": "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\database_variant\\Business2\\Business2.csproj"
+            "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\presentation_classes\\Business_\\Business_.csproj": {
+              "projectPath": "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\presentation_classes\\Business_\\Business_.csproj"
             },
-            "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\database_variant\\Domain2\\Domain2.csproj": {
-              "projectPath": "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\database_variant\\Domain2\\Domain2.csproj"
+            "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\presentation_classes\\Domain_\\Domain_.csproj": {
+              "projectPath": "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\presentation_classes\\Domain_\\Domain_.csproj"
             }
           }
         }

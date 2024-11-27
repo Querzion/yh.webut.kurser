@@ -17,11 +17,11 @@ Console.Clear();
 // On dependencies, right-click and add project references. This makes it possible to use another projects files.
 // It's stated that it's a one-way reference, so if you have multiple references, create a supply chain of the data.
 
-Console.WriteLine("This is the Presentation layer.");
-Console.WriteLine("Presentation => Business & Domain"); 
-Console.WriteLine("Business => Domain & Data"); 
-Console.WriteLine("Data => Domain");
-Console.WriteLine("Domain ? none.");
+Console.WriteLine("This is the Presentation layer, and it uses the PresentationClassesFolder");
+Console.WriteLine("Presentation => Business_ & Domain_"); 
+Console.WriteLine("Business => Domain_ & Data_"); 
+Console.WriteLine("Data_ => Domain_");
+Console.WriteLine("Domain_ => Dtos_");
 
 Console.WriteLine("A project like this is Presentation as MainApp, ClassLibrary as Business or Infrastructure, then Domain & Data, no limit really.");
 
@@ -29,9 +29,10 @@ Console.ReadKey();
 Console.Clear();
 
 /// DEPENDENCIES
-/// L10_DV => DV/Business2 & DV/Domain2
-/// DV/Business2 => DV/Domain2 & DV/Data
-/// DV/Data => DV/Domain2
+/// L10_P => PC/Business_ & PC/Domain_
+/// PC/Business_ => PC/Domain_ & PC/Data_
+/// PC/Data_ => PC/Domain_
+/// PC/Domain_ => PC/Dtos_
 /// 
 
 var menuService = new MenuService();

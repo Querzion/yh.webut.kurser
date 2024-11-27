@@ -8,8 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\database_variant\Business2\Business2.csproj" />
-    <ProjectReference Include="..\database_variant\Domain2\Domain2.csproj" />
+    <ProjectReference Include="..\presentation_classes\Business_\Business_.csproj" />
+    <ProjectReference Include="..\presentation_classes\Domain_\Domain_.csproj" />
   </ItemGroup>
 
 </Project>

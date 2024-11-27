@@ -1,0 +1,291 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\presentation_classes\\Business_\\Business_.csproj": {}
+  },
+  "projects": {
+    "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\presentation_classes\\Business_\\Business_.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\presentation_classes\\Business_\\Business_.csproj",
+        "projectName": "Business_",
+        "projectPath": "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\presentation_classes\\Business_\\Business_.csproj",
+        "packagesPath": "C:\\Users\\iam\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\presentation_classes\\Business_\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\iam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Users\\iam\\Documents\\VSIX-FILES": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\presentation_classes\\Data_\\Data_.csproj": {
+                "projectPath": "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\presentation_classes\\Data_\\Data_.csproj"
+              },
+              "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\presentation_classes\\Domain_\\Domain_.csproj": {
+                "projectPath": "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\presentation_classes\\Domain_\\Domain_.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\presentation_classes\\Data_\\Data_.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\presentation_classes\\Data_\\Data_.csproj",
+        "projectName": "Data_",
+        "projectPath": "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\presentation_classes\\Data_\\Data_.csproj",
+        "packagesPath": "C:\\Users\\iam\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\presentation_classes\\Data_\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\iam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Users\\iam\\Documents\\VSIX-FILES": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\presentation_classes\\Domain_\\Domain_.csproj": {
+                "projectPath": "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\presentation_classes\\Domain_\\Domain_.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\presentation_classes\\Domain_\\Domain_.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\presentation_classes\\Domain_\\Domain_.csproj",
+        "projectName": "Domain_",
+        "projectPath": "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\presentation_classes\\Domain_\\Domain_.csproj",
+        "packagesPath": "C:\\Users\\iam\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\presentation_classes\\Domain_\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\iam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Users\\iam\\Documents\\VSIX-FILES": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\presentation_classes\\Dtos_\\Dtos_.csproj": {
+                "projectPath": "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\presentation_classes\\Dtos_\\Dtos_.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\presentation_classes\\Dtos_\\Dtos_.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\presentation_classes\\Dtos_\\Dtos_.csproj",
+        "projectName": "Dtos_",
+        "projectPath": "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\presentation_classes\\Dtos_\\Dtos_.csproj",
+        "packagesPath": "C:\\Users\\iam\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\presentation_classes\\Dtos_\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\iam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Users\\iam\\Documents\\VSIX-FILES": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
