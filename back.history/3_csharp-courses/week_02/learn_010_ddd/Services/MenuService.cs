@@ -4,8 +4,8 @@
 //using Infrastructure.Services;
 
 using Business.Services;
-using Domain.Dtos;
-using Domain.Factories;
+using Domain2.Dtos;
+using Domain2.Factories;
 
 namespace learn_010_ddd.Services;
 

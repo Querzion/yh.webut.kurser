@@ -1,7 +1,7 @@
 ﻿using Business.Helpers;
-using Domain.Dtos;
-using Domain.Factories;
-using Domain.Models;
+using Domain2.Dtos;
+using Domain2.Factories;
+using Domain2.Models;
 
 namespace Business.Services;
 

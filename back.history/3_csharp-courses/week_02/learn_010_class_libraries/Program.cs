@@ -19,5 +19,10 @@ Console.Clear();
 // On dependencies, right-click and add project references. This makes it possible to use another projects files.
 // It's stated that it's a one-way reference, so if you have multiple references, create a supply chain of the data.
 
+
+/// DEPENDENCIES
+/// L10_CL => CL/Infrastructure
+/// 
+
 var menuService = new MenuService();
 menuService.ShowMenuDialog();

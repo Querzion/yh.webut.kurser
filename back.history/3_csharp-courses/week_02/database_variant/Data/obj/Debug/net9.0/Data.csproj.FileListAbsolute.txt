@@ -1,0 +1,16 @@
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\database_variant\Data\bin\Debug\net9.0\Data.deps.json
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\database_variant\Data\bin\Debug\net9.0\Data.dll
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\database_variant\Data\bin\Debug\net9.0\Data.pdb
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\database_variant\Data\bin\Debug\net9.0\Domain2.dll
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\database_variant\Data\bin\Debug\net9.0\Domain2.pdb
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\database_variant\Data\obj\Debug\net9.0\Data.csproj.AssemblyReference.cache
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\database_variant\Data\obj\Debug\net9.0\Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\database_variant\Data\obj\Debug\net9.0\Data.AssemblyInfoInputs.cache
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\database_variant\Data\obj\Debug\net9.0\Data.AssemblyInfo.cs
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\database_variant\Data\obj\Debug\net9.0\Data.csproj.CoreCompileInputs.cache
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\database_variant\Data\obj\Debug\net9.0\Data.sourcelink.json
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\database_variant\Data\obj\Debug\net9.0\Data.csproj.Up2Date
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\database_variant\Data\obj\Debug\net9.0\Data.dll
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\database_variant\Data\obj\Debug\net9.0\refint\Data.dll
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\database_variant\Data\obj\Debug\net9.0\Data.pdb
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\database_variant\Data\obj\Debug\net9.0\ref\Data.dll
