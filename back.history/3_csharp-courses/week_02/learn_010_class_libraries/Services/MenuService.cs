@@ -85,7 +85,7 @@ public class MenuService
     {
         Console.Clear();
         Console.WriteLine("\n------------ REMOVE ALL USERS ------------\n");
-        Console.Write("You are about to remove all users \n\n Are you sure this is what you want? y/n");
+        Console.Write("You are about to remove all users \n\nAre you sure this is what you want? y/n: ");
         var option = Console.ReadLine()!;
 
         if (option.ToLower() == "y")

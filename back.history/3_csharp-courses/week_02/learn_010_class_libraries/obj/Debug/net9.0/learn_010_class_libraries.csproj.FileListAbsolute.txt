@@ -4,3 +4,16 @@ C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_010_clas
 C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_010_class_libraries\obj\Debug\net9.0\learn_010_class_libraries.AssemblyInfo.cs
 C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_010_class_libraries\obj\Debug\net9.0\learn_010_class_libraries.csproj.CoreCompileInputs.cache
 C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_010_class_libraries\obj\Debug\net9.0\learn_010_class_libraries.sourcelink.json
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_010_class_libraries\bin\Debug\net9.0\learn_010_class_libraries.exe
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_010_class_libraries\bin\Debug\net9.0\learn_010_class_libraries.deps.json
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_010_class_libraries\bin\Debug\net9.0\learn_010_class_libraries.runtimeconfig.json
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_010_class_libraries\bin\Debug\net9.0\learn_010_class_libraries.dll
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_010_class_libraries\bin\Debug\net9.0\learn_010_class_libraries.pdb
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_010_class_libraries\bin\Debug\net9.0\Infrastructure.dll
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_010_class_libraries\bin\Debug\net9.0\Infrastructure.pdb
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_010_class_libraries\obj\Debug\net9.0\learn_01.597F22A5.Up2Date
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_010_class_libraries\obj\Debug\net9.0\learn_010_class_libraries.dll
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_010_class_libraries\obj\Debug\net9.0\refint\learn_010_class_libraries.dll
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_010_class_libraries\obj\Debug\net9.0\learn_010_class_libraries.pdb
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_010_class_libraries\obj\Debug\net9.0\learn_010_class_libraries.genruntimeconfig.cache
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_010_class_libraries\obj\Debug\net9.0\ref\learn_010_class_libraries.dll

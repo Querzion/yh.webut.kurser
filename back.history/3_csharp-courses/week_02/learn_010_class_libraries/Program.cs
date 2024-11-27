@@ -1,5 +1,6 @@
 ﻿
 using Infrastructure.Services;
+using learn_010_class_libraries.Services;
 
 /// Using different layered architectures in C# with Class libraries
 /// Like N-Tier, Domain Driven Design [DDD] etc.
@@ -18,4 +19,5 @@ Console.Clear();
 // On dependencies, right-click and add project references. This makes it possible to use another projects files.
 // It's stated that it's a one-way reference, so if you have multiple references, create a supply chain of the data.
 
-var fileService = new FileService();
+var menuService = new MenuService();
+menuService.ShowMenuDialog();
