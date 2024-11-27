@@ -28,7 +28,11 @@ public class MenuService
     {
         Console.Clear();
 
-        foreach (var user in _userService.GetALL())
+        // This way is more appropriate for bugfixing.
+        var users = _userService.GetAll();   
+        foreach (var user in users)
+        // Then this, but it works equally as like this.
+        // foreach (var user in _userService.GetALL())
         {
             Console.WriteLine($"{"Id:",-15}{user.Id}");
             Console.WriteLine($"{"Name:",-15}{user.FirstName} {user.LastName}");
