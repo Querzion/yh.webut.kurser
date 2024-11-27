@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using Business_.Services;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -16,9 +17,17 @@ namespace learn_010_presentation_wpf
     /// </summary>
     public partial class MainWindow : Window
     {
+
+        private readonly UserService _userService = new();
+
         public MainWindow()
         {
             InitializeComponent();
+
+            _userService.Add(new Dtos_.UserRegistrationForm()
+            {
+                // Add something later. . .
+            });
         }
     }
 }
