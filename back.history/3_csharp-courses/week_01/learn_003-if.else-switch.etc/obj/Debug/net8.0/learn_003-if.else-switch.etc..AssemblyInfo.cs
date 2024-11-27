@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("learn_003-if.else-switch.etc.")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be51738dea2e0549ea17e2f18d82eea5ceda4384")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0be7beafeeb22583dfab05211caa04b8f801f20c")]
 [assembly: System.Reflection.AssemblyProductAttribute("learn_003-if.else-switch.etc.")]
 [assembly: System.Reflection.AssemblyTitleAttribute("learn_003-if.else-switch.etc.")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

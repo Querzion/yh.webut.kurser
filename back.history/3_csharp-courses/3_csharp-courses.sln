@@ -75,6 +75,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data_", "week_02\presentati
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dtos_", "week_02\presentation_classes\Dtos_\Dtos_.csproj", "{B64A224A-F9D1-47BF-8728-9BFE649EB837}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learn_010_presentation_wpf", "week_02\learn_010_presentation_wpf\learn_010_presentation_wpf.csproj", "{123FB950-0624-44BC-99EC-008FEA9C274E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -197,6 +199,10 @@ Global
 		{B64A224A-F9D1-47BF-8728-9BFE649EB837}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B64A224A-F9D1-47BF-8728-9BFE649EB837}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B64A224A-F9D1-47BF-8728-9BFE649EB837}.Release|Any CPU.Build.0 = Release|Any CPU
+		{123FB950-0624-44BC-99EC-008FEA9C274E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{123FB950-0624-44BC-99EC-008FEA9C274E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{123FB950-0624-44BC-99EC-008FEA9C274E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{123FB950-0624-44BC-99EC-008FEA9C274E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -236,5 +242,6 @@ Global
 		{F0CA0547-F132-43FA-B407-41406102F576} = {C89C6DB5-A628-4A2A-A276-66DE50E73795}
 		{E8FAFCFE-0A1E-49E0-91E3-9963EF07934E} = {C89C6DB5-A628-4A2A-A276-66DE50E73795}
 		{B64A224A-F9D1-47BF-8728-9BFE649EB837} = {C89C6DB5-A628-4A2A-A276-66DE50E73795}
+		{123FB950-0624-44BC-99EC-008FEA9C274E} = {FBDE831D-AC1F-46AD-A0C1-53AFD9BCDA94}
 	EndGlobalSection
 EndGlobal
