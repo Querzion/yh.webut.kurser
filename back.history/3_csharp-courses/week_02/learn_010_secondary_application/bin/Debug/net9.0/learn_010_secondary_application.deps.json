@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "learn_010_secondary_application/1.0.0": {
+        "runtime": {
+          "learn_010_secondary_application.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "learn_010_secondary_application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
