@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("learn_009_save_open_from_json")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+93bfc14d586772feeded1b3633c4e151b7abcb2d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0642ecf54d0a49f449f51a7a94dfa9549b3afee7")]
 [assembly: System.Reflection.AssemblyProductAttribute("learn_009_save_open_from_json")]
 [assembly: System.Reflection.AssemblyTitleAttribute("learn_009_save_open_from_json")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
