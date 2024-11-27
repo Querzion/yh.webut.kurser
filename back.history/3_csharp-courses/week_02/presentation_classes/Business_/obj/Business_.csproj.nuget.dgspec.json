@@ -107,11 +107,7 @@
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
-            "projectReferences": {
-              "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\presentation_classes\\Domain_\\Domain_.csproj": {
-                "projectPath": "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\presentation_classes\\Domain_\\Domain_.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {

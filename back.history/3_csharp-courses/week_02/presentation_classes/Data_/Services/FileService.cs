@@ -1,5 +1,4 @@
-﻿using Domain_.Models;
-using System.Diagnostics;
+﻿using System.Diagnostics;
 using System.Text.Json;
 
 namespace Business_.Services;
@@ -17,7 +16,7 @@ public class FileService
         _jsonSerializerOptions = new JsonSerializerOptions { WriteIndented = true };
     }
 
-    public void SaveListToFile(List<User> list)
+    public void SaveListToFile<T>(List<T> list)
     {
         try
         {
@@ -33,7 +32,7 @@ public class FileService
         }
     }
 
-    public List<User> LoadListFromFile()
+    public List<T> LoadListFromFile<T>()
     {
         try
         {
@@ -41,7 +40,7 @@ public class FileService
                 return [];
 
             var json = File.ReadAllText(_filePath);
-            var list = JsonSerializer.Deserialize<List<User>>(json, _jsonSerializerOptions);
+            var list = JsonSerializer.Deserialize<List<T>>(json, _jsonSerializerOptions);
 
             return list ?? [];
         }

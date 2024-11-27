@@ -1,48 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {
-      "Domain_/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v9.0",
-        "dependencies": {
-          "Dtos_": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Domain_.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Domain_.dll": {}
-        }
-      },
-      "Dtos_/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v9.0",
-        "compile": {
-          "bin/placeholder/Dtos_.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Dtos_.dll": {}
-        }
-      }
-    }
+    "net9.0": {}
   },
-  "libraries": {
-    "Domain_/1.0.0": {
-      "type": "project",
-      "path": "../Domain_/Domain_.csproj",
-      "msbuildProject": "../Domain_/Domain_.csproj"
-    },
-    "Dtos_/1.0.0": {
-      "type": "project",
-      "path": "../Dtos_/Dtos_.csproj",
-      "msbuildProject": "../Dtos_/Dtos_.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net9.0": [
-      "Domain_ >= 1.0.0"
-    ]
+    "net9.0": []
   },
   "packageFolders": {
     "C:\\Users\\iam\\.nuget\\packages\\": {},
@@ -77,11 +40,7 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {
-            "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\presentation_classes\\Domain_\\Domain_.csproj": {
-              "projectPath": "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\presentation_classes\\Domain_\\Domain_.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

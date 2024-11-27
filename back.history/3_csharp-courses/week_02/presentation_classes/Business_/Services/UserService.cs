@@ -21,7 +21,7 @@ public class UserService
 
     public IEnumerable<User> GetAll()
     {
-        _users = _fileService.LoadListFromFile();
+        _users = _fileService.LoadListFromFile<User>();
         return _users;
     }
 

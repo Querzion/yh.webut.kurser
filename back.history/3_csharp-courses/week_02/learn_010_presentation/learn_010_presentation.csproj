@@ -9,7 +9,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\presentation_classes\Business_\Business_.csproj" />
-    <ProjectReference Include="..\presentation_classes\Domain_\Domain_.csproj" />
   </ItemGroup>
 
 </Project>

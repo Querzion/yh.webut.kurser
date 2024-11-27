@@ -19,9 +19,6 @@
       "Data_/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
-        "dependencies": {
-          "Domain_": "1.0.0"
-        },
         "compile": {
           "bin/placeholder/Data_.dll": {}
         },
@@ -78,8 +75,7 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "Business_ >= 1.0.0",
-      "Domain_ >= 1.0.0"
+      "Business_ >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -118,9 +114,6 @@
           "projectReferences": {
             "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\presentation_classes\\Business_\\Business_.csproj": {
               "projectPath": "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\presentation_classes\\Business_\\Business_.csproj"
-            },
-            "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\presentation_classes\\Domain_\\Domain_.csproj": {
-              "projectPath": "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\presentation_classes\\Domain_\\Domain_.csproj"
             }
           }
         }

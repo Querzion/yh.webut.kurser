@@ -16,9 +16,6 @@
         }
       },
       "Data_/1.0.0": {
-        "dependencies": {
-          "Domain_": "1.0.0"
-        },
         "runtime": {
           "Data_.dll": {
             "assemblyVersion": "1.0.0",

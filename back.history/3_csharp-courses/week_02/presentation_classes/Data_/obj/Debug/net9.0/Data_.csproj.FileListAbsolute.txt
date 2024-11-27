@@ -1,17 +1,11 @@
 C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\presentation_classes\Data_\bin\Debug\net9.0\Data_.deps.json
 C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\presentation_classes\Data_\bin\Debug\net9.0\Data_.dll
 C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\presentation_classes\Data_\bin\Debug\net9.0\Data_.pdb
-C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\presentation_classes\Data_\bin\Debug\net9.0\Domain_.dll
-C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\presentation_classes\Data_\bin\Debug\net9.0\Dtos_.dll
-C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\presentation_classes\Data_\bin\Debug\net9.0\Domain_.pdb
-C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\presentation_classes\Data_\bin\Debug\net9.0\Dtos_.pdb
-C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\presentation_classes\Data_\obj\Debug\net9.0\Data_.csproj.AssemblyReference.cache
 C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\presentation_classes\Data_\obj\Debug\net9.0\Data_.GeneratedMSBuildEditorConfig.editorconfig
 C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\presentation_classes\Data_\obj\Debug\net9.0\Data_.AssemblyInfoInputs.cache
 C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\presentation_classes\Data_\obj\Debug\net9.0\Data_.AssemblyInfo.cs
 C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\presentation_classes\Data_\obj\Debug\net9.0\Data_.csproj.CoreCompileInputs.cache
 C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\presentation_classes\Data_\obj\Debug\net9.0\Data_.sourcelink.json
-C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\presentation_classes\Data_\obj\Debug\net9.0\Data_.csproj.Up2Date
 C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\presentation_classes\Data_\obj\Debug\net9.0\Data_.dll
 C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\presentation_classes\Data_\obj\Debug\net9.0\refint\Data_.dll
 C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\presentation_classes\Data_\obj\Debug\net9.0\Data_.pdb

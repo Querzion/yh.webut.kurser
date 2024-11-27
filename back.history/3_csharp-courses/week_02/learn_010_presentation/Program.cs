@@ -18,10 +18,11 @@ Console.Clear();
 // It's stated that it's a one-way reference, so if you have multiple references, create a supply chain of the data.
 
 Console.WriteLine("This is the Presentation layer, and it uses the PresentationClassesFolder");
-Console.WriteLine("Presentation => Business_ & Domain_"); 
+Console.WriteLine("Presentation => Business_"); 
 Console.WriteLine("Business_ => Domain_ & Data_"); 
-Console.WriteLine("Data_ => Domain_");
+Console.WriteLine("Data_ => none");
 Console.WriteLine("Domain_ => Dtos_");
+Console.WriteLine("Dtos_ => none");
 
 Console.WriteLine("A project like this is Presentation as MainApp, ClassLibrary as Business or Infrastructure, then Domain & Data, no limit really.");
 
@@ -29,10 +30,11 @@ Console.ReadKey();
 Console.Clear();
 
 /// DEPENDENCIES
-/// L10_P => PC/Business_ & PC/Domain_
+/// L10_P => PC/Business_ 
 /// PC/Business_ => PC/Domain_ & PC/Data_
-/// PC/Data_ => PC/Domain_
+/// PC/Data_ => none
 /// PC/Domain_ => PC/Dtos_
+/// PC/Dtos_ => none
 /// 
 
 var menuService = new MenuService();
