@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learn_008_service_pattern",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exercise_02", "week_02\exercise_02\exercise_02.csproj", "{4ABE20EA-1F78-4D53-9D3E-4369D700048F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learn_009_save_open_from_json", "week_02\learn_009_save_open_from_json\learn_009_save_open_from_json.csproj", "{D261B798-2B29-4DE7-BD18-35CEF206EB23}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{4ABE20EA-1F78-4D53-9D3E-4369D700048F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4ABE20EA-1F78-4D53-9D3E-4369D700048F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4ABE20EA-1F78-4D53-9D3E-4369D700048F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D261B798-2B29-4DE7-BD18-35CEF206EB23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D261B798-2B29-4DE7-BD18-35CEF206EB23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D261B798-2B29-4DE7-BD18-35CEF206EB23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D261B798-2B29-4DE7-BD18-35CEF206EB23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -105,5 +111,6 @@ Global
 		{DB0830FB-7ABC-4E1C-833F-CB2F430D89BC} = {FBDE831D-AC1F-46AD-A0C1-53AFD9BCDA94}
 		{F2EB7F4A-1DAC-4A7B-932E-B00D0486534F} = {FBDE831D-AC1F-46AD-A0C1-53AFD9BCDA94}
 		{4ABE20EA-1F78-4D53-9D3E-4369D700048F} = {FBDE831D-AC1F-46AD-A0C1-53AFD9BCDA94}
+		{D261B798-2B29-4DE7-BD18-35CEF206EB23} = {FBDE831D-AC1F-46AD-A0C1-53AFD9BCDA94}
 	EndGlobalSection
 EndGlobal
