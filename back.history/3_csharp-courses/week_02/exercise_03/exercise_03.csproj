@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\exercise_02\exercise_02.csproj" />
+    <ProjectReference Include="..\exercise_03_class_library\ExternalBase\ExternalBase.csproj" />
   </ItemGroup>
 
 </Project>

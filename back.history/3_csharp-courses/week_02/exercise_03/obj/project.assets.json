@@ -2,28 +2,28 @@
   "version": 3,
   "targets": {
     "net9.0": {
-      "exercise_02/1.0.0": {
+      "ExternalBase/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "compile": {
-          "bin/placeholder/exercise_02.dll": {}
+          "bin/placeholder/ExternalBase.dll": {}
         },
         "runtime": {
-          "bin/placeholder/exercise_02.dll": {}
+          "bin/placeholder/ExternalBase.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "exercise_02/1.0.0": {
+    "ExternalBase/1.0.0": {
       "type": "project",
-      "path": "../exercise_02/exercise_02.csproj",
-      "msbuildProject": "../exercise_02/exercise_02.csproj"
+      "path": "../exercise_03_class_library/ExternalBase/ExternalBase.csproj",
+      "msbuildProject": "../exercise_03_class_library/ExternalBase/ExternalBase.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "exercise_02 >= 1.0.0"
+      "ExternalBase >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -60,8 +60,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\exercise_02\\exercise_02.csproj": {
-              "projectPath": "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\exercise_02\\exercise_02.csproj"
+            "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\exercise_03_class_library\\ExternalBase\\ExternalBase.csproj": {
+              "projectPath": "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\exercise_03_class_library\\ExternalBase\\ExternalBase.csproj"
             }
           }
         }

@@ -77,6 +77,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dtos_", "week_02\presentati
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learn_010_presentation_wpf", "week_02\learn_010_presentation_wpf\learn_010_presentation_wpf.csproj", "{123FB950-0624-44BC-99EC-008FEA9C274E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "exercise_03_class_library", "exercise_03_class_library", "{B6A94F29-5BB6-4556-A455-DD4DA2591181}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExternalBase", "week_02\exercise_03_class_library\ExternalBase\ExternalBase.csproj", "{73AC2DF8-AF50-4FE6-BA20-8A9801EF5886}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -203,6 +207,10 @@ Global
 		{123FB950-0624-44BC-99EC-008FEA9C274E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{123FB950-0624-44BC-99EC-008FEA9C274E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{123FB950-0624-44BC-99EC-008FEA9C274E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73AC2DF8-AF50-4FE6-BA20-8A9801EF5886}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73AC2DF8-AF50-4FE6-BA20-8A9801EF5886}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73AC2DF8-AF50-4FE6-BA20-8A9801EF5886}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73AC2DF8-AF50-4FE6-BA20-8A9801EF5886}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -243,5 +251,7 @@ Global
 		{E8FAFCFE-0A1E-49E0-91E3-9963EF07934E} = {C89C6DB5-A628-4A2A-A276-66DE50E73795}
 		{B64A224A-F9D1-47BF-8728-9BFE649EB837} = {C89C6DB5-A628-4A2A-A276-66DE50E73795}
 		{123FB950-0624-44BC-99EC-008FEA9C274E} = {FBDE831D-AC1F-46AD-A0C1-53AFD9BCDA94}
+		{B6A94F29-5BB6-4556-A455-DD4DA2591181} = {FBDE831D-AC1F-46AD-A0C1-53AFD9BCDA94}
+		{73AC2DF8-AF50-4FE6-BA20-8A9801EF5886} = {B6A94F29-5BB6-4556-A455-DD4DA2591181}
 	EndGlobalSection
 EndGlobal
