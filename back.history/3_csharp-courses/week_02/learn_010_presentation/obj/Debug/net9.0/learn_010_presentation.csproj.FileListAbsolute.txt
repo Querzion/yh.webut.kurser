@@ -3,12 +3,6 @@ C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_010_pres
 C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_010_presentation\bin\Debug\net9.0\learn_010_presentation.runtimeconfig.json
 C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_010_presentation\bin\Debug\net9.0\learn_010_presentation.dll
 C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_010_presentation\bin\Debug\net9.0\learn_010_presentation.pdb
-C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_010_presentation\bin\Debug\net9.0\Business2.dll
-C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_010_presentation\bin\Debug\net9.0\Data.dll
-C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_010_presentation\bin\Debug\net9.0\Domain2.dll
-C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_010_presentation\bin\Debug\net9.0\Business2.pdb
-C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_010_presentation\bin\Debug\net9.0\Domain2.pdb
-C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_010_presentation\bin\Debug\net9.0\Data.pdb
 C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_010_presentation\obj\Debug\net9.0\learn_010_presentation.csproj.AssemblyReference.cache
 C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_010_presentation\obj\Debug\net9.0\learn_010_presentation.GeneratedMSBuildEditorConfig.editorconfig
 C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_010_presentation\obj\Debug\net9.0\learn_010_presentation.AssemblyInfoInputs.cache
@@ -21,3 +15,11 @@ C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_010_pres
 C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_010_presentation\obj\Debug\net9.0\learn_010_presentation.pdb
 C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_010_presentation\obj\Debug\net9.0\learn_010_presentation.genruntimeconfig.cache
 C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_010_presentation\obj\Debug\net9.0\ref\learn_010_presentation.dll
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_010_presentation\bin\Debug\net9.0\Business_.dll
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_010_presentation\bin\Debug\net9.0\Data_.dll
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_010_presentation\bin\Debug\net9.0\Domain_.dll
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_010_presentation\bin\Debug\net9.0\Dtos_.dll
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_010_presentation\bin\Debug\net9.0\Business_.pdb
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_010_presentation\bin\Debug\net9.0\Domain_.pdb
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_010_presentation\bin\Debug\net9.0\Data_.pdb
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_010_presentation\bin\Debug\net9.0\Dtos_.pdb

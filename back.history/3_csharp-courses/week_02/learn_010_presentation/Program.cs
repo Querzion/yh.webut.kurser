@@ -19,7 +19,7 @@ Console.Clear();
 
 Console.WriteLine("This is the Presentation layer, and it uses the PresentationClassesFolder");
 Console.WriteLine("Presentation => Business_ & Domain_"); 
-Console.WriteLine("Business => Domain_ & Data_"); 
+Console.WriteLine("Business_ => Domain_ & Data_"); 
 Console.WriteLine("Data_ => Domain_");
 Console.WriteLine("Domain_ => Dtos_");
 
