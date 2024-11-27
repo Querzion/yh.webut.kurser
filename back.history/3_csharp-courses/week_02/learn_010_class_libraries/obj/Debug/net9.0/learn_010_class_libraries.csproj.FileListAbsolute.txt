@@ -1,0 +1,6 @@
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_010_class_libraries\obj\Debug\net9.0\learn_010_class_libraries.csproj.AssemblyReference.cache
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_010_class_libraries\obj\Debug\net9.0\learn_010_class_libraries.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_010_class_libraries\obj\Debug\net9.0\learn_010_class_libraries.AssemblyInfoInputs.cache
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_010_class_libraries\obj\Debug\net9.0\learn_010_class_libraries.AssemblyInfo.cs
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_010_class_libraries\obj\Debug\net9.0\learn_010_class_libraries.csproj.CoreCompileInputs.cache
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\learn_010_class_libraries\obj\Debug\net9.0\learn_010_class_libraries.sourcelink.json

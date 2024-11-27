@@ -1,0 +1,12 @@
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\class_libraries\Infrastructure\bin\Debug\net9.0\Infrastructure.deps.json
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\class_libraries\Infrastructure\bin\Debug\net9.0\Infrastructure.dll
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\class_libraries\Infrastructure\bin\Debug\net9.0\Infrastructure.pdb
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\class_libraries\Infrastructure\obj\Debug\net9.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\class_libraries\Infrastructure\obj\Debug\net9.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\class_libraries\Infrastructure\obj\Debug\net9.0\Infrastructure.AssemblyInfo.cs
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\class_libraries\Infrastructure\obj\Debug\net9.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\class_libraries\Infrastructure\obj\Debug\net9.0\Infrastructure.sourcelink.json
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\class_libraries\Infrastructure\obj\Debug\net9.0\Infrastructure.dll
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\class_libraries\Infrastructure\obj\Debug\net9.0\refint\Infrastructure.dll
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\class_libraries\Infrastructure\obj\Debug\net9.0\Infrastructure.pdb
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\class_libraries\Infrastructure\obj\Debug\net9.0\ref\Infrastructure.dll
