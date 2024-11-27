@@ -1,6 +1,4 @@
-﻿
-using Infrastructure.Services;
-using learn_010_ddd.Services;
+﻿using learn_010_ddd.Services;
 
 /// Using different layered architectures in C# with Class libraries
 /// Like N-Tier, Domain Driven Design [DDD] etc.
