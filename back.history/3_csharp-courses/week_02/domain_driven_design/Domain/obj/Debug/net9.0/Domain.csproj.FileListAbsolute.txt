@@ -1,0 +1,12 @@
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\domain_driven_design\Domain\bin\Debug\net9.0\Domain.deps.json
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\domain_driven_design\Domain\bin\Debug\net9.0\Domain.dll
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\domain_driven_design\Domain\bin\Debug\net9.0\Domain.pdb
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\domain_driven_design\Domain\obj\Debug\net9.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\domain_driven_design\Domain\obj\Debug\net9.0\Domain.AssemblyInfoInputs.cache
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\domain_driven_design\Domain\obj\Debug\net9.0\Domain.AssemblyInfo.cs
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\domain_driven_design\Domain\obj\Debug\net9.0\Domain.csproj.CoreCompileInputs.cache
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\domain_driven_design\Domain\obj\Debug\net9.0\Domain.sourcelink.json
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\domain_driven_design\Domain\obj\Debug\net9.0\Domain.dll
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\domain_driven_design\Domain\obj\Debug\net9.0\refint\Domain.dll
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\domain_driven_design\Domain\obj\Debug\net9.0\Domain.pdb
+C:\Projects\yh.webut.kurser\back.history\3_csharp-courses\week_02\domain_driven_design\Domain\obj\Debug\net9.0\ref\Domain.dll
