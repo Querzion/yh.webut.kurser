@@ -32,28 +32,28 @@
 using learn_005_classes.Models;
 
 
-//User user = new User();
+User user = new User();
 
-//var userTestCamp = new User()
-//{
-//    FirstName = "Dracul"
-//};
+var userTestCamp = new User()
+{
+    FirstName = "Dracul"
+};
 
-//Console.Write("Gift me your first name: ");
-//user.FirstName = Console.ReadLine()!;
-//Console.WriteLine(user.FirstName);
-//Console.Write("Gift me your last name: ");
-//user.LastName = Console.ReadLine()!;
-//Console.WriteLine(user.LastName);
+Console.Write("Gift me your first name: ");
+user.FirstName = Console.ReadLine()!;
+Console.WriteLine(user.FirstName);
+Console.Write("Gift me your last name: ");
+user.LastName = Console.ReadLine()!;
+Console.WriteLine(user.LastName);
 
-//if (user.FirstName == "Why?")
-//{
-//    user.FirstName = userTestCamp.FirstName;
-//    Console.WriteLine("Is it " + user.FirstName + " then?");
+if (user.FirstName == "Why?")
+{
+    user.FirstName = userTestCamp.FirstName;
+    Console.WriteLine("Is it " + user.FirstName + " then?");
 
-//    user.FirstName = "Slisk";
-//    Console.WriteLine("I know what you did last summer " + user.FirstName);
-//}
+    user.FirstName = "Slisk";
+    Console.WriteLine("I know what you did last summer " + user.FirstName);
+}
 
 /// FIELDS
 /// 
@@ -66,25 +66,25 @@ using learn_005_classes.Models;
 /// CONSTRUCTOR
 /// 
 // Is named the same as the class - User & UserService - the parenthesis is the constructor initialization. 
-var userService = new UserService();
+//var userService = new UserService();
 
-var korvkoiskOwner = new User("Slisk", "Lindqvist");
+//var korvkoiskOwner = new User("Slisk", "Lindqvist");
 
-Console.WriteLine(korvkoiskOwner.FirstName);
+//Console.WriteLine(korvkoiskOwner.FirstName);
 
 /// METHODS
 /// 
 // A method is very different from a function, a function has it's own separate call and functionality, while a 
 // method is directly linked as a function for a class, and is within a class.
-User.Greeting();
+//User.Greeting();
 
-string greeting = User.GreetingTwo();
+//string greeting = User.GreetingTwo();
 
-Console.WriteLine(greeting);
+//Console.WriteLine(greeting);
 
 
 // Calculator
-var result = Calculator.Add(11);
+//var result = Calculator.Add(11);
 
 
 

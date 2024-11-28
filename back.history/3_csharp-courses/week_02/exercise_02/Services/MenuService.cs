@@ -1,12 +1,11 @@
-﻿using learn_008_service_pattern.Factories;
-using learn_008_service_pattern.Interfaces;
-using learn_008_service_pattern.Models;
+﻿using exercise_02.Models;
+using exercise_02.Services;
 
 namespace learn_008_service_pattern.Services;
 
-public class MenuService : IMenuDialogues
+public class MenuService
 {
-    private readonly UserService _userService = new UserService();
+    private readonly TodoService _todoService = new TodoService();
 
     public void Show()
     {
@@ -23,9 +22,9 @@ public class MenuService : IMenuDialogues
 
         Console.Clear();
         Console.WriteLine("*******************************");
-        Console.WriteLine($"{"1.",-8} Add a TO:DO");
-        Console.WriteLine($"{"2.",-8} View the TO:DO list");
-        Console.WriteLine($"{"Q.",-8} Quit Application");
+        Console.WriteLine($"{"1.",-8} CREATE TO:DO");
+        Console.WriteLine($"{"2.",-8} VIEW TO:DO LIST");
+        Console.WriteLine($"{"Q.",-8} QUIT APPLICATION");
         Console.WriteLine("*******************************");
         Console.Write("Choose your menu option: ");
         var option = Console.ReadLine()!;
@@ -69,23 +68,14 @@ public class MenuService : IMenuDialogues
 
     public void CreateOption()
     {
-        UserRegistrationForm userRegistrationForm = UserFactory.Create();
+        TodoService todoService = new TodoService();
         
         Console.Clear();
 
         Console.Write("Enter your first name: ");
-        userRegistrationForm.FirstName = Console.ReadLine()!;
+        todoService. = Console.ReadLine()!;
 
-        Console.Write("Enter your last name: ");
-        userRegistrationForm.LastName = Console.ReadLine()!;
-
-        Console.Write("Enter your email: ");
-        userRegistrationForm.Email = Console.ReadLine()!;
-
-        Console.Write("Enter new password: ");
-        userRegistrationForm.Password = Console.ReadLine()!;
-
-        bool result = _userService.Create(userRegistrationForm);
+        bool result = _todoService.Create(userRegistrationForm);
 
         if (result)
             OutputDialogue("User was successfully created.");
