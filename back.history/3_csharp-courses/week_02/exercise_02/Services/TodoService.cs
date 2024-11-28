@@ -27,15 +27,13 @@ public class TodoService
         return _todoService;
     }
 
-    public IEnumerable<Todo> GotOne(int id)
-    {
-        return _todoService.FirstOrDefault(x => x.Id == id);
-    }
+    //public IEnumerable<Todo> GotOne(int id)
+    //{
+    //    return _todoService.FirstOrDefault(x => x.Id == id);
+    //}
 
     public void Clear()
     {
         _todoService.Clear();
     }
-
-
 }

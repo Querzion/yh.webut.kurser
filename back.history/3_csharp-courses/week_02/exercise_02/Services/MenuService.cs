@@ -1,12 +1,12 @@
 ﻿using exercise_02.Models;
 using exercise_02.Services;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace learn_008_service_pattern.Services;
 
 public class MenuService
 {
     private readonly TodoService _todoService = new TodoService();
-
     public void Show()
     {
         while (true)
@@ -68,48 +68,70 @@ public class MenuService
 
     public void CreateOption()
     {
-        TodoService todoService = new TodoService();
-        
         Console.Clear();
-
-        Console.Write("Enter your first name: ");
-        todoService. = Console.ReadLine()!;
-
-        bool result = _todoService.Create(userRegistrationForm);
-
-        if (result)
-            OutputDialogue("User was successfully created.");
-        else
-            OutputDialogue("User creation failed.");
+        Console.Write("Add Todo: ");
+        var text = Console.ReadLine()!;
+        var todo = new Todo(text); 
+        _todoService.AddTodo(todo);
+        Console.WriteLine($"Added: {todo.Description}");
     }
 
     public void ViewOption()
     {
-        var users = _userService.GetAll();
+        var todos = _todoService.GetTodoList();
 
         Console.Clear();
-
-        foreach ( var user in users)
+        int i = 0;
+        foreach ( var todo in todos)
         {
-            Console.WriteLine($"{"Id:",-15}{user.Id}");
-            Console.WriteLine($"{"Name:",-15}{user.FirstName}{user.LastName}");
-            Console.WriteLine($"{"Email:",-15}{user.Email}");
+            Console.Clear();
+            Console.Write($"Is the todo '{todo.Description}' done? (y/n): ");
+            var status = Console.ReadLine()!;
+
+            switch (status.ToLower())
+            {
+                case "y":
+                    todo.IsCompleted = true;
+                    break;
+                case "n":
+                    todo.IsCompleted = false;
+                    break;
+                default:
+                    Console.WriteLine("Todo set to 'no'");
+                    todo.IsCompleted = false;
+                    break;
+            }
+        }
+
+        Console.Clear();
+        
+        Console.WriteLine("-------------------------------------");
+
+        foreach (var todo in todos)
+        {
+            i++;
+            todo.Id = i;
+            if (todo.IsCompleted == false)
+            {
+                var todoStatus = "in progress";
+                Console.WriteLine($"{$"{todo.Id}:",-5}{todo.Description} {$"({todoStatus})"}");
+            }
+            else
+            {
+                var todoStatus = "Completed";
+                Console.WriteLine($"{$"{todo.Id}:",-5}{todo.Description} {$"({todoStatus})"}");
+            }
+
             Console.WriteLine("");
         }
 
+        Console.WriteLine("Press any key to continue...");
         Console.ReadKey();
     }  
 
     public void InvalidOption()
     {
         Console.WriteLine("You must enter a valid option.");
-        Console.ReadKey();
-    }
-
-    public void OutputDialogue(string message)
-    {
-        Console.Clear();
-        Console.WriteLine(message);
         Console.ReadKey();
     }
 }

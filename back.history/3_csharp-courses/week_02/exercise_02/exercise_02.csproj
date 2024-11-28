@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Services\4lhq2js0.kve~" />
+  </ItemGroup>
+
 </Project>
