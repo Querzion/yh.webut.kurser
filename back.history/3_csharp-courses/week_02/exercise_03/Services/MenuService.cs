@@ -6,7 +6,7 @@ namespace exercise_03.Services;
 
 public class MenuService
 {
-    private readonly TodoService _todoService = new TodoService();
+    private readonly UserService _userService = new UserService();
     public void Show()
     {
         while (true)
@@ -21,17 +21,17 @@ public class MenuService
         // The number that is visible in this output ($"{"This",-8} That") is the amount of spaces there is between "This" and "That". 
 
         Console.Clear();
-        Console.WriteLine("*******************************");
-        Console.WriteLine($"{"1.",-8} CREATE TO:DO");
-        Console.WriteLine($"{"2.",-8} VIEW TO:DO LIST");
-        Console.WriteLine($"{"Q.",-8} QUIT APPLICATION");
-        Console.WriteLine("*******************************");
-        Console.Write("Choose your menu option: ");
+        Console.WriteLine("************************************");
+        Console.WriteLine($"{"1.",-8} Lägg till en användare");
+        Console.WriteLine($"{"2.",-8} Visa alla användare");
+        Console.WriteLine($"{"A.",-8} Avsluta applikation");
+        Console.WriteLine("************************************");
+        Console.Write("Välj alternativ: ");
         var option = Console.ReadLine()!;
 
         switch (option.ToLower())
         {
-            case "q":
+            case "A":
                 QuitOption();
                 break;
 
@@ -57,10 +57,10 @@ public class MenuService
     {
         Console.Clear();
 
-        Console.Write("Do you want to exit this application (y/n): ");
+        Console.Write("Vill du verkligen avsluta applikationen? (j/n): ");
         var option = Console.ReadLine()!;
 
-        if (option.Equals("y", StringComparison.CurrentCultureIgnoreCase))
+        if (option.Equals("j", StringComparison.CurrentCultureIgnoreCase))
         {
             Environment.Exit(0);
         }
@@ -68,70 +68,59 @@ public class MenuService
 
     public void CreateOption()
     {
+        UserRegistrationForm userRegistrationForm = UserFactory.Create();
+
         Console.Clear();
-        Console.Write("Add Todo: ");
-        var text = Console.ReadLine()!;
-        var todo = new Todo(text); 
-        _todoService.AddTodo(todo);
-        Console.WriteLine($"Added: {todo.Description}");
+
+        Console.Write("Skriv in förnamn: ");
+        userRegistrationForm.FirstName = Console.ReadLine()!;
+
+        Console.Write("Skriv in efternamn: ");
+        userRegistrationForm.LastName = Console.ReadLine()!;
+
+        Console.Write("Skriv in e-postadress: ");
+        userRegistrationForm.Email = Console.ReadLine()!;
+
+        Console.Write("Skriv in lösenord: ");
+        userRegistrationForm.Password = Console.ReadLine()!;
+
+        bool result = _userService.Create(userRegistrationForm);
+
+        if (result)
+            OutputDialogue("Användarkonto skapat.");
+        else
+            OutputDialogue("Något gick fel.");
     }
 
     public void ViewOption()
     {
-        var todos = _todoService.GetTodoList();
+        var users = _userService.GetTodoList();
 
         Console.Clear();
+
+        Console.WriteLine("Lista över Användare: ");
+
         int i = 0;
-        foreach ( var todo in todos)
-        {
-            Console.Clear();
-            Console.Write($"Is the todo '{todo.Description}' done? (y/n): ");
-            var status = Console.ReadLine()!;
-
-            switch (status.ToLower())
-            {
-                case "y":
-                    todo.IsCompleted = true;
-                    break;
-                case "n":
-                    todo.IsCompleted = false;
-                    break;
-                default:
-                    Console.WriteLine("Todo set to 'no'");
-                    todo.IsCompleted = false;
-                    break;
-            }
-        }
-
-        Console.Clear();
-        
-        Console.WriteLine("-------------------------------------");
-
-        foreach (var todo in todos)
+        foreach ( var user in users)
         {
             i++;
-            todo.Id = i;
-            if (todo.IsCompleted == false)
-            {
-                var todoStatus = "in progress";
-                Console.WriteLine($"{$"{todo.Id}:",-5}{todo.Description} {$"({todoStatus})"}");
-            }
-            else
-            {
-                var todoStatus = "Completed";
-                Console.WriteLine($"{$"{todo.Id}:",-5}{todo.Description} {$"({todoStatus})"}");
-            }
-
-            Console.WriteLine("");
+            Console.WriteLine($"{i}. Namn: {user.FirstName}, E-Post: {user.Email}, Skapad: {user.DateTime}");
         }
 
-        Console.WriteLine("Press any key to continue...");
+        Console.WriteLine("Tryck valfri knapp för att fortsätta...");
         Console.ReadKey();
     }  
 
     public void InvalidOption()
     {
-        Console.WriteLine("You must enter a valid option.");
+        Console.WriteLine("Du måste välja ett giltigt alternativ.");
+        Console.ReadKey();
+    }
+
+    public void OutputDialogue(string message)
+    {
+        Console.Clear();
+        Console.WriteLine(message);
         Console.ReadKey();
     }
 }
