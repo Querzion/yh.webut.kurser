@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ExternalBase")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+39c4002f310f60dddf8d6a6df5a960ac7562e295")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+05b438d509362fa0f11ae311596a1fc509eca716")]
 [assembly: System.Reflection.AssemblyProductAttribute("ExternalBase")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ExternalBase")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

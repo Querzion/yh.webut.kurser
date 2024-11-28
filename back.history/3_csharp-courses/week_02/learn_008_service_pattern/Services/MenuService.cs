@@ -69,29 +69,6 @@ public class MenuService : IMenuDialogues
         Console.ReadKey();
     }
 
-    //private void MenuOptionSelector(string option)
-    //{
-    //    switch (option.ToLower())
-    //    {
-    //        case "q":
-    //            QuitOption();
-    //            break;
-
-    //        case "1":
-    //            CreateOption();
-    //            break;
-
-    //        case "2":
-    //            ViewOption();
-    //            break;
-
-    //        default:
-    //            InvalidOption();
-    //            break;
-
-    //    }
-    //}
-
 
     public void QuitOption()
     {

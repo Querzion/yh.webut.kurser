@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using exercise_03.Services;
+
+MenuService menuService = new MenuService();
+menuService.Show();
+
+Console.ReadKey();
