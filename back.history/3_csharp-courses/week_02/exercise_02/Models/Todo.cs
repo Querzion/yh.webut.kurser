@@ -23,9 +23,4 @@ public class Todo
         Description = description;
         IsCompleted = isCompleted;
     }
-
-    public void AddTodo()
-    {
-         
-    }
 }
