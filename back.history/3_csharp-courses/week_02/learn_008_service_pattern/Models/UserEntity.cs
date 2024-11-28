@@ -1,6 +1,4 @@
-﻿using learn_008_service_pattern.Helpers;
-
-namespace learn_008_service_pattern.Models;
+﻿namespace learn_008_service_pattern.Models;
 
 public class UserEntity
 {
