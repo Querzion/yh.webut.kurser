@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "G7qVRiK3ZO4=",
+  "dgSpecHash": "Zwls/4I31SY=",
   "success": true,
-  "projectFilePath": "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_01\\learn_002-lists.and.arrays\\learn_002-lists.and.arrays.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_01/learn_002-lists.and.arrays/learn_002-lists.and.arrays.csproj",
+  "expectedPackageFiles": [
+    "/home/querzion/.nuget/packages/microsoft.netcore.app.ref/8.0.11/microsoft.netcore.app.ref.8.0.11.nupkg.sha512",
+    "/home/querzion/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.11/microsoft.aspnetcore.app.ref.8.0.11.nupkg.sha512",
+    "/home/querzion/.nuget/packages/microsoft.netcore.app.host.linux-x64/8.0.11/microsoft.netcore.app.host.linux-x64.8.0.11.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "X1NwgB7Boto=",
+  "dgSpecHash": "17A+Zf4+9pk=",
   "success": true,
-  "projectFilePath": "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_01\\learn_001-csharp.basics\\learn_001-csharp.basics.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_01/learn_001-csharp.basics/learn_001-csharp.basics.csproj",
+  "expectedPackageFiles": [
+    "/home/querzion/.nuget/packages/microsoft.netcore.app.ref/8.0.11/microsoft.netcore.app.ref.8.0.11.nupkg.sha512",
+    "/home/querzion/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.11/microsoft.aspnetcore.app.ref.8.0.11.nupkg.sha512",
+    "/home/querzion/.nuget/packages/microsoft.netcore.app.host.linux-x64/8.0.11/microsoft.netcore.app.host.linux-x64.8.0.11.nupkg.sha512"
+  ],
   "logs": []
 }

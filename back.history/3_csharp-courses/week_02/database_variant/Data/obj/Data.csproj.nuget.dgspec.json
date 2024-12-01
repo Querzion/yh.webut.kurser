@@ -1,41 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\database_variant\\Data\\Data.csproj": {}
+    "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/database_variant/Data/Data.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\database_variant\\Data\\Data.csproj": {
+    "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/database_variant/Data/Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\database_variant\\Data\\Data.csproj",
+        "projectUniqueName": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/database_variant/Data/Data.csproj",
         "projectName": "Data",
-        "projectPath": "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\database_variant\\Data\\Data.csproj",
-        "packagesPath": "C:\\Users\\iam\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\database_variant\\Data\\obj\\",
+        "projectPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/database_variant/Data/Data.csproj",
+        "packagesPath": "/home/querzion/.nuget/packages/",
+        "outputPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/database_variant/Data/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
+        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
-          "C:\\Users\\iam\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/querzion/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Users\\iam\\Documents\\VSIX-FILES": {},
+          "/var/run/host/usr/lib/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\database_variant\\Domain2\\Domain2.csproj": {
-                "projectPath": "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\database_variant\\Domain2\\Domain2.csproj"
+              "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/database_variant/Domain2/Domain2.csproj": {
+                "projectPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/database_variant/Domain2/Domain2.csproj"
               }
             }
           }
@@ -49,8 +43,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net9.0": {
@@ -71,34 +64,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/var/run/host/usr/lib/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\database_variant\\Domain2\\Domain2.csproj": {
+    "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/database_variant/Domain2/Domain2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\database_variant\\Domain2\\Domain2.csproj",
+        "projectUniqueName": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/database_variant/Domain2/Domain2.csproj",
         "projectName": "Domain2",
-        "projectPath": "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\database_variant\\Domain2\\Domain2.csproj",
-        "packagesPath": "C:\\Users\\iam\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\yh.webut.kurser\\back.history\\3_csharp-courses\\week_02\\database_variant\\Domain2\\obj\\",
+        "projectPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/database_variant/Domain2/Domain2.csproj",
+        "packagesPath": "/home/querzion/.nuget/packages/",
+        "outputPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/database_variant/Domain2/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
+        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
-          "C:\\Users\\iam\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/querzion/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Users\\iam\\Documents\\VSIX-FILES": {},
+          "/var/run/host/usr/lib/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -116,8 +103,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net9.0": {
@@ -138,7 +124,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/var/run/host/usr/lib/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

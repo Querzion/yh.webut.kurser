@@ -1,4 +1,6 @@
-﻿using ExternalBase.Models;
+﻿using ExternalBase.Factories;
+using ExternalBase.Models;
+using ExternalBase.Helpers;
 
 namespace ExternalBase.Services;
 
@@ -10,7 +12,7 @@ public class UserService
     public void Add(UserRegistrationForm form)
     {
         User user = UserFactory.Create(form);
-        user.Id = UniqueIdentifierGenerator.Generate();
+        user.Id = UniqueIdentifierGenerator.GenerateUniqueId();
 
         _users.Add(user);
         _fileService.SaveListToFile(_users);
