@@ -33,6 +33,7 @@ public class MenuService
             case "1":
                 break;
             case "2":
+                Console.Clear();
                 break;
             case "q":
                 QuitOption();
