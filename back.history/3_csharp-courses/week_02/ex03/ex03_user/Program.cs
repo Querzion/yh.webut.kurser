@@ -1,3 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿
 
-Console.WriteLine("Hello, World!");
+using ex03_user.Services;
+
+MenuService menuService = new MenuService();
+menuService.ShowMenu();

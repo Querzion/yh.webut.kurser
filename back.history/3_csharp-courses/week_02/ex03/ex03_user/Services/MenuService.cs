@@ -38,7 +38,7 @@ public class MenuService
                 QuitOption();
                 break;
             default:
-                Console.WriteLine("Choose a valid option");
+                InvalidOption();
                 break;
         }
     }
@@ -47,7 +47,7 @@ public class MenuService
     {
         Console.Clear();
         Console.WriteLine("***********************************");
-        Console.Write("Do you really want to quit? (y/n)");
+        Console.Write("Do you really want to quit? (y/n): ");
         var confirm = Console.ReadLine()!;
 
         if (confirm.Equals("y", StringComparison.CurrentCultureIgnoreCase))
@@ -59,5 +59,11 @@ public class MenuService
     private void CreateOption()
     {
         
+    }
+
+    private void InvalidOption()
+    {
+        Console.WriteLine("Please enter a valid option");
+        Console.ReadKey();
     }
 }
