@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {
-      "ex03_infrastructure/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v9.0",
-        "compile": {
-          "bin/placeholder/ex03_infrastructure.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ex03_infrastructure.dll": {}
-        }
-      }
-    }
+    "net9.0": {}
   },
-  "libraries": {
-    "ex03_infrastructure/1.0.0": {
-      "type": "project",
-      "path": "../ex03_infrastructure/ex03_infrastructure.csproj",
-      "msbuildProject": "../ex03_infrastructure/ex03_infrastructure.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net9.0": [
-      "ex03_infrastructure >= 1.0.0"
-    ]
+    "net9.0": []
   },
   "packageFolders": {
     "/home/querzion/.nuget/packages/": {}
@@ -32,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/ex03/ex03_user/ex03_user.csproj",
-      "projectName": "ex03_user",
-      "projectPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/ex03/ex03_user/ex03_user.csproj",
+      "projectUniqueName": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/ex03/ex03_infrastructure/ex03_infrastructure.csproj",
+      "projectName": "ex03_infrastructure",
+      "projectPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/ex03/ex03_infrastructure/ex03_infrastructure.csproj",
       "packagesPath": "/home/querzion/.nuget/packages/",
-      "outputPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/ex03/ex03_user/obj/",
+      "outputPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/ex03/ex03_infrastructure/obj/",
       "projectStyle": "PackageReference",
       "UsingMicrosoftNETSdk": false,
       "configFilePaths": [
@@ -52,11 +33,7 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {
-            "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/ex03/ex03_infrastructure/ex03_infrastructure.csproj": {
-              "projectPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/ex03/ex03_infrastructure/ex03_infrastructure.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
