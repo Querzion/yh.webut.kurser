@@ -105,6 +105,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learn_011_interfaces", "wee
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learn_011_2_interfaces", "week_03\learn_011_2_interfaces\learn_011_2_interfaces.csproj", "{E03B5269-3437-4113-806A-FEDE37DEE819}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learn_011_3_interfaces", "week_03\learn_011_3_interfaces\learn_011_3_interfaces.csproj", "{36843D10-F102-47BA-A37C-45148B7060EC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -251,6 +253,10 @@ Global
 		{E03B5269-3437-4113-806A-FEDE37DEE819}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E03B5269-3437-4113-806A-FEDE37DEE819}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E03B5269-3437-4113-806A-FEDE37DEE819}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36843D10-F102-47BA-A37C-45148B7060EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36843D10-F102-47BA-A37C-45148B7060EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36843D10-F102-47BA-A37C-45148B7060EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36843D10-F102-47BA-A37C-45148B7060EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -304,5 +310,6 @@ Global
 		{0377A2C2-3CC7-4110-AD7C-CE4FF1345145} = {5A8AF047-F6D0-4EDB-9044-03691516BA70}
 		{91DBCC7E-8E92-4F80-BE8C-18F9C2FB7E51} = {700EE068-5AB6-463E-BE2F-2883CEADD412}
 		{E03B5269-3437-4113-806A-FEDE37DEE819} = {700EE068-5AB6-463E-BE2F-2883CEADD412}
+		{36843D10-F102-47BA-A37C-45148B7060EC} = {700EE068-5AB6-463E-BE2F-2883CEADD412}
 	EndGlobalSection
 EndGlobal
