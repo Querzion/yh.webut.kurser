@@ -4,12 +4,26 @@ namespace learn_012_inheritance_abstract.Models;
 // but you cannot initialize it anywhere outside its designation.
 public abstract class Customer
 {
-    public string Id { get; set; } = null!;
+    // public string Id { get; set; } = null!;
     public string Email { get; set; } = null!;
-
+ 
+    // Phase 6 - protected variables
     
-    // Phase 4 - Separation of responsibility
-    //
+    // set to protected if it's used for static variable data,
+    // or public if it should be editable for later. 
+    // protected string Id { get; set; } = null!;
+    // protected string Email { get; set; } = null!;
+    
+    // Phase 7 - protected properties
+    public string Id { get; protected set; } = null!;
+    
+    // Phase 8  - private properties which can only be set in the constructor.
+    // public string Id { get; private set; } = null!;
+    
+    // Phase 9 - protected variables.
+    protected string EncryptedPassword { get; set; } = null!;
+    
+    // Phase 4 & 5 - Separation of responsibility
     protected Customer(string id, string email)
     {
         if (string.IsNullOrWhiteSpace(id))
