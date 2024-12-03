@@ -35,4 +35,9 @@ public abstract class Customer
         Id = id;
         Email = email;
     }
+    
+    // Phase 10 - It is common practice to create variables where the logic is later on in separate files.
+    // Methods can only be set as abstract in an abstract class.
+    public abstract void SetSecuredPassword(string password);
+    public abstract void ValidateSecurePassword(string password);
 }

@@ -62,4 +62,19 @@ public class Private : Customer
             return false;
         }
     }
+
+    // Phase 10 - Adding the Abstract methods from Customer!
+    public override void SetSecuredPassword(string password)
+    {
+        var salt = "SaltySecrets";
+        using var sha256 = SHA256.Create();
+        var saltedPassword = $"{password}{salt}";
+        var hashBytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(saltedPassword));
+        EncryptedPassword = Convert.ToBase64String(hashBytes);
+    }
+
+    public override void ValidateSecurePassword(string password)
+    {
+        throw new NotImplementedException();
+    }
 }

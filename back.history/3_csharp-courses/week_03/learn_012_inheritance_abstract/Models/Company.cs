@@ -1,3 +1,6 @@
+using System.Security.Cryptography;
+using System.Text;
+
 namespace learn_012_inheritance_abstract.Models;
 
 public class Company : Customer
@@ -36,5 +39,19 @@ public class Company : Customer
     {
         // by doing this you can add indications like C for company Customer.
         Id = "C-" + id;
+    }
+
+    public override void SetSecuredPassword(string password)
+    {
+        var salt = "mustardSalt";
+        using var sha256 = SHA256.Create();
+        var saltedPassword = $"{password}{salt}";
+        var hashBytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(saltedPassword));
+        EncryptedPassword = Convert.ToBase64String(hashBytes);
+    }
+
+    public override void ValidateSecurePassword(string password)
+    {
+        throw new NotImplementedException();
     }
 }
