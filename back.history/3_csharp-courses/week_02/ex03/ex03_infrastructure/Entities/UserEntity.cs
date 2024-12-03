@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ex03_infrastructure.Entities;
 
-// DATATABLE
+// DATATABLE - SEND TO DATABASE
 public class UserEntity
 {
     [Key] public string Id { get; set; } = null!;

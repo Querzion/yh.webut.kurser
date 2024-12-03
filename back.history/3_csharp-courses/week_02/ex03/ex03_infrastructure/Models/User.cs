@@ -1,6 +1,6 @@
 namespace ex03_infrastructure.Models;
 
-// SEND
+// SEND TO USER
 public class User
 {
     public string Id { get; set; } = null!;
