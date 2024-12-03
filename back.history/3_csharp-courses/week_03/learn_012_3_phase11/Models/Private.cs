@@ -5,6 +5,8 @@ namespace learn_012_3_phase11.Models;
 
 public class Private : Customer
 {
+    private const string _saltKey = "ABC7895";
+    
     public string FirstName { get; set; } = null!;
     public string LastName { get; set; } = null!;
     
@@ -46,14 +48,20 @@ public class Private : Customer
     // Phase 14 - Override Password Logic
     public override void SetSecurePassword(string password)
     {
-        var salt = "Miffo7895";
-        password = $"{salt}{password}";
+        password = $"{_saltKey}{password}";
         base.SetSecurePassword(password);
     }
 
-    public string GetSecurePassword(string password)
+    public override bool ValidateSecurePassword(string password)
     {
-        base.SetSecurePassword(password);
-        return Password;
+        password = $"{_saltKey}{password}";
+        return base.ValidateSecurePassword(password);
     }
+    
+    // This code is a grave security risk.  
+    // public string GetSecurePassword(string password)
+    // {
+    //     base.SetSecurePassword(password);
+    //     return Password;
+    // }
 }

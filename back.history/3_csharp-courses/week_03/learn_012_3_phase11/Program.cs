@@ -1,36 +1,66 @@
 ﻿using learn_012_3_phase11.Models;
 
-Private privateCustomer = new Private();
+// Private privateCustomer = new Private();
+//
+// privateCustomer.FirstName = "John";
+// privateCustomer.LastName = "Doe";
+// privateCustomer.Email = "johndoe@gmail.com";
+// // Id is set through a constructor in Customer.cs
+// // privateCustomer.Id = Guid.NewGuid().ToString();
+//
+// Console.Write("Enter a secure private password: ");
+// var input = Console.ReadLine();
+// privateCustomer.SetSecurePassword(input);
+//
+// Company companyCustomer = new Company()
+// {
+//     // Id is set through the constructor in Customer.cs
+//     // Id = Guid.NewGuid().ToString(),
+//     Email = "email@email.com",
+//     CompanyName = "John Doe Express",
+//     ContactPerson = "John Doe"
+// };
+//
+// Console.Write("Enter a secure company password: ");
+// input = Console.ReadLine();
+// companyCustomer.SetSecurePassword(input);
+//
+// // Phase 14 - privateCustomer custom changes with override.
+// privateCustomer.GetSecurePassword(input);
+//
+// Console.Write("Whoops! Your private password hash was leaked... Multiple times... >> \n");
+// Console.WriteLine(privateCustomer.GetSecurePassword(input));
+// Console.WriteLine(privateCustomer.GetSecurePassword(input));
+// Console.WriteLine(privateCustomer.GetSecurePassword(input));
 
-privateCustomer.FirstName = "John";
-privateCustomer.LastName = "Doe";
-privateCustomer.Id = Guid.NewGuid().ToString();
-privateCustomer.Email = "johndoe@gmail.com";
 
-Console.Write("Enter a secure private password: ");
-var input = Console.ReadLine();
-privateCustomer.SetSecurePassword(input);
-
-Company companyCustomer = new Company()
+var privateCustomer_1 = new Private()
 {
-    Id = Guid.NewGuid().ToString(),
+    Email = "email@email.com",
+    FirstName = "John",
+    LastName = "Doe"
+};
+
+Console.WriteLine("Private Password is being set to the default value:\nIs the password set to the same?  ");
+// input = Console.ReadLine();
+
+privateCustomer_1.SetSecurePassword("222");
+var result = privateCustomer_1.ValidateSecurePassword("2e22");
+
+Console.WriteLine($"Result: {result}");
+
+var companyCustomer_1 = new Company()
+{
     Email = "email@email.com",
     CompanyName = "John Doe Express",
     ContactPerson = "John Doe"
 };
 
-Console.Write("Enter a secure company password: ");
-input = Console.ReadLine();
-companyCustomer.SetSecurePassword(input);
+Console.WriteLine("Company Password is being set to the default value:  ");
+companyCustomer_1.SetSecurePassword("Fight");
+result = companyCustomer_1.ValidateSecurePassword("Fight");
 
-// Phase 14 - privateCustomer custom changes with override.
-privateCustomer.GetSecurePassword(input);
-
-Console.Write("Whoops! Your private password hash was leaked... Multiple times... >> \n");
-Console.WriteLine(privateCustomer.GetSecurePassword(input));
-Console.WriteLine(privateCustomer.GetSecurePassword(input));
-Console.WriteLine(privateCustomer.GetSecurePassword(input));
-
+Console.WriteLine($"Result: {result}");
 
 Console.WriteLine("");
 Console.WriteLine("Press any key to continue...");
