@@ -1,0 +1,15 @@
+/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_03/learn_013/learn_013_1_dependency_injection/bin/Debug/net9.0/learn_013_1_dependency_injection
+/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_03/learn_013/learn_013_1_dependency_injection/bin/Debug/net9.0/learn_013_1_dependency_injection.deps.json
+/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_03/learn_013/learn_013_1_dependency_injection/bin/Debug/net9.0/learn_013_1_dependency_injection.runtimeconfig.json
+/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_03/learn_013/learn_013_1_dependency_injection/bin/Debug/net9.0/learn_013_1_dependency_injection.dll
+/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_03/learn_013/learn_013_1_dependency_injection/bin/Debug/net9.0/learn_013_1_dependency_injection.pdb
+/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_03/learn_013/learn_013_1_dependency_injection/obj/Debug/net9.0/learn_013_1_dependency_injection.GeneratedMSBuildEditorConfig.editorconfig
+/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_03/learn_013/learn_013_1_dependency_injection/obj/Debug/net9.0/learn_013_1_dependency_injection.AssemblyInfoInputs.cache
+/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_03/learn_013/learn_013_1_dependency_injection/obj/Debug/net9.0/learn_013_1_dependency_injection.AssemblyInfo.cs
+/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_03/learn_013/learn_013_1_dependency_injection/obj/Debug/net9.0/learn_013_1_dependency_injection.csproj.CoreCompileInputs.cache
+/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_03/learn_013/learn_013_1_dependency_injection/obj/Debug/net9.0/learn_013_1_dependency_injection.sourcelink.json
+/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_03/learn_013/learn_013_1_dependency_injection/obj/Debug/net9.0/learn_013_1_dependency_injection.dll
+/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_03/learn_013/learn_013_1_dependency_injection/obj/Debug/net9.0/refint/learn_013_1_dependency_injection.dll
+/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_03/learn_013/learn_013_1_dependency_injection/obj/Debug/net9.0/learn_013_1_dependency_injection.pdb
+/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_03/learn_013/learn_013_1_dependency_injection/obj/Debug/net9.0/learn_013_1_dependency_injection.genruntimeconfig.cache
+/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_03/learn_013/learn_013_1_dependency_injection/obj/Debug/net9.0/ref/learn_013_1_dependency_injection.dll

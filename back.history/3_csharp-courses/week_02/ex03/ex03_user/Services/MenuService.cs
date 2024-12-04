@@ -1,3 +1,4 @@
+using static System.Console;
 using System.Runtime.InteropServices;
 
 namespace ex03_user.Services;
@@ -14,14 +15,14 @@ public class MenuService
     
     private void MainMenu()
     {
-        Console.Clear();
-        Console.WriteLine("************************************");
-        Console.WriteLine($"{"1.",-8} Create User");
-        Console.WriteLine($"{"2.",-8} List Users");
-        Console.WriteLine($"{"Q.",-8} Quit Application");
-        Console.WriteLine("************************************");
-        Console.Write("Choose an option: ");
-        var option = Console.ReadLine()!;
+        Clear();
+        WriteLine("************************************");
+        WriteLine($"{"1.",-8} Create User");
+        WriteLine($"{"2.",-8} List Users");
+        WriteLine($"{"Q.",-8} Quit Application");
+        WriteLine("************************************");
+        Write("Choose an option: ");
+        var option = ReadLine()!;
         
         MenuOptions(option);
     }
@@ -33,7 +34,7 @@ public class MenuService
             case "1":
                 break;
             case "2":
-                Console.Clear();
+                Clear();
                 break;
             case "q":
                 QuitOption();
@@ -46,10 +47,10 @@ public class MenuService
 
     private void QuitOption()
     {
-        Console.Clear();
-        Console.WriteLine("***********************************");
-        Console.Write("Do you really want to quit? (y/n): ");
-        var confirm = Console.ReadLine()!;
+        Clear();
+        WriteLine("***********************************");
+        Write("Do you really want to quit? (y/n): ");
+        var confirm = ReadLine()!;
 
         if (confirm.Equals("y", StringComparison.CurrentCultureIgnoreCase))
         {
@@ -64,7 +65,7 @@ public class MenuService
 
     private void InvalidOption()
     {
-        Console.WriteLine("Please enter a valid option");
-        Console.ReadKey();
+        WriteLine("Please enter a valid option");
+        ReadKey();
     }
 }
