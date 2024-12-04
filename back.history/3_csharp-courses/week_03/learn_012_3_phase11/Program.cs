@@ -44,9 +44,10 @@ var privateCustomer_1 = new Private()
 Console.WriteLine("Private Password is being set to the default value:\nIs the password set to the same?  ");
 // input = Console.ReadLine();
 
-privateCustomer_1.SetSecurePassword("222");
-var result = privateCustomer_1.ValidateSecurePassword("2e22");
+privateCustomer_1.SetSecurePassword("FUNKAR_VISST!");
+var result = privateCustomer_1.ValidateSecurePassword("FUNKAR_VISST!");
 
+Console.WriteLine(privateCustomer_1.Id);
 Console.WriteLine($"Result: {result}");
 
 var companyCustomer_1 = new Company()
@@ -56,10 +57,11 @@ var companyCustomer_1 = new Company()
     ContactPerson = "John Doe"
 };
 
-Console.WriteLine("Company Password is being set to the default value:  ");
-companyCustomer_1.SetSecurePassword("Fight");
-result = companyCustomer_1.ValidateSecurePassword("Fight");
+Console.WriteLine("Company Password is being set to the default value:\nIs the password set to the same?  ");
+companyCustomer_1.SetSecurePassword("FALSE");
+result = companyCustomer_1.ValidateSecurePassword("FALSE");
 
+Console.WriteLine(companyCustomer_1.Id);
 Console.WriteLine($"Result: {result}");
 
 Console.WriteLine("");

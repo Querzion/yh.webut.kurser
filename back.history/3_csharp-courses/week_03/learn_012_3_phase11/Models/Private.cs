@@ -49,12 +49,17 @@ public class Private : Customer
     public override void SetSecurePassword(string password)
     {
         password = $"{_saltKey}{password}";
+        // Console.WriteLine(password);
+        // Console.WriteLine($"Un-Doctored Password: {password}");
         base.SetSecurePassword(password);
     }
-
+    
     public override bool ValidateSecurePassword(string password)
     {
         password = $"{_saltKey}{password}";
+        // Console.WriteLine(password);
+        // Console.WriteLine($"Validate Un-doctored Password: {password}");
+        // Console.WriteLine($"Validate Un-doctored Password: {Password}");
         return base.ValidateSecurePassword(password);
     }
     
