@@ -1,3 +1,5 @@
+// TIMESAVING FEATURE!
+using static System.Console;
 using ex02_todo.Models;
 
 namespace ex02_todo.Services;
@@ -12,14 +14,14 @@ public class MenuService
         
         do
         {
-            Console.Clear();
-            Console.WriteLine("*************** MENU ***************");
-            Console.WriteLine("1. Add new item");
-            Console.WriteLine("2. View all items");
-            Console.WriteLine("Q. Quit Application");
-            Console.WriteLine("************************************");
-            Console.Write("Please select an option: ");
-            string option = Console.ReadLine()!;
+            Clear();
+            WriteLine("*************** MENU ***************");
+            WriteLine("1. Add new item");
+            WriteLine("2. View all items");
+            WriteLine("Q. Quit Application");
+            WriteLine("************************************");
+            Write("Please select an option: ");
+            string option = ReadLine()!;
 
             switch (option.ToLower())
             {
@@ -30,9 +32,9 @@ public class MenuService
                     ShowAllTodos();
                     break;
                 case "q":
-                    Console.Clear();
-                    Console.WriteLine("Press any key to exit application...");
-                    Console.ReadKey();
+                    Clear();
+                    WriteLine("Press any key to exit application...");
+                    ReadKey();
                     isRunning = false;
                     
                     // Environment.Exit(0);
@@ -51,11 +53,11 @@ public class MenuService
     {
         var todoModel = new TodoModel();
         
-        Console.Clear();
-        Console.WriteLine("*************** NEW TODO ***************");
-        Console.Write("Enter new todo: ");
+        Clear();
+        WriteLine("*************** NEW TODO ***************");
+        Write("Enter new todo: ");
 
-        todoModel.Description = Console.ReadLine();
+        todoModel.Description = ReadLine();
         
         _todoService.AddTodoItem(todoModel);
         
@@ -65,19 +67,19 @@ public class MenuService
     {
         var todos = _todoService.GetAllTodoItems();
         
-        Console.Clear();
-        Console.WriteLine("*************** ALL TODOS ***************");
+        Clear();
+        WriteLine("*************** ALL TODOS ***************");
 
 
         foreach (var todosItem in todos)
         {
             var status = todosItem.isCompleted ? "Completed" : "Un-Completed";
-            Console.WriteLine($"#{todosItem.Id} :: {todosItem.Description} ({status})");
+            WriteLine($"#{todosItem.Id} :: {todosItem.Description} ({status})");
         }
         
-        Console.WriteLine();
-        Console.WriteLine("Enter 'Id' to mark a todo as completed, else press 'Enter' to go back");
-        var option = Console.ReadLine();
+        WriteLine();
+        WriteLine("Enter 'Id' to mark a todo as completed, else press 'Enter' to go back");
+        var option = ReadLine();
 
         if (int.TryParse(option, out int id))
         {
@@ -89,8 +91,8 @@ public class MenuService
 
     public void InvalidOption(string? message)
     {
-        Console.WriteLine(message);
-        Console.ReadKey();
+        WriteLine(message);
+        ReadKey();
     }
     
 }
