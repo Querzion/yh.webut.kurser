@@ -7,14 +7,14 @@ public interface IMainMenuDialogs
 }
 
 public class MainMenuDialogs(
-    UserManagementDialogs userManagementDialogs,
-    ProductManagementDialogs productManagementDialogs,
-    OrderManagementDialogs orderManagementDialogs) : IMainMenuDialogs
+    IUserManagementDialogs userManagementDialogs,
+    IProductManagementDialogs productManagementDialogs,
+    IOrderManagementDialogs orderManagementDialogs) : IMainMenuDialogs
 {
     
-    private readonly UserManagementDialogs _userManagementDialogs = userManagementDialogs;
-    private readonly ProductManagementDialogs _productManagementDialogs = productManagementDialogs;
-    private readonly OrderManagementDialogs _orderManagementDialogs = orderManagementDialogs;
+    private readonly IUserManagementDialogs _userManagementDialogs = userManagementDialogs;
+    private readonly IProductManagementDialogs _productManagementDialogs = productManagementDialogs;
+    private readonly IOrderManagementDialogs _orderManagementDialogs = orderManagementDialogs;
 
 
     public void ShowMenuOptions()

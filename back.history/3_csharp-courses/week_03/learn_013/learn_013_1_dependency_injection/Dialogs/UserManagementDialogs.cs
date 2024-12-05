@@ -8,9 +8,9 @@ public interface IUserManagementDialogs
     void ShowMenuOptions();
 }
 
-public class UserManagementDialogs(UserService userService) : IUserManagementDialogs
+public class UserManagementDialogs(IUserService userService) : IUserManagementDialogs
 {
-    private readonly UserService _userService = userService;
+    private readonly IUserService _userService = userService;
 
     public void ShowMenuOptions()
     {
@@ -21,5 +21,21 @@ public class UserManagementDialogs(UserService userService) : IUserManagementDia
         WriteLine("*********************************************");
         Write("Select an option: ");
         var option = ReadLine();
+        
+        switch (option)
+        {
+            case "1":
+                // _userService.CreateUser();
+                break;
+            case "2":
+                _userService.GetAllUsers().ToList();
+                break;
+            case "3":
+                // _userService.GetUser();
+                break;
+            default:
+                WriteLine("Invalid option");
+                break;
+        }
     }
 }

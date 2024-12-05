@@ -4,6 +4,7 @@
 
 // Phase 3
 
+using Business.Interfaces;
 using Business.Services;
 using Data.Contexts;
 using learn_013_1_dependency_injection.Dialogs;
@@ -16,7 +17,7 @@ var host = Host.CreateDefaultBuilder()
     {
         services.AddDbContext<DataContext>(options => options.UseSqlServer("Server=your_server_name;Database=your_database_name;Trusted_Connection=True;"));
 
-        services.AddScoped<IUserService, UserService>();
+        services.AddScoped<IUserService, UserService_V2>();
         services.AddScoped<IProductService, ProductService>();
         services.AddScoped<IOrderService, OrderService>();
 
@@ -33,6 +34,21 @@ using (var scope = host.Services.CreateScope()) {
     mainMenuDialogs.ShowMenuOptions();
 }
 
+// Phase 4
+var host2 = Host.CreateDefaultBuilder()
+    .ConfigureServices(services =>
+    {
+        services.AddSingleton<IFileService>(new FileService(fileName: "users.json"));
+        services.AddSingleton<IUserService_FileServicePhase, UserService_FileServicePhase>();
+        services.AddSingleton<IMainMenu_FileServicePhase, MainMenu_FileServicePhase>();
+
+    })
+    .Build();
+
+using var scope2 = host2.Services.CreateScope();
+var mainMenu_FileServicePhase= scope2.ServiceProvider.GetService<IMainMenu_FileServicePhase>();
+
+mainMenu_FileServicePhase.ShowMenuOptions();
 
 // Phase 2
 // using Business.Services;
