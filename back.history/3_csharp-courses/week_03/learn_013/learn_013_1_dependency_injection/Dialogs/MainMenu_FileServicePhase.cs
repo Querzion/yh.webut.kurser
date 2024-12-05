@@ -1,10 +1,11 @@
-using Business.Models;
 using static System.Console;
+using Business.Models;
 using Business.Services;
+using learn_013_1_dependency_injection.Interfaces;
 
 namespace learn_013_1_dependency_injection.Dialogs;
 
-public class MainMenu_FileServicePhase(IUserService userService) : IMainMenu_FileServicePhase
+public class MainMenuFileServicePhase(IUserService userService) : IMainMenuFileServicePhase
 {
     private readonly IUserService _userService = userService;
     

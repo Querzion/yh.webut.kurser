@@ -3860,7 +3860,26 @@
       "Business >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 9.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.0",
-      "Microsoft.Extensions.Hosting >= 9.0.0"
+      "Microsoft.Extensions.Configuration >= 9.0.0",
+      "Microsoft.Extensions.Configuration.Binder >= 9.0.0",
+      "Microsoft.Extensions.Configuration.CommandLine >= 9.0.0",
+      "Microsoft.Extensions.Configuration.EnvironmentVariables >= 9.0.0",
+      "Microsoft.Extensions.Configuration.FileExtensions >= 9.0.0",
+      "Microsoft.Extensions.Configuration.Json >= 9.0.0",
+      "Microsoft.Extensions.Configuration.UserSecrets >= 9.0.0",
+      "Microsoft.Extensions.DependencyInjection >= 9.0.0",
+      "Microsoft.Extensions.DependencyInjection.Abstractions >= 9.0.0",
+      "Microsoft.Extensions.Diagnostics >= 9.0.0",
+      "Microsoft.Extensions.FileProviders.Physical >= 9.0.0",
+      "Microsoft.Extensions.Hosting >= 9.0.0",
+      "Microsoft.Extensions.Hosting.Abstractions >= 9.0.0",
+      "Microsoft.Extensions.Logging >= 9.0.0",
+      "Microsoft.Extensions.Logging.Abstractions >= 9.0.0",
+      "Microsoft.Extensions.Logging.Configuration >= 9.0.0",
+      "Microsoft.Extensions.Logging.Console >= 9.0.0",
+      "Microsoft.Extensions.Logging.Debug >= 9.0.0",
+      "Microsoft.Extensions.Logging.EventLog >= 9.0.0",
+      "Microsoft.Extensions.Logging.EventSource >= 9.0.0"
     ]
   },
   "packageFolders": {
@@ -3918,7 +3937,83 @@
             "target": "Package",
             "version": "[9.0.0, )"
           },
+          "Microsoft.Extensions.Configuration": {
+            "target": "Package",
+            "version": "[9.0.0, )"
+          },
+          "Microsoft.Extensions.Configuration.Binder": {
+            "target": "Package",
+            "version": "[9.0.0, )"
+          },
+          "Microsoft.Extensions.Configuration.CommandLine": {
+            "target": "Package",
+            "version": "[9.0.0, )"
+          },
+          "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+            "target": "Package",
+            "version": "[9.0.0, )"
+          },
+          "Microsoft.Extensions.Configuration.FileExtensions": {
+            "target": "Package",
+            "version": "[9.0.0, )"
+          },
+          "Microsoft.Extensions.Configuration.Json": {
+            "target": "Package",
+            "version": "[9.0.0, )"
+          },
+          "Microsoft.Extensions.Configuration.UserSecrets": {
+            "target": "Package",
+            "version": "[9.0.0, )"
+          },
+          "Microsoft.Extensions.DependencyInjection": {
+            "target": "Package",
+            "version": "[9.0.0, )"
+          },
+          "Microsoft.Extensions.DependencyInjection.Abstractions": {
+            "target": "Package",
+            "version": "[9.0.0, )"
+          },
+          "Microsoft.Extensions.Diagnostics": {
+            "target": "Package",
+            "version": "[9.0.0, )"
+          },
+          "Microsoft.Extensions.FileProviders.Physical": {
+            "target": "Package",
+            "version": "[9.0.0, )"
+          },
           "Microsoft.Extensions.Hosting": {
+            "target": "Package",
+            "version": "[9.0.0, )"
+          },
+          "Microsoft.Extensions.Hosting.Abstractions": {
+            "target": "Package",
+            "version": "[9.0.0, )"
+          },
+          "Microsoft.Extensions.Logging": {
+            "target": "Package",
+            "version": "[9.0.0, )"
+          },
+          "Microsoft.Extensions.Logging.Abstractions": {
+            "target": "Package",
+            "version": "[9.0.0, )"
+          },
+          "Microsoft.Extensions.Logging.Configuration": {
+            "target": "Package",
+            "version": "[9.0.0, )"
+          },
+          "Microsoft.Extensions.Logging.Console": {
+            "target": "Package",
+            "version": "[9.0.0, )"
+          },
+          "Microsoft.Extensions.Logging.Debug": {
+            "target": "Package",
+            "version": "[9.0.0, )"
+          },
+          "Microsoft.Extensions.Logging.EventLog": {
+            "target": "Package",
+            "version": "[9.0.0, )"
+          },
+          "Microsoft.Extensions.Logging.EventSource": {
             "target": "Package",
             "version": "[9.0.0, )"
           }

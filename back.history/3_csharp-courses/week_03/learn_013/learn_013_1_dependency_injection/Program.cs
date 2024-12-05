@@ -8,47 +8,47 @@ using Business.Interfaces;
 using Business.Services;
 using Data.Contexts;
 using learn_013_1_dependency_injection.Dialogs;
+using learn_013_1_dependency_injection.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-var host = Host.CreateDefaultBuilder()
-    .ConfigureServices((config, services) =>
-    {
-        services.AddDbContext<DataContext>(options => options.UseSqlServer("Server=your_server_name;Database=your_database_name;Trusted_Connection=True;"));
-
-        services.AddScoped<IUserService, UserService_V2>();
-        services.AddScoped<IProductService, ProductService>();
-        services.AddScoped<IOrderService, OrderService>();
-
-        services.AddScoped<IUserManagementDialogs, UserManagementDialogs>();
-        services.AddScoped<IProductManagementDialogs, ProductManagementDialogs>();
-        services.AddScoped<IOrderManagementDialogs, OrderManagementDialogs>();
-        services.AddScoped<IMainMenuDialogs, MainMenuDialogs>();
-
-    })
-    .Build();
-
-using (var scope = host.Services.CreateScope()) {
-    var mainMenuDialogs = scope.ServiceProvider.GetRequiredService<MainMenuDialogs>();
-    mainMenuDialogs.ShowMenuOptions();
-}
+// var host = Host.CreateDefaultBuilder()
+//     .ConfigureServices((config, services) =>
+//     {
+//         services.AddDbContext<DataContext>(options => options.UseSqlServer("Server=your_server_name;Database=your_database_name;Trusted_Connection=True;"));
+//
+//         services.AddScoped<IUserService, UserService_V2>();
+//         services.AddScoped<IProductService, ProductService>();
+//         services.AddScoped<IOrderService, OrderService>();
+//
+//         services.AddScoped<IUserManagementDialogs, UserManagementDialogs>();
+//         services.AddScoped<IProductManagementDialogs, ProductManagementDialogs>();
+//         services.AddScoped<IOrderManagementDialogs, OrderManagementDialogs>();
+//         services.AddScoped<IMainMenuDialogs, MainMenuDialogs>();
+//
+//     })
+//     .Build();
+//
+// using (var scope = host.Services.CreateScope()) {
+//     var mainMenuDialogs = scope.ServiceProvider.GetRequiredService<MainMenuDialogs>();
+//     mainMenuDialogs.ShowMenuOptions();
+// }
 
 // Phase 4
 var host2 = Host.CreateDefaultBuilder()
     .ConfigureServices(services =>
     {
         services.AddSingleton<IFileService>(new FileService(fileName: "users.json"));
-        services.AddSingleton<IUserService_FileServicePhase, UserService_FileServicePhase>();
-        services.AddSingleton<IMainMenu_FileServicePhase, MainMenu_FileServicePhase>();
+        services.AddTransient<IUserService_FileServicePhase, UserService_FileServicePhase>();
+        services.AddTransient<IMainMenuFileServicePhase, MainMenuFileServicePhase>();
 
     })
     .Build();
 
-using var scope2 = host2.Services.CreateScope();
-var mainMenu_FileServicePhase= scope2.ServiceProvider.GetService<IMainMenu_FileServicePhase>();
-
-mainMenu_FileServicePhase.ShowMenuOptions();
+using var scope = host2.Services.CreateScope();
+var mainMenuFileServicePhase = scope.ServiceProvider.GetService<IMainMenuFileServicePhase>();
+mainMenuFileServicePhase.ShowMenuOptions();
 
 // Phase 2
 // using Business.Services;

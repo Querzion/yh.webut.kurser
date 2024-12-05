@@ -29,6 +29,7 @@ public class UserService_FileServicePhase : IUserService_FileServicePhase
     public void CreateUser(User user)
     {
         user.Id = Guid.NewGuid().ToString();
+        _users.Add(user);
         _fileService.SaveToFile(JsonSerializer.Serialize(_users));
     }
 

@@ -534,7 +534,11 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "Microsoft.EntityFrameworkCore >= 9.0.0"
+      "Microsoft.EntityFrameworkCore >= 9.0.0",
+      "Microsoft.Extensions.DependencyInjection >= 9.0.0",
+      "Microsoft.Extensions.DependencyInjection.Abstractions >= 9.0.0",
+      "Microsoft.Extensions.Logging >= 9.0.0",
+      "Microsoft.Extensions.Logging.Abstractions >= 9.0.0"
     ]
   },
   "packageFolders": {
@@ -581,6 +585,22 @@
         "targetAlias": "net9.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[9.0.0, )"
+          },
+          "Microsoft.Extensions.DependencyInjection": {
+            "target": "Package",
+            "version": "[9.0.0, )"
+          },
+          "Microsoft.Extensions.DependencyInjection.Abstractions": {
+            "target": "Package",
+            "version": "[9.0.0, )"
+          },
+          "Microsoft.Extensions.Logging": {
+            "target": "Package",
+            "version": "[9.0.0, )"
+          },
+          "Microsoft.Extensions.Logging.Abstractions": {
             "target": "Package",
             "version": "[9.0.0, )"
           }
