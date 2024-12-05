@@ -3,12 +3,21 @@ using Data.Entities;
 
 namespace Business.Services;
 
-public class OrderService(DataContext context, UserService userService)
+public interface IOrderService
+{
+    void CreateOrder(String userId, List<ProductEntity> products);
+    IEnumerable<OrderEntity> GetAllOrders();
+    OrderEntity GetOrder(int id);
+}
+
+public class OrderService(
+    DataContext context, 
+    UserService userService
+    ) : IOrderService
 {
     private readonly DataContext _context = context;
     private readonly UserService _userService = userService;
     
-
 
     public void CreateOrder(String userId, List<ProductEntity> products)
     {
@@ -34,6 +43,7 @@ public class OrderService(DataContext context, UserService userService)
     public OrderEntity GetOrder(int id)
     {
         var order = _context.Orders.Find(id);
+        // var order = _context.Orders.Find(id);
         return order;
     }
 }

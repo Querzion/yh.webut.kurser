@@ -11,7 +11,6 @@ public class DataContext(DbContextOptions<DataContext> options) : DbContext(opti
     public DbSet<UserEntity> Users { get; set; } = null!;
     public DbSet<ProductEntity> Products { get; set; } = null!;
     public DbSet<OrderEntity> Orders { get; set; } = null!;
-
 }
 
 // public class DataContext : DbContext

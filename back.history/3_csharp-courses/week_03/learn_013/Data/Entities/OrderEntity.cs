@@ -8,6 +8,7 @@ public class OrderEntity
     public string CustomerId { get; set; } = null!;
     
     public string CustomerName { get; set; } = null!;
-    
-    protected DateTime OrderDate { get; set; } = DateTime.Now;
+
+    public DateTime OrderDate { get; set; } = DateTime.Now;
+    public DateTime DueDate { get; set; }
 }

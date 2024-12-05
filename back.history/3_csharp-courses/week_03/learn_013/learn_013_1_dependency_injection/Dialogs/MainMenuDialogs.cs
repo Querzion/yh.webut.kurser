@@ -1,11 +1,21 @@
 using static System.Console;
 namespace learn_013_1_dependency_injection.Dialogs;
 
-public class MainMenuDialogs
+public interface IMainMenuDialogs
 {
-    private readonly UserManagementDialogs _userManagementDialogs = new UserManagementDialogs();
-    private readonly ProductManagementDialogs _productManagementDialogs = new ProductManagementDialogs();
-    private readonly OrderManagementDialogs _orderManagementDialogs = new OrderManagementDialogs();
+    void ShowMenuOptions();
+}
+
+public class MainMenuDialogs(
+    UserManagementDialogs userManagementDialogs,
+    ProductManagementDialogs productManagementDialogs,
+    OrderManagementDialogs orderManagementDialogs) : IMainMenuDialogs
+{
+    
+    private readonly UserManagementDialogs _userManagementDialogs = userManagementDialogs;
+    private readonly ProductManagementDialogs _productManagementDialogs = productManagementDialogs;
+    private readonly OrderManagementDialogs _orderManagementDialogs = orderManagementDialogs;
+
 
     public void ShowMenuOptions()
     {
@@ -34,3 +44,4 @@ public class MainMenuDialogs
         }
     }
 }
+

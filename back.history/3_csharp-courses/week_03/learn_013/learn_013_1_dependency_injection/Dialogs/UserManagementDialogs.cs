@@ -3,14 +3,19 @@ using Business.Services;
 
 namespace learn_013_1_dependency_injection.Dialogs;
 
-public class UserManagementDialogs
+public interface IUserManagementDialogs
 {
-    private readonly UserService _userService = new UserService(null);
+    void ShowMenuOptions();
+}
+
+public class UserManagementDialogs(UserService userService) : IUserManagementDialogs
+{
+    private readonly UserService _userService = userService;
 
     public void ShowMenuOptions()
     {
         WriteLine("************** USER MANAGEMENT **************");
-        WriteLine("1. Create new user");
+        WriteLine("1. Create New User");
         WriteLine("2. View All Users");
         WriteLine("3. View User");
         WriteLine("*********************************************");

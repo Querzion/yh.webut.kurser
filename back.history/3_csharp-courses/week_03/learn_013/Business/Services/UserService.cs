@@ -4,9 +4,20 @@ using Data.Entities;
 
 namespace Business.Services;
 
+
+
 // Phase 3
 // Primary constructor on UserService(DataContext context) (ctrl + .)
-public class UserService(DataContext context)
+public interface IUserService
+{
+    void CreateUser(User user);
+    IEnumerable<UserEntity> GetAllUsers();
+    UserEntity GetUser(string id);
+}
+
+public class UserService(
+    DataContext context
+    ) : IUserService
 {
     private readonly DataContext _context = context;
 
@@ -46,8 +57,8 @@ public class UserService(DataContext context)
 
         };
         
-        context.Users.Add(userEntity);
-        context.SaveChanges();
+        _context.Users.Add(userEntity);
+        _context.SaveChanges();
     }
 
     public IEnumerable<UserEntity> GetAllUsers()
@@ -58,6 +69,6 @@ public class UserService(DataContext context)
 
     public UserEntity GetUser(string id)
     {
-        return context.User.Find(id);
+        return _context.Users.Find(id);
     }
 }

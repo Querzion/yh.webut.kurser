@@ -3,7 +3,16 @@ using Data.Entities;
 
 namespace Business.Services;
 
-public class ProductService(DataContext context)
+public interface IProductService
+{
+    void CreateProduct(string title, decimal price);
+    IEnumerable<ProductEntity> GetAllProducts();
+    ProductEntity GetProduct(int id);
+}
+
+public class ProductService(
+    DataContext context
+    ) : IProductService
 {
     private readonly DataContext _context = context;
     
@@ -15,7 +24,19 @@ public class ProductService(DataContext context)
             Price = price
         };
         
-        context.Products.Add(productEntity);
-        context.SaveChanges();
+        _context.Products.Add(productEntity);
+        _context.SaveChanges();
+    }
+    
+    public IEnumerable<ProductEntity> GetAllProducts()
+    {
+        var products = _context.Products.ToList();
+        return products;
+    }
+
+    public ProductEntity GetProduct(int id)
+    {
+        var product = _context.Products.Find(id);
+        return product;
     }
 }
