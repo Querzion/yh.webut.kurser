@@ -5,7 +5,7 @@ namespace Data.Entities;
 public class UserEntity
 {
     [Key]
-    public int Id { get; set; }
+    public string Id { get; set; }
     [Required]
     public string FirstName { get; set; } = null!;
     [Required]
