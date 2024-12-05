@@ -1,4 +1,6 @@
 ﻿using dependency_injection_2.Dialogs;
+using dependency_injection_2.Interfaces;
+using dependency_injection_2.Models;
 using dependency_injection_2.Services;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -26,26 +28,46 @@ using Microsoft.Extensions.Hosting;
 //     })
 //     .Build();
 // Phase 9.2 - It should now be usable. with
-// AddSingleton - Single usage
-// AddScoped - 
-// AddTransient - 
+// AddSingleton -   uses the same list and combines the inputs to one shared output, instanced once. 
+// AddScoped -      uses the same list and combines the inputs to one shared output, instanced multiple times.
+// AddTransient -   uses the same list, but separates the output based on the input, instanced multiple times.
 // (If unsure of which to use, use Transient).
 // You add the services in order to register their existence, and it's much better than the earlier
 // method where you might end up corrupting something along the way if you have to change something.
+// Shared Get / Set?
+// IHost host = Host.CreateDefaultBuilder()
+//     .ConfigureServices(services =>
+//     {
+//         services.AddSingleton<UserService>();
+//         
+//         services.AddTransient<StandardMenuDialogs>();
+//         services.AddTransient<AdminMenuDialogs>();
+//
+//     })
+//     .Build();
+//
+// // Phase 10 - Initialize usage of the Host Injection, It's much more text, but you can now share the same services
+// //            across multiple initialized services/classes, hundreds or even thousands of them.
+// var standardMenuDialogs = host.Services.GetRequiredService<StandardMenuDialogs>();
+// var adminMenuDialogs = host.Services.GetRequiredService<AdminMenuDialogs>();
+
+// Phase 11 - Use the interfaces instead, in order to take control of the project.
 IHost host = Host.CreateDefaultBuilder()
     .ConfigureServices(services =>
     {
-        services.AddSingleton<UserService>();
-        services.AddSingleton<StandardMenuDialogs>();
-        services.AddSingleton<AdminMenuDialogs>();
+        services.AddSingleton(new List<User>());
+        
+        services.AddTransient<IUserService, UserService>();
+        services.AddTransient<IStandardMenuDialogs, StandardMenuDialogs>();
+        services.AddTransient<IAdminMenuDialogs, AdminMenuDialogs>();
 
     })
     .Build();
 
-// Phase 10 - Initialize usage of the Host Injection, It's much more text, but you can now share the same services
+// Phase 16 - Initialize usage of the Host Injection, It's much more text, but you can now share the same services
 //            across multiple initialized services/classes, hundreds or even thousands of them.
-var standardMenuDialogs = host.Services.GetRequiredService<StandardMenuDialogs>();
-var adminMenuDialogs = host.Services.GetRequiredService<AdminMenuDialogs>();
+var standardMenuDialogs = host.Services.GetRequiredService<IStandardMenuDialogs>();
+var adminMenuDialogs = host.Services.GetRequiredService<IAdminMenuDialogs>();
 
 
 standardMenuDialogs.CreateUserOption();

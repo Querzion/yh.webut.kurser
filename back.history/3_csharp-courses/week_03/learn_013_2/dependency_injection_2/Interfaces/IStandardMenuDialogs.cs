@@ -1,4 +1,4 @@
-namespace dependency_injection_2.Dialogs;
+namespace dependency_injection_2.Interfaces;
 
 public interface IStandardMenuDialogs
 {
