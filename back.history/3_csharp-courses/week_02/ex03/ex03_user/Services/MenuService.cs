@@ -1,10 +1,14 @@
 using static System.Console;
 using System.Runtime.InteropServices;
+using ex03_infrastructure.Models;
+using ex03_infrastructure.Services;
 
 namespace ex03_user.Services;
 
 public class MenuService
 {
+    private readonly UserService _userService = new ();
+    
     public void ShowMenu()
     {
         while (true)
@@ -32,15 +36,18 @@ public class MenuService
         switch (option.ToLower())
         {
             case "1":
+                Clear();
+                AddUserOption();
                 break;
             case "2":
                 Clear();
+                ShowAllUsersOption();
                 break;
             case "q":
                 QuitOption();
                 break;
             default:
-                InvalidOption();
+                OutputDialog("Invalid option, please try again.");
                 break;
         }
     }
@@ -58,14 +65,55 @@ public class MenuService
         }
     }
 
-    private void CreateOption()
+    public void AddUserOption()
     {
+        var user = new User();
         
+        Clear();
+        WriteLine("************* ADD NEW CONTACT **************");
+        
+        Write("Enter contact firstname: ");
+        user.FirstName = ReadLine()!;
+        
+        Write("Enter contact lastname: ");
+        user.LastName = ReadLine()!;
+        
+        Write("Enter contact email: ");
+        user.Email = ReadLine()!;
+        
+        _userService.CreateUsers(user);
     }
 
-    private void InvalidOption()
+    public void ShowAllUsersOption()
     {
-        WriteLine("Please enter a valid option");
+        bool hasError;
+        var users = _userService.GetAllUsers(out hasError);
+        
+        Clear();
+        WriteLine("************* VIEW ALL CONTACTS **************");
+
+        if (hasError)
+        {
+            OutputDialog("There was an error getting all contacts. Please try again.");
+            return;
+        }
+        
+        if (!users.Any())
+        {
+            OutputDialog("There are no contacts found! Press any key to go back...");
+            return;
+        }
+
+        foreach (var user in users)
+        {
+            WriteLine($"ContactId: {user.Id} Name: {user.FirstName} {user.LastName} Email: {user.Email} Date: {user.CreatedAt}");
+        }
+        ReadKey();
+    }
+
+    public void OutputDialog(string message)
+    {
+        WriteLine(message);
         ReadKey();
     }
 }
