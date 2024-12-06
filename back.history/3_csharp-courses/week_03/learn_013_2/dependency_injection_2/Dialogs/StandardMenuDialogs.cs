@@ -38,7 +38,7 @@ public class StandardMenuDialogs(IUserService userService) : IStandardMenuDialog
         
         WriteLine("STANDARD - ADD USER");
         Write("Enter name: ");
-        user.Name = ReadLine();
+        user.Name = ReadLine()!;
 
         // userService.AddUser(user);
         _userService.AddUser(user);

@@ -1,5 +1,6 @@
 Uppgift: Skapa en JSON-baserad användarhanterare
-I denna uppgift ska du skapa ett program i C# och .NET som låter användaren hantera en lista av användare och spara dessa till en JSON-fil. Programmet ska bestå av en service för filhantering och använda ett klassbibliotek.
+I denna uppgift ska du skapa ett program i C# och .NET som låter användaren hantera en lista av användare och spara dessa till en JSON-fil. 
+Programmet ska bestå av en service för filhantering och använda ett klassbibliotek.
 
 
 Exempel på hur det kan se ut:

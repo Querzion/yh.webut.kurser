@@ -38,7 +38,7 @@ public class AdminMenuDialogs(IUserService userService) : IAdminMenuDialogs
         
         WriteLine("ADMIN - ADD USER");
         Write("Enter name: ");
-        user.Name = ReadLine();
+        user.Name = ReadLine()!;
 
         // userService.AddUser(user);
         _userService.AddUser(user);
