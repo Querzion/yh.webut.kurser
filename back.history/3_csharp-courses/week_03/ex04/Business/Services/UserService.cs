@@ -2,27 +2,20 @@ using Business.Models;
 
 namespace Business.Services;
 
-public class UserService
+public class UserService(List<UserBase> users)
 {
-    private List<UserBase> _users;
-
-    public UserService(List<UserBase> users)
-    {
-        _users = users;
-    }
-    
     public void AddUser(UserBase user)
     {
-        _users.Add(user);
+        users.Add(user);
     }
 
     public IEnumerable<UserBase> GetUserById(int id)
     {
-        return _users.Where(u => u.Id == id);
+        return users.Where(u => u.Id == id);
     }
     
     public IEnumerable<UserBase> GetAllUsers()
     {
-        return _users;
+        return users;
     }
 }

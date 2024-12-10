@@ -1,3 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using ex04.Dialogs;
 
-Console.WriteLine("Hello, World!");
+MenuDialog menuDialog = new MenuDialog();
+menuDialog.ShowMenu();

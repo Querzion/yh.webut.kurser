@@ -3,7 +3,7 @@ namespace ex04.Dialogs;
 
 public class MenuDialog
 {
-    private bool isRunning;
+    private bool isRunning = true;
     
     public void ShowMenu()
     {
@@ -11,7 +11,7 @@ public class MenuDialog
         {
             ShowMenuOptions();
             
-        } while(!isRunning);
+        } while(isRunning = true);
     }
 
     private void ShowMenuOptions()
@@ -35,10 +35,8 @@ public class MenuDialog
             case "3":
                 break;
             case "Q":
-                Clear();
-                WriteLine("Exiting. Press any key to continue...");
-                ReadKey();
-                isRunning = false;
+                QuitApplicationOption();
+                // isRunning = false;
                 break;
             default:
                 Clear();
@@ -46,6 +44,12 @@ public class MenuDialog
                 break;
         }
     }
-    
-    
+
+    private void QuitApplicationOption()
+    {
+        Clear();
+        WriteLine("Exiting. Press any key to continue...");
+        ReadKey();
+        Environment.Exit(0);
+    }
 }

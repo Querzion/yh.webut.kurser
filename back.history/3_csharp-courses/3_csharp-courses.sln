@@ -141,6 +141,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "week_03\ex04\Bu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "week_03\ex04\Data\Data.csproj", "{447684D2-A2DF-4A63-9AB9-195FB1442EAA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "week_04", "week_04", "{7C9F63ED-4B1E-4966-8043-D2C540A69C86}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "code_testing", "code_testing", "{515BFDFA-0AB6-4D68-B577-52A44AEEFC2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learn_013_test_driven_development_xunit", "week_04\code_testing\test_driven_development\learn_013_test_driven_development_xunit\learn_013_test_driven_development_xunit.csproj", "{613171CC-9CD8-44DD-9357-9F90D87E4A39}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test_driven_development", "test_driven_development", "{76FE7451-E40C-4B6D-8BA4-67EBD12D0BEF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -343,6 +351,10 @@ Global
 		{447684D2-A2DF-4A63-9AB9-195FB1442EAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{447684D2-A2DF-4A63-9AB9-195FB1442EAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{447684D2-A2DF-4A63-9AB9-195FB1442EAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{613171CC-9CD8-44DD-9357-9F90D87E4A39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{613171CC-9CD8-44DD-9357-9F90D87E4A39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{613171CC-9CD8-44DD-9357-9F90D87E4A39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{613171CC-9CD8-44DD-9357-9F90D87E4A39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -414,5 +426,8 @@ Global
 		{DD7CBD4B-59E4-4C10-A179-4C070D34E659} = {6A524301-2277-44A6-87CA-994554088661}
 		{5997AB4C-09B1-4714-838D-3C112A21DCCC} = {6A524301-2277-44A6-87CA-994554088661}
 		{447684D2-A2DF-4A63-9AB9-195FB1442EAA} = {6A524301-2277-44A6-87CA-994554088661}
+		{515BFDFA-0AB6-4D68-B577-52A44AEEFC2F} = {7C9F63ED-4B1E-4966-8043-D2C540A69C86}
+		{76FE7451-E40C-4B6D-8BA4-67EBD12D0BEF} = {515BFDFA-0AB6-4D68-B577-52A44AEEFC2F}
+		{613171CC-9CD8-44DD-9357-9F90D87E4A39} = {76FE7451-E40C-4B6D-8BA4-67EBD12D0BEF}
 	EndGlobalSection
 EndGlobal
