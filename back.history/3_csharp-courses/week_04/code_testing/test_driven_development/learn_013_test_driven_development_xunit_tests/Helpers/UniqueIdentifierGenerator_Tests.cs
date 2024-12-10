@@ -2,7 +2,7 @@ using learn_013_test_driven_development_xunit.Helpers;
 
 namespace learn_013_test_driven_development_xunit_tests.Helpers;
 
-public class UniqueIdentifierGenerator_Tests
+public class UniqueIdentifierGeneratorTests
 {
     [Fact]
     public void Generate_ShouldReturnStringOfTypeGuid()
