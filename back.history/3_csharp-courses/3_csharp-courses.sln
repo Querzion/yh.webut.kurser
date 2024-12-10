@@ -149,6 +149,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learn_013_test_driven_devel
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test_driven_development", "test_driven_development", "{76FE7451-E40C-4B6D-8BA4-67EBD12D0BEF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learn_013_test_driven_development_xunit_tests", "week_04\code_testing\test_driven_development\learn_013_test_driven_development_xunit_tests\learn_013_test_driven_development_xunit_tests.csproj", "{40303C80-DC87-4405-84E2-E43D259C95BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -355,6 +357,10 @@ Global
 		{613171CC-9CD8-44DD-9357-9F90D87E4A39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{613171CC-9CD8-44DD-9357-9F90D87E4A39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{613171CC-9CD8-44DD-9357-9F90D87E4A39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40303C80-DC87-4405-84E2-E43D259C95BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40303C80-DC87-4405-84E2-E43D259C95BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40303C80-DC87-4405-84E2-E43D259C95BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40303C80-DC87-4405-84E2-E43D259C95BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -429,5 +435,6 @@ Global
 		{515BFDFA-0AB6-4D68-B577-52A44AEEFC2F} = {7C9F63ED-4B1E-4966-8043-D2C540A69C86}
 		{76FE7451-E40C-4B6D-8BA4-67EBD12D0BEF} = {515BFDFA-0AB6-4D68-B577-52A44AEEFC2F}
 		{613171CC-9CD8-44DD-9357-9F90D87E4A39} = {76FE7451-E40C-4B6D-8BA4-67EBD12D0BEF}
+		{40303C80-DC87-4405-84E2-E43D259C95BA} = {76FE7451-E40C-4B6D-8BA4-67EBD12D0BEF}
 	EndGlobalSection
 EndGlobal
