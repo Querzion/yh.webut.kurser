@@ -40,21 +40,21 @@
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003ATimeSpan_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003F_002E_002E_003F_002E_002E_003F_002Evar_003Fapp_003Fcom_002Ejetbrains_002ERider_003Fconfig_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FSourcesCache_003Fbeddeff37c98b229d327244022153ac805ac655dfbdd82cef21632e916df678_003FTimeSpan_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AType_002ECoreCLR_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003F_002E_002E_003F_002E_002E_003F_002Evar_003Fapp_003Fcom_002Ejetbrains_002ERider_003Fconfig_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FSourcesCache_003F7e333a9f3297ba553cccfd3b7c3f1f96125b23d09f883e4d6e66d531559a4c_003FType_002ECoreCLR_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AVolatile_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003F_002E_002E_003F_002E_002E_003F_002Evar_003Fapp_003Fcom_002Ejetbrains_002ERider_003Fconfig_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FSourcesCache_003Ffa62e31a19ac40e92effd8a27ae7396358a1e5e3b52dc372691058475957f_003FVolatile_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=58c56b00_002Df81e_002D48fd_002Da74f_002Dc8e84271fcf4/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Continuous Testing" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=283a5abb_002Dc879_002D439a_002D974e_002Db8fc66f04703/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="CreateProduct_ShouldReturnTrue_WhenProductIsCreated #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
-    &lt;TestId&gt;xUnit::40303C80-DC87-4405-84E2-E43D259C95BA::net9.0::learn_013_test_driven_development_xunit_tests.Factories.ProductFactoryTests&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::40303C80-DC87-4405-84E2-E43D259C95BA::net9.0::learn_013_test_driven_development_xunit_tests.Helpers.UniqueIdentifierGenerator_Tests&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::40303C80-DC87-4405-84E2-E43D259C95BA::net9.0::learn_013_test_driven_development_xunit_tests.Helpers.UniqueIdentifierGeneratorTests&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::40303C80-DC87-4405-84E2-E43D259C95BA::net9.0::learn_013_test_driven_development_xunit_tests.Services.ProductServicesTests.SetNewId_ShouldReturnInt&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::40303C80-DC87-4405-84E2-E43D259C95BA::net9.0::learn_013_test_driven_development_xunit_tests.Services.ProductServicesTests.SetNewId_ShouldReturn1AsId_IfNoProductExists&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::40303C80-DC87-4405-84E2-E43D259C95BA::net9.0::learn_013_test_driven_development_xunit_tests.Services.ProductServicesTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::5B7B9DC8-2FD2-48AB-890F-DD3953999712::net9.0::learn_014_moq_mocking_tests.Services.ProductServiceTests&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=796e8d72_002Db44f_002D45b7_002Db682_002D4317405315e5/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ProductFactoryTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=39e9afcb_002D23eb_002D4da2_002Dbc61_002Dd06b5cbae640/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CreateProduct_ShouldReturnTrue_WhenProductIsCreated #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
-    &lt;TestId&gt;xUnit::40303C80-DC87-4405-84E2-E43D259C95BA::net9.0::learn_013_test_driven_development_xunit_tests.Factories.ProductFactoryTests&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::40303C80-DC87-4405-84E2-E43D259C95BA::net9.0::learn_013_test_driven_development_xunit_tests.Helpers.UniqueIdentifierGenerator_Tests&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::40303C80-DC87-4405-84E2-E43D259C95BA::net9.0::learn_013_test_driven_development_xunit_tests.Helpers.UniqueIdentifierGeneratorTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::5B7B9DC8-2FD2-48AB-890F-DD3953999712::net9.0::learn_014_moq_mocking_tests.Services.ProductServiceTests.CreateProduct_ShouldReturnTrue_WhenProductIsCreated&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=bc43816a_002D4670_002D4e6b_002Dab6b_002Da7dfc44d996d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CreateProduct_ShouldReturnTrue_WhenProductIsCreated" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::5B7B9DC8-2FD2-48AB-890F-DD3953999712::net9.0::learn_014_moq_mocking_tests.Services.ProductServiceTests.CreateProduct_ShouldReturnTrue_WhenProductIsCreated&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	
+	
 	</wpf:ResourceDictionary>
