@@ -4,6 +4,65 @@
     "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05/ex05_products_tests/ex05_products_tests.csproj": {}
   },
   "projects": {
+    "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05/ex05_products/ex05_products.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05/ex05_products/ex05_products.csproj",
+        "projectName": "ex05_products",
+        "projectPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05/ex05_products/ex05_products.csproj",
+        "packagesPath": "/home/querzion/.nuget/packages/",
+        "outputPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05/ex05_products/obj/",
+        "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
+        "configFilePaths": [
+          "/home/querzion/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/var/run/host/usr/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05/ex05_products_tests/ex05_products_tests.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -26,7 +85,11 @@
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05/ex05_products/ex05_products.csproj": {
+                "projectPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05/ex05_products/ex05_products.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

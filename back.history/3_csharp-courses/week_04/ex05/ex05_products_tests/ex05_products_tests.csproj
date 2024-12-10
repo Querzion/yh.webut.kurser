@@ -18,4 +18,12 @@
         <Using Include="Xunit"/>
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Helpers\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ex05_products\ex05_products.csproj" />
+    </ItemGroup>
+
 </Project>

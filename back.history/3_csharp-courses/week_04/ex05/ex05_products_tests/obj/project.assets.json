@@ -411,6 +411,16 @@
         "build": {
           "build/net6.0/xunit.runner.visualstudio.props": {}
         }
+      },
+      "ex05_products/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/ex05_products.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ex05_products.dll": {}
+        }
       }
     }
   },
@@ -932,12 +942,18 @@
         "xunit.runner.visualstudio.2.8.2.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "ex05_products/1.0.0": {
+      "type": "project",
+      "path": "../ex05_products/ex05_products.csproj",
+      "msbuildProject": "../ex05_products/ex05_products.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
       "Microsoft.NET.Test.Sdk >= 17.11.1",
       "coverlet.collector >= 6.0.2",
+      "ex05_products >= 1.0.0",
       "xunit >= 2.9.2",
       "xunit.runner.visualstudio >= 2.8.2"
     ]
@@ -967,7 +983,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05/ex05_products/ex05_products.csproj": {
+              "projectPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05/ex05_products/ex05_products.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
