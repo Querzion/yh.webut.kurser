@@ -27,7 +27,14 @@ public class ProductService : IProductService
 
     public Product GetProductById(int id)
     {
-        return _products.FirstOrDefault(p => p.Id == id);
+        var product = _products.FirstOrDefault(p => p.Id == id);
+        // ChatGPT because a simple problem with the return... It seems. "/
+        if (product == null)
+        {
+            throw new KeyNotFoundException($"Product with ID {id} was not found.");
+        }
+        //
+        return product;
     }
 
     public List<Product> GetAllProducts()

@@ -1,6 +1,6 @@
 namespace ex05_products_tests.Factories;
 
-public class ProductFactory_Tests
+public class ProductFactoryTests
 {
     
 }
