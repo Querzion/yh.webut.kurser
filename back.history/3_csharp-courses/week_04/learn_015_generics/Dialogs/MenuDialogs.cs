@@ -8,6 +8,8 @@ namespace learn_015_generics.Dialogs;
 
 public class MenuDialogs(ProductService productService, UserService userService)
 {
+    private readonly ProductService _productService = productService;
+    private readonly UserService _userService = userService;
 
     public void ShowMenu()
     {
@@ -62,14 +64,25 @@ public class MenuDialogs(ProductService productService, UserService userService)
             Price = Dialogs.Prompt("Enter Product Price: ")
         };
         
-        var result = productService.SaveProduct(product);
+        var result = _productService.SaveProduct(product);
+        
+        if (result.Success)
+            WriteLine($"Product was successfully added.");
+        else
+            WriteLine($"{result.Message}");
+
+        ReadKey();
     }
 
     private void ViewProductsDialog()
     {
         Dialogs.MenuHeading("Products");
-        foreach (var item in productService.GetAllProducts())
-            WriteLine($"#{item.Id} - {item.Title} ({item.Price} SEK)");
+
+        var items = _productService.GetAllProducts().Result!;
+        
+        if (items.Any())
+            foreach (var product in items)
+                WriteLine($"#{product.Id} - {product.Title} ({product.Price} SEK)");
         
         ReadKey();
     }
@@ -85,14 +98,25 @@ public class MenuDialogs(ProductService productService, UserService userService)
             Email = Dialogs.Prompt("Enter Email: ")
         };
         
-        var result = userService.SaveUser(user);
+        var result = _userService.SaveUser(user);
+        
+        if (result.Success)
+            WriteLine($"User was successfully added.");
+        else
+            WriteLine($"{result.Message}");
+        
+        ReadKey();
     }
 
     private void ViewUsersDialog()
     {
         Dialogs.MenuHeading("Users");
-        foreach (var user in userService.GetAllUsers())
-            WriteLine($"{user.FirstName} {user.LastName} <{user.Email}>");
+        
+        var items = _userService.GetAllUsers().Result!;
+        
+        if (items.Any())
+            foreach (var user in items)
+                WriteLine($"{user.FirstName} {user.LastName} <{user.Email}>");
         
         ReadKey();
     }
