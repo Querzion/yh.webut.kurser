@@ -50,7 +50,7 @@
     &lt;TestId&gt;xUnit::5B7B9DC8-2FD2-48AB-890F-DD3953999712::net9.0::learn_014_moq_mocking_tests.Services.ProductServiceTests&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=39e9afcb_002D23eb_002D4da2_002Dbc61_002Dd06b5cbae640/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CreateProduct_ShouldReturnTrue_WhenProductIsCreated #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=39e9afcb_002D23eb_002D4da2_002Dbc61_002Dd06b5cbae640/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="CreateProduct_ShouldReturnTrue_WhenProductIsCreated #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
     &lt;TestId&gt;xUnit::5B7B9DC8-2FD2-48AB-890F-DD3953999712::net9.0::learn_014_moq_mocking_tests.Services.ProductServiceTests.CreateProduct_ShouldReturnTrue_WhenProductIsCreated&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
