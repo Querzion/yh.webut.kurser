@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ExternalBase")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f912ac09f9e0db4149b2f52ff26ec901244c38c9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4a27c41039336bcdfa5d035e528c0dcce00afc8a")]
 [assembly: System.Reflection.AssemblyProductAttribute("ExternalBase")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ExternalBase")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
