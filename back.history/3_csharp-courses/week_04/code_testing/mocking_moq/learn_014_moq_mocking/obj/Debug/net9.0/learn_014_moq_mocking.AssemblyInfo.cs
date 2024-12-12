@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("learn_014_moq_mocking")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a8ce2592d32a8b783d4f0c549f0092881aeabf4d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f912ac09f9e0db4149b2f52ff26ec901244c38c9")]
 [assembly: System.Reflection.AssemblyProductAttribute("learn_014_moq_mocking")]
 [assembly: System.Reflection.AssemblyTitleAttribute("learn_014_moq_mocking")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
