@@ -1,3 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using learn_016_2_asterisk.Dialogs;
 
-Console.WriteLine("Hello, World!");
+MenuDialog dialog = new MenuDialog();
+dialog.ShowMenu();

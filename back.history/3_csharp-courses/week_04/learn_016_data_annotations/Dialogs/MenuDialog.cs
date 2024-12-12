@@ -35,17 +35,17 @@ public class MenuDialog
     {
         var urf = new UserRegistrationForm();
         
-        urf.FirstName = PromptAndValidate("Enter your first name: ", nameof(urf.FirstName));
-        urf.LastName = PromptAndValidate("Enter your last name: ", nameof(urf.LastName));
-        urf.Email = PromptAndValidate("Enter your email: ", nameof(urf.Email));
-        urf.Password = PromptAndValidate("Enter your password: ", nameof(urf.Password));
-        urf.ConfirmPassword = PromptAndValidate("Confirm password: ", nameof(urf.ConfirmPassword));
+        urf.FirstName = PromptAndValidate("Enter your first name: ", nameof(urf.FirstName), urf);
+        urf.LastName = PromptAndValidate("Enter your last name: ", nameof(urf.LastName), urf);
+        urf.Email = PromptAndValidate("Enter your email: ", nameof(urf.Email), urf);
+        urf.Password = PromptAndValidate("Enter your password: ", nameof(urf.Password), urf);
+        urf.ConfirmPassword = PromptAndValidate("Confirm password: ", nameof(urf.ConfirmPassword), urf);
         
         WriteLine("User registration successful!");
         ReadKey();
     }
 
-    private string PromptAndValidate(string prompt, string propertyName)
+    private string PromptAndValidate(string prompt, string propertyName, UserRegistrationForm urf)
     {
         while (true)
         {
@@ -54,7 +54,7 @@ public class MenuDialog
             var input = ReadLine() ?? string.Empty;
             
             var results = new List<ValidationResult>();
-            var context = new ValidationContext(new UserRegistrationForm()) { MemberName = propertyName };
+            var context = new ValidationContext(urf) { MemberName = propertyName };
             
             if (Validator.TryValidateProperty(input, context, results))
                 return input;

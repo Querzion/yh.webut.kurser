@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("learn_016_data_annotations")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4a27c41039336bcdfa5d035e528c0dcce00afc8a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8d742f8107e8c4316856b80cbb8d3455df47e23e")]
 [assembly: System.Reflection.AssemblyProductAttribute("learn_016_data_annotations")]
 [assembly: System.Reflection.AssemblyTitleAttribute("learn_016_data_annotations")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
