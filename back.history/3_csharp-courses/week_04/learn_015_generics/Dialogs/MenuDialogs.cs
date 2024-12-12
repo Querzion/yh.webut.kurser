@@ -17,7 +17,7 @@ public class MenuDialogs(ProductService productService, UserService userService)
         }
     }
 
-    public void MenuOptionsDialog()
+    private void MenuOptionsDialog()
     {
         Dialogs.MenuHeading("Main Menu");
         WriteLine("1. New Product");

@@ -14,6 +14,6 @@ var serviceProvider = new ServiceCollection()
 
 var menuDialog = serviceProvider.GetRequiredService<MenuDialogs>();
 
-menuDialog.MenuOptionsDialog();
+menuDialog.ShowMenu();
     
     
