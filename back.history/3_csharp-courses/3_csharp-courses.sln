@@ -185,6 +185,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learn_016_Business", "week_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learn_016_2_asterisk", "week_04\learn_016_2_asterisk\learn_016_2_asterisk.csproj", "{1DF996A1-ADF9-4844-BD20-C817544478A0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learn_017_solid", "week_04\learn_017_solid\learn_017_solid.csproj", "{2BEE320A-5584-4208-BC3A-574E56022B6B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -443,6 +445,10 @@ Global
 		{1DF996A1-ADF9-4844-BD20-C817544478A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DF996A1-ADF9-4844-BD20-C817544478A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DF996A1-ADF9-4844-BD20-C817544478A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BEE320A-5584-4208-BC3A-574E56022B6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BEE320A-5584-4208-BC3A-574E56022B6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BEE320A-5584-4208-BC3A-574E56022B6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BEE320A-5584-4208-BC3A-574E56022B6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -535,5 +541,6 @@ Global
 		{78E6D2EB-53EE-42A7-AB57-53F7CD7C1B52} = {7C9F63ED-4B1E-4966-8043-D2C540A69C86}
 		{0230BAD8-3207-44C7-85E7-0E1E3020C533} = {78E6D2EB-53EE-42A7-AB57-53F7CD7C1B52}
 		{1DF996A1-ADF9-4844-BD20-C817544478A0} = {7C9F63ED-4B1E-4966-8043-D2C540A69C86}
+		{2BEE320A-5584-4208-BC3A-574E56022B6B} = {7C9F63ED-4B1E-4966-8043-D2C540A69C86}
 	EndGlobalSection
 EndGlobal
