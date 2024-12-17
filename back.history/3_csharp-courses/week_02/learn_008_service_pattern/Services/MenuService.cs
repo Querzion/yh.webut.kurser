@@ -118,7 +118,7 @@ public class MenuService : IMenuDialogues
         foreach ( var user in users)
         {
             Console.WriteLine($"{"Id:",-15}{user.Id}");
-            Console.WriteLine($"{"Name:",-15}{user.FirstName}{user.LastName}");
+            Console.WriteLine($"{"Name:",-15}{user.FirstName} {user.LastName}");
             Console.WriteLine($"{"Email:",-15}{user.Email}");
             Console.WriteLine("");
         }
