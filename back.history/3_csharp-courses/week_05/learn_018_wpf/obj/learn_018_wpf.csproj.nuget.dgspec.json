@@ -5,10 +5,10 @@
   },
   "projects": {
     "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_05/learn_018_wpf/learn_018_wpf.csproj": {
-      "version": "1.0.0",
+      "version": "0.0.0.100",
       "restore": {
         "projectUniqueName": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_05/learn_018_wpf/learn_018_wpf.csproj",
-        "projectName": "learn_018_wpf",
+        "projectName": "Learn_018_WPF",
         "projectPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_05/learn_018_wpf/learn_018_wpf.csproj",
         "packagesPath": "/home/querzion/.nuget/packages/",
         "outputPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_05/learn_018_wpf/obj/",

@@ -6,6 +6,20 @@
         <BuiltInComInteropSupport>true</BuiltInComInteropSupport>
         <ApplicationManifest>app.manifest</ApplicationManifest>
         <AvaloniaUseCompiledBindingsByDefault>true</AvaloniaUseCompiledBindingsByDefault>
+<!--        THIS IS INSTEAD OF AN "AssemblyInfo.cs" FILE!-->
+<!--        EQUAL TO AssemblyTitle-->
+        <AssemblyName>Learn_018_WPF</AssemblyName>
+<!--        EQUAL TO AssemblyDescription-->
+        <Description>My Avalonia Application</Description>
+<!--        EQUAL TO AssemblyCompany-->
+        <Company>Querzion Inc.</Company>
+        <Product>My Product</Product>
+        <Version>0.0.0.100</Version>
+        <Authors>Slisk Lindqvist</Authors>
+<!--        EXAMPLE FOR HOW TO STATE A LICENSE-->
+<!--        <PackageLicenseExpression>MIT</PackageLicenseExpression>-->
+<!--        EQUAL TO NeutralResourcesLanguage-->
+        <NeutralLanguage>sv-SE</NeutralLanguage>
     </PropertyGroup>
 
     <ItemGroup>

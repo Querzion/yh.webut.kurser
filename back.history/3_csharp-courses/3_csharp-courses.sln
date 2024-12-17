@@ -197,6 +197,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "week_05", "week_05", "{E4B9
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learn_018_wpf", "week_05\learn_018_wpf\learn_018_wpf.csproj", "{6C5E2247-3FA2-4B1A-85C7-C820BC38614B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learn_018_wpf_mvvm", "week_05\learn_018_wpf_mvvm\learn_018_wpf_mvvm.csproj", "{CD1F32F0-7540-4C8E-90F8-63043111A3E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learn_019_wpf_create_app", "week_05\learn_019_wpf_create_app\learn_019_wpf_create_app.csproj", "{4A52678B-4410-45E9-8726-C608EE45DA72}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -467,6 +471,14 @@ Global
 		{6C5E2247-3FA2-4B1A-85C7-C820BC38614B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C5E2247-3FA2-4B1A-85C7-C820BC38614B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C5E2247-3FA2-4B1A-85C7-C820BC38614B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD1F32F0-7540-4C8E-90F8-63043111A3E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD1F32F0-7540-4C8E-90F8-63043111A3E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD1F32F0-7540-4C8E-90F8-63043111A3E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD1F32F0-7540-4C8E-90F8-63043111A3E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A52678B-4410-45E9-8726-C608EE45DA72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A52678B-4410-45E9-8726-C608EE45DA72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A52678B-4410-45E9-8726-C608EE45DA72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A52678B-4410-45E9-8726-C608EE45DA72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
