@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_04/code_testing/mocking_moq/learn_014_moq_mocking/learn_014_moq_mocking.csproj": {}
+    "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/code_testing/mocking_moq/learn_014_moq_mocking/learn_014_moq_mocking.csproj": {}
   },
   "projects": {
-    "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_04/code_testing/mocking_moq/learn_014_moq_mocking/learn_014_moq_mocking.csproj": {
+    "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/code_testing/mocking_moq/learn_014_moq_mocking/learn_014_moq_mocking.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_04/code_testing/mocking_moq/learn_014_moq_mocking/learn_014_moq_mocking.csproj",
+        "projectUniqueName": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/code_testing/mocking_moq/learn_014_moq_mocking/learn_014_moq_mocking.csproj",
         "projectName": "learn_014_moq_mocking",
-        "projectPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_04/code_testing/mocking_moq/learn_014_moq_mocking/learn_014_moq_mocking.csproj",
+        "projectPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/code_testing/mocking_moq/learn_014_moq_mocking/learn_014_moq_mocking.csproj",
         "packagesPath": "/home/querzion/.nuget/packages/",
-        "outputPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_04/code_testing/mocking_moq/learn_014_moq_mocking/obj/",
+        "outputPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/code_testing/mocking_moq/learn_014_moq_mocking/obj/",
         "projectStyle": "PackageReference",
         "UsingMicrosoftNETSdk": false,
         "configFilePaths": [

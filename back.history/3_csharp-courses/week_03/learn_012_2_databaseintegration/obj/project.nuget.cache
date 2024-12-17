@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wsmLiSpX4nc=",
+  "dgSpecHash": "IOc7YZNW8mk=",
   "success": true,
-  "projectFilePath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_03/learn_012_2_databaseintegration/learn_012_2_databaseintegration.csproj",
+  "projectFilePath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_03/learn_012_2_databaseintegration/learn_012_2_databaseintegration.csproj",
   "expectedPackageFiles": [
     "/home/querzion/.nuget/packages/microsoft.entityframeworkcore/9.0.0/microsoft.entityframeworkcore.9.0.0.nupkg.sha512",
     "/home/querzion/.nuget/packages/microsoft.entityframeworkcore.abstractions/9.0.0/microsoft.entityframeworkcore.abstractions.9.0.0.nupkg.sha512",

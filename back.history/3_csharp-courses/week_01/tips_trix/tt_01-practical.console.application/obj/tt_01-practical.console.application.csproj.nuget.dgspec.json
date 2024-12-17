@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_01/tips_trix/tt_01-practical.console.application/tt_01-practical.console.application.csproj": {}
+    "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_01/tips_trix/tt_01-practical.console.application/tt_01-practical.console.application.csproj": {}
   },
   "projects": {
-    "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_01/tips_trix/tt_01-practical.console.application/tt_01-practical.console.application.csproj": {
+    "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_01/tips_trix/tt_01-practical.console.application/tt_01-practical.console.application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_01/tips_trix/tt_01-practical.console.application/tt_01-practical.console.application.csproj",
+        "projectUniqueName": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_01/tips_trix/tt_01-practical.console.application/tt_01-practical.console.application.csproj",
         "projectName": "tt_01-practical.console.application",
-        "projectPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_01/tips_trix/tt_01-practical.console.application/tt_01-practical.console.application.csproj",
+        "projectPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_01/tips_trix/tt_01-practical.console.application/tt_01-practical.console.application.csproj",
         "packagesPath": "/home/querzion/.nuget/packages/",
-        "outputPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_01/tips_trix/tt_01-practical.console.application/obj/",
+        "outputPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_01/tips_trix/tt_01-practical.console.application/obj/",
         "projectStyle": "PackageReference",
         "UsingMicrosoftNETSdk": false,
         "configFilePaths": [

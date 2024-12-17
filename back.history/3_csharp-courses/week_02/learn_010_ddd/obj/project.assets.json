@@ -51,11 +51,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/learn_010_ddd/learn_010_ddd.csproj",
+      "projectUniqueName": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/learn_010_ddd/learn_010_ddd.csproj",
       "projectName": "learn_010_ddd",
-      "projectPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/learn_010_ddd/learn_010_ddd.csproj",
+      "projectPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/learn_010_ddd/learn_010_ddd.csproj",
       "packagesPath": "/home/querzion/.nuget/packages/",
-      "outputPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/learn_010_ddd/obj/",
+      "outputPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/learn_010_ddd/obj/",
       "projectStyle": "PackageReference",
       "UsingMicrosoftNETSdk": false,
       "configFilePaths": [
@@ -71,11 +71,11 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/domain_driven_design/Business/Business.csproj": {
-              "projectPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/domain_driven_design/Business/Business.csproj"
+            "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/domain_driven_design/Business/Business.csproj": {
+              "projectPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/domain_driven_design/Business/Business.csproj"
             },
-            "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/domain_driven_design/Domain/Domain.csproj": {
-              "projectPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/domain_driven_design/Domain/Domain.csproj"
+            "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/domain_driven_design/Domain/Domain.csproj": {
+              "projectPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/domain_driven_design/Domain/Domain.csproj"
             }
           }
         }

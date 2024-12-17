@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/exercise_02/exercise_02.csproj": {}
+    "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/exercise_02/exercise_02.csproj": {}
   },
   "projects": {
-    "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/exercise_02/exercise_02.csproj": {
+    "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/exercise_02/exercise_02.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/exercise_02/exercise_02.csproj",
+        "projectUniqueName": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/exercise_02/exercise_02.csproj",
         "projectName": "exercise_02",
-        "projectPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/exercise_02/exercise_02.csproj",
+        "projectPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/exercise_02/exercise_02.csproj",
         "packagesPath": "/home/querzion/.nuget/packages/",
-        "outputPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/exercise_02/obj/",
+        "outputPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/exercise_02/obj/",
         "projectStyle": "PackageReference",
         "UsingMicrosoftNETSdk": false,
         "configFilePaths": [

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1URhykFi3yE=",
+  "dgSpecHash": "AR6y/HczIOo=",
   "success": true,
-  "projectFilePath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05/ex05_products_tests/ex05_products_tests.csproj",
+  "projectFilePath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05/ex05_products_tests/ex05_products_tests.csproj",
   "expectedPackageFiles": [
     "/home/querzion/.nuget/packages/coverlet.collector/6.0.2/coverlet.collector.6.0.2.nupkg.sha512",
     "/home/querzion/.nuget/packages/microsoft.codecoverage/17.11.1/microsoft.codecoverage.17.11.1.nupkg.sha512",

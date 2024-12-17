@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZAsyHlk2x28=",
+  "dgSpecHash": "TuL5wvgHkg8=",
   "success": true,
-  "projectFilePath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_03/learn_013_2/dependency_injection_2/dependency_injection_2.csproj",
+  "projectFilePath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_03/learn_013_2/dependency_injection_2/dependency_injection_2.csproj",
   "expectedPackageFiles": [
     "/home/querzion/.nuget/packages/microsoft.extensions.configuration/9.0.0/microsoft.extensions.configuration.9.0.0.nupkg.sha512",
     "/home/querzion/.nuget/packages/microsoft.extensions.configuration.abstractions/9.0.0/microsoft.extensions.configuration.abstractions.9.0.0.nupkg.sha512",

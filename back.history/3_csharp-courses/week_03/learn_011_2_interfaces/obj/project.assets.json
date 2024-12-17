@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_03/learn_011_2_interfaces/learn_011_2_interfaces.csproj",
+      "projectUniqueName": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_03/learn_011_2_interfaces/learn_011_2_interfaces.csproj",
       "projectName": "learn_011_2_interfaces",
-      "projectPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_03/learn_011_2_interfaces/learn_011_2_interfaces.csproj",
+      "projectPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_03/learn_011_2_interfaces/learn_011_2_interfaces.csproj",
       "packagesPath": "/home/querzion/.nuget/packages/",
-      "outputPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_03/learn_011_2_interfaces/obj/",
+      "outputPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_03/learn_011_2_interfaces/obj/",
       "projectStyle": "PackageReference",
       "UsingMicrosoftNETSdk": false,
       "configFilePaths": [

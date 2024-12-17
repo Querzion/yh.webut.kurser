@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/ex03/ex03_user/ex03_user.csproj",
+      "projectUniqueName": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/ex03/ex03_user/ex03_user.csproj",
       "projectName": "ex03_user",
-      "projectPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/ex03/ex03_user/ex03_user.csproj",
+      "projectPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/ex03/ex03_user/ex03_user.csproj",
       "packagesPath": "/home/querzion/.nuget/packages/",
-      "outputPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/ex03/ex03_user/obj/",
+      "outputPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/ex03/ex03_user/obj/",
       "projectStyle": "PackageReference",
       "UsingMicrosoftNETSdk": false,
       "configFilePaths": [
@@ -52,8 +52,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/ex03/ex03_infrastructure/ex03_infrastructure.csproj": {
-              "projectPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/ex03/ex03_infrastructure/ex03_infrastructure.csproj"
+            "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/ex03/ex03_infrastructure/ex03_infrastructure.csproj": {
+              "projectPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/ex03/ex03_infrastructure/ex03_infrastructure.csproj"
             }
           }
         }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_01/learn_002-lists.and.arrays/learn_002-lists.and.arrays.csproj": {}
+    "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_01/learn_002-lists.and.arrays/learn_002-lists.and.arrays.csproj": {}
   },
   "projects": {
-    "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_01/learn_002-lists.and.arrays/learn_002-lists.and.arrays.csproj": {
+    "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_01/learn_002-lists.and.arrays/learn_002-lists.and.arrays.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_01/learn_002-lists.and.arrays/learn_002-lists.and.arrays.csproj",
+        "projectUniqueName": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_01/learn_002-lists.and.arrays/learn_002-lists.and.arrays.csproj",
         "projectName": "learn_002-lists.and.arrays",
-        "projectPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_01/learn_002-lists.and.arrays/learn_002-lists.and.arrays.csproj",
+        "projectPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_01/learn_002-lists.and.arrays/learn_002-lists.and.arrays.csproj",
         "packagesPath": "/home/querzion/.nuget/packages/",
-        "outputPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_01/learn_002-lists.and.arrays/obj/",
+        "outputPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_01/learn_002-lists.and.arrays/obj/",
         "projectStyle": "PackageReference",
         "UsingMicrosoftNETSdk": false,
         "configFilePaths": [

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05/ex05_products/ex05_products.csproj": {}
+    "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05/ex05_products/ex05_products.csproj": {}
   },
   "projects": {
-    "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05/ex05_products/ex05_products.csproj": {
+    "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05/ex05_products/ex05_products.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05/ex05_products/ex05_products.csproj",
+        "projectUniqueName": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05/ex05_products/ex05_products.csproj",
         "projectName": "ex05_products",
-        "projectPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05/ex05_products/ex05_products.csproj",
+        "projectPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05/ex05_products/ex05_products.csproj",
         "packagesPath": "/home/querzion/.nuget/packages/",
-        "outputPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05/ex05_products/obj/",
+        "outputPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/ex05/ex05_products/obj/",
         "projectStyle": "PackageReference",
         "UsingMicrosoftNETSdk": false,
         "configFilePaths": [

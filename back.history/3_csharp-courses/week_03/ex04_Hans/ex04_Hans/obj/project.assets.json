@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_03/ex04_Hans/ex04_Hans/ex04_Hans.csproj",
+      "projectUniqueName": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_03/ex04_Hans/ex04_Hans/ex04_Hans.csproj",
       "projectName": "ex04_Hans",
-      "projectPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_03/ex04_Hans/ex04_Hans/ex04_Hans.csproj",
+      "projectPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_03/ex04_Hans/ex04_Hans/ex04_Hans.csproj",
       "packagesPath": "/home/querzion/.nuget/packages/",
-      "outputPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_03/ex04_Hans/ex04_Hans/obj/",
+      "outputPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_03/ex04_Hans/ex04_Hans/obj/",
       "projectStyle": "PackageReference",
       "UsingMicrosoftNETSdk": false,
       "configFilePaths": [
@@ -52,8 +52,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_03/ex04_Hans/Business/Business.csproj": {
-              "projectPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_03/ex04_Hans/Business/Business.csproj"
+            "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_03/ex04_Hans/Business/Business.csproj": {
+              "projectPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_03/ex04_Hans/Business/Business.csproj"
             }
           }
         }

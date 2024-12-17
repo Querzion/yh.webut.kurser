@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/learn_010_class_libraries/learn_010_class_libraries.csproj": {}
+    "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/learn_010_class_libraries/learn_010_class_libraries.csproj": {}
   },
   "projects": {
-    "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/class_libraries/Infrastructure/Infrastructure.csproj": {
+    "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/class_libraries/Infrastructure/Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/class_libraries/Infrastructure/Infrastructure.csproj",
+        "projectUniqueName": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/class_libraries/Infrastructure/Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/class_libraries/Infrastructure/Infrastructure.csproj",
+        "projectPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/class_libraries/Infrastructure/Infrastructure.csproj",
         "packagesPath": "/home/querzion/.nuget/packages/",
-        "outputPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/class_libraries/Infrastructure/obj/",
+        "outputPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/class_libraries/Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
@@ -63,14 +63,14 @@
         }
       }
     },
-    "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/learn_010_class_libraries/learn_010_class_libraries.csproj": {
+    "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/learn_010_class_libraries/learn_010_class_libraries.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/learn_010_class_libraries/learn_010_class_libraries.csproj",
+        "projectUniqueName": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/learn_010_class_libraries/learn_010_class_libraries.csproj",
         "projectName": "learn_010_class_libraries",
-        "projectPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/learn_010_class_libraries/learn_010_class_libraries.csproj",
+        "projectPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/learn_010_class_libraries/learn_010_class_libraries.csproj",
         "packagesPath": "/home/querzion/.nuget/packages/",
-        "outputPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/learn_010_class_libraries/obj/",
+        "outputPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/learn_010_class_libraries/obj/",
         "projectStyle": "PackageReference",
         "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
@@ -86,8 +86,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/class_libraries/Infrastructure/Infrastructure.csproj": {
-                "projectPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/class_libraries/Infrastructure/Infrastructure.csproj"
+              "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/class_libraries/Infrastructure/Infrastructure.csproj": {
+                "projectPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/class_libraries/Infrastructure/Infrastructure.csproj"
               }
             }
           }

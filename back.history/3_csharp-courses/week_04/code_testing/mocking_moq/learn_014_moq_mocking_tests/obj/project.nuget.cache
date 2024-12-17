@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BUw244LwaLU=",
+  "dgSpecHash": "5xatoqg71v0=",
   "success": true,
-  "projectFilePath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_04/code_testing/mocking_moq/learn_014_moq_mocking_tests/learn_014_moq_mocking_tests.csproj",
+  "projectFilePath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/code_testing/mocking_moq/learn_014_moq_mocking_tests/learn_014_moq_mocking_tests.csproj",
   "expectedPackageFiles": [
     "/home/querzion/.nuget/packages/castle.core/5.1.1/castle.core.5.1.1.nupkg.sha512",
     "/home/querzion/.nuget/packages/coverlet.collector/6.0.2/coverlet.collector.6.0.2.nupkg.sha512",

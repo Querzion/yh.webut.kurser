@@ -191,6 +191,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learn_017_Business", "week_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learn_017_solid", "week_04\learn_017_solid\learn_017_solid\learn_017_solid.csproj", "{1EF2888A-3944-4DF9-9F4C-06B28D6B6917}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "week_05", "week_05", "{FD70EA24-5217-4132-B0A8-0A69C669EF7D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "week_05", "week_05", "{E4B972C7-A306-447D-905A-490B7B64496F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learn_018_wpf", "week_05\learn_018_wpf\learn_018_wpf.csproj", "{6C5E2247-3FA2-4B1A-85C7-C820BC38614B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -457,6 +463,10 @@ Global
 		{1EF2888A-3944-4DF9-9F4C-06B28D6B6917}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EF2888A-3944-4DF9-9F4C-06B28D6B6917}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1EF2888A-3944-4DF9-9F4C-06B28D6B6917}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C5E2247-3FA2-4B1A-85C7-C820BC38614B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C5E2247-3FA2-4B1A-85C7-C820BC38614B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C5E2247-3FA2-4B1A-85C7-C820BC38614B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C5E2247-3FA2-4B1A-85C7-C820BC38614B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

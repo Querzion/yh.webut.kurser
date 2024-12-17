@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_03/learn_012_inheritance_abstract/learn_012_inheritance_abstract.csproj": {}
+    "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_03/learn_012_inheritance_abstract/learn_012_inheritance_abstract.csproj": {}
   },
   "projects": {
-    "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_03/learn_012_inheritance_abstract/learn_012_inheritance_abstract.csproj": {
+    "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_03/learn_012_inheritance_abstract/learn_012_inheritance_abstract.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_03/learn_012_inheritance_abstract/learn_012_inheritance_abstract.csproj",
+        "projectUniqueName": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_03/learn_012_inheritance_abstract/learn_012_inheritance_abstract.csproj",
         "projectName": "learn_012_inheritance_abstract",
-        "projectPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_03/learn_012_inheritance_abstract/learn_012_inheritance_abstract.csproj",
+        "projectPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_03/learn_012_inheritance_abstract/learn_012_inheritance_abstract.csproj",
         "packagesPath": "/home/querzion/.nuget/packages/",
-        "outputPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_03/learn_012_inheritance_abstract/obj/",
+        "outputPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_03/learn_012_inheritance_abstract/obj/",
         "projectStyle": "PackageReference",
         "UsingMicrosoftNETSdk": false,
         "configFilePaths": [

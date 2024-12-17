@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_01/learn_003-if.else-switch.etc/learn_003-if.else-switch.etc..csproj": {}
+    "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_01/learn_003-if.else-switch.etc/learn_003-if.else-switch.etc..csproj": {}
   },
   "projects": {
-    "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_01/learn_003-if.else-switch.etc/learn_003-if.else-switch.etc..csproj": {
+    "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_01/learn_003-if.else-switch.etc/learn_003-if.else-switch.etc..csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_01/learn_003-if.else-switch.etc/learn_003-if.else-switch.etc..csproj",
+        "projectUniqueName": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_01/learn_003-if.else-switch.etc/learn_003-if.else-switch.etc..csproj",
         "projectName": "learn_003-if.else-switch.etc.",
-        "projectPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_01/learn_003-if.else-switch.etc/learn_003-if.else-switch.etc..csproj",
+        "projectPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_01/learn_003-if.else-switch.etc/learn_003-if.else-switch.etc..csproj",
         "packagesPath": "/home/querzion/.nuget/packages/",
-        "outputPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_01/learn_003-if.else-switch.etc/obj/",
+        "outputPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_01/learn_003-if.else-switch.etc/obj/",
         "projectStyle": "PackageReference",
         "UsingMicrosoftNETSdk": false,
         "configFilePaths": [

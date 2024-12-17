@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_01/learn_004-loops-for.foreach.while.etc/learn_004-loops-for.foreach.while.etc..csproj": {}
+    "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_01/learn_004-loops-for.foreach.while.etc/learn_004-loops-for.foreach.while.etc..csproj": {}
   },
   "projects": {
-    "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_01/learn_004-loops-for.foreach.while.etc/learn_004-loops-for.foreach.while.etc..csproj": {
+    "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_01/learn_004-loops-for.foreach.while.etc/learn_004-loops-for.foreach.while.etc..csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_01/learn_004-loops-for.foreach.while.etc/learn_004-loops-for.foreach.while.etc..csproj",
+        "projectUniqueName": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_01/learn_004-loops-for.foreach.while.etc/learn_004-loops-for.foreach.while.etc..csproj",
         "projectName": "learn_004-loops-for.foreach.while.etc.",
-        "projectPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_01/learn_004-loops-for.foreach.while.etc/learn_004-loops-for.foreach.while.etc..csproj",
+        "projectPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_01/learn_004-loops-for.foreach.while.etc/learn_004-loops-for.foreach.while.etc..csproj",
         "packagesPath": "/home/querzion/.nuget/packages/",
-        "outputPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_01/learn_004-loops-for.foreach.while.etc/obj/",
+        "outputPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_01/learn_004-loops-for.foreach.while.etc/obj/",
         "projectStyle": "PackageReference",
         "UsingMicrosoftNETSdk": false,
         "configFilePaths": [

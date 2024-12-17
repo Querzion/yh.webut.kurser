@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_04/learn_015_class_libraries/learn_015_Business/learn_015_Business.csproj": {}
+    "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/learn_015_class_libraries/learn_015_Business/learn_015_Business.csproj": {}
   },
   "projects": {
-    "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_04/learn_015_class_libraries/learn_015_Business/learn_015_Business.csproj": {
+    "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/learn_015_class_libraries/learn_015_Business/learn_015_Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_04/learn_015_class_libraries/learn_015_Business/learn_015_Business.csproj",
+        "projectUniqueName": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/learn_015_class_libraries/learn_015_Business/learn_015_Business.csproj",
         "projectName": "learn_015_Business",
-        "projectPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_04/learn_015_class_libraries/learn_015_Business/learn_015_Business.csproj",
+        "projectPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/learn_015_class_libraries/learn_015_Business/learn_015_Business.csproj",
         "packagesPath": "/home/querzion/.nuget/packages/",
-        "outputPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_04/learn_015_class_libraries/learn_015_Business/obj/",
+        "outputPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/learn_015_class_libraries/learn_015_Business/obj/",
         "projectStyle": "PackageReference",
         "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
@@ -27,8 +27,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_04/learn_015_class_libraries/learn_015_Data/learn_015_Data.csproj": {
-                "projectPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_04/learn_015_class_libraries/learn_015_Data/learn_015_Data.csproj"
+              "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/learn_015_class_libraries/learn_015_Data/learn_015_Data.csproj": {
+                "projectPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/learn_015_class_libraries/learn_015_Data/learn_015_Data.csproj"
               }
             }
           }
@@ -67,14 +67,14 @@
         }
       }
     },
-    "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_04/learn_015_class_libraries/learn_015_Data/learn_015_Data.csproj": {
+    "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/learn_015_class_libraries/learn_015_Data/learn_015_Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_04/learn_015_class_libraries/learn_015_Data/learn_015_Data.csproj",
+        "projectUniqueName": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/learn_015_class_libraries/learn_015_Data/learn_015_Data.csproj",
         "projectName": "learn_015_Data",
-        "projectPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_04/learn_015_class_libraries/learn_015_Data/learn_015_Data.csproj",
+        "projectPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/learn_015_class_libraries/learn_015_Data/learn_015_Data.csproj",
         "packagesPath": "/home/querzion/.nuget/packages/",
-        "outputPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_04/learn_015_class_libraries/learn_015_Data/obj/",
+        "outputPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_04/learn_015_class_libraries/learn_015_Data/obj/",
         "projectStyle": "PackageReference",
         "UsingMicrosoftNETSdk": false,
         "configFilePaths": [

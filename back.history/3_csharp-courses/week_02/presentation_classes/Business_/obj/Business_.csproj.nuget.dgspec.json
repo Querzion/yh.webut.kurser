@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Business_/Business_.csproj": {}
+    "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Business_/Business_.csproj": {}
   },
   "projects": {
-    "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Business_/Business_.csproj": {
+    "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Business_/Business_.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Business_/Business_.csproj",
+        "projectUniqueName": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Business_/Business_.csproj",
         "projectName": "Business_",
-        "projectPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Business_/Business_.csproj",
+        "projectPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Business_/Business_.csproj",
         "packagesPath": "/home/querzion/.nuget/packages/",
-        "outputPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Business_/obj/",
+        "outputPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Business_/obj/",
         "projectStyle": "PackageReference",
         "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
@@ -27,11 +27,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Data_/Data_.csproj": {
-                "projectPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Data_/Data_.csproj"
+              "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Data_/Data_.csproj": {
+                "projectPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Data_/Data_.csproj"
               },
-              "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Domain_/Domain_.csproj": {
-                "projectPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Domain_/Domain_.csproj"
+              "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Domain_/Domain_.csproj": {
+                "projectPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Domain_/Domain_.csproj"
               }
             }
           }
@@ -70,14 +70,14 @@
         }
       }
     },
-    "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Data_/Data_.csproj": {
+    "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Data_/Data_.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Data_/Data_.csproj",
+        "projectUniqueName": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Data_/Data_.csproj",
         "projectName": "Data_",
-        "projectPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Data_/Data_.csproj",
+        "projectPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Data_/Data_.csproj",
         "packagesPath": "/home/querzion/.nuget/packages/",
-        "outputPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Data_/obj/",
+        "outputPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Data_/obj/",
         "projectStyle": "PackageReference",
         "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
@@ -129,14 +129,14 @@
         }
       }
     },
-    "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Domain_/Domain_.csproj": {
+    "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Domain_/Domain_.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Domain_/Domain_.csproj",
+        "projectUniqueName": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Domain_/Domain_.csproj",
         "projectName": "Domain_",
-        "projectPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Domain_/Domain_.csproj",
+        "projectPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Domain_/Domain_.csproj",
         "packagesPath": "/home/querzion/.nuget/packages/",
-        "outputPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Domain_/obj/",
+        "outputPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Domain_/obj/",
         "projectStyle": "PackageReference",
         "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
@@ -152,8 +152,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Dtos_/Dtos_.csproj": {
-                "projectPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Dtos_/Dtos_.csproj"
+              "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Dtos_/Dtos_.csproj": {
+                "projectPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Dtos_/Dtos_.csproj"
               }
             }
           }
@@ -192,14 +192,14 @@
         }
       }
     },
-    "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Dtos_/Dtos_.csproj": {
+    "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Dtos_/Dtos_.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Dtos_/Dtos_.csproj",
+        "projectUniqueName": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Dtos_/Dtos_.csproj",
         "projectName": "Dtos_",
-        "projectPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Dtos_/Dtos_.csproj",
+        "projectPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Dtos_/Dtos_.csproj",
         "packagesPath": "/home/querzion/.nuget/packages/",
-        "outputPath": "/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Dtos_/obj/",
+        "outputPath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Dtos_/obj/",
         "projectStyle": "PackageReference",
         "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
