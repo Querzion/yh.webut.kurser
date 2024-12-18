@@ -3,7 +3,10 @@
   <component name="AvaloniaProject">
     <option name="projectPerEditor">
       <map>
+        <entry key="week_05/learn_018_wpf/App.axaml" value="week_05/learn_018_wpf/learn_018_wpf.csproj" />
         <entry key="week_05/learn_018_wpf/MainWindow.axaml" value="week_05/learn_018_wpf/learn_018_wpf.csproj" />
+        <entry key="week_05/learn_018_wpf_mvvm/Views/MainWindow.axaml" value="week_05/learn_018_wpf_mvvm/learn_018_wpf_mvvm.csproj" />
+        <entry key="week_05/learn_019_wpf_create_app/MainWindow.axaml" value="week_05/learn_019_wpf_create_app/learn_019_wpf_create_app.csproj" />
       </map>
     </option>
   </component>

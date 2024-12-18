@@ -1,3 +1,5 @@
+<!-- XML = Extensible Markup Language & NS = Name Space -->
+
 <Window xmlns="https://github.com/avaloniaui"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -5,5 +7,7 @@
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="learn_019_wpf_create_app.MainWindow"
         Title="learn_019_wpf_create_app">
-    Welcome to Avalonia!
+    
+        
+        
 </Window>
