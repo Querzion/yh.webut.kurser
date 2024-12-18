@@ -1,4 +1,5 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=2A352EE1_002D09CF_002D40B8_002DBD6F_002DEDD331FBDAB9_002Ff_003AMainWindow_002Eaxaml_002Fz_003A2_002D0/@EntryIndexedValue">ForceIncluded</s:String>
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=40303C80_002DDC87_002D4405_002D84E2_002DE43D259C95BA_002Fd_003AHelpers_002Ff_003AUniqueIdentifierGenerator_005FTests_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AAsyncManualResetEvent_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003F_002E_002E_003F_002E_002E_003F_002Evar_003Fapp_003Fcom_002Ejetbrains_002ERider_003Fconfig_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FSourcesCache_003Fc6a9bbf24e895cefe6fbaad9eb97561e05b7dd7cf67a736a36d9c9bf42bda_003FAsyncManualResetEvent_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AAsyncTestSyncContext_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003F_002E_002E_003F_002E_002E_003F_002Evar_003Fapp_003Fcom_002Ejetbrains_002ERider_003Fconfig_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FSourcesCache_003Fe1a7f049184763bd2836df39c2b61a82ee610ab437cd0799dc712b3609224ef_003FAsyncTestSyncContext_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
@@ -50,13 +51,13 @@
     &lt;TestId&gt;xUnit::5B7B9DC8-2FD2-48AB-890F-DD3953999712::net9.0::learn_014_moq_mocking_tests.Services.ProductServiceTests&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=39e9afcb_002D23eb_002D4da2_002Dbc61_002Dd06b5cbae640/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="CreateProduct_ShouldReturnTrue_WhenProductIsCreated #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;TestAncestor&gt;
-    &lt;TestId&gt;xUnit::5B7B9DC8-2FD2-48AB-890F-DD3953999712::net9.0::learn_014_moq_mocking_tests.Services.ProductServiceTests.CreateProduct_ShouldReturnTrue_WhenProductIsCreated&lt;/TestId&gt;
-  &lt;/TestAncestor&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=39e9afcb_002D23eb_002D4da2_002Dbc61_002Dd06b5cbae640/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CreateProduct_ShouldReturnTrue_WhenProductIsCreated #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;ProjectFile&gt;40303C80-DC87-4405-84E2-E43D259C95BA/d:Helpers/f:UniqueIdentifierGenerator_Tests.cs&lt;/ProjectFile&gt;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=bc43816a_002D4670_002D4e6b_002Dab6b_002Da7dfc44d996d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="CreateProduct_ShouldReturnTrue_WhenProductIsCreated" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;Solution /&gt;
+  &lt;Not&gt;
+    &lt;Project Location="/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses" Presentation="&amp;lt;week_04&amp;gt;\&amp;lt;ex05_Hans&amp;gt;" /&gt;
+  &lt;/Not&gt;
 &lt;/SessionState&gt;</s:String>
 	
 	

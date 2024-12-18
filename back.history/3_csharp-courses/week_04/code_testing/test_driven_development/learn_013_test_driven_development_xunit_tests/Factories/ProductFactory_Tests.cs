@@ -20,28 +20,28 @@ public class ProductFactoryTests
         
     }
 
-    // [Fact]
-    // public void Create_ShouldReturnProduct_WhenProductRegistrationFormIsSupplied()
-    // {
-    //     // Arrange
-    //     ProductRegistrationForm productRegistrationForm = new() { Title = "", Price = 100m };
-    //     
-    //     // Act
-    //     Product result = ProductFactory.Create(productRegistrationForm);
-    //     
-    //     // Assert
-    //     Assert.IsType<Product>(result);
-    //     Assert.Equal(productRegistrationForm.Title, result.Title);
-    //     Assert.Equal(productRegistrationForm.Price, result.Price);
-    //
-    // }
+    [Fact]
+    public void Create_ShouldReturnProduct_WhenProductRegistrationFormIsSupplied()
+    {
+        // Arrange
+        ProductRegistrationForm productRegistrationForm = new() { Title = "", Price = 100m };
+        
+        // Act
+        Product result = ProductFactory.Create(productRegistrationForm);
+        
+        // Assert
+        Assert.IsType<Product>(result);
+        Assert.Equal(productRegistrationForm.Title, result.Title);
+        Assert.Equal(productRegistrationForm.Price, result.Price);
+    
+    }
     
     [Theory]
     [InlineData("", 0)]
     [InlineData("", 100)]
     [InlineData("Test Product", 0)]
     [InlineData("Test Product", 100)]
-    public void Create_ShouldReturnProduct_WhenProductRegistrationFormIsSupplied(string title, decimal price)
+    public void Create_ShouldReturnProduct_WhenProductRegistrationFormIsSupplied2(string title, decimal price)
     {
         // Arrange
         ProductRegistrationForm productRegistrationForm = new() { Title = title, Price = price };

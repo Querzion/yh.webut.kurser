@@ -10,6 +10,6 @@ public class ProductFactory :IProductFactory
     {
         Id = dto.Id,
         Name = dto.Name,
-        Price = dto.Price,
+        Price = (double)dto.Price,
     };
 }

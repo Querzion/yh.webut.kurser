@@ -14,7 +14,5 @@ public class UniqueIdentifierGeneratorTests
         Assert.False(string.IsNullOrEmpty(id));
         // _ = Discard, vi vill bara ha ett true eller false värde.
         Assert.True(Guid.TryParse(id, out _));
-        
-        
     }
 }
