@@ -1,9 +1,9 @@
 ﻿using Avalonia;
 using System;
 
-namespace learn_020_graphical_development;
+namespace learn_020_mvvm;
 
-sealed class Program
+class Program
 {
     // Initialization code. Don't use any Avalonia, third-party APIs or any
     // SynchronizationContext-reliant code before AppMain is called: things aren't initialized
