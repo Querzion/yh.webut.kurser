@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Slisk Lindqvist")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+64408d36016b10be74a7be1f162e5afaecccf867")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c53b17e091fa57e238af33705b45fcc6dc90c0d2")]
 [assembly: System.Reflection.AssemblyProductAttribute("learn_019_create_app_anet_app")]
 [assembly: System.Reflection.AssemblyTitleAttribute("learn_019_create_app_anet_app")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

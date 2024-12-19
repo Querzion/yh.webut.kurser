@@ -8,6 +8,7 @@ public static class SystemBackgroundHelper
     public static void SetDesktopBackgroundBrush(Application app)
     {
         var desktopColor = GetDesktopBackgroundColor();
+        // Debug.WriteLine($"Desktop Background Color: {desktopColor}");
         app.Resources["DesktopBackgroundBrush"] = new SolidColorBrush(desktopColor);
     }
 
@@ -75,6 +76,6 @@ public static class SystemBackgroundHelper
             // Ignore errors and return fallback color
         }
 
-        return Colors.Black; // Fallback color
+        return Colors.Gray; // Fallback color
     }
 }

@@ -1,3 +1,4 @@
+using System.Diagnostics;
 using Avalonia;
 using Avalonia.Controls;
 using learn_019_Business.Helpers;
@@ -10,9 +11,12 @@ public partial class MainWindow : Window
     {
         InitializeComponent();
         
-        if (Application.Current != null)
-        {
-            SystemBackgroundHelper.SetDesktopBackgroundBrush(Application.Current);
-        }
+        // Debug.WriteLine("Setting background...");
+        // SystemBackgroundHelper.SetDesktopBackgroundBrush(Application.Current);
+        
+        // if (Application.Current != null)
+        // {
+        //     SystemBackgroundHelper.SetDesktopBackgroundBrush(Application.Current);  
+        // }
     }
 }

@@ -1,15 +1,4 @@
-<!-- WindowStyle="None" (Windows/Mac) / SystemDecorations (Linux) work much the same way.  -->
-<!-- AllowsTransparency="True" (WPF) 
-        TransparencyLevelHint="Transparent"
-        Background="Transparent"
-        ExtendClientAreaToDecorationsHint="True"
-        ExtendClientAreaChromeHints="NoChrome"
--->
-<!-- Background="{DynamicResource {x:Static SystemColors.DesktopBrushKey}}" (WPF)
-Similar effect is a bit more complicated with Avalonia. 
-Background="{DynamicResource DesktopBackgroundBrush}" and a later configuration in the 
--->
-
+        <!-- Background="{DynamicResource DesktopBackgroundBrush}" -->
 <Window xmlns="https://github.com/avaloniaui"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -19,15 +8,10 @@ Background="{DynamicResource DesktopBackgroundBrush}" and a later configuration 
         WindowStartupLocation="CenterScreen"
         SystemDecorations="None"
         TransparencyLevelHint="Transparent"
-        Background="{DynamicResource DesktopBackgroundBrush}"
         ExtendClientAreaToDecorationsHint="True"
         ExtendClientAreaChromeHints="NoChrome"
         Title="learn_019_create_app_anet_app">
-    
-
-        <Grid>
-                <Button>HELLO!</Button>
-        </Grid>
+        
 
         
 </Window>
