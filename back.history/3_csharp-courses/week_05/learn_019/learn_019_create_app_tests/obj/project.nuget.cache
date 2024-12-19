@@ -1,10 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "Y5klUnuyDGY=",
+  "dgSpecHash": "7dSLvRwKabE=",
   "success": true,
   "projectFilePath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_05/learn_019/learn_019_create_app_tests/learn_019_create_app_tests.csproj",
   "expectedPackageFiles": [
+    "/home/querzion/.nuget/packages/avalonia/11.2.3/avalonia.11.2.3.nupkg.sha512",
+    "/home/querzion/.nuget/packages/avalonia.buildservices/0.0.29/avalonia.buildservices.0.0.29.nupkg.sha512",
+    "/home/querzion/.nuget/packages/avalonia.remote.protocol/11.2.3/avalonia.remote.protocol.11.2.3.nupkg.sha512",
     "/home/querzion/.nuget/packages/coverlet.collector/6.0.2/coverlet.collector.6.0.2.nupkg.sha512",
+    "/home/querzion/.nuget/packages/microcom.runtime/0.11.0/microcom.runtime.0.11.0.nupkg.sha512",
     "/home/querzion/.nuget/packages/microsoft.codecoverage/17.11.1/microsoft.codecoverage.17.11.1.nupkg.sha512",
     "/home/querzion/.nuget/packages/microsoft.net.test.sdk/17.11.1/microsoft.net.test.sdk.17.11.1.nupkg.sha512",
     "/home/querzion/.nuget/packages/microsoft.testplatform.objectmodel/17.11.1/microsoft.testplatform.objectmodel.17.11.1.nupkg.sha512",

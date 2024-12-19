@@ -43,6 +43,12 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Avalonia": {
+              "target": "Package",
+              "version": "[11.2.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -109,23 +115,23 @@
           "dependencies": {
             "Avalonia": {
               "target": "Package",
-              "version": "[11.2.2, )"
+              "version": "[11.2.3, )"
             },
             "Avalonia.Desktop": {
               "target": "Package",
-              "version": "[11.2.2, )"
+              "version": "[11.2.3, )"
             },
             "Avalonia.Diagnostics": {
               "target": "Package",
-              "version": "[11.2.2, )"
+              "version": "[11.2.3, )"
             },
             "Avalonia.Fonts.Inter": {
               "target": "Package",
-              "version": "[11.2.2, )"
+              "version": "[11.2.3, )"
             },
             "Avalonia.Themes.Fluent": {
               "target": "Package",
-              "version": "[11.2.2, )"
+              "version": "[11.2.3, )"
             }
           },
           "imports": [

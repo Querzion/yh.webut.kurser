@@ -67,6 +67,3 @@
 /home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_05/learn_019/learn_019_create_app_anet_app/obj/Debug/net9.0/learn_01.8F58F572.Up2Date
 /home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_05/learn_019/learn_019_create_app_anet_app/obj/Debug/net9.0/learn_019_create_app_anet_app.genruntimeconfig.cache
 /home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_05/learn_019/learn_019_create_app_anet_app/obj/Debug/net9.0/ref/learn_019_create_app_anet_app.dll
-/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_05/learn_019/learn_019_create_app_anet_app/obj/Debug/net9.0/learn_019_create_app_anet_app.dll
-/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_05/learn_019/learn_019_create_app_anet_app/obj/Debug/net9.0/refint/learn_019_create_app_anet_app.dll
-/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_05/learn_019/learn_019_create_app_anet_app/obj/Debug/net9.0/learn_019_create_app_anet_app.pdb
