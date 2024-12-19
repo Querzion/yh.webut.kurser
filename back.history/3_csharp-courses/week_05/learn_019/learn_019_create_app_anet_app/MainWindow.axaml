@@ -5,8 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         
         xmlns:models="clr-namespace:learn_019_Business.Models;assembly=learn_019_Business"
+        xmlns:converters="clr-namespace:learn_019_Business.Converters;assembly=learn_019_Business"
 
-        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+
+        mc:Ignorable="d" d:DesignWidth="300" d:DesignHeight="450"
         x:Class="learn_019_create_app_anet_app.MainWindow"
         WindowStartupLocation="CenterScreen"
         TransparencyLevelHint="Transparent"
@@ -14,50 +16,41 @@
         ExtendClientAreaChromeHints="NoChrome"
         Title="Todo Application" Height="450" Width="300">
         
-        <!-- <Grid Margin="10"> -->
-        <!--         ~1~ <Grid.ColumnDefinitions> @1@ -->
-        <!--         ~1~         <ColumnDefinition Width="2*"/> @1@ -->
-        <!--         ~1~         <ColumnDefinition Width="*"/> @1@ -->
-        <!--         ~1~         <ColumnDefinition Width="Auto"/> @1@ -->
-        <!--         ~1~ </Grid.ColumnDefinitions> @1@ -->
-        <!--         <Grid.RowDefinitions> -->
-        <!--                <RowDefinition Height="Auto"/>  -->
-        <!--                <RowDefinition Height="*"/> -->
-        <!--         </Grid.RowDefinitions> -->
-        <!--          -->
-        <!--         <StackPanel Grid.Row="0"> -->
-        <!--                 <Label Content="Activity:" FontWeight="Bold" Foreground="Brown"/> -->
-        <!--                 <TextBox x:Name="Activity" Margin="0,5,0,5" Padding="5"/> -->
-        <!--                 <Button x:Name="AddActivity" Content="Add Activity" Padding="5" Click="AddActivity_Click"></Button> -->
-        <!--         </StackPanel> -->
-        <!--          -->
-        <!--          -->
-        <!--          -->
-        <!--         <ListBox x:Name="Activities" Grid.Row="1" Margin="0 30 0 0 "> -->
-        <!--                 <ListBoxItem> -->
-        <!--                         <DataTemplate DataType="models:ActivityItem"> -->
-        <!--                                 <TextBlock Text="{Binding Activity}" Padding="5"/> -->
-        <!--                         </DataTemplate> -->
-        <!--                 </ListBoxItem> -->
-        <!--         </ListBox> -->
-        <!-- </Grid> -->
+        <Window.Resources>
+                <converters:ActivityStatusConverter x:Key="ActivityStatusConverter" />
+        </Window.Resources>
         
         <Grid Margin="10">
                 <Grid.RowDefinitions>
-                        <RowDefinition Height="Auto"/>
-                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="*" />
                 </Grid.RowDefinitions>
 
                 <StackPanel Grid.Row="0">
-                        <Label Content="Activity:" FontWeight="Bold" Foreground="Brown"/>
-                        <TextBox x:Name="Activity" Margin="0,5,0,5" Padding="5"/>
-                        <Button x:Name="AddActivity" Content="Add Activity" Padding="5" Click="AddActivity_Click"/>
+                        <Label Content="Activity:" FontWeight="Bold" Foreground="Brown" />
+                        <TextBox x:Name="Activity" Margin="0,5,0,5" Padding="5" />
+                        <Button x:Name="AddActivity" Content="Add Activity" Padding="5" Click="AddActivity_Click" />
                 </StackPanel>
 
                 <ListBox x:Name="Activities" Grid.Row="1" Margin="0 30 0 0">
                         <ListBox.ItemTemplate>
                                 <DataTemplate DataType="models:ActivityItem">
-                                        <TextBlock Text="{Binding Activity}" Padding="5"/>
+                                        <Grid>
+                                                <Grid.ColumnDefinitions>
+                                                        <ColumnDefinition Width="*" />
+                                                        <ColumnDefinition Width="Auto" />
+                                                </Grid.ColumnDefinitions>
+                        
+                                                <StackPanel Grid.Column="0">
+                                                        <TextBlock Text="{Binding Activity}" />
+                                                        <TextBlock Text="{Binding IsCompleted, Converter={StaticResource ActivityStatusConverter}}" FontSize="10" />
+                                                </StackPanel>
+                        
+                                                <Button Grid.Column="1" 
+                                                        x:Name="ChangeStatus" 
+                                                        Content="Mark as Completed" 
+                                                        Click="ChangeStatus_OnClick" /> 
+                                        </Grid>
                                 </DataTemplate>
                         </ListBox.ItemTemplate>
                 </ListBox>

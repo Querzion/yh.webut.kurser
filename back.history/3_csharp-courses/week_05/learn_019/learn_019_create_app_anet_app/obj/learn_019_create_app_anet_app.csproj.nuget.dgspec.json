@@ -117,10 +117,6 @@
               "target": "Package",
               "version": "[11.2.3, )"
             },
-            "Avalonia.Controls.ColorPicker": {
-              "target": "Package",
-              "version": "[11.2.3, )"
-            },
             "Avalonia.Controls.DataGrid": {
               "target": "Package",
               "version": "[11.2.3, )"
@@ -137,19 +133,7 @@
               "target": "Package",
               "version": "[11.2.3, )"
             },
-            "Avalonia.Skia": {
-              "target": "Package",
-              "version": "[11.2.3, )"
-            },
             "Avalonia.Themes.Fluent": {
-              "target": "Package",
-              "version": "[11.2.3, )"
-            },
-            "Avalonia.Win32": {
-              "target": "Package",
-              "version": "[11.2.3, )"
-            },
-            "Avalonia.X11": {
               "target": "Package",
               "version": "[11.2.3, )"
             }

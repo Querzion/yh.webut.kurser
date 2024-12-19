@@ -11,10 +11,8 @@
 
     <ItemGroup>
         <PackageReference Include="Avalonia" Version="11.2.3" />
-        <PackageReference Include="Avalonia.Controls.ColorPicker" Version="11.2.3" />
         <PackageReference Include="Avalonia.Controls.DataGrid" Version="11.2.3" />
         <PackageReference Include="Avalonia.Desktop" Version="11.2.3" />
-        <PackageReference Include="Avalonia.Skia" Version="11.2.3" />
         <PackageReference Include="Avalonia.Themes.Fluent" Version="11.2.3" />
         <PackageReference Include="Avalonia.Fonts.Inter" Version="11.2.3" />
         <!--Condition below is needed to remove Avalonia.Diagnostics package from build output in Release configuration.-->
@@ -22,8 +20,6 @@
             <IncludeAssets Condition="'$(Configuration)' != 'Debug'">None</IncludeAssets>
             <PrivateAssets Condition="'$(Configuration)' != 'Debug'">All</PrivateAssets>
         </PackageReference>
-        <PackageReference Include="Avalonia.Win32" Version="11.2.3" />
-        <PackageReference Include="Avalonia.X11" Version="11.2.3" />
     </ItemGroup>
 
     <ItemGroup>

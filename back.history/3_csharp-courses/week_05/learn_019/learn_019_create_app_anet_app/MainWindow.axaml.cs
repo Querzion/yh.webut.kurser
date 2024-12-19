@@ -1,8 +1,5 @@
-using System.Diagnostics;
-using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Interactivity;
-using learn_019_Business.Helpers;
 using learn_019_Business.Models;
 
 namespace learn_019_create_app_anet_app;
@@ -24,5 +21,16 @@ public partial class MainWindow : Window
         
         Activities.Items.Add(activityItem);
         Activity.Clear();
+    }
+
+    private void ChangeStatus_OnClick(object? sender, RoutedEventArgs e)
+    {
+        if (sender is Button button)
+        {
+            if (button.DataContext is ActivityItem activityItem)
+            {
+                activityItem.IsCompleted = true;
+            }
+        }
     }
 }

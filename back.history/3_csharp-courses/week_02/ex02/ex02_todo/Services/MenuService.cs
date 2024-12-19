@@ -57,7 +57,7 @@ public class MenuService
         WriteLine("*************** NEW TODO ***************");
         Write("Enter new todo: ");
 
-        todoModel.Description = ReadLine();
+        todoModel.Description = ReadLine()!;
         
         _todoService.AddTodoItem(todoModel);
         

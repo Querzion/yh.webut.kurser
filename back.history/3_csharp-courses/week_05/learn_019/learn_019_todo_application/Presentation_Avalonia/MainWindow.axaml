@@ -30,13 +30,25 @@
             <Button x:Name="AddActivity" Content="Add Activity" Padding="5" Click="AddActivity_Click" />
         </StackPanel>
 
-        <ListBox x:Name="Activities" Grid.Row="1" Margin="0 30 0 0">
+        <ListBox x:Name="Activities" Grid.Row="1" Margin="0 30 0 0" HorizontalAlignment="Stretch">
             <ListBox.ItemTemplate>
                 <DataTemplate DataType="models:ActivityItem">
-                    <StackPanel>
-                        <TextBlock Text="{Binding Activity}" />
-                        <TextBlock Text="{Binding IsCompleted, Converter={StaticResource ActivityStatusConverter}}" FontSize="10" />
-                    </StackPanel>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        
+                        <StackPanel Grid.Column="0">
+                            <TextBlock Text="{Binding Activity}" />
+                            <TextBlock Text="{Binding IsCompleted, Converter={StaticResource ActivityStatusConverter}}" FontSize="10" />
+                        </StackPanel>
+                        
+                        <Button Grid.Column="1" 
+                                x:Name="ChangeStatus" 
+                                Content="Mark as Completed" 
+                                Click="ChangeStatus_OnClick" /> 
+                    </Grid>
                 </DataTemplate>
             </ListBox.ItemTemplate>
         </ListBox>

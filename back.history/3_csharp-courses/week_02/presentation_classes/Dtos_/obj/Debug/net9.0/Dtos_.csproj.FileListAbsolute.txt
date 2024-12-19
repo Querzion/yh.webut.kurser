@@ -22,3 +22,15 @@ C:/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_c
 /home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Dtos_/obj/Debug/net9.0/refint/Dtos_.dll
 /home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Dtos_/obj/Debug/net9.0/Dtos_.pdb
 /home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Dtos_/obj/Debug/net9.0/ref/Dtos_.dll
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Dtos_/bin/Debug/net9.0/Dtos_.deps.json
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Dtos_/bin/Debug/net9.0/Dtos_.dll
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Dtos_/bin/Debug/net9.0/Dtos_.pdb
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Dtos_/obj/Debug/net9.0/Dtos_.GeneratedMSBuildEditorConfig.editorconfig
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Dtos_/obj/Debug/net9.0/Dtos_.AssemblyInfoInputs.cache
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Dtos_/obj/Debug/net9.0/Dtos_.AssemblyInfo.cs
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Dtos_/obj/Debug/net9.0/Dtos_.csproj.CoreCompileInputs.cache
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Dtos_/obj/Debug/net9.0/Dtos_.sourcelink.json
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Dtos_/obj/Debug/net9.0/Dtos_.dll
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Dtos_/obj/Debug/net9.0/refint/Dtos_.dll
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Dtos_/obj/Debug/net9.0/Dtos_.pdb
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_02/presentation_classes/Dtos_/obj/Debug/net9.0/ref/Dtos_.dll

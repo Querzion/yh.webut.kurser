@@ -21,4 +21,15 @@ public partial class MainWindow : Window
         Activities.Items.Add(activityItem);
         Activity.Clear();
     }
+
+    private void ChangeStatus_OnClick(object? sender, RoutedEventArgs e)
+    {
+        if (sender is Button button)
+        {
+            if (button.DataContext is ActivityItem activityItem)
+            {
+                activityItem.IsCompleted = true;
+            }
+        }
+    }
 }

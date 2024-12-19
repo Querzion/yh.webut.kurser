@@ -9,15 +9,11 @@
       "learn_019_create_app_anet_app/1.0.0": {
         "dependencies": {
           "Avalonia": "11.2.3",
-          "Avalonia.Controls.ColorPicker": "11.2.3",
           "Avalonia.Controls.DataGrid": "11.2.3",
           "Avalonia.Desktop": "11.2.3",
           "Avalonia.Diagnostics": "11.2.3",
           "Avalonia.Fonts.Inter": "11.2.3",
-          "Avalonia.Skia": "11.2.3",
           "Avalonia.Themes.Fluent": "11.2.3",
-          "Avalonia.Win32": "11.2.3",
-          "Avalonia.X11": "11.2.3",
           "learn_019_Business": "1.0.0"
         },
         "runtime": {
