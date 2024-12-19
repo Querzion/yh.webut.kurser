@@ -1,11 +1,13 @@
 using System.Diagnostics;
+using System.Drawing;
+using System.Net.Mime;
 using Avalonia;
 using Avalonia.Media;
 namespace learn_019_Business.Helpers;
 
 public static class SystemBackgroundHelper
 {
-    public static void SetDesktopBackgroundBrush(Application app)
+    public static void SetDesktopBackgroundBrush(MediaTypeNames.Application app)
     {
         var desktopColor = GetDesktopBackgroundColor();
         // Debug.WriteLine($"Desktop Background Color: {desktopColor}");
@@ -28,14 +30,14 @@ public static class SystemBackgroundHelper
 
     private static Color GetWindowsDesktopBackgroundColor()
     {
-        var color = System.Drawing.ColorTranslator.FromWin32(
-            (int)Microsoft.Win32.Registry.GetValue(
-                @"HKEY_CURRENT_USER\Control Panel\Colors",
-                "Background",
-                "0 0 0"
-            )
-        );
-        return new Color(255, color.R, color.G, color.B);
+        // var color = System.Drawing.ColorTranslator.FromWin32(
+        //     (int)Microsoft.Win32.Registry.GetValue(
+        //         @"HKEY_CURRENT_USER\Control Panel\Colors",
+        //         "Background",
+        //         "0 0 0"
+        //     )
+        // );
+        // return new Color(255, color.R, color.G, color.B);
     }
 
     private static Color GetLinuxDesktopBackgroundColor()
