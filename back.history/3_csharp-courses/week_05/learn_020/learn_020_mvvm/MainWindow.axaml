@@ -4,6 +4,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="learn_020_mvvm.MainWindow"
-        Title="learn_020_mvvm">
-    Welcome to Avalonia!
+        Title="MainWindow" Height="450" Width="800">
+    
+    <Grid>
+            
+    </Grid>
 </Window>
