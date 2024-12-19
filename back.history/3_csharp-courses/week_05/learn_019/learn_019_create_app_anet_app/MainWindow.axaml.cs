@@ -1,7 +1,9 @@
 using System.Diagnostics;
 using Avalonia;
 using Avalonia.Controls;
+using Avalonia.Interactivity;
 using learn_019_Business.Helpers;
+using learn_019_Business.Models;
 
 namespace learn_019_create_app_anet_app;
 
@@ -11,12 +13,16 @@ public partial class MainWindow : Window
     {
         InitializeComponent();
         
-        // Debug.WriteLine("Setting background...");
-        // SystemBackgroundHelper.SetDesktopBackgroundBrush(Application.Current);
+    }
+
+    private void AddActivity_Click(object? sender, RoutedEventArgs e)
+    {
+        var activityItem = new ActivityItem()
+        {
+            Activity = Activity.Text
+        };
         
-        // if (Application.Current != null)
-        // {
-        //     SystemBackgroundHelper.SetDesktopBackgroundBrush(Application.Current);  
-        // }
+        Activities.Items.Add(activityItem);
+        Activity.Clear();
     }
 }

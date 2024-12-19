@@ -1441,10 +1441,15 @@
   "projectFileDependencyGroups": {
     "net9.0": [
       "Avalonia >= 11.2.3",
+      "Avalonia.Controls.ColorPicker >= 11.2.3",
+      "Avalonia.Controls.DataGrid >= 11.2.3",
       "Avalonia.Desktop >= 11.2.3",
       "Avalonia.Diagnostics >= 11.2.3",
       "Avalonia.Fonts.Inter >= 11.2.3",
+      "Avalonia.Skia >= 11.2.3",
       "Avalonia.Themes.Fluent >= 11.2.3",
+      "Avalonia.Win32 >= 11.2.3",
+      "Avalonia.X11 >= 11.2.3",
       "learn_019_Business >= 1.0.0"
     ]
   },
@@ -1499,6 +1504,14 @@
             "target": "Package",
             "version": "[11.2.3, )"
           },
+          "Avalonia.Controls.ColorPicker": {
+            "target": "Package",
+            "version": "[11.2.3, )"
+          },
+          "Avalonia.Controls.DataGrid": {
+            "target": "Package",
+            "version": "[11.2.3, )"
+          },
           "Avalonia.Desktop": {
             "target": "Package",
             "version": "[11.2.3, )"
@@ -1511,7 +1524,19 @@
             "target": "Package",
             "version": "[11.2.3, )"
           },
+          "Avalonia.Skia": {
+            "target": "Package",
+            "version": "[11.2.3, )"
+          },
           "Avalonia.Themes.Fluent": {
+            "target": "Package",
+            "version": "[11.2.3, )"
+          },
+          "Avalonia.Win32": {
+            "target": "Package",
+            "version": "[11.2.3, )"
+          },
+          "Avalonia.X11": {
             "target": "Package",
             "version": "[11.2.3, )"
           }
