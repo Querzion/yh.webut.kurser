@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("My Avalonia Application")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("0.0.0.100")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.0.0.100+683004ac7787403a7d7bbe96e0e88384500de7fc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.0.0.100+6d2109c130634a8ffb30b2dba3758dc2b15c4727")]
 [assembly: System.Reflection.AssemblyProductAttribute("My Product")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Learn_018_WPF")]
 [assembly: System.Reflection.AssemblyVersionAttribute("0.0.0.100")]

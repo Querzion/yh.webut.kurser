@@ -211,7 +211,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learn_019_Business", "week_
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "learn_020", "learn_020", "{57A57E6A-D149-4C35-8792-454E8D5A6FB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learn_020_graphical_development", "week_05\learn_020\learn_020_graphical_development\learn_020_graphical_development.csproj", "{30A5E763-8A3D-498E-9AB9-F67B4F751571}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learn_020_graphical_development", "week_05\learn_020\learn_020_graphical_development\learn_020_graphical_development.csproj", "{D62C2419-3A9A-4F70-B879-38586F67CCA0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -503,10 +503,10 @@ Global
 		{DC5FFB69-6DCD-446A-9DE2-FB2FDBD9390A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC5FFB69-6DCD-446A-9DE2-FB2FDBD9390A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC5FFB69-6DCD-446A-9DE2-FB2FDBD9390A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{30A5E763-8A3D-498E-9AB9-F67B4F751571}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{30A5E763-8A3D-498E-9AB9-F67B4F751571}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{30A5E763-8A3D-498E-9AB9-F67B4F751571}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{30A5E763-8A3D-498E-9AB9-F67B4F751571}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D62C2419-3A9A-4F70-B879-38586F67CCA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D62C2419-3A9A-4F70-B879-38586F67CCA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D62C2419-3A9A-4F70-B879-38586F67CCA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D62C2419-3A9A-4F70-B879-38586F67CCA0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -611,6 +611,6 @@ Global
 		{2A352EE1-09CF-40B8-BD6F-EDD331FBDAB9} = {979AE89E-D0A7-4083-8888-442261CE85BC}
 		{DC5FFB69-6DCD-446A-9DE2-FB2FDBD9390A} = {979AE89E-D0A7-4083-8888-442261CE85BC}
 		{57A57E6A-D149-4C35-8792-454E8D5A6FB1} = {FD70EA24-5217-4132-B0A8-0A69C669EF7D}
-		{30A5E763-8A3D-498E-9AB9-F67B4F751571} = {57A57E6A-D149-4C35-8792-454E8D5A6FB1}
+		{D62C2419-3A9A-4F70-B879-38586F67CCA0} = {57A57E6A-D149-4C35-8792-454E8D5A6FB1}
 	EndGlobalSection
 EndGlobal
