@@ -11,6 +11,8 @@
         <entry key="week_05/learn_019_wpf_create_app/MainWindow.axaml" value="week_05/learn_019_wpf_create_app/learn_019_wpf_create_app.csproj" />
         <entry key="week_05/learn_020/learn_020_graphical_development/App.axaml" value="week_05/learn_020/learn_020_graphical_development/learn_020_graphical_development.csproj" />
         <entry key="week_05/learn_020/learn_020_graphical_development/MainWindow.axaml" value="week_05/learn_020/learn_020_graphical_development/learn_020_graphical_development.csproj" />
+        <entry key="week_05/learn_020/learn_020_mvvm/MainWindow.axaml" value="week_05/learn_020/learn_020_mvvm/learn_020_mvvm.csproj" />
+        <entry key="week_05/learn_020/learn_020_mvvm/Views/ActivitiesView.axaml" value="week_05/learn_020/learn_020_mvvm/learn_020_mvvm.csproj" />
       </map>
     </option>
   </component>
