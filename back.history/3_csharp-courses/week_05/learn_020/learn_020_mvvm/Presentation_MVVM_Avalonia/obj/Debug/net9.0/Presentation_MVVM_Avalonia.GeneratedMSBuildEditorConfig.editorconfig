@@ -31,3 +31,6 @@ build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
 [/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_05/learn_020/learn_020_mvvm/Presentation_MVVM_Avalonia/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_05/learn_020/learn_020_mvvm/Presentation_MVVM_Avalonia/Views/ActivitiesView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

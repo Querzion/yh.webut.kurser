@@ -1,0 +1,34 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             
+             xmlns:vm="clr-namespace:Presentation_MVVM_Avalonia.ViewModels"
+             d:DataContext="{d:DesignInstance Type=vm:ActivitiesViewModel}"
+             x:DataType="vm:ActivitiesViewModel"
+
+             mc:Ignorable="d" d:DesignWidth="300" d:DesignHeight="450"
+             Background="White"
+             Foreground="Black"
+             x:Class="Presentation_MVVM_Avalonia.Views.ActivitiesView">
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        
+        <StackPanel>
+            <TextBlock Text="{Binding Title }"></TextBlock>
+        </StackPanel>
+        
+        <Button Grid.Row="1" 
+                Padding="8" 
+                Content="Add New Activity"/>
+                <!-- HorizontalAlignment="Stretch"  -->
+                <!-- HorizontalContentAlignment="Center"  -->
+        
+    </Grid>
+    
+    
+</UserControl>
