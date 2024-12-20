@@ -6,4 +6,5 @@
         x:Class="Presentation_MVVM_Avalonia.MainWindow"
         Title="Presentation_MVVM_Avalonia">
     Welcome to Avalonia!
+    
 </Window>

@@ -3,6 +3,7 @@
   <component name="AvaloniaProject">
     <option name="projectPerEditor">
       <map>
+        <entry key="DeleteMe_MVVM/App.axaml" value="DeleteMe_MVVM/DeleteMe_MVVM.csproj" />
         <entry key="Presentation_MVVM_Avalonia/MainWindow.axaml" value="Presentation_MVVM_Avalonia/Presentation_MVVM_Avalonia.csproj" />
       </map>
     </option>
