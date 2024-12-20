@@ -9,6 +9,7 @@
         <entry key="Presentation_MVVM_Avalonia/MainWindow.axaml" value="Presentation_MVVM_Avalonia/Presentation_MVVM_Avalonia.csproj" />
         <entry key="Presentation_MVVM_Avalonia/ViewModels/ListItemsViewModel.axaml" value="Presentation_MVVM_Avalonia/Presentation_MVVM_Avalonia.csproj" />
         <entry key="Presentation_MVVM_Avalonia/Views/ActivitiesView.axaml" value="Presentation_MVVM_Avalonia/Presentation_MVVM_Avalonia.csproj" />
+        <entry key="Presentation_MVVM_Avalonia/Views/AddActivityView.axaml" value="Presentation_MVVM_Avalonia/Presentation_MVVM_Avalonia.csproj" />
         <entry key="Presentation_MVVM_Avalonia/Views/ListItemsView.axaml" value="Presentation_MVVM_Avalonia/Presentation_MVVM_Avalonia.csproj" />
         <entry key="Presentation_MVVM_Avalonia/test.axaml" value="Presentation_MVVM_Avalonia/Presentation_MVVM_Avalonia.csproj" />
       </map>

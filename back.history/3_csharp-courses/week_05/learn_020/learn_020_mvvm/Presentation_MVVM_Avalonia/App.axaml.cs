@@ -23,6 +23,9 @@ public partial class App : Application
                 
                 services.AddTransient<ActivitiesViewModel>();
                 services.AddTransient<ActivitiesView>();
+
+                services.AddTransient<AddActivityViewModel>();
+                services.AddTransient<AddActivityView>();
             })
             .Build();
     }

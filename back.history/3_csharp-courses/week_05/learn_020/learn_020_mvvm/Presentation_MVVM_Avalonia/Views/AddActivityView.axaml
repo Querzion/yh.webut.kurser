@@ -4,14 +4,11 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              
              xmlns:vm="clr-namespace:Presentation_MVVM_Avalonia.ViewModels"
-             d:DataContext="{d:DesignInstance Type=vm:ActivitiesViewModel}"
-             x:DataType="vm:ActivitiesViewModel"
+             d:DataContext="{d:DesignInstance Type=vm:AddActivityViewModel}"
+             x:DataType="vm:AddActivityViewModel"
 
              mc:Ignorable="d" d:DesignWidth="300" d:DesignHeight="450"
-             x:Class="Presentation_MVVM_Avalonia.Views.ActivitiesView">
-             <!-- Background="White" -->
-             <!-- Foreground="Black" -->
-    
+             x:Class="Presentation_MVVM_Avalonia.Views.AddActivityView">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
@@ -23,14 +20,12 @@
         </StackPanel>
         
         <Button Grid.Row="1"
-                Content="Add New Activity"
+                Content="Go Back"
                 Padding="8"
                 HorizontalAlignment="Stretch"
                 HorizontalContentAlignment="Center"
-                Command="{Binding GoToAddActivityCommand}"
-                />
+                Command="{Binding GoToActivitiesCommand}"
+        />
         
     </Grid>
-    
-    
 </UserControl>

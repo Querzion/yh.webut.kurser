@@ -5,21 +5,22 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace Presentation_MVVM_Avalonia.ViewModels;
 
-public partial class ActivitiesViewModel : ObservableObject
+public partial class AddActivityViewModel : ObservableObject
 {
     private readonly IServiceProvider _serviceProvider;
     
-    [ObservableProperty] 
-    private string _title = "Activities";
+    [ObservableProperty]
+    private string _title = "Add New Activity";
 
     [RelayCommand]
-    private void GoToAddActivity()
+    private void GoToActivities()
     {
         var mainViewModel = _serviceProvider.GetRequiredService<MainViewModel>();
-        mainViewModel.CurrentViewModel = _serviceProvider.GetRequiredService<AddActivityViewModel>();
+        mainViewModel.CurrentViewModel = _serviceProvider.GetRequiredService<ActivitiesViewModel>();
     }
     
-    public ActivitiesViewModel(IServiceProvider serviceProvider)
+    
+    public AddActivityViewModel(IServiceProvider serviceProvider)
     {
         _serviceProvider = serviceProvider;
     }

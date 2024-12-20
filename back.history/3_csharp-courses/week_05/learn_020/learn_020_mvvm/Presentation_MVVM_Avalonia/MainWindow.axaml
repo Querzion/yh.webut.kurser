@@ -16,12 +16,18 @@
         Title="MainWindow" Height="450" Width="300">
     
     <Window.DataTemplates>
+        
         <DataTemplate DataType="{x:Type viewModels:ActivitiesViewModel}">
             <views:ActivitiesView/>
         </DataTemplate>
+        
+        <DataTemplate DataType="{x:Type viewModels:AddActivityViewModel}">
+            <views:AddActivityView/>
+        </DataTemplate>
+        
     </Window.DataTemplates>
     
-    <Grid>
+    <Grid Margin="15">
         <ContentControl Content="{Binding CurrentViewModel}"/>
     </Grid>
 </Window>
