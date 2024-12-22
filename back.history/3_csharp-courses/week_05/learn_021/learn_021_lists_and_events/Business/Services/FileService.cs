@@ -3,18 +3,18 @@ using Business.Interfaces;
 
 namespace Business.Services;
 
-public class FileService : IFileService
+public abstract class FileService : IFileService
 {
     private readonly string _directoryPath;
     private readonly string _filePath;
 
-    public FileService(string directoryPath, string fileName)
+    protected FileService(string directoryPath, string fileName)
     {
         _directoryPath = directoryPath;
         _filePath = Path.Combine(_directoryPath, fileName);
     }
 
-    public string GetContentFromFile()
+    public virtual string GetContentFromFile()
     {
         if (File.Exists(_filePath))
         {
@@ -24,7 +24,7 @@ public class FileService : IFileService
         return null!;
     }
 
-    public bool SaveContentToFile(string content)
+    public virtual bool SaveContentToFile(string content)
     {
         try
         {

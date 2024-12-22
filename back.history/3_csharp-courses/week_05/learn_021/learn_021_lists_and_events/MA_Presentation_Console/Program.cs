@@ -6,7 +6,8 @@ using MA_Presentation_Console.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
 
 var serviceProvider = new ServiceCollection()
-    .AddSingleton<IUserFileService>(new UserFileService("Data", "Contacts.json"))
+    // .AddSingleton<IUserFileService>(new UserFileService(AppDomain.CurrentDomain.BaseDirectory, "users.json"))
+    .AddSingleton<IUserFileService>(new UserFileService("Data", "users.json"))
     .AddSingleton<IUserRepository, UserRepository>()
     .AddSingleton<IUserService, UserService>()
     .AddTransient<IMenuDialog, MenuDialog>()

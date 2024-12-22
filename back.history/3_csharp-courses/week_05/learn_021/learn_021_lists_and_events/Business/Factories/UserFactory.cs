@@ -1,4 +1,5 @@
 using System.Diagnostics;
+using Business.Helpers;
 using Business.Interfaces;
 using Business.Models;
 
@@ -17,6 +18,7 @@ public class UserFactory
         {
             return new UserEntity
             {
+                Id = IdGenerator.GenerateUniqueId(),
                 FirstName = form.FirstName,
                 LastName = form.LastName,
                 Email = form.Email,
@@ -36,6 +38,7 @@ public class UserFactory
         {
             return new User
             {
+                Id = entity.Id,
                 FirstName = entity.FirstName,
                 LastName = entity.LastName,
                 Email = entity.Email,

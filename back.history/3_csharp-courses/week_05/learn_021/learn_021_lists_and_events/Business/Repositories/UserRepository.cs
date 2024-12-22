@@ -1,18 +1,24 @@
 using System.Diagnostics;
+using System.Text.Json;
 using Business.Interfaces;
 using Business.Models;
 
 namespace Business.Repositories;
 
-public class UserRepository(IUserFileService userFileService) : BaseRepository<UserEntity>, IUserRepository
+public class UserRepository : BaseRepository<UserEntity>, IUserRepository
 {
-    private readonly IUserFileService _userFileService = userFileService;
+    private readonly IUserFileService _userFileService;
+
+    public UserRepository(IUserFileService userFileService)
+    {
+        _userFileService = userFileService;
+    }
 
     public override bool SaveToFile(List<UserEntity> list)
     {
         try
         {
-            var json = Serialize(list);
+            var json = JsonSerializer.Serialize(list);
             _userFileService.SaveContentToFile(json);
             
             return true;

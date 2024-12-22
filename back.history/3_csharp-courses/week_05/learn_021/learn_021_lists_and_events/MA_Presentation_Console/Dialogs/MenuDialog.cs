@@ -23,8 +23,8 @@ public class MenuDialog(IUserService userService) : IMenuDialog
     public void MainDialogOptions()
     {
         Dialogs.MenuHeading("Main Menu");
-        WriteLine("1. Create Contact");
-        WriteLine("2. View Contacts");
+        WriteLine("1. Create User");
+        WriteLine("2. View Users");
         WriteLine("Q. Exit Application");
         WriteLine("_____________________________________________");
         var option = ReadLine()!;
@@ -32,12 +32,12 @@ public class MenuDialog(IUserService userService) : IMenuDialog
         switch (option.ToLower())
         {
             case "1":
-                Dialogs.MenuHeading("Create Contact");
-                CreateContactOption();
+                Dialogs.MenuHeading("Create User");
+                UserRegistrationDialog();
                 // ReadKey();
                 break;
             case "2":
-                Dialogs.MenuHeading("View Contacts");
+                Dialogs.MenuHeading("View Users");
                 ViewContactsOption();
                 ReadKey();
                 break;
@@ -68,7 +68,7 @@ public class MenuDialog(IUserService userService) : IMenuDialog
             }
 
             // Display the contacts
-            WriteLine("Contacts List:");
+            WriteLine("Users List:");
             foreach (var user in users)
             {
                 // Display the contact details (adjust the fields as needed)
@@ -86,10 +86,8 @@ public class MenuDialog(IUserService userService) : IMenuDialog
         }
     }
     
-    public void CreateContactOption()
+     private void UserRegistrationDialog()
     {
-        Dialogs.MenuHeading("New User");
-
         var urf = new UserRegistrationForm();
         
         urf.FirstName = PromptAndValidate("Enter your first name: ", nameof(urf.FirstName), urf);
@@ -124,7 +122,7 @@ public class MenuDialog(IUserService userService) : IMenuDialog
         WriteLine("\nUser registration successful!");
         ReadKey();
     }
-    
+
     private string PromptAndValidate(string prompt, string propertyName, UserRegistrationForm urf)
     {
         while (true)
@@ -146,7 +144,7 @@ public class MenuDialog(IUserService userService) : IMenuDialog
             WriteLine($"{results[0].ErrorMessage}. Please try again.");
         }
     }
-    
+
     private string ReadPassword()
     {
         string password = string.Empty;

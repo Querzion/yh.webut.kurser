@@ -19,7 +19,7 @@ public class UserService(IUserRepository userRepository) : IUserService
 
             if (userEntity != null)
             {
-                userEntity.Id = IdGenerator.AutoIncrementId(_users.Last().Id);
+                // userEntity.Id = IdGenerator.AutoIncrementId(_users.Last().Id);
                 (userEntity.SecuredKey, userEntity.SecuredPassword) = SecurePasswordGenerator.GenerateSecurePassword(form.Password);
                 
                 _users.Add(userEntity);
