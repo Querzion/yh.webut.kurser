@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "sOA0CKZ0Tnw=",
+  "success": true,
+  "projectFilePath": "/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_05/learn_021/learn_021_lists_and_events/MA_Presentation_Console/MA_Presentation_Console.csproj",
+  "expectedPackageFiles": [
+    "/home/querzion/.nuget/packages/microsoft.extensions.dependencyinjection/9.0.0/microsoft.extensions.dependencyinjection.9.0.0.nupkg.sha512",
+    "/home/querzion/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.0/microsoft.extensions.dependencyinjection.abstractions.9.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
