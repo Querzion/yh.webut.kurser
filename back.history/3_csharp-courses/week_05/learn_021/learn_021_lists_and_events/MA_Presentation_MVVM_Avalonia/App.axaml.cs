@@ -22,10 +22,10 @@ public partial class App : Application
             .ConfigureServices((context, services) =>
             {
                 // Register file and user-related services
-                // services.AddSingleton<IFileService>(new FileService(AppDomain.CurrentDomain.BaseDirectory, "users.json"));
                 services.AddSingleton<IUserFileService>(new UserFileService(AppDomain.CurrentDomain.BaseDirectory, "users.json"));
                 services.AddSingleton<IUserRepository, UserRepository>();
                 services.AddSingleton<IUserService, UserService>();
+                // services.AddSingleton<IServiceProvider>(_ => _host.Services);
 
                 // Register view models
                 services.AddTransient<UserListViewModel>();
@@ -56,11 +56,19 @@ public partial class App : Application
     {
         if (ApplicationLifetime is IClassicDesktopStyleApplicationLifetime desktop)
         {
-            var mainViewModel = _host.Services.GetRequiredService<MainViewModel>();
-            mainViewModel.CurrentViewModel = _host.Services.GetRequiredService<UserListViewModel>();
-            
-            var mainWindow = _host.Services.GetRequiredService<MainWindow>();
-            mainWindow.Show();
+            try
+            {
+                var mainViewModel = _host.Services.GetRequiredService<MainViewModel>();
+                mainViewModel.CurrentViewModel = _host.Services.GetRequiredService<UserListViewModel>();
+
+                var mainWindow = _host.Services.GetRequiredService<MainWindow>();
+                mainWindow.DataContext = mainViewModel;
+                mainWindow.Show();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error initializing application: {ex.Message}");
+            }
         }
 
         base.OnFrameworkInitializationCompleted();

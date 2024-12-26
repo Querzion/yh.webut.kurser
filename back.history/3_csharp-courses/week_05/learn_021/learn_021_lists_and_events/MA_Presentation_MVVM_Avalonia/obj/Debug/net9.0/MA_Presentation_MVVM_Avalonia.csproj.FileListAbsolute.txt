@@ -98,3 +98,6 @@
 /home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_05/learn_021/learn_021_lists_and_events/MA_Presentation_MVVM_Avalonia/obj/Debug/net9.0/MA_Prese.8F04D6EC.Up2Date
 /home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_05/learn_021/learn_021_lists_and_events/MA_Presentation_MVVM_Avalonia/obj/Debug/net9.0/MA_Presentation_MVVM_Avalonia.genruntimeconfig.cache
 /home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_05/learn_021/learn_021_lists_and_events/MA_Presentation_MVVM_Avalonia/obj/Debug/net9.0/ref/MA_Presentation_MVVM_Avalonia.dll
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_05/learn_021/learn_021_lists_and_events/MA_Presentation_MVVM_Avalonia/obj/Debug/net9.0/MA_Presentation_MVVM_Avalonia.dll
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_05/learn_021/learn_021_lists_and_events/MA_Presentation_MVVM_Avalonia/obj/Debug/net9.0/refint/MA_Presentation_MVVM_Avalonia.dll
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_05/learn_021/learn_021_lists_and_events/MA_Presentation_MVVM_Avalonia/obj/Debug/net9.0/MA_Presentation_MVVM_Avalonia.pdb

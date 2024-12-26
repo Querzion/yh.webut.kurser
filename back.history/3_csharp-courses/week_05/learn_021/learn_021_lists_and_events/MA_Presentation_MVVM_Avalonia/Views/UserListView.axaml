@@ -9,8 +9,13 @@
              d:DataContext="{d:DesignInstance Type=viewModels:UserListViewModel}"
              x:DataType="viewModels:UserListViewModel"
              
+             
              mc:Ignorable="d" d:DesignWidth="300" d:DesignHeight="450"
              x:Class="MA_Presentation_MVVM_Avalonia.Views.UserListView">
+    
+    <!-- <UserControl.DataContext> -->
+    <!--     <viewModels:UserListViewModel /> -->
+    <!-- </UserControl.DataContext> -->
     
     <Grid Margin="15">
         <Grid.RowDefinitions>
@@ -31,10 +36,11 @@
         <ListBox Grid.Row="1" ItemsSource="{Binding Users}" Margin="0 20 0 0 " HorizontalAlignment="Stretch">
             <ListBox.ItemTemplate>
                 <DataTemplate DataType="models:User">
+                    <!-- <Grid ColumnDefinitions="*, Auto"> -->
                     <Grid>
                         <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="*"/>
-                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
                         </Grid.ColumnDefinitions>
                         
                         <StackPanel Grid.Column="0">
@@ -43,7 +49,9 @@
                         </StackPanel>
                         
                         <StackPanel Grid.Column="1">
-                            <Button Content="&#xE712;" FontFamily="Segoe MDL2 Assets" Padding="7 0" />
+                            <Button CommandParameter="{Binding .}"
+                                    Command="{Binding DataContext.GoToDetailsViewCommand, RelativeSource={RelativeSource AncestorType=UserControl}}"
+                                    Content="&#x2026;" Padding="8 5" />
                         </StackPanel>
                     </Grid>
                 </DataTemplate>

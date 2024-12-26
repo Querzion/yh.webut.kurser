@@ -42,6 +42,7 @@ public class UserFactory
                 FirstName = entity.FirstName,
                 LastName = entity.LastName,
                 Email = entity.Email,
+                DisplayName = $"{entity.FirstName} {entity.LastName}"
             };
         }
         catch (Exception ex)
