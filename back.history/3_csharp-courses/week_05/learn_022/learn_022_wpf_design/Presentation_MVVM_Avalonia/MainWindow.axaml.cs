@@ -26,18 +26,18 @@ public partial class MainWindow : Window
         // this.CanResize = false;
     }
 
-    // private void InitializeComponent()
-    // {
-    //     AvaloniaXamlLoader.Load(this);
-    // }
-    private void Grid_PointerPressed(object? sender, PointerPressedEventArgs e)
+    private void InitializeComponent()
     {
-        // Start dragging the window
-        if (e.GetCurrentPoint(this).Properties.IsLeftButtonPressed)
-        {
-            this.BeginMoveDrag(e);
-        }
+        AvaloniaXamlLoader.Load(this);
     }
+    // private void Grid_PointerPressed(object? sender, PointerPressedEventArgs e)
+    // {
+    //     // Start dragging the window
+    //     if (e.GetCurrentPoint(this).Properties.IsLeftButtonPressed)
+    //     {
+    //         this.BeginMoveDrag(e);
+    //     }
+    // }
 
     private void TopBar_PointerPressed(object? sender, PointerPressedEventArgs e)
     {

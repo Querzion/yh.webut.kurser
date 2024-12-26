@@ -100,3 +100,6 @@
 /home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_05/learn_022/learn_022_wpf_design/Presentation_MVVM_Avalonia/obj/Debug/net9.0/Presenta.EEEC8168.Up2Date
 /home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_05/learn_022/learn_022_wpf_design/Presentation_MVVM_Avalonia/obj/Debug/net9.0/Presentation_MVVM_Avalonia.genruntimeconfig.cache
 /home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_05/learn_022/learn_022_wpf_design/Presentation_MVVM_Avalonia/obj/Debug/net9.0/ref/Presentation_MVVM_Avalonia.dll
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_05/learn_022/learn_022_wpf_design/Presentation_MVVM_Avalonia/obj/Debug/net9.0/Presentation_MVVM_Avalonia.dll
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_05/learn_022/learn_022_wpf_design/Presentation_MVVM_Avalonia/obj/Debug/net9.0/refint/Presentation_MVVM_Avalonia.dll
+/home/querzion/RiderProjects/yh.webut.kurser/back.history/3_csharp-courses/week_05/learn_022/learn_022_wpf_design/Presentation_MVVM_Avalonia/obj/Debug/net9.0/Presentation_MVVM_Avalonia.pdb

@@ -6,9 +6,10 @@
 
     <Application.Styles>
         <Styles>
+            <!-- <StyleInclude Source="/Resources/Styling/Buttons.axaml"/> -->
             <StyleInclude Source="avares://Presentation_MVVM_Avalonia/Resources/Styling/Buttons.axaml"/>
             <!-- In order to merge multiple dictionaries in Avalonia, you just keep adding them here. Lik this. -->
-            <StyleInclude Source="avares://Presentation_MVVM_Avalonia/Resources/Styling/Typography.axaml"/>
+            <!-- <StyleInclude Source="avares://Presentation_MVVM_Avalonia/Resources/Styling/Typography.axaml"/> -->
             <!-- <StyleInclude Source="avares://Presentation_MVVM_Avalonia/Resources/Styling/ThirdStyling.axaml"/> -->
         </Styles>
         <FluentTheme />

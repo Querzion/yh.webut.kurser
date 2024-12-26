@@ -22,17 +22,17 @@
         x:Class="Presentation_MVVM_Avalonia.MainWindow"
         Title="Activity Application" Height="768" Width="400">
     
-    <Window.DataTemplates>
-        <DataTemplate DataType="{x:Type viewModels:GetStartedViewModel}">
-            <views:GetStartedView/>
-        </DataTemplate>
-        <DataTemplate DataType="{x:Type viewModels:AddItemsViewModel}">
-            <views:AddItemView/>
-        </DataTemplate>
-        <DataTemplate DataType="{x:Type viewModels:ListItemsViewModel}">
-            <views:ListItemsView/>
-        </DataTemplate>
-    </Window.DataTemplates>
+    <!-- <Window.DataTemplates> -->
+    <!--     <DataTemplate DataType="{x:Type viewModels:GetStartedViewModel}"> -->
+    <!--         <views:GetStartedView/> -->
+    <!--     </DataTemplate> -->
+    <!--     <DataTemplate DataType="{x:Type viewModels:AddItemsViewModel}"> -->
+    <!--         <views:AddItemView/> -->
+    <!--     </DataTemplate> -->
+    <!--     <DataTemplate DataType="{x:Type viewModels:ListItemsViewModel}"> -->
+    <!--         <views:ListItemsView/> -->
+    <!--     </DataTemplate> -->
+    <!-- </Window.DataTemplates> -->
     
     <!-- Move the whole window at any point. -->
     <!-- <Grid Margin="15 15 0 0" Background="Transparent" PointerPressed="Grid_PointerPressed"> -->
@@ -40,7 +40,7 @@
     <!-- </Grid> -->
     
     <Border Background="#333333" CornerRadius="25">
-        <!-- Code is shortened down to just the pixels and rest. -->
+        <!-- Code is shortened down to just the pixelheight and rest. -->
         <Grid RowDefinitions="70,*">
             <!-- <Grid.RowDefinitions> -->
             <!--     <RowDefinition Height="70" /> -->
@@ -50,15 +50,7 @@
             <Grid x:Name="TopBar" Grid.Row="0" Background="Transparent" PointerPressed="TopBar_PointerPressed">
                 <Button 
                     Content="&#x23FB;"
-                    FontSize="24"
-                    FontWeight="Medium"
-                    HorizontalAlignment="Right" 
-                    VerticalAlignment="Center"
-                    Background="Transparent"
-                    BorderBrush="Transparent"
-                    BorderThickness="0" 
-                    Foreground="#9FABBD"
-                    Margin="0 0 20 0"
+                    Styles="{StaticResource ExitButton}"
                     />
             </Grid>
             

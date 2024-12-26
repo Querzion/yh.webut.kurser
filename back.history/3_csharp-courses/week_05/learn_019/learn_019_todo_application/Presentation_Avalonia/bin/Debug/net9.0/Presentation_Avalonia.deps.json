@@ -9,6 +9,7 @@
       "Presentation_Avalonia/1.0.0": {
         "dependencies": {
           "Avalonia": "11.2.3",
+          "Avalonia.Controls.DataGrid": "11.2.3",
           "Avalonia.Desktop": "11.2.3",
           "Avalonia.Diagnostics": "11.2.3",
           "Avalonia.Fonts.Inter": "11.2.3",

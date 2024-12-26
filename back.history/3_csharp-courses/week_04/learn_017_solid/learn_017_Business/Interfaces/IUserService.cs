@@ -4,6 +4,6 @@ namespace learn_017_Business.Interfaces;
 
 public interface IUserService
 {
-    bool CreateUser(UserRegistrationForm form);
+    bool CreateUser(UserRegistrationForm form); 
     IEnumerable<User> GetUsers();
 }
