@@ -1,18 +1,26 @@
+        <!-- TransparencyLevelHint="Transparent" -->
+        <!-- ExtendClientAreaChromeHints="NoChrome" -->
+        <!-- ExtendClientAreaToDecorationsHint="True" -->
+        <!-- Background="#404040" -->
+        <!-- Foreground="#FFE4A3" -->
 <Window xmlns="https://github.com/avaloniaui"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         
-        xmlns:views="clr-namespace:Presentation_MVVM_Avalonia.Views"
+        xmlns:local="clr-namespace:Presentation_MVVM_Avalonia"
         xmlns:viewModels="clr-namespace:Presentation_MVVM_Avalonia.ViewModels"
+        xmlns:views="clr-namespace:Presentation_MVVM_Avalonia.Views"
         d:DataContext="{d:DesignInstance Type=viewModels:MainViewModel}"
         x:DataType="viewModels:MainViewModel"
         
         WindowStartupLocation="CenterScreen"
+        SystemDecorations="None"
+        Background="Transparent"
         
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="Presentation_MVVM_Avalonia.MainWindow"
-        Title="Presentation_MVVM_Avalonia">
+        Title="Activity Application" Height="768" Width="400">
     
     <Window.DataTemplates>
         <DataTemplate DataType="{x:Type viewModels:GetStartedViewModel}">
@@ -26,7 +34,34 @@
         </DataTemplate>
     </Window.DataTemplates>
     
-    <Grid>
-        <ContentControl Content="{Binding CurrentViewModel}"/>
-    </Grid>
+    <!-- Move the whole window at any point. -->
+    <!-- <Grid Margin="15 15 0 0" Background="Transparent" PointerPressed="Grid_PointerPressed"> -->
+    <!--     <ContentControl Content="{Binding CurrentViewModel}"/> -->
+    <!-- </Grid> -->
+    
+    <Border Background="#333333" CornerRadius="25">
+        <!-- Code is shortened down to just the pixels and rest. -->
+        <Grid RowDefinitions="70,*">
+            <!-- <Grid.RowDefinitions> -->
+            <!--     <RowDefinition Height="70" /> -->
+            <!--     <RowDefinition Height="*" /> -->
+            <!-- </Grid.RowDefinitions> -->
+            
+            <Grid x:Name="TopBar" Grid.Row="0" Background="Transparent" PointerPressed="TopBar_PointerPressed">
+                <Button 
+                    Content="&#x23FB;"
+                    FontSize="24"
+                    FontWeight="Medium"
+                    HorizontalAlignment="Right" 
+                    VerticalAlignment="Center"
+                    Background="Transparent"
+                    BorderBrush="Transparent"
+                    BorderThickness="0" 
+                    Foreground="#9FABBD"
+                    Margin="0 0 20 0"
+                    />
+            </Grid>
+            
+        </Grid>
+    </Border>
 </Window>

@@ -5,6 +5,22 @@
              <!-- "Default" ThemeVariant follows system theme variant. "Dark" or "Light" are other available options. -->
 
     <Application.Styles>
+        <Styles>
+            <StyleInclude Source="avares://Presentation_MVVM_Avalonia/Resources/Styling/Buttons.axaml"/>
+            <!-- In order to merge multiple dictionaries in Avalonia, you just keep adding them here. Lik this. -->
+            <StyleInclude Source="avares://Presentation_MVVM_Avalonia/Resources/Styling/Typography.axaml"/>
+            <!-- <StyleInclude Source="avares://Presentation_MVVM_Avalonia/Resources/Styling/ThirdStyling.axaml"/> -->
+        </Styles>
         <FluentTheme />
     </Application.Styles>
 </Application>
+
+<!-- <Application.Resourses> -->
+<!--     <ResourceDictionary> -->
+<!--         <ResourceDictionary.MergedDictionaries> -->
+<!--             <ResourceDictionary Source="file one" /> -->
+<!--             <ResourceDictionary Source="file two" /> -->
+<!--             <ResourceDictionary Source="file three" /> -->
+<!--         </ResourceDictionary.MergedDictionaries> -->
+<!--     </ResourceDictionary> -->
+<!-- </Application.Resourses> -->
