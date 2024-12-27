@@ -26,8 +26,12 @@
             </StackPanel>
             
             <StackPanel Grid.Row="2">
-                <Button Command="{Binding AddCommand}" Content="SAVE ACTIVITY" Classes="StandardButton" Margin="0 0 0 10"/>
-                <Button Command="{Binding CancelCommand}" Content="Cancel" Classes="CancelButton" />
+                <Button Command="{Binding AddCommand}" 
+                        FontFamily="{DynamicResource OpenDyslexicNerdFont-Bold}"
+                        Content="SAVE ACTIVITY" Classes="StandardButton" Margin="0 0 0 10"/>
+                <Button Command="{Binding CancelCommand}" 
+                        FontFamily="{DynamicResource OpenDyslexicNerdFont-Bold}"
+                        Content="Cancel" Classes="CancelButton" />
             </StackPanel>
         </Grid>
     </Border>
