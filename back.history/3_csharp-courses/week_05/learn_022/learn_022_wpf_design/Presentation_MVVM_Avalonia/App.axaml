@@ -6,10 +6,17 @@
 
     <Application.Styles>
         <FluentTheme />
-        <StyleInclude Source="/Resources/Fonts/Fonts.axaml" />
-        <StyleInclude Source="/Resources/Styling/Buttons.axaml" />
-        <StyleInclude Source="/Resources/Styling/Typography.axaml" />
+        <!-- <StyleInclude Source="/Resources/Fonts/Fonts.axaml" /> -->
+        <!-- <StyleInclude Source="avares://Presentation_MVVM_Avalonia/Resources/Fonts/Fonts.axaml" /> -->
+        <StyleInclude Source="avares://Presentation_MVVM_Avalonia/Resources/Styling/Buttons.axaml" />
+        <StyleInclude Source="avares://Presentation_MVVM_Avalonia/Resources/Styling/Typography.axaml" />
     </Application.Styles>
+    <Application.Resources>
+        <FontFamily x:Key="MononokiNerdFont-Regular">Resources/Fonts/MononokiNerdFont-Regular.ttf#Mononoki Nerd Font Regular</FontFamily>
+        <FontFamily x:Key="MononokiNerdFont-Bold">Resources/Fonts/MononokiNerdFont-Bold.ttf#Mononoki Nerd Font Bold</FontFamily>
+        <FontFamily x:Key="MononokiNerdFont-BoldItalic">Resources/Fonts/MononokiNerdFont-BoldItalic.ttf#Mononoki Nerd Font Bold Italic</FontFamily>
+        <FontFamily x:Key="MononokiNerdFont-Italic">Resources/Fonts/MononokiNerdFont-Italic.ttf#Mononoki Nerd Font Italic</FontFamily>
+    </Application.Resources>
 </Application>
 
 <!-- <Application.Resourses> -->

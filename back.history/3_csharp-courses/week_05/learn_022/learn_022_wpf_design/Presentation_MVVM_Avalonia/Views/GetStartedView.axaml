@@ -25,7 +25,9 @@
                     <Run Text="any activities yet..." />
                 </TextBlock>
                 
-                <Button Content="GET STARTED" 
+                <Button Content="GET STARTED"
+                        FontFamily="{DynamicResource MononokiNerdFont-Bold}"
+                        FontSize="30"
                         Classes="StandardButton"
                         Command="{Binding GetStartedCommand}"
                         Margin="0 50 0 0"

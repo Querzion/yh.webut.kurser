@@ -2,10 +2,10 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     <!-- Add Resources Here -->
     <!-- OpenDyslexic Nerd Font -->
-    <FontFamily x:Key="OpenDyslexic-Regular">resm:Presentation_MVVM_Avalonia.Resources.Fonts.OpenDyslexicNerdFont-Regular.otf#OpenDyslexic Nerd Font, Regular</FontFamily>
-    <FontFamily x:Key="OpenDyslexic-Italic">resm:Presentation_MVVM_Avalonia.Resources.Fonts.OpenDyslexicNerdFont-Italic.otf#OpenDyslexic Nerd Font, Italic</FontFamily>
-    <FontFamily x:Key="OpenDyslexic-BoldItalic">resm:Presentation_MVVM_Avalonia.Resources.Fonts.OpenDyslexicNerdFont-BoldItalic.otf#OpenDyslexic Nerd Font, Bold Italic</FontFamily>
-    <FontFamily x:Key="OpenDyslexic-Bold">resm:Presentation_MVVM_Avalonia.Resources.Fonts.OpenDyslexicNerdFont-Bold.otf#OpenDyslexic Nerd Font, Bold</FontFamily>
+    <FontFamily x:Key="OpenDyslexic-Regular">resm:Presentation_MVVM_Avalonia.Resources.Fonts.OpenDyslexicNerdFont-Regular.otf#OpenDyslexic Nerd Font Regular</FontFamily>
+    <FontFamily x:Key="OpenDyslexic-Italic">resm:Presentation_MVVM_Avalonia.Resources.Fonts.OpenDyslexicNerdFont-Italic.otf#OpenDyslexic Nerd Font Italic</FontFamily>
+    <FontFamily x:Key="OpenDyslexic-BoldItalic">resm:Presentation_MVVM_Avalonia.Resources.Fonts.OpenDyslexicNerdFont-BoldItalic.otf#OpenDyslexic Nerd Font Bold Italic</FontFamily>
+    <FontFamily x:Key="OpenDyslexic-Bold">resm:Presentation_MVVM_Avalonia.Resources.Fonts.OpenDyslexicNerdFont-Bold.otf#OpenDyslexic Nerd Font Bold</FontFamily>
 
     <!-- Mononoki Nerd Font Propo -->
     <FontFamily x:Key="MononokiPropo-Regular">resm:Presentation_MVVM_Avalonia.Resources.Fonts.MononokiNerdFontPropo-Regular.ttf#Mononoki Nerd Font Propo, Regular</FontFamily>

@@ -34,60 +34,66 @@
     </ItemGroup>
 
     <ItemGroup>
-        <Resource Include="Resources\Fonts\OpenDyslexicNerdFont-Regular.otf">
+        <Resource Include="Resources\Fonts\Fonts.axaml">
             <Pack>True</Pack>
         </Resource>
-        <Resource Include="Resources\Fonts\OpenDyslexicNerdFont-Italic.otf">
+    </ItemGroup>
+
+    <ItemGroup>
+        <AvaloniaResource Include="Resources\Fonts\OpenDyslexicNerdFont-Regular.otf">
             <Pack>True</Pack>
-        </Resource>
-        <Resource Include="Resources\Fonts\OpenDyslexicNerdFont-BoldItalic.otf">
+        </AvaloniaResource>
+        <AvaloniaResource Include="Resources\Fonts\OpenDyslexicNerdFont-Italic.otf">
             <Pack>True</Pack>
-        </Resource>
-        <Resource Include="Resources\Fonts\OpenDyslexicNerdFont-Bold.otf">
+        </AvaloniaResource>
+        <AvaloniaResource Include="Resources\Fonts\OpenDyslexicNerdFont-BoldItalic.otf">
             <Pack>True</Pack>
-        </Resource>
-        <Resource Include="Resources\Fonts\MononokiNerdFontPropo-Regular.ttf">
+        </AvaloniaResource>
+        <AvaloniaResource Include="Resources\Fonts\OpenDyslexicNerdFont-Bold.otf">
             <Pack>True</Pack>
-        </Resource>
-        <Resource Include="Resources\Fonts\MononokiNerdFontPropo-Italic.ttf">
+        </AvaloniaResource>
+        <AvaloniaResource Include="Resources\Fonts\MononokiNerdFontPropo-Regular.ttf">
             <Pack>True</Pack>
-        </Resource>
-        <Resource Include="Resources\Fonts\MononokiNerdFontPropo-BoldItalic.ttf">
+        </AvaloniaResource>
+        <AvaloniaResource Include="Resources\Fonts\MononokiNerdFontPropo-Italic.ttf">
             <Pack>True</Pack>
-        </Resource>
-        <Resource Include="Resources\Fonts\MononokiNerdFontPropo-Bold.ttf">
+        </AvaloniaResource>
+        <AvaloniaResource Include="Resources\Fonts\MononokiNerdFontPropo-BoldItalic.ttf">
             <Pack>True</Pack>
-        </Resource>
-        <Resource Include="Resources\Fonts\MononokiNerdFontMono-Regular.ttf">
+        </AvaloniaResource>
+        <AvaloniaResource Include="Resources\Fonts\MononokiNerdFontPropo-Bold.ttf">
             <Pack>True</Pack>
-        </Resource>
-        <Resource Include="Resources\Fonts\MononokiNerdFontMono-Italic.ttf">
+        </AvaloniaResource>
+        <AvaloniaResource Include="Resources\Fonts\MononokiNerdFontMono-Regular.ttf">
             <Pack>True</Pack>
-        </Resource>
-        <Resource Include="Resources\Fonts\MononokiNerdFontMono-BoldItalic.ttf">
+        </AvaloniaResource>
+        <AvaloniaResource Include="Resources\Fonts\MononokiNerdFontMono-Italic.ttf">
             <Pack>True</Pack>
-        </Resource>
-        <Resource Include="Resources\Fonts\MononokiNerdFontMono-Bold.ttf">
+        </AvaloniaResource>
+        <AvaloniaResource Include="Resources\Fonts\MononokiNerdFontMono-BoldItalic.ttf">
             <Pack>True</Pack>
-        </Resource>
-        <Resource Include="Resources\Fonts\MononokiNerdFont-Regular.ttf">
+        </AvaloniaResource>
+        <AvaloniaResource Include="Resources\Fonts\MononokiNerdFontMono-Bold.ttf">
             <Pack>True</Pack>
-        </Resource>
-        <Resource Include="Resources\Fonts\MononokiNerdFont-Italic.ttf">
+        </AvaloniaResource>
+        <AvaloniaResource Include="Resources\Fonts\MononokiNerdFont-Regular.ttf">
             <Pack>True</Pack>
-        </Resource>
-        <Resource Include="Resources\Fonts\MononokiNerdFont-BoldItalic.ttf">
+        </AvaloniaResource>
+        <AvaloniaResource Include="Resources\Fonts\MononokiNerdFont-Italic.ttf">
             <Pack>True</Pack>
-        </Resource>
-        <Resource Include="Resources\Fonts\MononokiNerdFont-Bold.ttf">
+        </AvaloniaResource>
+        <AvaloniaResource Include="Resources\Fonts\MononokiNerdFont-BoldItalic.ttf">
             <Pack>True</Pack>
-        </Resource>
-        <Resource Include="Resources\Fonts\fa-regular-400.ttf">
+        </AvaloniaResource>
+        <AvaloniaResource Include="Resources\Fonts\MononokiNerdFont-Bold.ttf">
             <Pack>True</Pack>
-        </Resource>
-        <Resource Include="Resources\Fonts\fa-solid-900.ttf">
+        </AvaloniaResource>
+        <AvaloniaResource Include="Resources\Fonts\fa-regular-400.ttf">
             <Pack>True</Pack>
-        </Resource>
+        </AvaloniaResource>
+        <AvaloniaResource Include="Resources\Fonts\fa-solid-900.ttf">
+            <Pack>True</Pack>
+        </AvaloniaResource>
     </ItemGroup>
 <!--    <ItemGroup>-->
 <!--        <None Update="../Resources/Images/paint.png">-->
