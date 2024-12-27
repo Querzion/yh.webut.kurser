@@ -1,6 +1,5 @@
 using System.Diagnostics;
 using Business.Helpers;
-using Business.Interfaces;
 using Business.Models;
 
 namespace Business.Factories;
@@ -39,10 +38,8 @@ public class UserFactory
             return new User
             {
                 Id = entity.Id,
-                FirstName = entity.FirstName,
-                LastName = entity.LastName,
+                DisplayName = $"{entity.FirstName} {entity.LastName}",
                 Email = entity.Email,
-                DisplayName = $"{entity.FirstName} {entity.LastName}"
             };
         }
         catch (Exception ex)

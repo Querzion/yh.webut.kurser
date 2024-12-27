@@ -4,10 +4,10 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              
              xmlns:local="clr-namespace:MA_Presentation_MVVM_Avalonia.Views"
-             xmlns:vms="clr-namespace:MA_Presentation_MVVM_Avalonia.ViewModels"
+             xmlns:viewModels="clr-namespace:MA_Presentation_MVVM_Avalonia.ViewModels"
              xmlns:models="clr-namespace:Business.Models;assembly=Business"
-             d:DataContext="{d:DesignInstance Type=vms:UserDetailsViewModel}"
-             x:DataType="vms:UserDetailsViewModel"
+             d:DataContext="{d:DesignInstance Type=viewModels:UserDetailsViewModel}"
+             x:DataType="viewModels:UserDetailsViewModel"
              
              mc:Ignorable="d" d:DesignWidth="300" d:DesignHeight="450"
              x:Class="MA_Presentation_MVVM_Avalonia.Views.UserDetailsView">

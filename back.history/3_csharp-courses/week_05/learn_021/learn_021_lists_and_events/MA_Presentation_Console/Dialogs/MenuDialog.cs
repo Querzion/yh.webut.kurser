@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using Business.Factories;
 using Business.Interfaces;
 using Business.Models;
 using MA_Presentation_Console.Interfaces;
@@ -73,7 +74,7 @@ public class MenuDialog(IUserService userService) : IMenuDialog
             {
                 // Display the contact details (adjust the fields as needed)
                 WriteLine($"ID: {user.Id}");
-                WriteLine($"Name: {user.FirstName} {user.LastName}");
+                WriteLine($"Name: {user.DisplayName}");
                 WriteLine($"Email: {user.Email}");
                 WriteLine(new string('-', 50)); // Divider for readability
             }
@@ -86,9 +87,10 @@ public class MenuDialog(IUserService userService) : IMenuDialog
         }
     }
     
-     private void UserRegistrationDialog()
+    private void UserRegistrationDialog()
     {
-        var urf = new UserRegistrationForm();
+        // var urf = new UserRegistrationForm();
+        var urf = UserFactory.Create();
         
         urf.FirstName = PromptAndValidate("Enter your first name: ", nameof(urf.FirstName), urf);
         urf.LastName = PromptAndValidate("Enter your last name: ", nameof(urf.LastName), urf);
@@ -118,8 +120,23 @@ public class MenuDialog(IUserService userService) : IMenuDialog
             return; // Exit the registration process if validation fails
         }
 
+        // Pass the validated form to the service
+        var result = _userService.CreateUser(urf);
+        
         Clear();
-        WriteLine("\nUser registration successful!");
+
+        if (result)
+        {
+            WriteLine();
+            WriteLine("\nUser registration successful!");
+            WriteLine("New Contact successfully created.");
+        }
+        else
+        {
+            WriteLine();
+            WriteLine("\nNew Contact failed to be created. Please try again.");
+        }
+        
         ReadKey();
     }
 

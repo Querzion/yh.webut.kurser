@@ -19,13 +19,14 @@ public class UserRepository : BaseRepository<UserEntity>, IUserRepository
         try
         {
             var json = JsonSerializer.Serialize(list);
+            Debug.WriteLine($"Serialized JSON: {json}");
             _userFileService.SaveContentToFile(json);
             
             return true;
         }
         catch (Exception ex)
         {
-            Debug.WriteLine(ex.Message);
+            Debug.WriteLine($"Error saving to file: {ex.Message}");
             return false;
         }
     }

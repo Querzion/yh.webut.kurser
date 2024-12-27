@@ -1,6 +1,5 @@
 using System;
 using System.Collections.ObjectModel;
-using System.Windows.Input;
 using Business.Interfaces;
 using Business.Models;
 using CommunityToolkit.Mvvm.ComponentModel;

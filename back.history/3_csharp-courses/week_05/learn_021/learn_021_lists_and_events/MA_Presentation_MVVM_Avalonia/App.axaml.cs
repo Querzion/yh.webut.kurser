@@ -23,6 +23,7 @@ public partial class App : Application
             {
                 // Register file and user-related services
                 services.AddSingleton<IUserFileService>(new UserFileService(AppDomain.CurrentDomain.BaseDirectory, "users.json"));
+                // services.AddSingleton<IUserFileService>(new UserFileService("Data", "users.json"));
                 services.AddSingleton<IUserRepository, UserRepository>();
                 services.AddSingleton<IUserService, UserService>();
                 // services.AddSingleton<IServiceProvider>(_ => _host.Services);

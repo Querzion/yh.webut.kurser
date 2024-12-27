@@ -8,4 +8,5 @@ public class UserEntity
     public string Email { get; set; } = null!;
     public string SecuredPassword { get; set; } = null!;
     public string SecuredKey { get; set; } = null!;
+    
 }

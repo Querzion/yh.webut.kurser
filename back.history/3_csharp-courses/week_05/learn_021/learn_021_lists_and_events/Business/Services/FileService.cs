@@ -31,10 +31,21 @@ public abstract class FileService : IFileService
             if (!Directory.Exists(_directoryPath))
             {
                 Directory.CreateDirectory(_directoryPath);
+                Debug.WriteLine("Directory created.");
             }
             
-            File.WriteAllText(_filePath, content);
-            return true;
+            try
+            {
+                File.WriteAllText(_filePath, content);
+                Debug.WriteLine($"File saved at: {_filePath}");
+                return true;
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine($"Error saving to file: {ex.Message}");
+                return false;
+            }
+            
         }
         catch (Exception ex)
         {

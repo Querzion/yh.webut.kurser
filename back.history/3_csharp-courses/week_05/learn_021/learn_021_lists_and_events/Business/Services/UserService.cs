@@ -19,7 +19,6 @@ public class UserService(IUserRepository userRepository) : IUserService
 
             if (userEntity != null)
             {
-                // userEntity.Id = IdGenerator.AutoIncrementId(_users.Last().Id);
                 (userEntity.SecuredKey, userEntity.SecuredPassword) = SecurePasswordGenerator.GenerateSecurePassword(form.Password);
                 
                 _users.Add(userEntity);
@@ -38,24 +37,33 @@ public class UserService(IUserRepository userRepository) : IUserService
 
     public IEnumerable<User> GetUsers()
     {
-        _users = _userRepository.GetFromFile()!;
-        
-        return _users.Select(user => UserFactory.Create(user))!;
+        try
+        {
+            _users = _userRepository.GetFromFile() ?? [];
+    
+            return _users.Select(user => UserFactory.Create(user))!;
+            // return _users.Select(UserFactory.Create)!;
+        }
+        catch (Exception ex)
+        {
+            Debug.WriteLine(ex.Message);
+            return new List<User>();
+        }
     }
     
     // Get a user by ID
-    public User? GetUserById(string id)
-    {
-        var user = _users.FirstOrDefault(u => u.Id == id);
-        return user != null ? UserFactory.Create(user) : null; // Convert to User model
-    }
+    // public User? GetUserById(string id)
+    // {
+    //     var user = _users.FirstOrDefault(u => u.Id == id);
+    //     return user != null ? UserFactory.Create(user) : null; // Convert to User model
+    // }
 
     // Get a user by email
-    public User? GetUserByEmail(string email)
-    {
-        var user = _users.FirstOrDefault(u => u.Email == email);
-        return user != null ? UserFactory.Create(user) : null; // Convert to User model
-    }
+    // public User? GetUserByEmail(string email)
+    // {
+    //     var user = _users.FirstOrDefault(u => u.Email == email);
+    //     return user != null ? UserFactory.Create(user) : null; // Convert to User model
+    // }
     
     // Delete a user by their ID
     public bool DeleteUser(string id)
@@ -85,6 +93,4 @@ public class UserService(IUserRepository userRepository) : IUserService
         }
         return false; // Return false if the user does not exist
     }
-
-
 }
