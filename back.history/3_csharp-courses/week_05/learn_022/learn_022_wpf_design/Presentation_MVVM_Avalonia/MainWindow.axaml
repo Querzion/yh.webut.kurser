@@ -20,18 +20,9 @@
         
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="Presentation_MVVM_Avalonia.MainWindow"
-        Title="Activity Application" Height="768" Width="400">
+        Title="Activity Application" Height="770" Width="400">
     
     <!-- <Window.DataTemplates> -->
-    <!--     <DataTemplate DataType="{x:Type viewModels:GetStartedViewModel}"> -->
-    <!--         <views:GetStartedView/> -->
-    <!--     </DataTemplate> -->
-    <!--     <DataTemplate DataType="{x:Type viewModels:AddItemsViewModel}"> -->
-    <!--         <views:AddItemView/> -->
-    <!--     </DataTemplate> -->
-    <!--     <DataTemplate DataType="{x:Type viewModels:ListItemsViewModel}"> -->
-    <!--         <views:ListItemsView/> -->
-    <!--     </DataTemplate> -->
     <!-- </Window.DataTemplates> -->
     
     <!-- Move the whole window at any point. -->
@@ -40,7 +31,7 @@
     <!-- </Grid> -->
     
     <Border Background="#333333" CornerRadius="25">
-        <!-- Code is shortened down to just the pixelheight and rest. -->
+        <!-- Code is shortened down to two rows based on pixel-height and rest. -->
         <Grid RowDefinitions="70,*">
             <!-- <Grid.RowDefinitions> -->
             <!--     <RowDefinition Height="70" /> -->
@@ -48,8 +39,41 @@
             <!-- </Grid.RowDefinitions> -->
             
             <Grid x:Name="TopBar" Grid.Row="0" Background="Transparent" PointerPressed="TopBar_PointerPressed">
-                <Button Content="&#x23FB;" x:Name="ExitButton" Classes="ExitButton" />
+                <!-- Avalonia Version -->
+                <Button Click="ExitButton_OnClick" Classes="ExitButton" />
+                <!-- WPF Version -->
+                <!-- <Button Click="ExitButton_OnClick" Style="{StaticResource ExitButton}" /> -->
             </Grid>
+            
+            <!-- Avalonia Version -->
+            <ContentControl Grid.Row="1" Content="{Binding CurrentViewModel}">
+                <ContentControl.DataTemplates>
+                        <DataTemplate DataType="{x:Type viewModels:GetStartedViewModel}">
+                            <views:GetStartedView/>
+                        </DataTemplate>
+                        <DataTemplate DataType="{x:Type viewModels:AddItemsViewModel}">
+                            <views:AddItemView/>
+                        </DataTemplate>
+                        <DataTemplate DataType="{x:Type viewModels:ListItemsViewModel}">
+                            <views:ListItemsView/>
+                        </DataTemplate>
+                </ContentControl.DataTemplates>
+            </ContentControl>
+            
+            <!-- WPF Version -->
+            <!-- <ContentControl Grid.Row="1" Content="{Binding CurrentViewModel}"> -->
+            <!--     <ContentControl.Resources> -->
+            <!--             <DataTemplate DataType="{x:Type viewModels:GetStartedViewModel}"> -->
+            <!--                 <views:GetStartedView/> -->
+            <!--             </DataTemplate> -->
+            <!--             <DataTemplate DataType="{x:Type viewModels:AddItemsViewModel}"> -->
+            <!--                 <views:AddItemView/> -->
+            <!--             </DataTemplate> -->
+            <!--             <DataTemplate DataType="{x:Type viewModels:ListItemsViewModel}"> -->
+            <!--                 <views:ListItemsView/> -->
+            <!--             </DataTemplate> -->
+            <!--     </ContentControl.Resources> -->
+            <!-- </ContentControl> -->
             
         </Grid>
     </Border>

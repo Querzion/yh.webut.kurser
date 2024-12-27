@@ -28,4 +28,80 @@
         <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.0" />
         <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.0" />
     </ItemGroup>
+
+    <ItemGroup>
+        <AvaloniaResource Include="Resources\Images\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Resources\Fonts\MononokiNerdFont-Bold.ttf" />
+      <Content Include="Resources\Fonts\MononokiNerdFont-Bold.ttf">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <None Remove="Resources\Fonts\MononokiNerdFont-BoldItalic.ttf" />
+      <Content Include="Resources\Fonts\MononokiNerdFont-BoldItalic.ttf">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <None Remove="Resources\Fonts\MononokiNerdFont-Italic.ttf" />
+      <Content Include="Resources\Fonts\MononokiNerdFont-Italic.ttf">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <None Remove="Resources\Fonts\MononokiNerdFont-Regular.ttf" />
+      <Content Include="Resources\Fonts\MononokiNerdFont-Regular.ttf">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <None Remove="Resources\Fonts\MononokiNerdFontMono-Bold.ttf" />
+      <Content Include="Resources\Fonts\MononokiNerdFontMono-Bold.ttf">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <None Remove="Resources\Fonts\MononokiNerdFontMono-BoldItalic.ttf" />
+      <Content Include="Resources\Fonts\MononokiNerdFontMono-BoldItalic.ttf">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <None Remove="Resources\Fonts\MononokiNerdFontMono-Italic.ttf" />
+      <Content Include="Resources\Fonts\MononokiNerdFontMono-Italic.ttf">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <None Remove="Resources\Fonts\MononokiNerdFontMono-Regular.ttf" />
+      <Content Include="Resources\Fonts\MononokiNerdFontMono-Regular.ttf">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <None Remove="Resources\Fonts\MononokiNerdFontPropo-Bold.ttf" />
+      <Content Include="Resources\Fonts\MononokiNerdFontPropo-Bold.ttf">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <None Remove="Resources\Fonts\MononokiNerdFontPropo-BoldItalic.ttf" />
+      <Content Include="Resources\Fonts\MononokiNerdFontPropo-BoldItalic.ttf">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <None Remove="Resources\Fonts\MononokiNerdFontPropo-Italic.ttf" />
+      <Content Include="Resources\Fonts\MononokiNerdFontPropo-Italic.ttf">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <None Remove="Resources\Fonts\MononokiNerdFontPropo-Regular.ttf" />
+      <Content Include="Resources\Fonts\MononokiNerdFontPropo-Regular.ttf">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <None Remove="Resources\Fonts\fa-v4compatibility.ttf" />
+      <Content Include="Resources\Fonts\fa-v4compatibility.ttf">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <None Remove="Resources\Fonts\fa-solid-900.ttf" />
+      <Content Include="Resources\Fonts\fa-solid-900.ttf">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <None Remove="Resources\Fonts\fa-regular-400.ttf" />
+      <Content Include="Resources\Fonts\fa-regular-400.ttf">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <None Remove="Resources\Fonts\fa-brands-400.ttf" />
+      <Content Include="Resources\Fonts\fa-brands-400.ttf">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+<!--    <ItemGroup>-->
+<!--        <None Update="../Resources/Images/paint.png">-->
+<!--            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>-->
+<!--        </None>-->
+<!--    </ItemGroup>-->
 </Project>

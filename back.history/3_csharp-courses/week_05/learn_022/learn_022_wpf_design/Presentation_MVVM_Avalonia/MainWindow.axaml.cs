@@ -1,5 +1,7 @@
+using System;
 using Avalonia.Controls;
 using Avalonia.Input;
+using Avalonia.Interactivity;
 using Avalonia.Markup.Xaml;
 using Presentation_MVVM_Avalonia.ViewModels;
 
@@ -38,5 +40,10 @@ public partial class MainWindow : Window
         {
             this.BeginMoveDrag(e);
         }
+    }
+
+    private void ExitButton_OnClick(object? sender, RoutedEventArgs e)
+    {
+        Environment.Exit(0);
     }
 }

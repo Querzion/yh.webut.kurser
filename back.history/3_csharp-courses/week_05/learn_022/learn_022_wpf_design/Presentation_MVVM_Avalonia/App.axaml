@@ -6,8 +6,9 @@
 
     <Application.Styles>
         <FluentTheme />
-        <StyleInclude Source="/Resources/Styling/Buttons.axaml"/>
-        <StyleInclude Source="/Resources/Styling/Typography.axaml"/>
+        <StyleInclude Source="/Resources/Fonts/Fonts.axaml" />
+        <StyleInclude Source="/Resources/Styling/Buttons.axaml" />
+        <StyleInclude Source="/Resources/Styling/Typography.axaml" />
     </Application.Styles>
 </Application>
 

@@ -2,7 +2,33 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             
+             xmlns:local="clr-namespace:Presentation_MVVM_Avalonia"
+             xmlns:viewModels="clr-namespace:Presentation_MVVM_Avalonia.ViewModels"
+             xmlns:views="clr-namespace:Presentation_MVVM_Avalonia.Views"
+             d:DataContext="{d:DesignInstance Type=viewModels:AddItemsViewModel}"
+             x:DataType="viewModels:AddItemsViewModel"
+             
+             mc:Ignorable="d" d:DesignWidth="400" d:DesignHeight="700"
              x:Class="Presentation_MVVM_Avalonia.Views.AddItemView">
-    Welcome to Avalonia!
+    
+    <Border Background="#404040" Margin="5 0 5 5" CornerRadius="5 5 25 25 ">
+        <Grid Margin="50 10 50 40" RowDefinitions="Auto, *, Auto">
+            <TextBlock Grid.Row="0" Text="{Binding Headline, FallbackValue=NEW ACTIVITY}" Classes="HeadlineText" />
+            
+            <StackPanel Grid.Row="1">
+                <TextBlock Text="Title" Classes="LabelText" />
+                <TextBox Text="{Binding ActivityItem.Title}" Classes="InputText"/>
+                <TextBlock Text="Description" Classes="LabelText" />
+                <TextBox Text="{Binding ActivityItem.Description}" Classes="InputText InputAreaText" />
+                
+                <TextBlock Text="{Binding WarningMessage, FallbackValue=You must enter a title}" Classes="WarningText" />
+            </StackPanel>
+            
+            <StackPanel Grid.Row="2">
+                <Button Command="{Binding AddCommand}" Content="SAVE ACTIVITY" Classes="StandardButton" Margin="0 0 0 10"/>
+                <Button Command="{Binding CancelCommand}" Content="Cancel" Classes="CancelButton" />
+            </StackPanel>
+        </Grid>
+    </Border>
 </UserControl>
