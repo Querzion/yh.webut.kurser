@@ -30,14 +30,6 @@ public partial class MainWindow : Window
     {
         AvaloniaXamlLoader.Load(this);
     }
-    // private void Grid_PointerPressed(object? sender, PointerPressedEventArgs e)
-    // {
-    //     // Start dragging the window
-    //     if (e.GetCurrentPoint(this).Properties.IsLeftButtonPressed)
-    //     {
-    //         this.BeginMoveDrag(e);
-    //     }
-    // }
 
     private void TopBar_PointerPressed(object? sender, PointerPressedEventArgs e)
     {

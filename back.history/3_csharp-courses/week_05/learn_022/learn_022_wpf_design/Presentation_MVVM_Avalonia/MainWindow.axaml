@@ -48,10 +48,7 @@
             <!-- </Grid.RowDefinitions> -->
             
             <Grid x:Name="TopBar" Grid.Row="0" Background="Transparent" PointerPressed="TopBar_PointerPressed">
-                <Button 
-                    Content="&#x23FB;"
-                    Styles="{StaticResource ExitButton}"
-                    />
+                <Button Content="&#x23FB;" x:Name="ExitButton" Classes="ExitButton" />
             </Grid>
             
         </Grid>

@@ -7,4 +7,15 @@
     </Design.PreviewWith>
 
     <!-- Add Styles Here -->
+    <Style Selector="Button.ExitButton">
+        <Setter Property="FontSize" Value="24" />
+        <Setter Property="FontWeight" Value="Medium" />
+        <Setter Property="HorizontalAlignment" Value="Right" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="Background" Value="Transparent" />
+        <Setter Property="BorderBrush" Value="Transparent" />
+        <Setter Property="BorderThickness" Value="0" />
+        <Setter Property="Foreground" Value="#9FABBD" />
+        <Setter Property="Margin" Value="20 0 20 0"/>
+    </Style>
 </Styles>
