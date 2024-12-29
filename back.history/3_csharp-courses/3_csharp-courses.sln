@@ -9,9 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learn_001-csharp.basics", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learn_002-lists.and.arrays", "week_01\learn_002-lists.and.arrays\learn_002-lists.and.arrays.csproj", "{58526755-A763-4E14-B8F5-360FBB8A7B1D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learn_003-if.else-switch.etc.", "week_01\learn_003-if.else-switch.etc\learn_003-if.else-switch.etc..csproj", "{8D930D81-D0FF-43B5-9C59-AC118C07A0A6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learn_003-if.else-switch.etc", "week_01\learn_003-if.else-switch.etc\learn_003-if.else-switch.etc.csproj", "{8D930D81-D0FF-43B5-9C59-AC118C07A0A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learn_004-loops-for.foreach.while.etc.", "week_01\learn_004-loops-for.foreach.while.etc\learn_004-loops-for.foreach.while.etc..csproj", "{C0EAE80D-2B62-44CA-BA38-18AC66AAB60C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learn_004-loops-for.foreach.while.etc", "week_01\learn_004-loops-for.foreach.while.etc\learn_004-loops-for.foreach.while.etc.csproj", "{C0EAE80D-2B62-44CA-BA38-18AC66AAB60C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tips_trix", "tips_trix", "{BF4C269A-77EE-4987-BC30-9B7D30AB0BF1}"
 EndProject
