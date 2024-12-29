@@ -42,57 +42,75 @@
     <ItemGroup>
         <AvaloniaResource Include="Resources\Fonts\OpenDyslexicNerdFont-Regular.otf">
             <Pack>True</Pack>
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </AvaloniaResource>
         <AvaloniaResource Include="Resources\Fonts\OpenDyslexicNerdFont-Italic.otf">
             <Pack>True</Pack>
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </AvaloniaResource>
         <AvaloniaResource Include="Resources\Fonts\OpenDyslexicNerdFont-BoldItalic.otf">
             <Pack>True</Pack>
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </AvaloniaResource>
         <AvaloniaResource Include="Resources\Fonts\OpenDyslexicNerdFont-Bold.otf">
             <Pack>True</Pack>
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </AvaloniaResource>
         <AvaloniaResource Include="Resources\Fonts\MononokiNerdFontPropo-Regular.ttf">
             <Pack>True</Pack>
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </AvaloniaResource>
         <AvaloniaResource Include="Resources\Fonts\MononokiNerdFontPropo-Italic.ttf">
             <Pack>True</Pack>
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </AvaloniaResource>
         <AvaloniaResource Include="Resources\Fonts\MononokiNerdFontPropo-BoldItalic.ttf">
             <Pack>True</Pack>
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </AvaloniaResource>
         <AvaloniaResource Include="Resources\Fonts\MononokiNerdFontPropo-Bold.ttf">
             <Pack>True</Pack>
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </AvaloniaResource>
         <AvaloniaResource Include="Resources\Fonts\MononokiNerdFontMono-Regular.ttf">
             <Pack>True</Pack>
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </AvaloniaResource>
         <AvaloniaResource Include="Resources\Fonts\MononokiNerdFontMono-Italic.ttf">
             <Pack>True</Pack>
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </AvaloniaResource>
         <AvaloniaResource Include="Resources\Fonts\MononokiNerdFontMono-BoldItalic.ttf">
             <Pack>True</Pack>
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </AvaloniaResource>
         <AvaloniaResource Include="Resources\Fonts\MononokiNerdFontMono-Bold.ttf">
             <Pack>True</Pack>
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </AvaloniaResource>
         <AvaloniaResource Include="Resources\Fonts\MononokiNerdFont-Regular.ttf">
             <Pack>True</Pack>
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </AvaloniaResource>
         <AvaloniaResource Include="Resources\Fonts\MononokiNerdFont-Italic.ttf">
             <Pack>True</Pack>
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </AvaloniaResource>
         <AvaloniaResource Include="Resources\Fonts\MononokiNerdFont-BoldItalic.ttf">
             <Pack>True</Pack>
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </AvaloniaResource>
         <AvaloniaResource Include="Resources\Fonts\MononokiNerdFont-Bold.ttf">
             <Pack>True</Pack>
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </AvaloniaResource>
         <AvaloniaResource Include="Resources\Fonts\fa-regular-400.ttf">
             <Pack>True</Pack>
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </AvaloniaResource>
         <AvaloniaResource Include="Resources\Fonts\fa-solid-900.ttf">
             <Pack>True</Pack>
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </AvaloniaResource>
     </ItemGroup>
 <!--    <ItemGroup>-->

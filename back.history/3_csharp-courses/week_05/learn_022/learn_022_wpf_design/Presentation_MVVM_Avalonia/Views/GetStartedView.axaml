@@ -25,12 +25,11 @@
                     <Run Text="any activities yet..." />
                 </TextBlock>
                 
-                <Button Content=" GET STARTED"
-                        FontSize="28"
+                <Button Content="GET STARTED"
                         FontFamily="{DynamicResource OpenDyslexicNerdFont-Bold}"
                         Classes="StandardButton"
                         Command="{Binding GetStartedCommand}"
-                        Margin="0 50 0 0">
+                        Margin="0 40 0 0">
                     
                 </Button>
             </StackPanel>

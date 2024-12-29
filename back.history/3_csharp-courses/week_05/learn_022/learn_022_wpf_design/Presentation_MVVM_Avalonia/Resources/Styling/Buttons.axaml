@@ -74,16 +74,27 @@
                             Background="{TemplateBinding Background}"
                             BorderBrush="{TemplateBinding Background}"
                             Padding="{TemplateBinding Padding}"
-                            CornerRadius="5"
-                            >
-                        <TextBlock x:Name="ContentText"
-                                   Text="{TemplateBinding Content}"
-                                   FontSize="{TemplateBinding FontSize}"
-                                   FontWeight="{TemplateBinding FontWeight}"
-                                   FontFamily="{TemplateBinding FontFamily}"
-                                   HorizontalAlignment="Center"
-                                   VerticalAlignment="Center"
-                            />
+                            CornerRadius="5">
+                        
+                        <Grid ColumnDefinitions="20, *, 20">
+                            
+                            <StackPanel Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+                                <!-- <TextBlock Text="&#xf300;" FontFamily="{DynamicResource FontAwesome-Regular}" FontSize="24" /> -->
+                                <TextBlock x:Name="ContentText"
+                                           Text="{TemplateBinding Content}"
+                                           FontSize="{TemplateBinding FontSize}"
+                                           FontWeight="{TemplateBinding FontWeight}"
+                                           FontFamily="{TemplateBinding FontFamily}"
+                                           HorizontalAlignment="Center"
+                                           VerticalAlignment="Center"
+                                />
+                            </StackPanel>
+                            
+                            <TextBlock Grid.Column="2" Foreground="#404040" 
+                                       FontFamily="{DynamicResource OpenDyslexicNerdFont-Bold}" 
+                                       Text="" FontSize="22" />
+                        </Grid>
+                        
                     </Border>
                     
                     <!-- WPF Version -->
