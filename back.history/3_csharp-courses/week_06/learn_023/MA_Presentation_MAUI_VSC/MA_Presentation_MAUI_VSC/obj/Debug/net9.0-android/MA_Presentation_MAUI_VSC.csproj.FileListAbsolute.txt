@@ -1330,3 +1330,12 @@
 /home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_06/learn_023/MA_Presentation_MAUI_VSC/MA_Presentation_MAUI_VSC/obj/Debug/net9.0-android/stamp/_GenerateJavaStubs.stamp
 /home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_06/learn_023/MA_Presentation_MAUI_VSC/MA_Presentation_MAUI_VSC/obj/Debug/net9.0-android/stamp/_GeneratePackageManagerJava.stamp
 /home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_06/learn_023/MA_Presentation_MAUI_VSC/MA_Presentation_MAUI_VSC/obj/Debug/net9.0-android/stamp/_ResolveLibraryProjectImports.stamp
+/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_06/learn_023/MA_Presentation_MAUI_VSC/MA_Presentation_MAUI_VSC/obj/Debug/net9.0-android/android/typemaps.arm64-v8a.ll
+/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_06/learn_023/MA_Presentation_MAUI_VSC/MA_Presentation_MAUI_VSC/obj/Debug/net9.0-android/android/environment.arm64-v8a.ll
+/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_06/learn_023/MA_Presentation_MAUI_VSC/MA_Presentation_MAUI_VSC/obj/Debug/net9.0-android/android/compressed_assemblies.arm64-v8a.ll
+/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_06/learn_023/MA_Presentation_MAUI_VSC/MA_Presentation_MAUI_VSC/obj/Debug/net9.0-android/android/typemaps.arm64-v8a.o
+/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_06/learn_023/MA_Presentation_MAUI_VSC/MA_Presentation_MAUI_VSC/obj/Debug/net9.0-android/android/environment.arm64-v8a.o
+/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_06/learn_023/MA_Presentation_MAUI_VSC/MA_Presentation_MAUI_VSC/obj/Debug/net9.0-android/android/compressed_assemblies.arm64-v8a.o
+/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_06/learn_023/MA_Presentation_MAUI_VSC/MA_Presentation_MAUI_VSC/obj/Debug/net9.0-android/android/marshal_methods.arm64-v8a.o
+/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_06/learn_023/MA_Presentation_MAUI_VSC/MA_Presentation_MAUI_VSC/obj/Debug/net9.0-android/android/jni_remap.arm64-v8a.o
+/home/querzion/Projects/yh.webut.kurser/back.history/3_csharp-courses/week_06/learn_023/MA_Presentation_MAUI_VSC/MA_Presentation_MAUI_VSC/obj/Debug/net9.0-android/app_shared_libraries/arm64-v8a/libxamarin-app.so
